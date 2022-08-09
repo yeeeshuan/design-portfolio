@@ -16,6 +16,9 @@ const Footer = () =>{
                <a href = "https://medium.com/@yixuanhu">
                     <span className = {styles.styledLink}> Medium </span>
                </a>
+               <a href = "https://github.com/yeeeshuan">
+                    <span className = {styles.styledLink}> Github </span>
+               </a>
                <a href = "mailto:yixuanhu@andrew.cmu.edu">
                <span className = {styles.styledLink}> Contact </span>
                </a>
