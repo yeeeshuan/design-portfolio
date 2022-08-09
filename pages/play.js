@@ -1,6 +1,7 @@
 import styled from 'styled-components'; 
 import styles from "../styles/Play.module.css"; 
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 import Image from 'next/image';
 import S1 from "../Images/Play/Sketches/1.jpg"
 import S2 from "../Images/Play/Sketches/2.jpg"
@@ -23,14 +24,11 @@ export default function Play(){
 return(
     <div className = {styles.play}>
         <Navbar/>
+        <br></br>
         <h1 className = {styles.title}>
             A collection of personal projects and explorations to help me gain new skills. 
         </h1>
-        <br></br>
-        <br></br>
         <hr className = {styles.temp}></hr>
-        <br></br>
-        <br></br>
         <p className = {styles.intro}>
             Photos
         </p>
@@ -73,10 +71,7 @@ return(
             </div>
         </div>
         <br></br>
-        <br></br>
         <hr className = {styles.temp}></hr>
-        <br></br>
-        <br></br>
         <p className = {styles.intro}>
             Sketches
         </p>
@@ -109,6 +104,9 @@ return(
                 </div>
             </div>
         </div>
+        <br></br>
+        <br></br>
+        <Footer/>
     </div>
     )
  
