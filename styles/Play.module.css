@@ -1,0 +1,47 @@
+.play{
+background-color: black; 
+}
+ 
+.temp{
+border:1px solid #303030; 
+}
+
+h1.title{
+margin-left: 200px; 
+color: white; 
+}
+
+p.intro{
+    font-size: 30px; 
+    display: inline-flex; 
+    margin-left: 200px; 
+    color: white; 
+    }
+
+p.description{
+font-size: 15px; 
+display: inline-flex; 
+float: right; 
+color: white; 
+margin-right: 200px; 
+margin-top: 40px; 
+}
+
+.sketchGallery{
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(3, 0.5fr);
+}
+
+.photoGallery{
+    margin-right: 200px; 
+    margin-left: 200px; 
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-gap:20px; 
+}
+
+.sep{
+    margin-bottom:20px; 
+}

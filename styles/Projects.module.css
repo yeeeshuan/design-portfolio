@@ -1,0 +1,44 @@
+/*Projects*/
+.gallery{
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(2, 0.5fr);
+}
+
+a.styledLink{
+    text-decoration: none;
+}
+
+
+p.words{
+    color: white; 
+}
+
+p.words:hover{
+    color: lightgrey;
+}
+
+
+
+h1.title{
+    color: white; 
+    font-size: 20px; 
+}
+
+
+.imageWrap{
+    padding-top: 10px; 
+    padding-left: 12px; 
+    padding-right: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 50px; 
+    border-radius: 10px; 
+    background-color: #212121; 
+    overflow: hidden;  
+    transition: background-color 1s;  
+}
+
+.imageWrap:hover{
+        background-color: #303030; 
+}
