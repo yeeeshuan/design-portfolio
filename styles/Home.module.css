@@ -1,129 +1,123 @@
-.container {
-  padding: 0 2rem;
+/*Intro*/
+h2.intro{
+  margin-top: 0px; 
+  margin-left: 25px;
+  font-size: 30px;
+  width : 50%; 
+  color: white; 
+  padding-bottom: 50px;
+  background-color: black; 
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/*Navbar*/
+nav.nav{
+    height: 80px; 
+    background: #000; 
+    color: #fff; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+span.styledLink{
+    padding: 0rem 2rem; 
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+/*Projects*/
+.gallery{
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(2, 0.5fr);
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+a.styledLink{
+    text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+
+p.words{
+    color: white; 
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+p.words:hover{
+    color: lightgrey;
 }
 
-.title,
-.description {
-  text-align: center;
+
+
+h1.title{
+    color: white; 
+    font-size: 20px; 
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+
+.imageWrap{
+    padding-top: 10px; 
+    padding-left: 12px; 
+    padding-right: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 50px; 
+    border-radius: 10px; 
+    background-color: #212121; 
+    overflow: hidden;  
+    transition: background-color 1s;  
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.imageWrap:hover{
+        background-color: #303030; 
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+/*About*/
+
+.page{
+    background-color: black; 
+
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.display{   
+    margin-top: 50px; 
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(2, 0.5fr);
+    margin-right: 50px; 
+    background-color: black; 
+    padding-bottom: 280px; 
+}
+span.imageWrap_1{
+    margin-left: 50px; 
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+h1.title{
+    color: white; 
+    font-size: 30px; 
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+p.text{
+    color: white; 
+    font-size: 20px; 
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+span.CText{
+    color: #718ef8; 
+    display: inline; 
+    font-size: 20px; 
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+span.photos{
+    color: #718ef8; 
+    display: inline; 
+    font-size: 20px; 
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+/*footer*/
+nav.footer{
+    padding-left: 25px; 
+    height: 60px; 
+    background: #303030; 
+    color: #fff; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
