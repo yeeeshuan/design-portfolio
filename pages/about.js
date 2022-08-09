@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import styles from "../styles/Home.module.css"; 
+import styles from "../styles/About.module.css"; 
 import Navbar from '../components/navbar';
 import Image from "next/image";
 import Footer from '../components/footer'; 
-import Me from '../Images/About_1.jpg'; 
-import Photo from '../Images/About_2.jpg'; 
-import Sketches from '../Images/About_3.jpg'; 
+import Me from '../Images/About/About_1.jpg'; 
+import Photo from '../Images/About/About_2.jpg'; 
+import Sketches from '../Images/About/About_3.jpg'; 
 
 
 const About = () => {

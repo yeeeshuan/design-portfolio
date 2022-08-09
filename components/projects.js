@@ -1,9 +1,9 @@
 import styled from 'styled-components'; 
-import styles from "../styles/Home.module.css"; 
+import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
-import P1 from '../Images/P1.png'; 
-import P2 from '../Images/P2.png'; 
-import P3 from '../Images/P3.png'; 
+import P1 from '../Images/About/P1.png'; 
+import P2 from '../Images/About/P2.png'; 
+import P3 from '../Images/About/P3.png'; 
 
 
 const Projects_1 = () => 
@@ -24,7 +24,7 @@ const Projects_1 = () =>
                     <Image className = "P2" src = {P2}  alt = "Animals"/> 
                 </div>
                     <h1 className = {styles.title}> Teachable Grid</h1>
-                <p className = {styles.words}> P5.js, Google Teachable Machine, ml5.js </p>
+                <p className = {styles.words}> Designing with ML </p>
                 </a>
                 </div>
                 </span>
@@ -38,9 +38,9 @@ const Projects_2 = () =>
             <div className = {styles.gallery}>
                 <span className = {styles.imageWrap}>
                 <div className="item-container">
-                    <Image className = "P1" src = {P3}  alt = "Math2Shine"/> 
-                    <h1 className = {styles.title}> Math2Shine Redesign</h1>
-                    <p className = {styles.words}> Interaction Design, Web Development </p>
+                    <Image className = "P3" src = {P3}  alt = "Lighting Engines"/> 
+                    <h1 className = {styles.title}> Lighting Engines</h1>
+                    <p className = {styles.words}> Product Design </p>
                 </div>
                 </span>
                 <span className = {styles.imageWrap}>
@@ -49,8 +49,8 @@ const Projects_2 = () =>
                     <div style={{ overflow: 'hidden'}}>
                         <Image className = "P2" src = {P2}  alt = "Animals"/> 
                     </div>
-                        <h1 className = {styles.title}> Teachable Grid</h1>
-                    <p className = {styles.words}> P5.js, Google Teachable Machine, ml5.js </p>
+                        <h1 className = {styles.title}> Animal Project</h1>
+                    <p className = {styles.words}> Animation </p>
                     </a>
                     </div>
                     </span>

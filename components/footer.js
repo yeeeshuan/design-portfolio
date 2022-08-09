@@ -7,7 +7,7 @@ const Footer = () =>{
     return( 
         <nav className = {styles.footer}>
             <div>
-                Ethan Huang @2022
+                Ethan Huang 2022
             </div>
            <div>
                <a href = "https://www.linkedin.com/in/ethanhuang2002">
@@ -16,9 +16,9 @@ const Footer = () =>{
                <a href = "https://medium.com/@yixuanhu">
                     <span className = {styles.styledLink}> Medium </span>
                </a>
-               <Link href = "/about">
+               <a href = "mailto:yixuanhu@andrew.cmu.edu">
                <span className = {styles.styledLink}> Contact </span>
-               </Link>
+               </a>
            </div>
         </nav>
     )
