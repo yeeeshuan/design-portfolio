@@ -72,7 +72,15 @@ return(
                 onMouseLeave={leaveSketch}
             >
                 &nbsp;sketching </span> 
-                , or curating the perfect Spotify playlist. 
+                , or curating the perfect 
+                
+            <span className = {styles.CText}>
+                <a href = "https://open.spotify.com/user/ethanhuangpizza?si=2ee86a0814ba4650">
+                &nbsp;Spotify playlist. 
+                </a>
+            </span>
+            <br></br>
+            <br></br>
 
             Feel free to reach out at ethanhuang@cmu.edu! 
         </p>
