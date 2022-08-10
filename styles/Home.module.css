@@ -1,6 +1,11 @@
 /*Intro*/
+
+.page{
+    margin-top: 0px; 
+}
+
 h2.intro{
-  margin-top: 0px; 
+  margin-top: 50px; 
   margin-left: 25px;
   font-size: 30px;
   width : 50%; 
@@ -9,10 +14,16 @@ h2.intro{
   background-color: black; 
 }
 
+span.CText{
+    color: #718ef8; 
+    display: inline; 
+    font-size: 30px; 
+}
+
 /*Navbar*/
 nav.nav{
     height: 80px; 
-    background: #000; 
+	top: 0;
     color: #fff; 
     display: flex; 
     justify-content: space-between; 
@@ -21,6 +32,13 @@ nav.nav{
 
 span.styledLink{
     padding: 0rem 2rem; 
+    transition: color 0.3s;  
+}
+
+span.styledLink:hover{
+    padding: 0rem 2rem; 
+    color: grey;
+     
 }
 
 /*footer*/

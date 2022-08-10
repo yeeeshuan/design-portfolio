@@ -24,11 +24,11 @@ const CText = styled.p`
 
 export default function Home() {
     return (
-      <div>
+      <div className = {styles.page}>
         <Navbar/>
         <h2 className = {styles.intro}>
-            Hi! My name is Ethan Huang and I am currently a student at Carnegie Mellon University 
-            with a minor in Human-Computer-Interaction
+            Hi! My name is Ethan Huang and I am currently a student at <span className = {styles.CText}>Carnegie Mellon University </span>
+            with a minor in <span className = {styles.CText}>Human-Computer-Interaction</span>.
         </h2>
         <Projects/>
         <Footer/>

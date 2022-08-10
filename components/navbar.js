@@ -1,7 +1,9 @@
+import React, { useState } from 'react';
 import styles from "../styles/Home.module.css"; 
 import Link from 'next/link';
 
 export default function Navbar(){
+
     return( 
         <nav className = {styles.nav}>
            <div>

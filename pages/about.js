@@ -14,7 +14,6 @@ const About = () => {
     const [twoIsHovering, twoSetIsHovering] = useState(false);
 
     function enterPhoto(){
-        console.log("photo"); 
         setIsHovering(true); 
     }
 
