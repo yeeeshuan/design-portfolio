@@ -5,12 +5,12 @@
 }
 
 h2.intro{
-  margin-top: 50px; 
+  margin-top: 75px; 
   margin-left: 25px;
   font-size: 30px;
   width : 50%; 
   color: white; 
-  padding-bottom: 50px;
+  padding-bottom: 75px;
   background-color: black; 
 }
 
@@ -22,8 +22,10 @@ span.CText{
 
 /*Navbar*/
 nav.nav{
-    height: 80px; 
+    height: 60px; 
 	top: 0;
+    position: sticky; 
+    z-index: 9999;
     color: #fff; 
     display: flex; 
     justify-content: space-between; 
@@ -43,9 +45,10 @@ span.styledLink:hover{
 
 /*footer*/
 nav.footer{
+    margin-top: 75px; 
     padding-left: 25px; 
     height: 60px; 
-    background: #303030; 
+    background: #171717; 
     color: #fff; 
     display: flex; 
     justify-content: space-between; 

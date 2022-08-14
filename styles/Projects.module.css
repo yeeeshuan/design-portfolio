@@ -9,7 +9,6 @@ a.styledLink{
     text-decoration: none;
 }
 
-
 p.words{
     color: white; 
 }
@@ -18,13 +17,10 @@ p.words:hover{
     color: lightgrey;
 }
 
-
-
 h1.title{
     color: white; 
     font-size: 20px; 
 }
-
 
 .imageWrap{
     padding-top: 10px; 
@@ -42,3 +38,54 @@ h1.title{
 .imageWrap:hover{
         background-color: #373737; 
 }
+
+/* Individual Project Pages*/
+
+.page{
+    margin-top: 0px; 
+    margin-right: 175px; 
+    margin-left: 175px; 
+    align-items: center;
+    display: grid; 
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 5em;
+    padding-bottom: 50px; 
+}
+
+h1.pTitle{
+    margin-top: 50px; 
+    color: white; 
+    font-size: 40px; 
+}
+
+p.d {
+    color: rgb(148, 148, 148); 
+    display: inline; 
+    padding-bottom: 15px; 
+}
+
+.cont{
+    position: relative; 
+}
+
+
+p.text{
+    font-size: 20px; 
+    line-height: 150%; 
+}
+
+.image_1{
+    align-items: center;
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.image_2{
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-column-gap: 10px;
+    margin-right: px; 
+}
+
