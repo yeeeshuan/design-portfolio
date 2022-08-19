@@ -11,6 +11,7 @@ a.styledLink{
 
 p.words{
     color: white; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 p.words:hover{
@@ -20,6 +21,7 @@ p.words:hover{
 h1.title{
     color: white; 
     font-size: 20px; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 .imageWrap{
@@ -56,6 +58,7 @@ h1.pTitle{
     margin-top: 50px; 
     color: white; 
     font-size: 40px; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 p.d {
@@ -72,6 +75,7 @@ p.d {
 p.text{
     font-size: 20px; 
     line-height: 150%; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 .image_1{
@@ -82,10 +86,11 @@ p.text{
 }
 
 .image_2{
+    margin-right: 175px; 
+    margin-left: 175px; 
     align-items: center;
     display: grid; 
     grid-template-columns: repeat(2, 0.5fr);
     grid-column-gap: 10px;
-    margin-right: px; 
 }
 

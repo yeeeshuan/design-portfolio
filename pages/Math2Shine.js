@@ -64,6 +64,7 @@ export default function Math2Shine(){
                 </p>
                 </div>
         </div>
+
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
@@ -78,15 +79,39 @@ export default function Math2Shine(){
             <div className = {styles.page}>
                 <div>
                 </div>
+                
+                <div>
+                <h1 className = {styles.pTitle}> 
+                    Problem Space 
+                </h1>
+                <p className = {styles.text}>
+                    As students develop their math skills, many of their hardships stem from lack of confidence with their fundamental computing skills. 
+                    Through our redesign, we wanted to bring more attention to Vedic math to be able to teach students a skills and tricks to be able to do mathematics without second-guessing their answers. 
+
+                    <br/>
+                    <br/>
+
+                    Our team looked at pre-existing online learning platforms and indentified gain points that helped provide a holistic approach to learning. 
+                </p>
+                </div>
+             </div>
+            <div className = {styles.page}>
+                <div>
+                </div>
                 <div>
                 <h1 className = {styles.pTitle}> 
                 Wireframing and prototyping 
                 </h1>
                 <p className = {styles.text}>
                 After sketching out a general user flow guide to guide students and tutors through the platform, we began to build high-fidelity 
-                wireframes. We wanted to ensure that the website was intuitive, with all of the main functions easily accessible. 
+                wireframes. We wanted to ensure that the website was intuitive, with all of the main functions easily accessible.
                 What information is most important to help teachers run an online classroom? 
                 How can students most easily access resources to help them when they are stuck? 
+                <br></br>
+                <br></br>
+
+                In addition, since we were 
+                redesigning the website we also wanted to make sure that all of the functions from the backend were still present in the page. 
                 </p>
                 </div>
             </div>
@@ -104,10 +129,27 @@ export default function Math2Shine(){
                 Redesign 
                 </h1>
                 <p className = {styles.text}>
-                To prepare for user testing, we began to protoype the navigation and content of the website. 
+                To prepare for user testing, we began to protoype the navigation and content of the website. We explored with color, type and layout, 
+                imagining different scenarios that students and teachers may have when navigating the page. 
 
                 </p>
                 </div>
+            </div>
+
+            <div className = {styles.page}>
+            <p className = {styles.d}> 
+                   Color schemes tested 
+                </p>
+            <div className = {styles.image_1}>
+                <div>
+                    <Image src = {I5} alt = "iteration 3"/>
+                </div>
+                <div>
+                    <Image src = {I3} alt = "iteration 1"/>
+                    <Image src = {I4} alt = "iteration 2"/>
+                </div>
+
+            </div>
             </div>
 
             <div className = {styles.page}>

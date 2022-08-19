@@ -5,6 +5,7 @@ import Image from "next/image";
 import P1 from '../Images/About/P1.png'; 
 import P2 from '../Images/About/P2.png'; 
 import P3 from '../Images/About/P3.png'; 
+import P4 from '../Images/About/P4.png'; 
 
 
 const Projects_1 = () => {
@@ -22,14 +23,12 @@ const Projects_1 = () => {
             </div>
             </span>
             <span className = {styles.imageWrap}>
-            <div className="item-container">
-                <a href = "https://medium.com/@yixuanhu/animals-part-3-5d3e83581c80">
-                <div style={{ overflow: 'hidden'}}>
-                    <Image className = "P2" src = {P2}  alt = "Animals"/> 
-                </div>
+            <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                <Link href = "/Teachable">
+                    <Image className = "P2" src = {P4}  alt = "Teachable"/> 
+                </Link>
                     <h1 className = {styles.title}> Teachable Grid</h1>
                 <p className = {styles.words}> Designing with ML </p>
-                </a>
                 </div>
                 </span>
         </div>
