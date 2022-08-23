@@ -40,9 +40,9 @@ return(
         <div className = {styles.display}>
         <div>
             <span className = {styles.imageWrap_1}>
-                {isHovering? (<Image className = "Photo" src = {Photo}  alt = "Photo" width = {600} height = {400}/>)
-                : twoIsHovering? (<Image className = "About" src = {Sketches}  alt = "About" width = {600} height = {400}/>)
-                :(<Image className = "About" src = {Me}  alt = "About" width = "600%" height = "400%"/> )
+                {isHovering? (<Image className = "Photo" src = {Photo}  alt = "Photo" width = {750} height = {500}/>)
+                : twoIsHovering? (<Image className = "About" src = {Sketches}  alt = "About" width = {750} height = {500}/>)
+                :(<Image className = "About" src = {Me}  alt = "About" width = "750%" height = "500%"/> )
 
 }
  

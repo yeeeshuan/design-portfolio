@@ -3,9 +3,11 @@ import Link from 'next/link';
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
 import P1 from '../Images/About/P1.png'; 
-import P2 from '../Images/About/P2.png'; 
+import P2 from '../Images/About/P2.gif';
 import P3 from '../Images/About/P3.png'; 
-import P4 from '../Images/About/P4.png'; 
+import P4 from '../Images/About/P4.gif'; 
+import P5 from '../Images/About/P5.gif'; 
+import P6 from '../Images/About/P6.jpg'; 
 
 
 const Projects_1 = () => {
@@ -25,7 +27,7 @@ const Projects_1 = () => {
             <span className = {styles.imageWrap}>
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
                 <Link href = "/Teachable">
-                    <Image className = "P2" src = {P4}  alt = "Teachable"/> 
+                    <Image className = "P2" src = {P2}  alt = "Teachable"/> 
                 </Link>
                     <h1 className = {styles.title}> Teachable Grid</h1>
                 <p className = {styles.words}> Designing with ML </p>
@@ -42,7 +44,9 @@ const Projects_2 = () =>
                 <span className = {styles.imageWrap}>
                 <div className="item-container">
                 <a href = "https://medium.com/@yixuanhu/project-4-lighting-engines-714ca3dd0cf6">
+                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image className = "P3" src = {P3}  alt = "Lighting Engines"/> 
+                </div>
                     <h1 className = {styles.title}> Lighting Engines</h1>
                     <p className = {styles.words}> Product Design </p>
                 </a>
@@ -51,12 +55,40 @@ const Projects_2 = () =>
                 <span className = {styles.imageWrap}>
             <div className="item-container">
                 <a href = "https://medium.com/@yixuanhu/animals-part-3-5d3e83581c80">
-                <div style={{ overflow: 'hidden'}}>
-                    <Image className = "P2" src = {P2}  alt = "Animals"/> 
+                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image className = "Turtle" src = {P4}  alt = "Endangered Animals"/> 
                 </div>
                     <h1 className = {styles.title}> Endangered Animals Animation</h1>
                 <p className = {styles.words}> Illustration, Animation</p>
-                </a>
+                </a> 
+                </div>
+                </span>
+            </div>
+        )
+}
+
+const Projects_3 = () => 
+{
+        return(
+            <div className = {styles.gallery}>
+                <span className = {styles.imageWrap}>
+                <div className="item-container">
+                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image className = "P5" src = {P5}  alt = "Fruit Ninja"/> 
+                </div>
+                    <h1 className = {styles.title}> Interactive Fruit Ninja</h1>
+                    <p className = {styles.words}> Python, OpenCV, Mediapipe</p>
+                </div>
+                </span>
+                <span className = {styles.imageWrap}>
+            <div className="item-container">
+                <a href = "https://medium.com/@yixuanhu/project-2-dace6957f382">
+                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image className = "Turtle" src = {P6}  alt = "Endangered Animals"/> 
+                </div>
+                    <h1 className = {styles.title}> Special Carriers</h1>
+                <p className = {styles.words}> Product Design</p>
+                </a> 
                 </div>
                 </span>
             </div>
@@ -68,6 +100,7 @@ export default function Projects(){
         <div>
             <Projects_1/>
             <Projects_2/>
+            <Projects_3/>
         </div>
     )
 }

@@ -6,7 +6,7 @@ export default function Navbar(){
 
     return( 
         <nav className = {styles.nav}>
-           <div>
+           <div className = {styles.name}>
                <Link href = "/">
                    <span className = {styles.styledLink}> Ethan Huang </span>
                </Link>

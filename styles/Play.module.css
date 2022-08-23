@@ -11,7 +11,7 @@ margin-left: 200px;
 color: white; 
 margin-top: 75px; 
 margin-bottom: 100px; 
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-family: 'Graphik', sans-serif;
 }
 
 p.intro{
@@ -20,7 +20,7 @@ p.intro{
     margin-left: 200px; 
     margin-bottom: 50px; 
     color: white; 
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Graphik', sans-serif;
     }
 
 p.description{
@@ -30,7 +30,7 @@ float: right;
 color: white; 
 margin-right: 200px; 
 margin-top: 40px; 
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-family: 'Graphik', sans-serif;
 }
 
 .sketchGallery{
