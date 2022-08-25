@@ -4,6 +4,9 @@ import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import P1 from "../Images/About/P2.gif"
+import open from "../Images/Projects/Teachable/Open.gif"
+import lr from "../Images/Projects/Teachable/LR.gif"
+import ud from "../Images/Projects/Teachable/UD.gif"
 
 export default function Teachable(){
     return(
@@ -63,13 +66,22 @@ export default function Teachable(){
                 </h1>
                     <p className = {styles.text}>
                     Shifting away from using the keyboard and mouse, I wanted to utilize sounds and hand signals to interact with the computer—--thus, the main forms of interaction 
-                    were webcam, speakerphone, and audio. These experiment look at how other modes of interaction can heighten ---or complicate--- a user's experience navigation through an interface. 
+                    were webcam, speakerphone, and audio. These experiment look at how other modes of interaction can heighten ---or complicate--- a user&rsquo;s experience navigation through an interface. 
                     </p>
+                </div>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    </div>
+                    <div>
                     <h1 className = {styles.pTitle}> 
-                    Interaction 1: Moving up and down 
+                    Interaction 1: Moving through the grid 
                     </h1>
                     <p className = {styles.text}>      
                     </p>
+                    <h1 className = {styles.pTitle}> 
+                    Speech Recognition 
+                    </h1>
                     <p className = {styles.text}>
                     With the help of the Web Speech API, when the user communicates whether they want to go up, down, left, or right, the interface detects the 
                     sound and moves on the grid accordingly. Due to the Web Speech API&rsquo;s long run times, using audio takes a longer time to move around the grid than typing on a keyboard would. 
@@ -82,20 +94,47 @@ export default function Teachable(){
                     I trained the Google Teachable Machine to be able to detect three different hand gestures and connect them with different colors they would represent. 
                     </p>
                 </div>
-                <div className = {styles.page}>
+            </div>
+            <div className = {styles.page}>
+                    <div>
+                    </div>
                     <div>
                     <h1 className = {styles.pTitle}> 
-                    Ml5 Face Mesh 
+                    Facial Recognition
                     </h1>
                     <p className = {styles.text}>
-                    Thinking about different ways that you can 
+                    Thinking about more different ways that you can go about controlling the directions 
                     </p>
-                
+                    </div>
+            </div>
+            <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                    Face mesh for opening mouth 
+                    </p>
                     </div>
                     <div>
+                        <Image src = {open} alt = "open"></Image>
 
                     </div>
-                </div>
+            </div>
+            <div className = {styles.page}>
+                <p className = {styles.d}> 
+                    Face mesh for left and right 
+                    </p>
+                    <div>
+                        <Image src = {lr} alt = "open"></Image>
+
+                    </div>
+            </div>
+            <div className = {styles.page}>
+            <p className = {styles.d}> 
+                    Face mesh for up and down
+                    </p>
+                    <div>
+                        <Image src = {ud} alt = "open"></Image>
+
+                    </div>
             </div>
             <Footer/>
         </div>
