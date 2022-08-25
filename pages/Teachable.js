@@ -41,16 +41,45 @@ export default function Teachable(){
             </div>
             <div className = {styles.page}>
                 <div>
+                </div>
+                <div>
                 <h1 className = {styles.pTitle}> 
                     Problem Space 
                 </h1>
-                </div>
-                <div>
                     <p className = {styles.text}>
                         Most technology today is limited in the number of ways one can navigate through it --- typing on a keyboard or mouse, or tapping on a screen. 
-                        With this project, I wanted to move away from the typing and tapping to interact with technology and utilize other interactions 
-                        as well, such as speaking or making signs with our hands to understand when to best incorporate such interactions. 
+                        With this project, I wanted to move away from typing and tapping and experiment with other forms of interactions by prompting users to 
+                        move around and color a 10x10 grid. I explored with a variety of methods to: 1. Determine a color for the grid and 2. Move across the grid. 
                     </p>
+
+                </div>
+                </div>
+                <div className = {styles.page}>
+                <div>
+                </div>
+                <div>
+                <h1 className = {styles.pTitle}> 
+                    Interactions 
+                </h1>
+                    <p className = {styles.text}>
+                    Shifting away from using the keyboard and mouse, I wanted to utilize sounds and hand signals to interact with the computer—--thus, the main forms of interaction 
+                    were webcam, speakerphone, and audio. These experiment look at how other modes of interaction can heighten ---or complicate--- a user's experience navigation through an interface. 
+                    </p>
+                    <h1 className = {styles.pTitle}> 
+                    Web Speech API Audio Detection
+                    </h1>
+                    <p className = {styles.text}>
+                    With the help of the Web Speech API, when the user communicates whether they want to go "up", "down," "left," or "right," the interface detects the 
+                    sound and moves on the grid accordingly. Due to the Web Speech API's long run times, using audio takes a longer time to move around the grid than typing on a keyboard would. 
+                    </p>
+                    <h1 className = {styles.pTitle}> 
+                    Google Teachable Machine Visual Detection
+                    </h1>
+                    <p className = {styles.text}>
+                    When the user moves to a block, they have the option of coloring the block blue, purple, or pink using different hand gestures. 
+                    I trained the Google Teachable Machine to be able to detect three different hand gestures and connect them with different colors they would represent. 
+                    </p>
+
 
                 </div>
             </div>
