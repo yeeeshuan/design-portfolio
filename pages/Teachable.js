@@ -66,11 +66,13 @@ export default function Teachable(){
                     were webcam, speakerphone, and audio. These experiment look at how other modes of interaction can heighten ---or complicate--- a user's experience navigation through an interface. 
                     </p>
                     <h1 className = {styles.pTitle}> 
-                    Web Speech API Audio Detection
+                    Interaction 1: Moving up and down 
                     </h1>
+                    <p className = {styles.text}>      
+                    </p>
                     <p className = {styles.text}>
-                    With the help of the Web Speech API, when the user communicates whether they want to go "up", "down," "left," or "right," the interface detects the 
-                    sound and moves on the grid accordingly. Due to the Web Speech API's long run times, using audio takes a longer time to move around the grid than typing on a keyboard would. 
+                    With the help of the Web Speech API, when the user communicates whether they want to go up, down, left, or right, the interface detects the 
+                    sound and moves on the grid accordingly. Due to the Web Speech API&rsquo;s long run times, using audio takes a longer time to move around the grid than typing on a keyboard would. 
                     </p>
                     <h1 className = {styles.pTitle}> 
                     Google Teachable Machine Visual Detection
@@ -79,8 +81,20 @@ export default function Teachable(){
                     When the user moves to a block, they have the option of coloring the block blue, purple, or pink using different hand gestures. 
                     I trained the Google Teachable Machine to be able to detect three different hand gestures and connect them with different colors they would represent. 
                     </p>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    <h1 className = {styles.pTitle}> 
+                    Ml5 Face Mesh 
+                    </h1>
+                    <p className = {styles.text}>
+                    Thinking about different ways that you can 
+                    </p>
+                
+                    </div>
+                    <div>
 
-
+                    </div>
                 </div>
             </div>
             <Footer/>
