@@ -100,7 +100,7 @@ export default function Teachable(){
                     </div>
                     <div>
                     <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/ocN-7d36Ujc?autoplay=1&loop=1&mute=1&controls=0&playlist=ocN-7d36Ujc"
-                 frameborder = "0" modestbranding = "1"></iframe>
+                 frameBorder = "0" modestbranding = "1"></iframe>
 
                     </div>
                 </div>
@@ -138,19 +138,19 @@ export default function Teachable(){
                     </div>
                     <div>
                     <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/743139368?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g"
-                 frameborder = "0" modestbranding = "1"></iframe>
+                 frameBorder = "0" modestbranding = "1"></iframe>
 
                     </div>
                 </div>
                 <div className = {styles.page}>
                     <div>
                     <p className = {styles.d}> 
-                    Demonstration of opening of mouth being used as a "photo button"
+                    Demonstration of opening of mouth being used as a photo button
                     </p>
                     </div>
                     <div>
                     <iframe width = "100%" height = "500px"src="https://player.vimeo.com/video/743183207?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g"
-                 frameborder = "0" modestbranding = "1"></iframe>
+                 frameBorder = "0" modestbranding = "1"></iframe>
 
                     </div>
                 </div>

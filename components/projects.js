@@ -29,7 +29,7 @@ const Projects_1 = () => {
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
 
                 <iframe width = "100%" height = "390px"src="https://www.youtube.com/embed/7lnMo1m1O3g?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g"
-                 frameborder = "0" modestbranding = "1"></iframe>
+                 frameBorder = "0" modestbranding = "1"></iframe>
 
                     <h1 className = {styles.title}> Teachable Grid</h1>
                 <p className = {styles.words}> Designing with ML </p>
@@ -60,7 +60,7 @@ const Projects_2 = () =>
                 <a href = "https://medium.com/@yixuanhu/animals-part-3-5d3e83581c80">
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
                 <iframe width = "100%" height = "390px"src="https://www.youtube.com/embed/hkSLkaNLPu8?autoplay=1&loop=1&mute=1&controls=0&playlist=hkSLkaNLPu8"
-                 frameborder = "0" modestbranding = "1"></iframe>
+                 frameBorder = "0" modestbranding = "1"></iframe>
                 </div>
                     <h1 className = {styles.title}> Endangered Animals Animation</h1>
                 <p className = {styles.words}> Illustration, Animation</p>
