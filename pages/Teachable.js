@@ -4,7 +4,7 @@ import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import P1 from "../Images/About/P2.gif"
-import GTM from "../Images/Projects/Teachable/gtm.png"
+import GTM from "../Images/Projects/Teachable/GTM.png"
 
 export default function Teachable(){
     return(
