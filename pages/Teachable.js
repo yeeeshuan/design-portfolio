@@ -4,9 +4,7 @@ import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import P1 from "../Images/About/P2.gif"
-import open from "../Images/Projects/Teachable/Open.gif"
-import lr from "../Images/Projects/Teachable/LR.gif"
-import ud from "../Images/Projects/Teachable/UD.gif"
+import GTM from "../Images/Projects/Teachable/gtm.png"
 
 export default function Teachable(){
     return(
@@ -70,36 +68,61 @@ export default function Teachable(){
                     </p>
                 </div>
                 </div>
+                <div>
                 <div className = {styles.page}>
                     <div>
                     </div>
                     <div>
-                    <h1 className = {styles.pTitle}> 
-                    Interaction 1: Moving through the grid 
+                    <h1 className = {styles.bTitle}> 
+                    Google Teachable Machine Visual Detection
                     </h1>
-                    <p className = {styles.text}>      
+                    <p className = {styles.text}>
+                    When the user moves to a block, they have the option of coloring the block blue, purple, or pink using different hand gestures. 
+                    I trained the Google Teachable Machine to be able to detect three different hand gestures and connect them with different colors they would represent. 
+                    </p>    
+                    </div>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                   Training Google Teachable Machine to recognize different hand gestures
                     </p>
-                    <h1 className = {styles.pTitle}> 
+                    </div>
+                    <div>
+                   <Image width = "1920px" height = "1080px" src = {GTM} alt = "gtm"></Image>
+                    </div>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                    Model in action 
+                    </p>
+                    </div>
+                    <div>
+                    <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/ocN-7d36Ujc?autoplay=1&loop=1&mute=1&controls=0&playlist=ocN-7d36Ujc"
+                 frameborder = "0" modestbranding = "1"></iframe>
+
+                    </div>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    </div>
+                    <div>
+                    <h1 className = {styles.bTitle}> 
                     Speech Recognition 
                     </h1>
                     <p className = {styles.text}>
                     With the help of the Web Speech API, when the user communicates whether they want to go up, down, left, or right, the interface detects the 
                     sound and moves on the grid accordingly. Due to the Web Speech API&rsquo;s long run times, using audio takes a longer time to move around the grid than typing on a keyboard would. 
                     </p>
-                    <h1 className = {styles.pTitle}> 
-                    Google Teachable Machine Visual Detection
-                    </h1>
-                    <p className = {styles.text}>
-                    When the user moves to a block, they have the option of coloring the block blue, purple, or pink using different hand gestures. 
-                    I trained the Google Teachable Machine to be able to detect three different hand gestures and connect them with different colors they would represent. 
-                    </p>
+                    </div>
                 </div>
             </div>
             <div className = {styles.page}>
                     <div>
                     </div>
                     <div>
-                    <h1 className = {styles.pTitle}> 
+                    <h1 className = {styles.bTitle}> 
                     Facial Recognition
                     </h1>
                     <p className = {styles.text}>
@@ -110,32 +133,27 @@ export default function Teachable(){
             <div className = {styles.page}>
                     <div>
                     <p className = {styles.d}> 
-                    Face mesh for opening mouth 
+                    Face mesh for opening mouth, turning head left and right, and moving head up and down. 
                     </p>
                     </div>
                     <div>
-                        <Image src = {open} alt = "open"></Image>
+                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/743139368?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g"
+                 frameborder = "0" modestbranding = "1"></iframe>
 
                     </div>
-            </div>
-            <div className = {styles.page}>
-                <p className = {styles.d}> 
-                    Face mesh for left and right 
-                    </p>
+                </div>
+                <div className = {styles.page}>
                     <div>
-                        <Image src = {lr} alt = "open"></Image>
-
-                    </div>
-            </div>
-            <div className = {styles.page}>
-            <p className = {styles.d}> 
-                    Face mesh for up and down
+                    <p className = {styles.d}> 
+                    Demonstration of opening of mouth being used as a "photo button"
                     </p>
+                    </div>
                     <div>
-                        <Image src = {ud} alt = "open"></Image>
+                    <iframe width = "100%" height = "500px"src="https://player.vimeo.com/video/743183207?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g"
+                 frameborder = "0" modestbranding = "1"></iframe>
 
                     </div>
-            </div>
+                </div>
             <Footer/>
         </div>
     )

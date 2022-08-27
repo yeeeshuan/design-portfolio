@@ -6,8 +6,8 @@ import P1 from '../Images/About/P1.png';
 import P2 from '../Images/About/P2.gif';
 import P3 from '../Images/About/P3.png'; 
 import P4 from '../Images/About/P4.gif'; 
-import P5 from '../Images/About/P5.gif'; 
-import P6 from '../Images/About/P6.jpg'; 
+import P5 from '../Images/About/P5.png'; 
+import P6 from '../Images/About/P6.png'; 
 
 
 const Projects_1 = () => {
@@ -24,15 +24,18 @@ const Projects_1 = () => {
 
             </div>
             </span>
+            <Link href = "/Teachable">
             <span className = {styles.imageWrap}>
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                <Link href = "/Teachable">
-                    <Image className = "P2" src = {P2}  alt = "Teachable"/> 
-                </Link>
+
+                <iframe width = "100%" height = "390px"src="https://www.youtube.com/embed/7lnMo1m1O3g?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g"
+                 frameborder = "0" modestbranding = "1"></iframe>
+
                     <h1 className = {styles.title}> Teachable Grid</h1>
                 <p className = {styles.words}> Designing with ML </p>
                 </div>
                 </span>
+                </Link>
         </div>
     )
 }
@@ -56,7 +59,8 @@ const Projects_2 = () =>
             <div className="item-container">
                 <a href = "https://medium.com/@yixuanhu/animals-part-3-5d3e83581c80">
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image className = "Turtle" src = {P4}  alt = "Endangered Animals"/> 
+                <iframe width = "100%" height = "390px"src="https://www.youtube.com/embed/hkSLkaNLPu8?autoplay=1&loop=1&mute=1&controls=0&playlist=hkSLkaNLPu8"
+                 frameborder = "0" modestbranding = "1"></iframe>
                 </div>
                     <h1 className = {styles.title}> Endangered Animals Animation</h1>
                 <p className = {styles.words}> Illustration, Animation</p>
@@ -74,7 +78,7 @@ const Projects_3 = () =>
                 <span className = {styles.imageWrap}>
                 <div className="item-container">
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image className = "P5" src = {P5}  alt = "Fruit Ninja"/> 
+                <Image className = "P5" src = {P5}  alt = "Fruit Ninja"/> 
                 </div>
                     <h1 className = {styles.title}> Interactive Fruit Ninja</h1>
                     <p className = {styles.words}> Python, OpenCV, Mediapipe</p>
@@ -83,8 +87,8 @@ const Projects_3 = () =>
                 <span className = {styles.imageWrap}>
             <div className="item-container">
                 <a href = "https://medium.com/@yixuanhu/project-2-dace6957f382">
-                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image className = "Turtle" src = {P6}  alt = "Endangered Animals"/> 
+                <div className="item-container">
+                    <Image className = "P6" src = {P6}  alt = "Fruit Ninja"/> 
                 </div>
                     <h1 className = {styles.title}> Special Carriers</h1>
                 <p className = {styles.words}> Product Design</p>

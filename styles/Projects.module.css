@@ -56,8 +56,15 @@ h1.title{
 }
 
 h1.pTitle{
-    margin-top: 50px; 
+    margin-top: 25px; 
     color: white; 
+    font-size: 40px; 
+    font-family: 'Graphik', sans-serif;
+}
+
+h1.bTitle{
+    margin-top: 25px; 
+    color: rgb(148, 148, 148); 
     font-size: 40px; 
     font-family: 'Graphik', sans-serif;
 }
