@@ -5,7 +5,7 @@ import Image from "next/image";
 import P1 from '../Images/About/P1.png'; 
 import P2 from '../Images/About/P2.gif';
 import P3 from '../Images/About/P3.png'; 
-import P4 from '../Images/About/P4.gif'; 
+//import Turtle from '../Images/Projects/Animation/Turtle.mp4'; 
 import P5 from '../Images/About/P5.png'; 
 import P6 from '../Images/About/P6.png'; 
 
@@ -14,16 +14,6 @@ const Projects_1 = () => {
 
     return(
         <div className = {styles.gallery}>
-            <span className = {styles.imageWrap}>
-            <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                <Link href = "/Math2Shine">
-                    <Image className = "P1" src = {P1}  alt = "Math2Shine"/> 
-                </Link>
-                <h1 className = {styles.title}> Math2Shine Redesign</h1>
-                <p className = {styles.words}> Interaction Design, Web Development </p>
-
-            </div>
-            </span>
             <Link href = "/Teachable">
             <span className = {styles.imageWrap}>
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
@@ -35,7 +25,17 @@ const Projects_1 = () => {
                 <p className = {styles.words}> Designing with ML </p>
                 </div>
                 </span>
-                </Link>
+            </Link>
+            <Link href = "/Math2Shine">
+            <span className = {styles.imageWrap}>
+            <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image className = "P1" src = {P1}  alt = "Math2Shine"/> 
+                <h1 className = {styles.title}> Math2Shine Redesign</h1>
+
+            </div>
+            <p className = {styles.words}> Interaction Design, Web Development </p>
+            </span>
+            </Link>
         </div>
     )
 }
@@ -75,14 +75,15 @@ const Projects_3 = () =>
 {
         return(
             <div className = {styles.gallery}>
+              
                 <span className = {styles.imageWrap}>
-                <div className="item-container">
+                <a href = "https://www.youtube.com/watch?v=2KofmLYQHtU">
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
                 <Image className = "P5" src = {P5}  alt = "Fruit Ninja"/> 
-                </div>
                     <h1 className = {styles.title}> Interactive Fruit Ninja</h1>
-                    <p className = {styles.words}> Python, OpenCV, Mediapipe</p>
+                    <p className = {styles.words}> Python, OpenCV, Mediapipe</p>          
                 </div>
+                </a>
                 </span>
                 <span className = {styles.imageWrap}>
             <div className="item-container">

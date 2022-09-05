@@ -14,15 +14,18 @@ import I7 from "../Images/Projects/Math2Shine/7.png"
 import I8 from "../Images/Projects/Math2Shine/8.png"
 import I9 from "../Images/Projects/Math2Shine/9.png"
 import I10 from "../Images/Projects/Math2Shine/10.png"
+import I11 from "../Images/Projects/Math2Shine/Ill_1.png"
+import I12 from "../Images/Projects/Math2Shine/Ill_2.png"
+import I13 from "../Images/Projects/Math2Shine/Ill_3.png"
 
 
 export default function Math2Shine(){
     return(
         <div>
             <Navbar/>
-            <div className = {styles.page}>
+            <div className = {styles.intro}>
             <div>
-            <h1 className = {styles.pTitle}> 
+            <h1 className = {styles.mTitle}> 
             Math2Shine Redesign 
             </h1>
             <br></br>
@@ -48,6 +51,8 @@ export default function Math2Shine(){
             }}>
                 <Image src = {P1} width = {1080} height ={600} alt = "cover image"/>
             </div>
+        <br/>
+        <br/>
 
         <div className = {styles.page}>
                 <div>
@@ -76,6 +81,21 @@ export default function Math2Shine(){
                     <Image src = {I9} alt = "brand"/>
                     </div>
             </div>
+            <br/>
+            <br/>
+            <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Character Assets
+                </p>
+            </div>
+
+                <div className = {styles.image_3}>
+                    <Image src = {I11} alt = "brand"/>
+                    <Image src = {I12} alt = "brand"/>
+                    <Image src = {I13} alt = "brand"/>
+                </div>
+            </div>
             <div className = {styles.page}>
                 <div>
                 </div>
@@ -83,6 +103,25 @@ export default function Math2Shine(){
                 <div>
                 <h1 className = {styles.pTitle}> 
                     Problem Space 
+                </h1>
+                <p className = {styles.text}>
+                    As students develop their math skills, many of their hardships stem from lack of confidence with their fundamental computing skills. 
+                    Through our redesign, we wanted to bring more attention to Vedic math to be able to teach students a skills and tricks to be able to do mathematics without second-guessing their answers. 
+
+                    <br/>
+                    <br/>
+
+                    Our team looked at pre-existing online learning platforms and indentified gain points that helped provide a holistic approach to learning. 
+                </p>
+                </div>
+             </div>
+             <div className = {styles.page}>
+                <div>
+                </div>
+                
+                <div>
+                <h1 className = {styles.pTitle}> 
+                    Research  
                 </h1>
                 <p className = {styles.text}>
                     As students develop their math skills, many of their hardships stem from lack of confidence with their fundamental computing skills. 
@@ -132,6 +171,13 @@ export default function Math2Shine(){
                 To prepare for user testing, we began to protoype the navigation and content of the website. We explored with color, type and layout, 
                 imagining different scenarios that students and teachers may have when navigating the page. 
 
+                </p>
+
+                <p className = {styles.text}>
+                The original design of the page posed many problems, as the page was bombarded with information, and important tools were difficult to access. 
+                Users were confused as of how to navigate through the page, and 
+                My team worked on pinpointing the pain points and brainstormed a variety of methods to effectively help students and teachers navigate through 
+                the interface. 
                 </p>
                 </div>
             </div>

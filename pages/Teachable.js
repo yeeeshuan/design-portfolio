@@ -11,9 +11,9 @@ export default function Teachable(){
 
         <div>
             <Navbar/>
-            <div className = {styles.page}>
+            <div className = {styles.intro}>
             <div>
-            <h1 className = {styles.pTitle}> 
+            <h1 className = {styles.mTitle}> 
             Teachable Grid   
             </h1>
             <br></br>
@@ -52,7 +52,6 @@ export default function Teachable(){
                         With this project, I wanted to move away from typing and tapping and experiment with other forms of interactions by prompting users to 
                         move around and color a 10x10 grid. I explored with a variety of methods to: 1. Determine a color for the grid and 2. Move across the grid. 
                     </p>
-
                 </div>
                 </div>
                 <div className = {styles.page}>
@@ -126,7 +125,9 @@ export default function Teachable(){
                     Facial Recognition
                     </h1>
                     <p className = {styles.text}>
-                    Thinking about more different ways that you can go about controlling the directions 
+                    Thinking about different ways that you can go about controlling the directions, I wanted to think about other ways that 
+                    I came up with the idea where I would use my face as controller, using the ML5 faceMesh API I was able to track when my face was turning 
+                    left, right, up, and down. 
                     </p>
                     </div>
             </div>
@@ -137,7 +138,7 @@ export default function Teachable(){
                     </p>
                     </div>
                     <div>
-                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/743139368?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g"
+                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/743139368?autoplay=1&loop=1&mute=1&controls=0"
                  frameBorder = "0" modestbranding = "1"></iframe>
 
                     </div>
@@ -145,13 +146,64 @@ export default function Teachable(){
                 <div className = {styles.page}>
                     <div>
                     <p className = {styles.d}> 
-                    Demonstration of opening of mouth being used as a photo button
+                    Demonstration of how a face may be used to control movement throughout the grid 
                     </p>
                     </div>
                     <div>
-                    <iframe width = "100%" height = "500px"src="https://player.vimeo.com/video/743183207?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g"
+                    <p className = {styles.text}>
+                        To detect when a user turned their head right, left, up, and down, I found the points in the API that corresponded to the left and right of the
+                        cheeks, the forehead, and the mouth and found the distance of those points to the nose— when the distance passes or goes under a certain value, the grid would move. 
+                    </p>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/hzHO7XYRJdw?autoplay=1&loop=1&mute=1&controls=0&playlist=hzHO7XYRJdw"
                  frameBorder = "0" modestbranding = "1"></iframe>
 
+                    </div>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                    Demonstration of opening of mouth being used as a camera button
+                    </p>
+                    </div>
+                    <div>
+                    <p className = {styles.text}>
+                       To add a function that could detect when to assign a spot on the grid a color without using the keyboard, I decided for the interface to assign a color 
+                       whenever the user opened their mouth. The mouse in a way almost acts like a camera button. 
+                    </p>
+                    <iframe width = "100%" height = "500px"src="https://player.vimeo.com/video/743183207?autoplay=1&loop=1&mute=1&controls=0"
+                 frameBorder = "0" modestbranding = "1"></iframe>
+
+                    </div>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    </div>
+                    <div>
+                    <p className = {styles.text}>
+                      Overall, the interaction provided users with a way to navigate an interface relatively precisely, as long as the interface
+                      can find the distance between points on the user&rsquo;s face. This interaction 
+                      could be used in an environment where using a keybaord is not ideal, such as unhygenic public touchpads. 
+
+                    </p>
+
+                    </div>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    </div>
+                    <div>
+                    <h1 className = {styles.bTitle}> 
+                   Project Reflection 
+                    </h1>
+                    <p className = {styles.text}>
+                    These different experiments allowed me to understand how I could implement different interactions into an interface, and how
+                    they could make my interaction design both more intuitive or convoluted. Some of these errors may stem from issues with the API, and 
+                    discomfort when interacting with the project may come from the habits that users have developed when using technology. Moving forward,
+                    I would like to move past relying on the camera to be the primary hardware that detects interactions and explore how
+                    physical objects can be used in interaction design. 
+
+
+                    </p>    
                     </div>
                 </div>
             <Footer/>

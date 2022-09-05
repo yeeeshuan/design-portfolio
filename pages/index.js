@@ -27,7 +27,7 @@ export default function Home() {
       <div className = {styles.page}>
         <Navbar/>
         <h2 className = {styles.intro}>
-            Hi! My name is Ethan Huang and I am currently a student at <span className = {styles.CText}>Carnegie Mellon University </span>
+            Hi! My name is Ethan Huang and I am currently a <span className = {styles.CText}>Design</span> student at <span className = {styles.CText}>Carnegie Mellon University </span>
             with a minor in <span className = {styles.CText}>Human-Computer-Interaction</span>.
         </h2>
         <Projects/>

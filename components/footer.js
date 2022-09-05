@@ -26,6 +26,9 @@ const Footer = () =>{
                <a href = "https://www.linkedin.com/in/ethanhuang2002">
                    <span className = {styles.styledLink}> Linkedin </span>
                </a>
+               <a href = "https://read.cv/nahte.huang">
+                   <span className = {styles.styledLink}> Resume </span>
+               </a>
                <a href = "https://medium.com/@yixuanhu">
                     <span className = {styles.styledLink}> Medium </span>
                </a>
