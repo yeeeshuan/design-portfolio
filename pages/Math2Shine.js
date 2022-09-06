@@ -17,6 +17,12 @@ import I10 from "../Images/Projects/Math2Shine/10.png"
 import I11 from "../Images/Projects/Math2Shine/Ill_1.png"
 import I12 from "../Images/Projects/Math2Shine/Ill_2.png"
 import I13 from "../Images/Projects/Math2Shine/Ill_3.png"
+import I15 from "../Images/Projects/Math2Shine/Sketch_1.jpg"
+import I16 from "../Images/Projects/Math2Shine/Sketch_2.jpg"
+import I17 from "../Images/Projects/Math2Shine/11.png"
+import W1 from "../Images/Projects/Math2Shine/W1.png"
+import W2 from "../Images/Projects/Math2Shine/W2.jpg"
+
 
 
 export default function Math2Shine(){
@@ -141,14 +147,52 @@ export default function Math2Shine(){
                 <h1 className = {styles.pTitle}> 
                 Wireframing and prototyping 
                 </h1>
+                </div>
+                </div>
+            <div className = {styles.page}>
+                <div>
+                    <p className = {styles.d}> 
+                    Sketches and basic user flow    
+                    </p>
+                </div>
+                    <div className = {styles.image_1}>
+                    <Image src = {I16} alt = "iteration 1"/>
+                    <Image src = {I15} alt = "iteration 1"/>     
+                    </div> 
+            </div>
+            <div className = {styles.page}>
+                <div>
+                </div>
+                <div>
                 <p className = {styles.text}>
                 After sketching out a general user flow guide to guide students and tutors through the platform, we began to build high-fidelity 
                 wireframes. We wanted to ensure that the website was intuitive, with all of the main functions easily accessible.
                 What information is most important to help teachers run an online classroom? 
                 How can students most easily access resources to help them when they are stuck? 
-                <br></br>
-                <br></br>
-
+                </p>
+                </div>
+            </div>
+            <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Refined student user flow    
+                </p>
+            </div>
+                <Image src = {W1} alt = "iteration 1"/>
+            </div>
+            <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Refined teacher user flow    
+                </p>
+            </div>
+                <Image src = {W2} alt = "iteration 1"/>
+            </div>
+            <div className = {styles.page}>
+                <div>
+                </div>
+                <div>
+                <p className = {styles.text}>
                 In addition, since we were 
                 redesigning the website we also wanted to make sure that all of the functions from the backend were still present in the page. 
                 </p>
@@ -156,9 +200,15 @@ export default function Math2Shine(){
             </div>
             <div className = {styles.page}>
             <p className = {styles.d}> 
-                    User flow    
+                    Figma student portal mockup
                 </p>
                 <Image src = {I8} alt = "user flow" />
+            </div>
+            <div className = {styles.page}>
+            <p className = {styles.d}> 
+                    Figma teacher portal mockup
+                </p>
+                <Image src = {I17} alt = "user flow" />
             </div>
             <div className = {styles.page}>
                 <div>
@@ -170,9 +220,7 @@ export default function Math2Shine(){
                 <p className = {styles.text}>
                 To prepare for user testing, we began to protoype the navigation and content of the website. We explored with color, type and layout, 
                 imagining different scenarios that students and teachers may have when navigating the page. 
-
                 </p>
-
                 <p className = {styles.text}>
                 The original design of the page posed many problems, as the page was bombarded with information, and important tools were difficult to access. 
                 Users were confused as of how to navigate through the page, and 
