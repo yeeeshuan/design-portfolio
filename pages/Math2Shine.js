@@ -37,13 +37,13 @@ export default function Math2Shine(){
             Math2Shine Redesign 
             </h1>
             <br></br>
-            Role: <p className = {styles.d}>UI Design and Web Development Intern </p> 
+            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> UI Design and Web Development Intern </p> 
             <br></br>
             <br></br>
-            Duration: <p className = {styles.d}> May 2022 - July 2022 </p>
+            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> May 2022 - July 2022 </p>
             <br></br>
             <br></br>
-            Tools:  <p className = {styles.d}>Figma, Illustrator, React.js, MUI Library</p>
+            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma, Illustrator, React.js, MUI Library</p>
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
