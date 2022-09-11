@@ -268,7 +268,7 @@ export default function Math2Shine(){
             </div>
             <div className = {styles.page}>    
                 <p className = {styles.d}> 
-                    Student worksheet page — incorporated a better flow of how to best meet student's learning goals
+                    Student worksheet page — incorporated a better flow of how to best meet student learning goals
                 </p>
                 <Image src = {I17} alt = "Assignment "/>
             </div>
