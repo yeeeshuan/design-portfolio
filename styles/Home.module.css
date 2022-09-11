@@ -6,7 +6,6 @@
 }
 
 h2.intro{
-  margin-top: 75px; 
   margin-left: 25px;
   font-family: 'Graphik', sans-serif;
   font-size: 30px;
@@ -35,6 +34,7 @@ nav.nav{
     justify-content: space-between; 
     align-items: center; 
     background-color: #171717; 
+    margin-bottom: 75px; 
 }
 
 span.styledLink{

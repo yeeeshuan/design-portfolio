@@ -97,9 +97,9 @@ p.d {
 
 
 p.text{
+    font-family: 'Neue Haas Grotesk Text', sans-serif;
     font-size: 20px; 
     line-height: 180%; 
-    font-family: 'Graphik', sans-serif; 
 }
 
 .image_1{

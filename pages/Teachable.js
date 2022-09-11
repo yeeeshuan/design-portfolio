@@ -28,7 +28,7 @@ export default function Teachable(){
             <div className = {styles.cont}> 
             <p className = {styles.text}>
             This project is a collection of interaction design experiments presented through the form of a game. Using the Google Teachable Machine 
-            and the Web Speech API, I was able to gain a deeper understanding of how to incorporate interactions into my designs — cases where they are helpful 
+            and the Web Speech API, I was able to gain a deeper understanding of how to incorporate interactions into my designs—cases where they are helpful 
             vs. cases where they become convoluted and confusing. 
             </p>
          </div>
@@ -48,9 +48,13 @@ export default function Teachable(){
                     Problem Space 
                 </h1>
                     <p className = {styles.text}>
-                        Most technology today is limited in the number of ways one can navigate through it --- typing on a keyboard or mouse, or tapping on a screen. 
+                        Most technology today is limited in the number of ways one can navigate through it—typing on a keyboard or mouse, or tapping on a screen. 
                         With this project, I wanted to move away from typing and tapping and experiment with other forms of interactions by prompting users to 
-                        move around and color a 10x10 grid. I explored with a variety of methods to: 1. Determine a color for the grid and 2. Move across the grid. 
+                        move around and color a 10x10 grid. I explored with a variety of methods to: 
+                        <br></br>
+                        <br></br>1. Determine a color for the grid
+                        <br></br>
+                        <br></br>2. Move across the grid. 
                     </p>
                 </div>
                 </div>
@@ -62,8 +66,8 @@ export default function Teachable(){
                     Interactions 
                 </h1>
                     <p className = {styles.text}>
-                    Shifting away from using the keyboard and mouse, I wanted to utilize sounds and hand signals to interact with the computer—--thus, the main forms of interaction 
-                    were webcam, speakerphone, and audio. These experiment look at how other modes of interaction can heighten ---or complicate--- a user&rsquo;s experience navigation through an interface. 
+                    Shifting away from using the keyboard and mouse, I wanted to utilize sounds and hand signals to interact with the computer—thus, the main forms of interaction 
+                    were webcam, speakerphone, and audio. These experiment look at how other modes of interaction can heighten—or complicate—a user&rsquo;s experience navigation through an interface. 
                     </p>
                 </div>
                 </div>
@@ -152,7 +156,7 @@ export default function Teachable(){
                     <div>
                     <p className = {styles.text}>
                         To detect when a user turned their head right, left, up, and down, I found the points in the API that corresponded to the left and right of the
-                        cheeks, the forehead, and the mouth and found the distance of those points to the nose— when the distance passes or goes under a certain value, the grid would move. 
+                        cheeks, the forehead, and the mouth and found the distance of those points to the nose—when the distance passes or goes under a certain value, the grid would move. 
                     </p>
                     <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/hzHO7XYRJdw?autoplay=1&loop=1&mute=1&controls=0&playlist=hzHO7XYRJdw"
                  frameBorder = "0" modestbranding = "1"></iframe>
@@ -182,7 +186,7 @@ export default function Teachable(){
                     <p className = {styles.text}>
                       Overall, the interaction provided users with a way to navigate an interface relatively precisely, as long as the interface
                       can find the distance between points on the user&rsquo;s face. This interaction 
-                      could be used in an environment where using a keybaord is not ideal, such as unhygenic public touchpads. 
+                      could be used in an environment where using a keyboard is not ideal, such as unhygenic public touchpads. 
 
                     </p>
 
@@ -198,8 +202,10 @@ export default function Teachable(){
                     <p className = {styles.text}>
                     These different experiments allowed me to understand how I could implement different interactions into an interface, and how
                     they could make my interaction design both more intuitive or convoluted. Some of these errors may stem from issues with the API, and 
-                    discomfort when interacting with the project may come from the habits that users have developed when using technology. Moving forward,
-                    I would like to move past relying on the camera to be the primary hardware that detects interactions and explore how
+                    discomfort when interacting with the project may come from the habits that users have developed when using technology. 
+                    <br></br>
+                    <br></br>
+                    Moving forward, I would like to move past relying on the camera to be the primary hardware that detects interactions and explore how
                     physical objects can be used in interaction design. 
 
 

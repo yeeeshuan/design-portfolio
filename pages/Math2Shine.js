@@ -9,6 +9,7 @@ import I2 from "../Images/Projects/Math2Shine/2.png"
 import I3 from "../Images/Projects/Math2Shine/3.png"
 import I4 from "../Images/Projects/Math2Shine/4.png"
 import I5 from "../Images/Projects/Math2Shine/5.png"
+import I5a from "../Images/Projects/Math2Shine/5a.png"
 import I6 from "../Images/Projects/Math2Shine/6.png"
 import I7 from "../Images/Projects/Math2Shine/7.png"
 import I8 from "../Images/Projects/Math2Shine/8.png"
@@ -19,7 +20,8 @@ import I12 from "../Images/Projects/Math2Shine/Ill_2.png"
 import I13 from "../Images/Projects/Math2Shine/Ill_3.png"
 import I15 from "../Images/Projects/Math2Shine/Sketch_1.jpg"
 import I16 from "../Images/Projects/Math2Shine/Sketch_2.jpg"
-import I17 from "../Images/Projects/Math2Shine/11.png"
+import I17 from "../Images/Projects/Math2Shine/12.png"
+import I18 from "../Images/Projects/Math2Shine/13.png"
 import W1 from "../Images/Projects/Math2Shine/W1.png"
 import W2 from "../Images/Projects/Math2Shine/W2.jpg"
 
@@ -236,7 +238,7 @@ export default function Math2Shine(){
                 </p>
             <div className = {styles.image_1}>
                 <div>
-                    <Image src = {I5} alt = "iteration 3"/>
+                    <Image src = {I5a} alt = "iteration 3"/>
                 </div>
                 <div>
                     <Image src = {I3} alt = "iteration 1"/>
@@ -263,6 +265,18 @@ export default function Math2Shine(){
                     Assignment Page — designed a better way for students to recognize missing assignments 
                 </p>
                 <Image src = {I6} alt = "Assignment "/>
+            </div>
+            <div className = {styles.page}>    
+                <p className = {styles.d}> 
+                    Student worksheet page — incorporated a better flow of how to best meet student's learning goals
+                </p>
+                <Image src = {I17} alt = "Assignment "/>
+            </div>
+            <div className = {styles.page}>    
+                <p className = {styles.d}> 
+                    Video page 
+                </p>
+                <Image src = {I18} alt = "Assignment "/>
             </div>
 
             <div className = {styles.page}>
