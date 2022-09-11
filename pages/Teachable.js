@@ -16,14 +16,13 @@ export default function Teachable(){
             <h1 className = {styles.mTitle}> 
             Teachable Grid   
             </h1>
-            <br></br>
-            Role: <p className = {styles.d}>Creative Coding </p> 
-            <br></br>
-            <br></br>
-            Duration: <p className = {styles.d}> July 2022 </p>
+            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Creative Coding, Interaction Design </p> 
             <br></br>
             <br></br>
-            Tools:  <p className = {styles.d}>HTML, P5.js, Google Teachable Machine, Web Speech API</p>
+            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> July 2022 </p>
+            <br></br>
+            <br></br>
+            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> HTML, P5.js, Google Teachable Machine, Web Speech API</p>
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
