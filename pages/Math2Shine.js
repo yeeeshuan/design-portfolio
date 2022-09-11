@@ -20,8 +20,9 @@ import I12 from "../Images/Projects/Math2Shine/Ill_2.png"
 import I13 from "../Images/Projects/Math2Shine/Ill_3.png"
 import I15 from "../Images/Projects/Math2Shine/Sketch_1.jpg"
 import I16 from "../Images/Projects/Math2Shine/Sketch_2.jpg"
-import I17 from "../Images/Projects/Math2Shine/12.png"
+import I17 from "../Images/Projects/Math2Shine/11.png"
 import I18 from "../Images/Projects/Math2Shine/13.png"
+import I19 from "../Images/Projects/Math2Shine/12.png"
 import W1 from "../Images/Projects/Math2Shine/W1.png"
 import W2 from "../Images/Projects/Math2Shine/W2.jpg"
 
@@ -270,7 +271,7 @@ export default function Math2Shine(){
                 <p className = {styles.d}> 
                     Student worksheet page — incorporated a better flow of how to best meet student learning goals
                 </p>
-                <Image src = {I17} alt = "Assignment "/>
+                <Image src = {I19} alt = "Assignment "/>
             </div>
             <div className = {styles.page}>    
                 <p className = {styles.d}> 
