@@ -45,6 +45,15 @@ const Projects_2 = () =>
         return(
             <div className = {styles.gallery}>
                 <span className = {styles.imageWrap}>
+                <Link href = "/Posters">
+                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                <Image className = "P5" src = {P5}  alt = "Fruit Ninja"/> 
+                    <h1 className = {styles.title}>Graphic Studies</h1>
+                    <p className = {styles.words}> Illustation, Typesetting, Animation</p>          
+                </div>
+                </Link>
+                </span>
+                <span className = {styles.imageWrap}>
                 <div className="item-container">
                 <a href = "https://medium.com/@yixuanhu/project-4-lighting-engines-714ca3dd0cf6">
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
@@ -55,18 +64,7 @@ const Projects_2 = () =>
                 </a>
                 </div>
                 </span>
-                <span className = {styles.imageWrap}>
-            <div className="item-container">
-                <a href = "https://medium.com/@yixuanhu/animals-part-3-5d3e83581c80">
-                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                <iframe width = "100%" height = "390px"src="https://www.youtube.com/embed/hkSLkaNLPu8?autoplay=1&loop=1&mute=1&controls=0&playlist=hkSLkaNLPu8"
-                 frameBorder = "0" modestbranding = "1"></iframe>
-                </div>
-                    <h1 className = {styles.title}> Endangered Animals Animation</h1>
-                <p className = {styles.words}> Illustration, Animation</p>
-                </a> 
-                </div>
-                </span>
+
             </div>
         )
 }
@@ -75,18 +73,20 @@ const Projects_3 = () =>
 {
         return(
             <div className = {styles.gallery}>
-              
-                <span className = {styles.imageWrap}>
-                <Link href = "/Posters">
+                 <span className = {styles.imageWrap}>
+                <div className="item-container">
+                <a href = "https://medium.com/@yixuanhu/animals-part-3-5d3e83581c80">
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                <Image className = "P5" src = {P5}  alt = "Fruit Ninja"/> 
-                    <h1 className = {styles.title}>Hierarchy Poster</h1>
-                    <p className = {styles.words}> Adobe Illustrator, Adobe Photoshop</p>          
+                    <iframe width = "100%" height = "390px"src="https://www.youtube.com/embed/hkSLkaNLPu8?autoplay=1&loop=1&mute=1&controls=0&playlist=hkSLkaNLPu8"
+                 frameBorder = "0" modestbranding = "1"></iframe>
                 </div>
-                </Link>
+                    <h1 className = {styles.title}> Endangered Animals Animation</h1>
+                <p className = {styles.words}> Illustration, Animation</p>
+                </a> 
+                </div>
                 </span>
                 <span className = {styles.imageWrap}>
-            <div className="item-container">
+                <div className="item-container">
                 <a href = "https://medium.com/@yixuanhu/project-2-dace6957f382">
                 <div className="item-container">
                     <Image className = "P6" src = {P6}  alt = "Fruit Ninja"/> 
