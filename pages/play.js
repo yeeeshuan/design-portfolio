@@ -9,7 +9,7 @@ import S3 from "../Images/Play/Sketches/3.jpg"
 import S4 from "../Images/Play/Sketches/4.jpg"
 import S5 from "../Images/Play/Sketches/5.jpg"
 import S6 from "../Images/Play/Sketches/6.jpg"
-
+import S7 from "../Images/Play/Sketches/7.jpg"
 import P1 from "../Images/Play/Photos/1.jpg"
 import P2 from "../Images/Play/Photos/2.jpg"
 import P3 from "../Images/Play/Photos/3.jpg"
@@ -103,6 +103,9 @@ return(
                     <Image className = "P1" src = {S3}  alt = "P1"/> 
                 </div>
             </div>
+        </div>
+        <div className = {styles.singlePhoto}>
+            <Image className = "P1" src = {S7}  alt = "P1"/> 
         </div>
         <br></br>
         <br></br>

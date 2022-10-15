@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import styles from "../styles/About.module.css"; 
 import Navbar from '../components/navbar';
 import Image from "next/image";
@@ -31,7 +31,6 @@ const About = () => {
     function leaveSketch(){
         twoSetIsHovering(false); 
     }
-
 
 return(
     <div className = {styles.page}>

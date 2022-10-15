@@ -77,13 +77,13 @@ const Projects_3 = () =>
             <div className = {styles.gallery}>
               
                 <span className = {styles.imageWrap}>
-                <a href = "https://medium.com/@yixuanhu/project-1-hierarchy-9d65d2876137">
+                <Link href = "/Posters">
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
                 <Image className = "P5" src = {P5}  alt = "Fruit Ninja"/> 
                     <h1 className = {styles.title}>Hierarchy Poster</h1>
                     <p className = {styles.words}> Adobe Illustrator, Adobe Photoshop</p>          
                 </div>
-                </a>
+                </Link>
                 </span>
                 <span className = {styles.imageWrap}>
             <div className="item-container">
