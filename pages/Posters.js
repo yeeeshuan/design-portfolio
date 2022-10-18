@@ -12,6 +12,16 @@ const Graphics = () => {
     return(
         <div>
         <div className = {styles.gallery}>
+            <Link href = "https://medium.com/@yixuanhu/project-3-time-and-motion-3b94c3d864d5">
+            <span className = {styles.imageWrap}>
+            <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+            <iframe width = "100%" height = "390px"src="https://www.youtube.com/embed/6rxboMyFwDU"
+                 frameBorder = "0" modestbranding = "1"></iframe>
+                <h1 className = {styles.title}> Typography Animation </h1>
+                <p className = {styles.words}> Animation </p>
+            </div>
+            </span>
+            </Link>
             <Link href = "https://medium.com/@yixuanhu/project-1-hierarchy-9d65d2876137">
             <span className = {styles.imageWrap}>
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
@@ -21,24 +31,14 @@ const Graphics = () => {
             </div>
             </span>
             </Link>
-            <Link href = "https://medium.com/@yixuanhu/project-2-typesetting-45f2577afba6">
+        </div>
+        <div className = {styles.gallery}>
+        <Link href = "https://medium.com/@yixuanhu/project-2-typesetting-45f2577afba6">
             <span className = {styles.imageWrap}>
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
             <Image className = "P1" src = {Spread}  alt = "type"/> 
                 <h1 className = {styles.title}> Typography Spread</h1>
                 <p className = {styles.words}> Typesetting </p>
-            </div>
-            </span>
-            </Link>
-        </div>
-        <div className = {styles.gallery}>
-        <Link href = "https://medium.com/@yixuanhu/project-3-time-and-motion-3b94c3d864d5">
-            <span className = {styles.imageWrap}>
-            <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-            <iframe width = "100%" height = "390px"src="https://www.youtube.com/embed/6rxboMyFwDU"
-                 frameBorder = "0" modestbranding = "1"></iframe>
-                <h1 className = {styles.title}> Typography Animation </h1>
-                <p className = {styles.words}> Animation </p>
             </div>
             </span>
             </Link>
