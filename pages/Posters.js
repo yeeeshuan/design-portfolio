@@ -50,7 +50,7 @@ class Graphics extends Component{
         this.state = {
             projects:[
                 {type : "v", name : "Typography Animation", description: "Animation", link:  "https://medium.com/@yixuanhu/project-3-time-and-motion-3b94c3d864d5", 
-                thumbnail: "https://www.youtube.com/embed/6rxboMyFwDU?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g" }, 
+                thumbnail: "https://www.youtube.com/embed/6rxboMyFwDU?autoplay=1&loop=1&mute=1&controls=0" }, 
                 {type : "i", name : "Hierarchy Poster", description: "Visual Hierarchy", image : Poster, link: "https://medium.com/@yixuanhu/project-1-hierarchy-9d65d2876137" }, 
                 {type : "i", name : "Typography Spread", description: "Typesetting", image : Spread, link: "https://medium.com/@yixuanhu/project-2-typesetting-45f2577afba6"}, 
                 {type : "i", name : "Endangered Animal Poster", description: "Illustration", image : Animal, link: "https://medium.com/@yixuanhu/project-1-animal-part-1-cd174683f68f" }
