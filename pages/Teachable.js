@@ -3,7 +3,7 @@ import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import P1 from "../Images/About/P2.gif"
+import Thumbnail from "../Images/Projects/Teachable/Thumbnail.gif"
 import GTM from "../Images/Projects/Teachable/GTM.png"
 
 export default function Teachable(){
@@ -37,7 +37,7 @@ export default function Teachable(){
                 justifyContent: "center", 
             
             }}>
-                <Image src = {P1} width = {1080} height ={600} alt = "cover image"/>
+                <Image src = {Thumbnail} width = {1080} height ={600} alt = "cover image"/>
             </div>
             <div className = {styles.page}>
                 <div>
@@ -195,7 +195,7 @@ export default function Teachable(){
                     <div>
                     </div>
                     <div>
-                    <h1 className = {styles.bTitle}> 
+                    <h1 className = {styles.pTitle}> 
                    Project Reflection 
                     </h1>
                     <p className = {styles.text}>

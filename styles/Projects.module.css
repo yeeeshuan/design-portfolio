@@ -5,6 +5,13 @@
     grid-template-columns: repeat(2, 0.5fr);
 }
 
+.projectRow{
+    display: flex;  
+    flex-wrap: wrap;
+    margin-right: 50px; 
+    margin-left: 50px; 
+  }
+
 a.styledLink{
     text-decoration: none;
 }
@@ -25,22 +32,28 @@ h1.title{
 }
 
 .imageWrap{
+    width: 47%; 
+    display: inline-block; 
+    margin-right: 10px; 
+    margin-left: 30px; 
     padding-top: 10px; 
-    padding-left: 12px; 
+    padding-left: 10px; 
     padding-right: 10px; 
-    margin-left: 20px; 
-    margin-right: 20px; 
     margin-bottom: 50px; 
     border-radius: 10px; 
     background-color: #212121; 
     overflow: hidden;  
-    transition: background-color 1s;  
+    transition: background-color 0.5s;  
 }
 
 .imageWrap:hover{
         background-color: #373737; 
 }
 
+.ytplayer{
+    pointer-events: none;
+    position: absolute;
+}
 
 /* Individual Project Pages*/
 
@@ -53,6 +66,23 @@ h1.title{
     grid-template-columns: 1fr 3fr;
     grid-gap: 5em;
 }
+
+/*
+.inline{
+    margin-top: 150px; 
+    margin-left: 225px; 
+    margin-right: 225px; 
+    margin-bottom: 100px; 
+    align-items: center;
+    display: flex; 
+}
+
+.thirds {
+    margin-right: 10px; 
+    margin-left: 10px; 
+    width: 33%
+}
+*/
 
 .intro{
     margin-top: 0px; 
@@ -67,7 +97,7 @@ h1.title{
 
 h1.mTitle{
     color: white; 
-    font-size: 64px; 
+    font-size: 45px; 
     font-family: 'Graphik', sans-serif;
 }
 
@@ -79,7 +109,7 @@ h1.pTitle{
 }
 
 h1.bTitle{
-    margin-top: 150px; 
+    margin-top: 50px; 
     color: rgb(148, 148, 148); 
     font-size: 40px; 
     font-family: 'Graphik', sans-serif;
@@ -89,14 +119,14 @@ p.d2 {
     color: rgb(148, 148, 148); 
     display: inline; 
     padding-bottom: 15px; 
-    font-size: 24px; 
+    font-size: 18px; 
 }
 
 p.d1 {
     color: rgb(224, 127, 0); 
     display: inline; 
     padding-bottom: 15px; 
-    font-size: 24px; 
+    font-size: 18px; 
 }
 
 p.d {
