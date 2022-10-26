@@ -7,7 +7,7 @@
 
 h2.intro{
   margin-left: 25px;
-  font-family: 'Graphik', sans-serif;
+  font-family: neue-haas-grotesk-text, sans-serif;
   font-size: 30px;
   width : 50%; 
   color: white; 
@@ -18,7 +18,7 @@ h2.intro{
 span.CText{
     color: #718ef8; 
     display: inline; 
-    font-family: 'Graphik', sans-serif;
+    font-family: neue-haas-grotesk-text, sans-serif;
     font-size: 30px; 
 }
 
