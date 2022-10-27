@@ -130,8 +130,8 @@ export default function Systems(){
                 </p>
                 </div>
                 <div className = {styles.image_2}>
-                <Image src = {Sketch6}  alt = "cover image"/>  
-                <Image src = {Sketch7}  alt = "cover image"/>  
+                <Image src = {Sketch6}  alt = "sketch_6"/>  
+                <Image src = {Sketch7}  alt = "sketch_7"/>  
                 </div>
             </div>          
             <div className = {styles.page}>
