@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
 import Thumbnail from '../Images/About/P5.jpg'; 
-import Sketch1 from '../Images/Projects/Speaker/1.jpg'
+import Sketch1 from '../Images/Projects/Speaker/1.jpeg'
 import Sketch2 from '../Images/Projects/Speaker/2.jpeg'
 import Sketch3 from '../Images/Projects/Speaker/3.jpeg'
 import Sketch4 from '../Images/Projects/Speaker/4.jpg'
