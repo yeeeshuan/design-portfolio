@@ -1,11 +1,14 @@
 import styled from 'styled-components'; 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useMediaQuery } from 'react-responsive';
 import styles from "../styles/Home.module.css"; 
 import Link from 'next/link';
 
 
 const Footer = () =>{
     const [isHovering, setIsHovering] = useState(false);
+
+    const matches = useMediaQuery({ query: '(max-width: 600px)' });
 
     function enterText(){
         setIsHovering(true); 
@@ -22,7 +25,8 @@ const Footer = () =>{
                 : (<div> Made with Next.js</div>)
                 }
             </div>
-           <div>
+            {!matches?
+            (<div>
                <a href = "https://www.linkedin.com/in/ethanhuang2002">
                    <span className = {styles.styledLink}> Linkedin </span>
                </a>
@@ -38,9 +42,21 @@ const Footer = () =>{
                <a href = "mailto:yixuanhu@andrew.cmu.edu">
                <span className = {styles.styledLink}> Contact </span>
                </a>
-           </div>
+           </div>)
+            :(<div>
+               <a href = "https://www.linkedin.com/in/ethanhuang2002">
+                   <span className = {styles.styledLink}> Linkedin </span>
+               </a>
+               <a href = "https://read.cv/nahte.huang">
+                   <span className = {styles.styledLink}> Resume </span>
+               </a>
+               <a href = "mailto:yixuanhu@andrew.cmu.edu">
+               <span className = {styles.styledLink}> Contact </span>
+               </a>
+           </div>)
+            }
         </nav>
     )
 }
 
-export default Footer; 
+export default Footer

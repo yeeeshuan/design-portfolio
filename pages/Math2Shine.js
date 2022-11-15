@@ -64,9 +64,8 @@ export default function Math2Shine(){
         <br/>
 
         <div className = {styles.page}>
-                <div>
+                <div className = "empty">
                 </div>
-                
                 <div>
                 <h1 className = {styles.pTitle}> 
                  Branding 

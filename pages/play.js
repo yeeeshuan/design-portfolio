@@ -24,7 +24,6 @@ export default function Play(){
 return(
     <div className = {styles.play}>
         <Navbar/>
-        <br></br>
         <h1 className = {styles.title}>
             A collection of personal projects and explorations to help me gain new skills. 
         </h1>

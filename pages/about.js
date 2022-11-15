@@ -39,10 +39,9 @@ return(
         <div className = {styles.display}>
         <div>
             <span className = {styles.imageWrap_1}>
-                {isHovering? (<Image className = "Photo" src = {Photo}  alt = "Photo" width = {750} height = {500}/>)
-                : twoIsHovering? (<Image className = "About" src = {Sketches}  alt = "About" width = {750} height = {500}/>)
-                :(<Image className = "About" src = {Me}  alt = "About" width = "750%" height = "500%"/> )
-
+                {isHovering? (<Image style = {{borderRadius: '10px', overflow: 'hidden'}} className = "Photo" src = {Photo}  alt = "Photo"/>)
+                : twoIsHovering? (<Image style = {{borderRadius: '10px', overflow: 'hidden'}} className = "About" src = {Sketches}  alt = "About"/>)
+                :(<Image style = {{borderRadius: '10px', overflow: 'hidden'}} className = "About" src = {Me}  alt = "About"/> )
 }
  
             </span>
@@ -60,7 +59,7 @@ return(
             <br/>
 
             When I am not designing, you can find me taking 
-            <span className = {styles.photos}
+            <span className = {styles.CText}
                 onMouseEnter={enterPhoto}
                 onMouseLeave={leavePhoto}
             >
@@ -68,7 +67,7 @@ return(
                     
             , 
             
-            <span className = {styles.photos}
+            <span className = {styles.CText}
                 onMouseEnter={enterSketch}
                 onMouseLeave={leaveSketch}
             >
@@ -92,7 +91,6 @@ return(
 
     </div>
     )
-
 }
 
 export default About; 

@@ -21,7 +21,7 @@ p.intro{
     margin-bottom: 50px; 
     color: white; 
     font-family: neue-haas-grotesk-text, sans-serif;
-    }
+ }
 
 p.description{
 font-size: 20px; 
@@ -31,12 +31,6 @@ color: white;
 margin-right: 200px; 
 margin-top: 40px; 
 font-family: neue-haas-grotesk-text, sans-serif;
-}
-
-.sketchGallery{
-    align-items: center;
-    display: grid; 
-    grid-template-columns: repeat(3, 0.5fr);
 }
 
 .photoGallery{
@@ -55,4 +49,50 @@ font-family: neue-haas-grotesk-text, sans-serif;
 .singlePhoto{
     margin-right: 200px; 
     margin-left: 200px; 
+}
+
+@media (max-width: 600px){
+
+    h1.title{
+        margin-left: 25px; 
+        margin-right: 25px; 
+        color: white; 
+        margin-top: 75px; 
+        margin-bottom: 100px; 
+        font-family: neue-haas-grotesk-text, sans-serif;
+        }
+
+    p.intro{
+        font-size: 30px; 
+        display: block; 
+        margin-left: 25px; 
+        margin-right: 25px; 
+        margin-bottom: 50px; 
+        color: white; 
+        font-family: neue-haas-grotesk-text, sans-serif;
+    }
+
+    p.description{
+        font-size: 20px; 
+        display: block; 
+        float: none; 
+        color: white; 
+        margin-right: 25px; 
+        margin-left: 25px; 
+        margin-top: 40px; 
+        font-family: neue-haas-grotesk-text, sans-serif;
+        }
+
+        .photoGallery{
+            margin-right: 25px; 
+            margin-left: 25px; 
+            align-items: center;
+            display: block; 
+            grid-gap: 20px; 
+        }
+
+        .singlePhoto{
+            margin-right: 25px; 
+            margin-left: 25px; 
+        }
 }

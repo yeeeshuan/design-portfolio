@@ -29,7 +29,6 @@ function Video(props){
 }
 
 function Img(props){
-    console.log(props.image)
     return(
          <div className = {styles.imageWrap}>
             <div className="item-container">
