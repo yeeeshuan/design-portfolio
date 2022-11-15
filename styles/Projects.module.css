@@ -18,10 +18,12 @@ a.styledLink{
 
 p.words{
     color: white; 
+    font-weight: 100; 
 }
 
 p.words:hover{
     color: lightgrey;
+    font-weight: 100; 
 }
 
 h1.title{
@@ -120,12 +122,14 @@ h1.bTitle{
 p.d {
     font-size: 18px; 
     color: rgb(148, 148, 148); 
+    font-weight: 100; 
 }
 p.d2 {
     color: rgb(148, 148, 148); 
     display: inline; 
     padding-bottom: 15px; 
     font-size: 18px; 
+    font-weight: 100; 
 }
 
 p.d1 {
@@ -144,6 +148,7 @@ p.text{
     font-family: neue-haas-grotesk-text, sans-serif;
     font-size: 20px; 
     line-height: 180%; 
+    font-weight: 100; 
 }
 
 .image_1{
