@@ -38,7 +38,7 @@ export default function Systems(){
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-                A gigamap that looks to expose the intricacies, interconnections, and stakeholders in the Pittsbugh Water Crisis.
+                A gigamap that looks to expose the intricacies, interconnections, and stakeholders in the Pittsburgh Water Crisis.
                 <br/>
                 <br/>
                 Our team focused on researching leverage points that currently aim to intervene with regards to the environment, policy, healthcare, and social systems, as well as 
