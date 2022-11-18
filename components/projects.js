@@ -51,6 +51,8 @@ class Projects extends Component{
             projects:[
                 {type : "v", name : "Teachable Grid", description: "Designing with ML", link: "/Teachable", 
                 thumbnail: "https://www.youtube.com/embed/7lnMo1m1O3g?autoplay=1&loop=1&mute=1&controls=0&playlist=7lnMo1m1O3g" }, 
+                {type : "v", name : "Virtual Tour", description: "Prototyping with AR", link: "/Tour", 
+                thumbnail: "https://www.youtube.com/embed/topF8G5Y5ZY?start=98&end=104&autoplay=1&loop=1&mute=1&controls=0&playlist=topF8G5Y5ZY" }, 
                 {type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "/Math2Shine" }, 
                 {type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 {type : "i", name : "Tangible Design", description: "Experiments with physical and rapid prototyping", image : P5, link: "/Tangible" }, 

@@ -20,29 +20,27 @@ const Footer = () =>{
 
     return( 
         <nav className = {styles.footer} onMouseEnter={enterText} onMouseLeave = {leaveText}>
-            <div>
-                {isHovering? (<span className = {styles.styledLink}>Ethan Huang 2022 </span>)
-                : (<span className = {styles.styledLink}> Made with Next.js</span>)
-                }
-            </div>
             {!matches?
-            (<div>
-               <a href = "https://www.linkedin.com/in/ethanhuang2002">
-                   <span className = {styles.styledLink}> Linkedin </span>
-               </a>
-               <a href = "https://read.cv/nahte.huang">
-                   <span className = {styles.styledLink}> Resume </span>
-               </a>
-               <a href = "https://medium.com/@yixuanhu">
-                    <span className = {styles.styledLink}> Medium </span>
-               </a>
-               <a href = "https://github.com/yeeeshuan">
-                    <span className = {styles.styledLink}> Github </span>
-               </a>
-               <a href = "mailto:yixuanhu@andrew.cmu.edu">
-               <span className = {styles.styledLink}> Contact </span>
-               </a>
-           </div>)
+            (<><div>
+                    {isHovering ? (<span className={styles.styledLink}>Ethan Huang 2022</span>)
+                        : (<span className={styles.styledLink}>Made with Next.js</span>)}
+                </div><div>
+                        <a href="https://www.linkedin.com/in/ethanhuang2002">
+                            <span className={styles.styledLink}> Linkedin </span>
+                        </a>
+                        <a href="https://read.cv/nahte.huang">
+                            <span className={styles.styledLink}> Resume </span>
+                        </a>
+                        <a href="https://medium.com/@yixuanhu">
+                            <span className={styles.styledLink}> Medium </span>
+                        </a>
+                        <a href="https://github.com/yeeeshuan">
+                            <span className={styles.styledLink}> Github </span>
+                        </a>
+                        <a href="mailto:yixuanhu@andrew.cmu.edu">
+                            <span className={styles.styledLink}> Contact </span>
+                        </a>
+                    </div></>)
             :(<div>
                <a href = "https://www.linkedin.com/in/ethanhuang2002">
                    <span className = {styles.styledLink}> Linkedin </span>

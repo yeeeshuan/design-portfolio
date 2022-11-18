@@ -82,7 +82,7 @@ return(
             <br></br>
             <br></br>
 
-            Feel free to reach out at ethanhuang@cmu.edu! 
+            Feel free to reach out at  <a href = "mailto:ethanhuang@cmu.edu">ethanhuang@cmu.edu!</a>
         </p>
         </div>
 

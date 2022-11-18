@@ -81,18 +81,14 @@ nav.footer{
 
     nav.footer{
         position: relative; 
-        bottom: 0; 
-        left: 0; 
-        right: 0; 
         width: 100%; 
-        padding-left: 25px; 
         height: 60px; 
         background: #171717; 
         color: #fff; 
-        display: inline-flex; 
+        /*display: inline-flex;*/
         justify-content: space-between; 
         align-items: center; 
-        margin-top: 100px; 
+        margin-top: 80px; 
     }
 
     h2.intro{
@@ -101,7 +97,7 @@ nav.footer{
     }
 
     span.styledLink{
-        padding: 0rem 1rem; 
+        padding: 1em; 
         transition: color 0.3s;  
         font-weight: 100; 
     }
