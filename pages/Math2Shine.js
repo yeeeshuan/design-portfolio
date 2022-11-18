@@ -48,8 +48,8 @@ export default function Math2Shine(){
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-            Math2Shine is an online learning platform strives to teach students about the wonders of Vedic Maths. Working with the development team, 
-            I helped redesign and develop the Math2Shine website with the goal of reaching out to more teachers, tutors, and students. 
+            Math2Shine is an online learning platform that strives to teach students about the wonders of Vedic Maths. Working with the development team, 
+            I helped redesign and develop the Math2Shine website to reach out to more teachers, tutors, and students. 
             </p>
             </div>
          </div>
@@ -113,33 +113,18 @@ export default function Math2Shine(){
                     Problem Space 
                 </h1>
                 <p className = {styles.text}>
-                    As students develop their math skills, many of their hardships stem from lack of confidence with their fundamental computing skills. 
-                    Through our redesign, we wanted to bring more attention to Vedic math to be able to teach students a skills and tricks to be able to do mathematics without second-guessing their answers. 
+                As students develop their math skills, many of their hardships stem from a lack of confidence in their fundamental computing skills. 
+                Through our redesign, we wanted to bring more attention to Vedic math to be able to teach students skills and tricks to be able to do 
+                mathematics without second-guessing their answers.
 
                     <br/>
-                    <br/>
-
-                    Our team looked at pre-existing online learning platforms and indentified gain points that helped provide a holistic approach to learning. 
+                    <br/>   
+                Our team looked at pre-existing online learning platforms and identified gain points that helped provide a holistic approach to learning. 
                 </p>
                 </div>
              </div>
              <div className = {styles.page}>
                 <div>
-                </div>
-                
-                <div>
-                <h1 className = {styles.pTitle}> 
-                    Research  
-                </h1>
-                <p className = {styles.text}>
-                    As students develop their math skills, many of their hardships stem from lack of confidence with their fundamental computing skills. 
-                    Through our redesign, we wanted to bring more attention to Vedic math to be able to teach students a skills and tricks to be able to do mathematics without second-guessing their answers. 
-
-                    <br/>
-                    <br/>
-
-                    Our team looked at pre-existing online learning platforms and indentified gain points that helped provide a holistic approach to learning. 
-                </p>
                 </div>
              </div>
             <div className = {styles.page}>
@@ -225,7 +210,7 @@ export default function Math2Shine(){
                 </p>
                 <p className = {styles.text}>
                 The original design of the page posed many problems, as the page was bombarded with information, and important tools were difficult to access. 
-                Users were confused as of how to navigate through the page, and 
+                Users were confused as to how to navigate through the page, and 
                 My team worked on pinpointing the pain points and brainstormed a variety of methods to effectively help students and teachers navigate through 
                 the interface. 
                 </p>

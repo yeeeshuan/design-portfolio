@@ -165,7 +165,7 @@ export default function Tour(){
                             <br/>
                             1. Sparky, our virtual tour guide 
                             <br/>
-                            2. Picking a project
+                            2. Learning more about the machines 
                             <br/>
                             3. Piecing together a project 
                         </p>
@@ -204,7 +204,7 @@ export default function Tour(){
                    Project Reflection 
                     </h1>
                     <p className = {styles.text}>
-                    This project was interesting since it was my first time thinking about how to utilize a space as an interface—interfaces do not need to be limited to the screen, and by thinking of 
+                    This project was interesting since it was my first time thinking about how to utilize a space as an interface—interfaces do not need to be limited to the screen. By thinking of 
                     the room as an interface, users are more engaged with the space around them. Through Lo-Fi prototyping, I was able to understand how useful seemingly simple ruler and paper prototypes
                      are to think about how intuitive an interaction is. 
                     </p>    
