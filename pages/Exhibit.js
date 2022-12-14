@@ -42,6 +42,8 @@ export default function Exhibit(){
                 An immersive Pop-up Exhibit experience designed around Charles and Ray Eames&rsquo;  iterative design process, concept of innovating as a last resort, and attention Human-Centered-Design. 
                 As users move through the exhibit, they will feel as if they are moving through time and seeing how the Eames&rsquo; work builds on top of each other. 
             </p>
+            <br/>
+            <a className = {styles.links} href = "https://medium.com/@yixuanhu/hybrid-exhibit-environments-87b5a09daad6"> Full Process </a> 
          </div>
          </div>
          <div style = {{
@@ -158,8 +160,8 @@ export default function Exhibit(){
                     Physical Prototyping
                     </h1>
                     <p className = {styles.text}>
-                    Rather than actually creating the exhibit in real-size, I decided to understand the scale and considerations to space with the next best thing—building the space out in foamcore. Following a 1 inch to 
-                    2 feet scale, I began to understand the placement of objects and scale of interactions using a scaled-down physical model. 
+                    Rather than actually creating the exhibit in real size, I decided to understand the scale and considerations to space with the next best thing—building the space out in foam core. 
+                    Following a 1-inch to 2 feet scale, I began to understand the placement of objects and the scale of interactions using a scaled-down physical model.
                     </p>
                     </div>
                 </div>    
