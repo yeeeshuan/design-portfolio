@@ -16,7 +16,7 @@ export default function Teachable(){
             <h1 className = {styles.mTitle}> 
             Interactive Grid   
             </h1>
-            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Creative Coding, Interaction Design </p> 
+            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Web Development, Creative Coding, Interaction Design </p> 
             <br></br>
             <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> November 2022 </p>

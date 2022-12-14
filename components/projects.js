@@ -7,6 +7,7 @@ import P2 from '../Images/About/P2.png';
 import P3 from '../Images/About/P3.png'; 
 import P4 from '../Images/About/P4.png'; 
 import P5 from '../Images/About/P5.jpg'; 
+import P6 from '../Images/About/P6.png'
 
 import React, {Component } from 'react';
 
@@ -51,6 +52,7 @@ class Projects extends Component{
         this.state = {
             projects:[
                 {type : "i", name : "Interactive Grid", description: "Designing with ML", image: P2, link: "/Teachable"}, 
+                {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "/Exhibit"}, 
                 {type : "v", name : "Virtual Tour", description: "Prototyping with AR", link: "/Tour", 
                 thumbnail: "https://www.youtube.com/embed/topF8G5Y5ZY?start=98&end=104&autoplay=1&loop=1&mute=1&controls=0&playlist=topF8G5Y5ZY" }, 
                 {type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "/Math2Shine" }, 
