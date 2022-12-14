@@ -14,7 +14,7 @@ export default function Teachable(){
             <div className = {styles.intro}>
             <div>
             <h1 className = {styles.mTitle}> 
-            Teachable Grid   
+            Interactive Grid   
             </h1>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Creative Coding, Interaction Design </p> 
             <br></br>
