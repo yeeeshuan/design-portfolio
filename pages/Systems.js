@@ -127,7 +127,7 @@ export default function Systems(){
                     Design Considerations 
                 </h1>
                     <p className = {styles.text}>
-                    When visualizing our map, there were many considerations to the layout and the color choices of our map. 
+                    When visualizing our map, there were many considerations to the layout and color choices of our map. 
                     Many of our design decisions were made to capture the seriousness and graveness of the wicked problem, 
                     while also ensuring that the map was readable and visually appealing. 
                     </p>
@@ -141,7 +141,7 @@ export default function Systems(){
                 Layout and Composition 
                 </h1>
                     <p className = {styles.text}>
-                    We went through multiple interations of how the map should be structured. We wanted to effectively show the inputs/outputs
+                    We went through multiple interactions of how the map should be structured. We wanted to effectively show the inputs/outputs
                     of the systems, as well as how each item was connected by highlighting the feedback loops and relationships within the map. Ultimately, 
                     We decided on a layered composition that would be able to highlight the scales of the inputs and outputs of the map, exposing the 
                     complexity of the issue by demonstrating how it extends through multiple scales. 
@@ -173,7 +173,7 @@ export default function Systems(){
             <div className = {styles.page}>
                 <div>
                 <p className = {styles.d}> 
-                Design Lanuage Guide 
+                Design Language Guide 
                 </p>
                 </div>
                 <Image src = {Language} alt = "Interventions"/>
@@ -186,7 +186,7 @@ export default function Systems(){
                 Map Breakdown 
                 </h1>
                     <p className = {styles.text}>
-                    We were able to study the PGH water crisis in detail through looking a positive/negative feedback loops, intervention points, and 
+                    We were able to study the PGH water crisis in detail by looking at positive/negative feedback loops, intervention points, and 
                     most importantly, pinpointing the root causes of the problem.
                     </p>
                 </div>
@@ -247,7 +247,7 @@ export default function Systems(){
                 Project Reflection  
                 </h1>
                     <p className = {styles.text}>
-                    After using various methods to study the PGH water crisis, we now understand how some problems are unsolveable; instead 
+                    After using various methods to study the PGH water crisis, we now understand how some problems are unsolvable; instead 
                     of finding a solution, it is more beneficial to understand the complexity of a wicked problem. Through systems mapping, 
                     seemingly impossible problems are a lot approachable, shedding light on large, often unnoticed issues that exist in plain sight. 
                     </p>

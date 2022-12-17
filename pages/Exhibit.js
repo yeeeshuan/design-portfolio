@@ -139,18 +139,6 @@ export default function Exhibit(){
                    <Image src = {Parti} alt = "story"></Image>
                     </div>
                 </div>
-                <div className = {styles.page}>
-                    <div>
-                    </div>
-                    <div>
-                    <h1 className = {styles.bTitle}> 
-                    Lo-Fi Prototyping
-                    </h1>
-                    <p className = {styles.text}>
-                    Through the use of an arduino to LoFi prototype how interactions would look in real time, I began to conceptualize how I wanted users to interact with and move through the exhibit. 
-                    </p>
-                    </div>
-                </div>
             </div>
             <div className = {styles.page}>
                     <div>
