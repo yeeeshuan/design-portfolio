@@ -4,27 +4,25 @@ import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import P1 from "../Images/About/P1.png"
-import I1 from "../Images/Projects/Math2Shine/1.png"
 import I2 from "../Images/Projects/Math2Shine/2.png"
 import I3 from "../Images/Projects/Math2Shine/3.png"
 import I4 from "../Images/Projects/Math2Shine/4.png"
 import I5 from "../Images/Projects/Math2Shine/5.png"
 import I5a from "../Images/Projects/Math2Shine/5a.png"
 import I6 from "../Images/Projects/Math2Shine/6.png"
-import I7 from "../Images/Projects/Math2Shine/7.png"
 import I8 from "../Images/Projects/Math2Shine/8.png"
 import I9 from "../Images/Projects/Math2Shine/9.png"
 import I10 from "../Images/Projects/Math2Shine/10.png"
 import I11 from "../Images/Projects/Math2Shine/Ill_1.png"
 import I12 from "../Images/Projects/Math2Shine/Ill_2.png"
 import I13 from "../Images/Projects/Math2Shine/Ill_3.png"
-import I15 from "../Images/Projects/Math2Shine/Sketch_1.jpg"
-import I16 from "../Images/Projects/Math2Shine/Sketch_2.jpg"
+import I15 from "../Images/Projects/Math2Shine/Sketch_1.png"
+import I16 from "../Images/Projects/Math2Shine/Sketch_2.png"
 import I17 from "../Images/Projects/Math2Shine/11.png"
 import I18 from "../Images/Projects/Math2Shine/13.png"
 import I19 from "../Images/Projects/Math2Shine/12.png"
 import W1 from "../Images/Projects/Math2Shine/W1.png"
-import W2 from "../Images/Projects/Math2Shine/W2.jpg"
+import W2 from "../Images/Projects/Math2Shine/W2.png"
 
 
 

@@ -6,7 +6,7 @@ import P1 from '../Images/About/P1.png';
 import P2 from '../Images/About/P2.png'; 
 import P3 from '../Images/About/P3.png'; 
 import P4 from '../Images/About/P4.png'; 
-import P5 from '../Images/About/P5.jpg'; 
+import P5 from '../Images/About/P5.png'; 
 import P6 from '../Images/About/P6.png'
 
 import React, {Component } from 'react';

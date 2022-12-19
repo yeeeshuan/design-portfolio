@@ -3,11 +3,11 @@ import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import Storyboard from "../Images/Projects/Tour/Storyboard.jpg"; 
+import Storyboard from "../Images/Projects/Tour/Storyboard.jpeg"; 
 import Map from "../Images/Projects/Tour/SystemsMap.png"; 
-import One from "../Images/Projects/Tour/Inter01.png"; 
-import Two from "../Images/Projects/Tour/Inter02.png"; 
-import Three from "../Images/Projects/Tour/Inter03.png"; 
+import One from "../Images/Projects/Tour/Inter01.jpeg"; 
+import Two from "../Images/Projects/Tour/Inter02.jpeg"; 
+import Three from "../Images/Projects/Tour/Inter03.jpeg"; 
 
 export default function Tour(){
     return(

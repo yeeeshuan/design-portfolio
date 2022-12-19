@@ -5,8 +5,7 @@ import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import Poster from '../Images/Projects/Posters/PosterMockup.png'; 
-import Radio from '../Images/Projects/Tangible/Radio.jpg'; 
+import Radio from '../Images/Projects/Tangible/Radio.jpeg'; 
 import Lighting from '../Images/Projects/Tangible/Lighting.jpeg'; 
 import Special from '../Images/Projects/Tangible/Special.jpg'; 
 

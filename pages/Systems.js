@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
 import P4 from '../Images/About/P4.png'; 
-import Init from "../Images/Projects/Systems/Initial.jpeg"
+import Init from "../Images/Projects/Systems/Initial.jpg"
 import Mess from "../Images/Projects/Systems/Mess.png"
 import Iter1 from "../Images/Projects/Systems/Iter1.png"
 import Layout from "../Images/Projects/Systems/Layout.png"
