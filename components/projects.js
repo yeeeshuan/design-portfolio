@@ -53,7 +53,7 @@ class Projects extends Component{
         this.state = {
             projects:[
                 {type : "i", name : "Interactive Grid", description: "Designing with ML", image: P2, link: "/Teachable"}, 
-                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "/Dh"}, 
+                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "/DH"}, 
                 {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "/Exhibit"}, 
                 {type : "v", name : "Virtual Tour", description: "Prototyping with AR", link: "/Tour", 
                 thumbnail: "https://www.youtube.com/embed/topF8G5Y5ZY?start=98&end=104&autoplay=1&loop=1&mute=1&controls=0&playlist=topF8G5Y5ZY" }, 
