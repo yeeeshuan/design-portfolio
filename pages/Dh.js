@@ -228,7 +228,7 @@ export default function DesignHero(){
                     <p className = {styles.text}>
                     This project is one of my favorite projects, because it was a lot of fun exploring visual storytelling through a variety of mediums. 
                     I hope that I was able to capture the explorative nature of Weingart&rsquo;s work—something that helped propel the era of New Wave and Swiss Punk Design.
-                     Weingart&rsquo;s explorations with the legibility of text, typography, textures, made it a very interesting creative challenge to 
+                     Weingart&rsquo;s explorations with the legibility of text, typography, and textures made it a very interesting creative challenge to 
                      attempt to represent his unique style. 
                     </p>    
                     </div>
