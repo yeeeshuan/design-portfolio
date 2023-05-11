@@ -6,7 +6,6 @@
 
 h2.intro{
   margin-left: 25px;
-  font-family: neue-haas-grotesk-text, sans-serif;
   font-size: 30px;
   width : 50%; 
   color: white; 
@@ -17,7 +16,6 @@ h2.intro{
 span.CText{
     color: #718ef8;
     display: inline; 
-    font-family: neue-haas-grotesk-text, sans-serif;
     font-size: 30px; 
 }
 
@@ -39,12 +37,12 @@ nav.nav{
 span.styledLink{
     padding: 0rem 2rem; 
     transition: color 0.3s;  
-    font-weight: 100; 
+    font-weight: 400; 
 }
 
 span.styledLink:hover{
     color: grey;
-    font-weight: 100; 
+    font-weight: 400; 
 }
 
 /*footer*/
@@ -64,7 +62,7 @@ nav.footer{
     margin-top: 100px; 
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px){
     nav.nav{
         position: none; 
         width: 100%; 
@@ -99,6 +97,5 @@ nav.footer{
     span.styledLink{
         padding: 1em; 
         transition: color 0.3s;  
-        font-weight: 100; 
     }
 }

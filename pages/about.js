@@ -52,31 +52,26 @@ return(
         </h1>
         <p className = {styles.text}>
 
-            I am a sophomore at Carnegie Mellon studying <span className = {styles.CText}>Design</span> with a minor in <span className = {styles.CText}>Human-Computer-Interaction</span>. I am interested in interaction design 
+            I am a junior at Carnegie Mellon studying <span className = {styles.CText}>Environments Design</span> with minors in 
+            <span className = {styles.CText}> Human-Computer-Interaction</span> and  <span className = {styles.CText}>Computer Science</span>. I am interested in interaction design 
             and creating digital experiences — I strive to create meaningful interactions through exploring the intersection of design and technology. 
 
             <br/>
             <br/>
 
-            When I am not designing, you can find me taking 
+            When I am not designing, I can be seen taking 
             <span className = {styles.CText}
                 onMouseEnter={enterPhoto}
                 onMouseLeave={leavePhoto}
-            >
-                &nbsp;photos </span> 
-                    
-            , 
+            > photos</span>,
             
             <span className = {styles.CText}
                 onMouseEnter={enterSketch}
                 onMouseLeave={leaveSketch}
-            >
-                &nbsp;sketching </span> 
-                , or curating the perfect 
+            > sketching</span>, or curating the perfect 
                 
             <span className = {styles.CText}>
-                <a href = "https://open.spotify.com/user/ethanhuangpizza?si=2ee86a0814ba4650">
-                &nbsp;Spotify playlist. 
+                <a href = "https://open.spotify.com/user/ethanhuangpizza?si=2ee86a0814ba4650"> Spotify playlist. 
                 </a>
             </span>
             <br></br>

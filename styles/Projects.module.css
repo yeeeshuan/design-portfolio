@@ -17,19 +17,18 @@ a.styledLink{
 }
 
 p.words{
-    color: white; 
-    font-weight: 100; 
+    color: lightgrey;
+    font-weight: 400; 
 }
 
 p.words:hover{
     color: lightgrey;
-    font-weight: 100; 
+    font-weight: 400; 
 }
 
 h1.title{
     color: white; 
     font-size: 20px; 
-    font-family: neue-haas-grotesk-text, sans-serif;
 }
 
 .overLay{
@@ -73,9 +72,12 @@ iframe.ytplayer{
 
 /* Individual Project Pages*/
 
+.main{
+    margin-right: 15%; 
+    margin-left: 15%; 
+}
+
 .page{
-    margin-right: 225px; 
-    margin-left: 225px; 
     margin-top: 25px; 
     align-items: center;
     display: grid; 
@@ -85,33 +87,33 @@ iframe.ytplayer{
 
 .intro{
     margin-top: 0px; 
-    margin-right: 225px; 
-    margin-left: 225px; 
-    margin-bottom: 25px; 
+    margin-bottom: 50px; 
     align-items: center;
     display: grid; 
     grid-template-columns: 1fr 3fr;
     grid-gap: 5em;
 }
 
+.project{
+    margin-bottom: 10rem; 
+}
+
 h1.mTitle{
     color: white; 
     font-size: 45px; 
-    font-family: neue-haas-grotesk-text, sans-serif;
 }
 
 h1.pTitle{
     margin-top: 50px; 
     color: white; 
     font-size: 50px; 
-    font-family: neue-haas-grotesk-text, sans-serif;
 }
 
 h1.bTitle{
     margin-top: 75px; 
     color: rgb(148, 148, 148); 
     font-size: 30px; 
-    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400; 
 }
 
 .center{
@@ -122,21 +124,25 @@ h1.bTitle{
 p.d {
     font-size: 18px; 
     color: rgb(148, 148, 148); 
-    font-weight: 100; 
+    font-size: 14px; 
+    line-height: 160%; 
 }
 p.d2 {
     color: rgb(148, 148, 148); 
     display: inline; 
     padding-bottom: 15px; 
-    font-size: 18px; 
-    font-weight: 100; 
+    font-size: 16px; 
+    line-height: 160%; 
+    font-weight: 400; 
 }
 
 p.d1 {
     color: rgb(224, 127, 0); 
     display: inline; 
-    padding-bottom: 15px; 
-    font-size: 18px; 
+    padding-bottom: 14px; 
+    font-size: 16px; 
+    font-weight: bold;
+    line-height: 160%; 
 }
 
 .cont{
@@ -145,10 +151,9 @@ p.d1 {
 
 
 p.text{
-    font-family: neue-haas-grotesk-text, sans-serif;
-    font-size: 20px; 
-    line-height: 180%; 
-    font-weight: 100; 
+    font-size: 18px; 
+    line-height: 160%; 
+    font-weight: 400; 
 }
 
 .centered{
@@ -174,14 +179,31 @@ p.text{
 .image_3{
     align-items: center;
     display: grid; 
-    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-columns: repeat(3, 2fr);
     grid-column-gap: 10px;
     margin-top: 25px; 
 }
 
+.image_4{
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-column-gap: 10px;
+    margin-top: 0.75rem; 
+}
+
+.image_5{
+    align-items: center;
+    display: grid; 
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-column-gap: 10px;
+    margin-top: 0.75rem; 
+    margin-bottom: 3rem; 
+}
+
+
 a.links{
    color: white; 
-   font-family: neue-haas-grotesk-text, sans-serif;
    font-size: 20px; 
    padding: 15px; 
    background-color: #2d2d2d; 
@@ -190,6 +212,20 @@ a.links{
 }
 
 a.links:hover{
+    color: darkgray; 
+    transition: 0.3s
+ }
+
+ a.links_1{
+    color: white; 
+    font-size: 20px; 
+    padding: 15px; 
+    background-color: #2d2d2d; 
+    border-radius: 10px; 
+    margin-top: 2rem; 
+ }
+
+ a.links_1:hover{
     color: darkgray; 
     transition: 0.3s
  }
@@ -254,7 +290,6 @@ a.links:hover{
         margin-top: 0px; 
         margin-right: 25px; 
         margin-left: 25px; 
-        margin-bottom: 50px; 
         align-items: center;
         grid-template-columns: none;
         grid-gap: none;

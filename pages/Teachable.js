@@ -11,11 +11,12 @@ export default function Teachable(){
     return(
         <div>
             <Navbar/>
-            <div className = {styles.intro}>
-            <div>
+            <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
             Interactive Grid   
             </h1>
+            <div className = {styles.intro}>
+            <div>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Web Development, Creative Coding, Interaction Design </p> 
             <br></br>
             <br></br>
@@ -244,7 +245,7 @@ export default function Teachable(){
                 </h1>
                      <p className = {styles.text}>
                         Since many of the modes to interact with the interface of experimental, a big part of designing the interface was aimed at 
-                        educaating users on the purpose of the interactions and the process of onboarding users.  
+                        educating users on the purpose of the interactions and the process of onboarding users.  
                     </p>
                     <br/>
                     <p className = {styles.text}>
@@ -282,6 +283,7 @@ export default function Teachable(){
                     </p>    
                     </div>
                 </div>
+            </main>
             <Footer/>
         </div>
     )

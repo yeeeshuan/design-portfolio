@@ -24,11 +24,12 @@ export default function Exhibit(){
 
         <div>
             <Navbar/>
-            <div className = {styles.intro}>
-            <div>
+            <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
             Immersive Pop-up Exhibit 
             </h1>
+            <div className = {styles.intro}>
+            <div>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Interaction Designer, Prototyper</p> 
             <br></br>
             <br></br>
@@ -281,6 +282,7 @@ export default function Exhibit(){
                     </div>
                 </div>
             <Footer/>
+            </main>
         </div>
     )
 }

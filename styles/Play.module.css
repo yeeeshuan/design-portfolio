@@ -51,6 +51,10 @@ font-family: neue-haas-grotesk-text, sans-serif;
     margin-left: 200px; 
 }
 
+.spreads{
+    margin-top: 1rem; 
+}
+
 @media (max-width: 600px){
 
     h1.title{

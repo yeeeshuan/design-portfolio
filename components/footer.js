@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Footer = () =>{
     const [isHovering, setIsHovering] = useState(false);
 
-    const matches = useMediaQuery({ query: '(max-width: 600px)' });
+    const matches = useMediaQuery({ query: '(max-width: 500px)' });
 
     function enterText(){
         setIsHovering(true); 
