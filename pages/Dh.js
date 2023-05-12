@@ -162,7 +162,7 @@ export default function DesignHero(){
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
             <br></br>
             <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}>Figma</p>
+            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma</p>
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
@@ -194,7 +194,7 @@ export default function DesignHero(){
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
             <br></br>
             <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}>HTML/CSS, Jquery.js</p>
+            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> HTML/CSS, Jquery.js</p>
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
