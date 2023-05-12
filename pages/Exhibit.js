@@ -281,8 +281,8 @@ export default function Exhibit(){
                     </p>    
                     </div>
                 </div>
+                </main>
             <Footer/>
-            </main>
         </div>
     )
 }
