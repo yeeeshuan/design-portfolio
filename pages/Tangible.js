@@ -60,6 +60,7 @@ class Graphics extends Component{
     return(
         <div>
             <Navbar/>
+            <main className={styles.main}>
             <div className = {styles.intro}>
             <div>
             <h1 className = {styles.mTitle}> 
@@ -75,6 +76,7 @@ class Graphics extends Component{
             </p>
             </div>
             </div>
+            </main>
         <br/>
         <br/>
 
@@ -101,7 +103,6 @@ class Graphics extends Component{
             }
             
             )}
-
       </div>
         <Footer/>
 

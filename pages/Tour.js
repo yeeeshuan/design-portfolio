@@ -14,6 +14,7 @@ export default function Tour(){
 
         <div>
             <Navbar/>
+            <main className={styles.main}>
             <div className = {styles.intro}>
             <div>
             <h1 className = {styles.mTitle}> 
@@ -210,6 +211,7 @@ export default function Tour(){
                     </p>    
                     </div>
                 </div>
+                </main>
             <Footer/>
         </div>
     )

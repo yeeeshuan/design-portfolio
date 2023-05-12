@@ -8,8 +8,7 @@
 .projectRow{
     display: flex;  
     flex-wrap: wrap;
-    margin-right: 50px; 
-    margin-left: 50px; 
+    grid-template-columns: repeat(2, 0.5fr);
 }
 
 a.styledLink{

@@ -77,7 +77,7 @@ return(
             <br></br>
             <br></br>
 
-            Feel free to reach out at  <a href = "mailto:ethanhuang@cmu.edu">ethanhuang@cmu.edu!</a>
+            Feel free to reach out at  <span className = {styles.CText}><a href = "mailto:ethanhuang@cmu.edu">ethanhuang@cmu.edu!</a></span>
         </p>
         </div>
 
