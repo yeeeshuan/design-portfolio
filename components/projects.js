@@ -8,6 +8,7 @@ import P3 from '../Images/About/P3.png';
 //import P4 from '../Images/About/P4.jpg'; 
 import P5 from '../Images/About/P5.png'; 
 import P6 from '../Images/About/P6.png'; 
+import P7 from '../Images/About/P7.jpg'; 
 import DH from '../Images/About/DH.jpg'
 
 import React, {Component } from 'react';
@@ -53,6 +54,7 @@ class Projects extends Component{
         this.state = {
             projects:[
                 {type : "i", name : "Interactive Grid", description: "Designing with ML", image: P2, link: "/Teachable"}, 
+                //{type : "i", name : "Landesberg Design Internship", description: "Print and Digital Communications Design", image: P7, link: "/Landesberg"}, 
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "/Dh"}, 
                 {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "/Exhibit"}, 
                 {type : "v", name : "Virtual Tour", description: "Prototyping with AR", link: "/Tour", 

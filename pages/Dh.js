@@ -166,7 +166,7 @@ export default function DesignHero(){
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-            Mobile experience of Weingart&rsquo;s work and life as a compliment to the booklet. 
+            Kiosk experience of Weingart&rsquo;s work and life as a compliment to the booklet. 
             </p>
             <br/>
          </div>
