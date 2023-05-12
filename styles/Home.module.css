@@ -4,19 +4,42 @@
     background-color: black; 
 }
 
+.exp{
+    margin-top: 2rem;  
+}
+
+.des{
+    width: 50%; 
+}
+
+.curr{
+    line-height: 1.6;
+}
+
+.introWrap{
+    margin-bottom: 5rem; 
+    margin-left: 5rem;
+}
+
+.bold{
+    font-weight: bold; 
+}
+
 h2.intro{
-  margin-left: 25px;
   font-size: 30px;
-  width : 50%; 
   color: white; 
-  padding-bottom: 75px;
   background-color: black; 
+  margin-bottom: 2rem; 
+}
+
+.break{
+    width: 15%;
+    margin: 0px;
 }
 
 span.CText{
     color: #718ef8;
     display: inline; 
-    font-size: 30px; 
 }
 
 /*Navbar*/
