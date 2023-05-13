@@ -30,6 +30,7 @@ export default function Math2Shine(){
     return(
         <div>
             <Navbar/>
+            <main className={styles.main}>
             <div className = {styles.intro}>
             <div>
             <h1 className = {styles.mTitle}> 
@@ -304,7 +305,7 @@ export default function Math2Shine(){
 
                 </div>
             </div>
-
+            </main>
             <Footer/>
 
         </div>

@@ -3,8 +3,6 @@ import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import GTM from "../Images/Projects/Teachable/GTM.png"; 
-import Figma from "..//Images/Projects/Teachable/Figma.png"
 import DH from "../Images/About/DH.jpg"
 import Poster from "../Images/Projects//DH/Poster.jpg"
 import S1 from "../Images/Projects//DH/Final_Pages/Spread_1.jpg"
@@ -76,7 +74,7 @@ export default function DesignHero(){
                 A poster made to introduce viewers about typographer Wolfgang Weingart. 
             </p>
             <br/>
-            <a className = {styles.links_1} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e"> Process </a> 
+            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e"> Process </a> 
          </div>
          </div>
             <div>
@@ -102,7 +100,7 @@ export default function DesignHero(){
                 A 16-page booklet exploring the breadth of Weingart&rsquo;s career. 
             </p>
             <br/>
-            <a className = {styles.links_1} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e"> Process </a> 
+            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e"> Process </a> 
          </div>
          </div>
             <div className={styles.image_4}>
@@ -141,7 +139,7 @@ export default function DesignHero(){
             Teaser film made using film, After Effects animation, and interview from Terry Irwin. 
             </p>
             <br/>
-            <a className = {styles.links_1} href = "https://medium.com/@yixuanhu/design-hero-video-1ffb1503d645"> Process </a> 
+            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-hero-video-1ffb1503d645"> Process </a> 
          </div>
          </div>
 

@@ -70,6 +70,10 @@ iframe.ytplayer{
 
 /* Individual Project Pages*/
 
+.space{
+    margin-top: 3rem; 
+}
+
 .main{
     margin-right: 15%; 
     margin-left: 15%; 
@@ -202,11 +206,12 @@ p.text{
 
 a.links{
    color: white; 
-   font-size: 20px; 
-   padding: 15px; 
+   font-size: 16px; 
+   padding: 1rem 2rem 1rem 1rem; 
    background-color: #2d2d2d; 
    margin-right: 15px; 
-   border-radius: 10px; 
+   border-radius: 5px; 
+   width: 40%; 
 }
 
 a.links:hover{

@@ -23,6 +23,7 @@ export default function Systems(){
 
         <div>
             <Navbar/>
+            <main className={styles.main}>
             <div className = {styles.intro}>
             <div>
             <h1 className = {styles.mTitle}> 
@@ -183,6 +184,7 @@ export default function Systems(){
                     More info soon 
                 </h1>
             </div>
+            </main>
         <Footer/>
         </div>
     )
