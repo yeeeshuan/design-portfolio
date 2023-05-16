@@ -25,16 +25,16 @@ const Footer = () =>{
                     {isHovering ? (<span className={styles.styledLink}>Ethan Huang 2022</span>)
                         : (<span className={styles.styledLink}>Made with Next.js</span>)}
                 </div><div>
-                        <a href="https://www.linkedin.com/in/ethanhuang2002">
+                        <a href="https://www.linkedin.com/in/ethanhuang2002" rel="noopener noreferrer" target="_blank">
                             <span className={styles.styledLink}> Linkedin </span>
                         </a>
-                        <a href="https://read.cv/nahte.huang">
+                        <a href="https://read.cv/nahte.huang" rel="noopener noreferrer" target="_blank">
                             <span className={styles.styledLink}> Resume </span>
                         </a>
-                        <a href="https://medium.com/@yixuanhu">
+                        <a href="https://medium.com/@yixuanhu" rel="noopener noreferrer" target="_blank">
                             <span className={styles.styledLink}> Medium </span>
                         </a>
-                        <a href="https://github.com/yeeeshuan">
+                        <a href="https://github.com/yeeeshuan" rel="noopener noreferrer" target="_blank">
                             <span className={styles.styledLink}> Github </span>
                         </a>
                         <a href="mailto:yixuanhu@andrew.cmu.edu">
@@ -42,13 +42,13 @@ const Footer = () =>{
                         </a>
                     </div></>)
             :(<div>
-               <a href = "https://www.linkedin.com/in/ethanhuang2002">
+               <a href = "https://www.linkedin.com/in/ethanhuang2002" rel="noopener noreferrer" target="_blank">
                    <span className = {styles.styledLink}> Linkedin </span>
                </a>
-               <a href = "https://read.cv/nahte.huang">
+               <a href = "https://read.cv/nahte.huang" rel="noopener noreferrer" target="_blank">
                    <span className = {styles.styledLink}> Resume </span>
                </a>
-               <a href = "mailto:yixuanhu@andrew.cmu.edu">
+               <a href = "mailto:yixuanhu@andrew.cmu.edu" rel="noopener noreferrer" target="_blank">
                <span className = {styles.styledLink}> Contact </span>
                </a>
            </div>)

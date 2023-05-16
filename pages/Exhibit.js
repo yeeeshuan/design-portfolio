@@ -44,7 +44,7 @@ export default function Exhibit(){
                 As users move through the exhibit, they will feel as if they are moving through time and seeing how the Eames&rsquo; work builds on top of each other. 
             </p>
             <br/>
-            <a className = {styles.links} href = "https://medium.com/@yixuanhu/hybrid-exhibit-environments-87b5a09daad6"> Full Process </a> 
+            <a className = {styles.links} href = "https://medium.com/@yixuanhu/hybrid-exhibit-environments-87b5a09daad6" rel="noopener noreferrer" target="_blank"> Full Process </a> 
          </div>
          </div>
          <div style = {{

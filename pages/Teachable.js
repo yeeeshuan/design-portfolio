@@ -32,8 +32,8 @@ export default function Teachable(){
             interactions for the Human-Processing-Model. 
             </p>
             <br/>
-            <a className = {styles.links} href = "https://yeeeshuan.github.io/interactive_grid/"> Live Website </a> 
-            <a className = {styles.links} href = "https://github.com/yeeeshuan/interactive_grid">Github</a>
+            <a className = {styles.links} href = "https://yeeeshuan.github.io/interactive_grid/" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+            <a className = {styles.links} href = "https://github.com/yeeeshuan/interactive_grid" rel="noopener noreferrer" target="_blank">Github</a>
          </div>
          </div>
             <div style = {{

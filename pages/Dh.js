@@ -74,7 +74,7 @@ export default function DesignHero(){
                 A poster made to introduce viewers about typographer Wolfgang Weingart. 
             </p>
             <br/>
-            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e"> Process </a> 
+            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e" rel="noopener noreferrer" target="_blank"> Process </a> 
          </div>
          </div>
             <div>
@@ -100,7 +100,7 @@ export default function DesignHero(){
                 A 16-page booklet exploring the breadth of Weingart&rsquo;s career. 
             </p>
             <br/>
-            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e"> Process </a> 
+            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e" rel="noopener noreferrer" target="_blank"> Process </a> 
          </div>
          </div>
             <div className={styles.image_4}>
@@ -139,7 +139,7 @@ export default function DesignHero(){
             Teaser film made using film, After Effects animation, and interview from Terry Irwin. 
             </p>
             <br/>
-            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-hero-video-1ffb1503d645"> Process </a> 
+            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-hero-video-1ffb1503d645" rel="noopener noreferrer" target="_blank"> Process </a> 
          </div>
          </div>
 
@@ -201,8 +201,8 @@ export default function DesignHero(){
             highlighting his career and visual style. 
             </p>
             <br/>
-            <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/html/m.html"> Live Website </a> 
-            <a className = {styles.links} href = "https://github.com/yeeeshuan/DH_Mobile"> Github </a> 
+            <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/html/m.html" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+            <a className = {styles.links} href = "https://github.com/yeeeshuan/DH_Mobile" rel="noopener noreferrer" target="_blank"> Github </a> 
             <br/>
          </div>
          </div>
