@@ -45,10 +45,9 @@ iframe.ytplayer{
 }
 
 .imageWrap{
-    width: 47%; 
+    width: 43%; 
     display: inline-block; 
-    margin-right: 10px; 
-    margin-left: 30px; 
+    margin-left: 5rem; 
     padding-top: 10px; 
     padding-left: 10px; 
     padding-right: 10px; 
@@ -57,6 +56,11 @@ iframe.ytplayer{
     background-color: #212121; 
     overflow: hidden;  
     transition: background-color 0.5s;  
+}
+
+.imageWrap:nth-child(even){
+    margin-left: 2rem;
+    margin-right: 5rem; 
 }
 
 .imageWrap:hover{
@@ -75,8 +79,8 @@ iframe.ytplayer{
 }
 
 .main{
-    margin-right: 15%; 
-    margin-left: 15%; 
+    margin-right: 10rem; 
+    margin-left: 10rem; 
 }
 
 .page{

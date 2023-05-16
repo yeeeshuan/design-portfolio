@@ -3,7 +3,7 @@ import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import P1 from "../Images/About/P1.png"
+import P1 from "../Images/About/P1.jpeg"
 import I2 from "../Images/Projects/Math2Shine/2.png"
 import I3 from "../Images/Projects/Math2Shine/3.png"
 import I4 from "../Images/Projects/Math2Shine/4.png"
@@ -55,9 +55,8 @@ export default function Math2Shine(){
          <div style = {{
                 display: "flex", 
                 justifyContent: "center", 
-            
             }}>
-                <Image src = {P1} width = {1080} height ={600} alt = "cover image"/>
+               <Image src = {P1} width = {1080} height ={600} alt = "cover image"/>
             </div>
         <br/>
         <br/>

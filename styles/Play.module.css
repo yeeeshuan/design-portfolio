@@ -6,8 +6,13 @@ background-color: black;
 border:1px solid #303030; 
 }
 
+.exp{
+    display: flex; 
+    margin: 5rem 5rem 0 5rem; 
+}
+
 h1.title{
-margin-left: 200px; 
+margin-left: 5rem; 
 color: white; 
 margin-top: 75px; 
 margin-bottom: 100px; 
@@ -16,8 +21,6 @@ margin-bottom: 100px;
 p.intro{
     font-size: 30px; 
     display: inline-flex; 
-    margin-left: 200px; 
-    margin-bottom: 50px; 
     color: white; 
  }
 
@@ -26,13 +29,12 @@ font-size: 20px;
 display: inline-flex; 
 float: right; 
 color: white; 
-margin-right: 200px; 
-margin-top: 40px; 
+margin-left: auto;
 }
 
 .photoGallery{
-    margin-right: 200px; 
-    margin-left: 200px; 
+    margin-right: 5rem; 
+    margin-left: 5rem; 
     align-items: center;
     display: grid; 
     grid-template-columns: repeat(3, 0.5fr);
@@ -44,8 +46,8 @@ margin-top: 40px;
 }
 
 .singlePhoto{
-    margin-right: 200px; 
-    margin-left: 200px; 
+    margin-right: 5rem; 
+    margin-left: 5rem; 
 }
 
 .spreads{

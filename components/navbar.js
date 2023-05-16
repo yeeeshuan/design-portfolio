@@ -15,6 +15,9 @@ export default function Navbar(){
                <Link href = "/">
                <span className = {styles.styledLink}> Work </span>
                </Link>
+               <Link href = "/experiments">
+               <span className = {styles.styledLink}> Experiments </span>
+               </Link>
                <Link href = "/play">
                <span className = {styles.styledLink}> Play </span>
                </Link>

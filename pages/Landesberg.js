@@ -3,8 +3,6 @@ import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import GTM from "../Images/Projects/Teachable/GTM.png"; 
-import Figma from "..//Images/Projects/Teachable/Figma.png"
 import P7 from "../Images/About/P7.jpg"
 
 export default function Landesberg(){

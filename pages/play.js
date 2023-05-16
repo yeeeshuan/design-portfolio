@@ -1,5 +1,6 @@
 import styled from 'styled-components'; 
 import styles from "../styles/Play.module.css"; 
+import home from "../styles/Home.module.css"; 
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Image from 'next/image';
@@ -24,16 +25,21 @@ export default function Play(){
 return(
     <div className = {styles.play}>
         <Navbar/>
-        <h1 className = {styles.title}>
-            A collection of personal projects and explorations to help me gain new skills. 
-        </h1>
-        <hr className = {styles.temp}></hr>
-        <p className = {styles.intro}>
+        <div className = {home.introWrap}>
+        <div className = {home.des}>
+        <h2 className = {home.intro}>
+        A collection of personal projects and explorations to help me gain new skills. 
+        </h2>
+        </div>
+        </div>
+        <div className = {styles.exp}>
+        <p className={styles.intro}>
             Photos
         </p>
-        <p className = {styles.description}>
+        <p className={styles.description}>
             Snapshots of my everyday life
         </p>
+        </div>
         <div className = {styles.photoGallery}>
             <div>
                 <div className = {styles.sep}>
@@ -69,14 +75,14 @@ return(
                 </div>
             </div>
         </div>
-        <br></br>
-        <hr className = {styles.temp}></hr>
-        <p className = {styles.intro}>
+        <div className = {styles.exp}>
+        <p className={styles.intro}>
             Sketches
         </p>
-        <p className = {styles.description}>
+        <p className={styles.description}>
             A few sketches from my current sketchbook 
         </p>
+        </div>
         <div className = {styles.photoGallery}>
             <div>
                 <div className = {styles.sep}>
