@@ -78,6 +78,7 @@ iframe.ytplayer{
 }
 
 .main{
+    background-color: black;
     margin-right: 10rem; 
     margin-left: 10rem; 
 }
@@ -156,6 +157,7 @@ p.d1 {
 
 
 p.text{
+    color: white; 
     font-size: 18px; 
     line-height: 160%; 
     font-weight: 400; 
