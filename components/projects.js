@@ -10,16 +10,49 @@ import P7 from '../Images/About/P7.jpg';
 import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/About/TEDxCMU.jpg'
 
-import React, {Component } from 'react';
+import React, {useState, useEffect, Component } from 'react';
+
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window
+    return {
+        width,
+        height,
+    }
+}
+
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState({width: 0, height: 0}) // <-- don't invoke here
+
+    useEffect(() => {
+        function handleResize() {
+            setWindowDimensions(getWindowDimensions())
+        }
+
+        handleResize() // <-- invoke this on component mount
+        window.addEventListener('resize', handleResize)
+        
+        return () => { window.removeEventListener('resize', handleResize) }
+    }, [])
+
+    return windowDimensions
+}
 
 function Video(props){
+    const size = useWindowDimensions();
+    let height = size.height; 
+    if (height >= 700 && height <= 800){
+        height = (size.height/ 3.5); 
+    }
+    if (height >= 800){
+        height = (size.height / 2.5); 
+    }
     return(
         <div className = {styles.imageWrap}>
                 <div className="item-container">
                 <a href = {props.link}>
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    <iframe className = "ytplayer" width = "100%" height = "350px"src={props.thumbnail}
+                    <iframe className = "ytplayer" width = "100%" height ={height} src={props.thumbnail}
                     frameBorder = "0" modestbranding = "1"></iframe>
                 </div>
                     <h1 className = {styles.title}> {props.name}</h1>

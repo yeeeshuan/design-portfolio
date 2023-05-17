@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components'; 
+import { useState, useEffect } from 'react'
 import React, {Component } from 'react';
 import styles from "../styles/Projects.module.css"; 
 import home from "../styles/Home.module.css"; 
@@ -9,14 +10,43 @@ import Footer from '../components/footer';
 import P5 from '../Images/About/P5.png'; 
 import P6 from '../Images/About/P6.png'; 
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window
+    return {
+        width,
+        height,
+    }
+}
+
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState({width: 0, height: 0}) // <-- don't invoke here
+
+    useEffect(() => {
+        function handleResize() {
+            setWindowDimensions(getWindowDimensions())
+        }
+
+        handleResize() // <-- invoke this on component mount
+        window.addEventListener('resize', handleResize)
+        
+        return () => { window.removeEventListener('resize', handleResize) }
+    }, [])
+
+    return windowDimensions
+}
 
 function Video(props){
+
+    const size = useWindowDimensions();
+    let height = 0; 
+    height = (size.height / 2.4); 
+
     return(
         <div className = {styles.imageWrap}>
             <div className="item-container">
             <a href = {props.link}>
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                <iframe className = "ytplayer" width = "100%" height = "350px"src={props.thumbnail}
+                <iframe className = "ytplayer" width = "100%" height = {height} src={props.thumbnail}
                 frameBorder = "0" modestbranding = "1"></iframe>
             </div>
                 <h1 className = {styles.title}> {props.name}</h1>
@@ -71,7 +101,7 @@ class Graphics extends Component{
         </div>
         <div className={styles.space}>
         </div>
-        <div className = "projectRow">
+        <div className = {styles.projectRow}>
             {this.state.projects.map((project, idx) => {
                 if (project.type == "v"){
                     return <Video

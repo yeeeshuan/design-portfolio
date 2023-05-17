@@ -21,17 +21,17 @@ export default function UCRE(){
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
-            Landesberg Design Internship 
+            Ad Recomendation System Redesign
             </h1>
             <div className = {styles.intro}>
             <div>
-            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Design Intern</p> 
+            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> UX Researcher, Designer</p> 
             <br></br>
             <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> June—August 2023 </p>
+            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> January—August 2023 </p>
             <br></br>
             <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe CC, Figma</p>
+            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe CC, Figma, UX Research Methods</p>
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
@@ -85,7 +85,7 @@ export default function UCRE(){
             <div className = {styles.page}>
                 <div>
                 <p className = {styles.d}> 
-                Composition and Layout 
+                Walking the Wall
                 </p>
                 </div>
                 <Image src = {Wall} alt = "Walking the Wall"/>
@@ -107,7 +107,7 @@ export default function UCRE(){
             <div className = {styles.page}>
                 <div>
                 <p className = {styles.d}> 
-                Composition and Layout 
+                Contextual Interview 
                 </p>
                 </div>
                 <Image src = {Cont} alt = "Contextual Interview"/>

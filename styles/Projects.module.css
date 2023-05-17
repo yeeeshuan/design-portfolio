@@ -8,7 +8,6 @@
 .projectRow{
     display: flex;  
     flex-wrap: wrap;
-    grid-template-columns: repeat(2, 0.5fr);
 }
 
 a.styledLink{
@@ -45,8 +44,8 @@ iframe.ytplayer{
 }
 
 .imageWrap{
-    width: 43%; 
     display: inline-block; 
+    width: 43%;
     margin-left: 5rem; 
     padding-top: 10px; 
     padding-left: 10px; 
@@ -353,6 +352,16 @@ a.links:hover{
         margin-top: 10px; 
         margin-bottom: 50px; 
     
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) { 
+    .imageWrap{
+        display: inline-block; 
+        width: 40%;
     }
 
 }
