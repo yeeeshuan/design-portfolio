@@ -80,7 +80,7 @@ return(
             Sketches
         </p>
         <p className={styles.description}>
-            A few sketches from my current sketchbook 
+            Sketches from my current sketchbook 
         </p>
         </div>
         <div className = {styles.photoGallery}>

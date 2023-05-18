@@ -239,6 +239,13 @@ a.links:hover{
  }
 
 @media (max-width: 600px) {
+
+    .main{
+        background-color: black;
+        padding-right: 2rem; 
+        padding-left: 2rem; 
+    }
+
     .gallery {
         align-items: center;
         display: grid;
@@ -249,7 +256,7 @@ a.links:hover{
         margin-right: 25px; 
         margin-left: 25px; 
         margin-top: 0px; 
-        margin-bottom: 75px; 
+        margin-bottom: 3rem; 
         align-items: center;
         display: block; 
         grid-template-columns: none;
@@ -257,19 +264,27 @@ a.links:hover{
     }
 
     .projectRow{
-        display: flex;  
-        flex-wrap: wrap;
-        margin-right: 25px; 
-        margin-left: 25px; 
+        display: block;  
+        flex-wrap: none;
+        margin-right: 0; 
+        margin-left: 0; 
     }
 
     .imageWrap{
-        width: 87%; 
+        width: 80%; 
         display: inline-block; 
-        margin-right: 25px; 
-        margin-left: 25px; 
+        margin-right: 2rem; 
+        margin-left: 2rem; 
+        padding-top: 10px; 
+        padding-left: 10px; 
+        padding-right: 10px; 
         overflow: hidden;  
         transition: background-color 0.5s;  
+    }
+
+    .imageWrap:nth-child(even){
+        margin-left: 2rem;
+        margin-right: 0; 
     }
 
     .empty{
@@ -278,36 +293,36 @@ a.links:hover{
         z-index: -1;      
     }
 
+    h1.mTitle{
+        color: white; 
+        font-size: 24px; 
+    }
+
     h1.pTitle{
         margin-top: 15px; 
         color: white; 
-        font-size: 50px; 
-        font-family: neue-haas-grotesk-text, sans-serif;
+        font-size: 24px; 
     }
     
     h1.bTitle{
         margin-top: 10px; 
         color: rgb(148, 148, 148); 
-        font-size: 30px; 
-        font-family: neue-haas-grotesk-text, sans-serif;
+        font-size: 18px; 
     }
-    
 
     .intro{
         display: block; 
         margin-top: 0px; 
-        margin-right: 25px; 
-        margin-left: 25px; 
+        margin-bottom: 3rem; 
         align-items: center;
         grid-template-columns: none;
         grid-gap: none;
     }
 
     p.text{
-        font-family: neue-haas-grotesk-text, sans-serif;
         font-size: 16px; 
         line-height: 180%; 
-        margin-bottom: 50px; 
+        margin-bottom: 1rem; 
     }
 
     p.d{
@@ -315,17 +330,17 @@ a.links:hover{
     }
 
     p.d2 {
-        color: rgb(148, 148, 148); 
-        display: inline; 
-        padding-bottom: 10px; 
-        font-size: 18px; 
+        font-size: 14px; 
+        line-height: 120%; 
     }
     
     p.d1 {
-        color: rgb(224, 127, 0); 
-        display: inline; 
-        padding-bottom: 10px; 
-        font-size: 18px; 
+        font-size: 14px; 
+        line-height: 120%;
+    }
+
+    .project{
+        margin-bottom: 5rem; 
     }
 
     .image_1{
