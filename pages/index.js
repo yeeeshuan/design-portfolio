@@ -10,7 +10,7 @@ export default function Home() {
     return (
       <div className = {styles.page}>
         <Head>
-        <title>Ethan Huang Design</title>
+        <title>Ethan Huang Design | Home</title>
         </Head>
         <Navbar/>
         <div className = {styles.introWrap}>

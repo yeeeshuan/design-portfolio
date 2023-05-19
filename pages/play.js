@@ -4,6 +4,7 @@ import home from "../styles/Home.module.css";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Image from 'next/image';
+import Head from 'next/head';
 import S1 from "../Images/Play/Sketches/1.jpg"
 import S2 from "../Images/Play/Sketches/2.jpg"
 import S3 from "../Images/Play/Sketches/3.jpg"
@@ -24,6 +25,9 @@ import P9 from "../Images/Play/Photos/9.jpg"
 export default function Play(){
 return(
     <div className = {styles.play}>
+        <Head>
+        <title>Ethan Huang Design | Play</title>
+        </Head>
         <Navbar/>
         <div className = {home.introWrap}>
         <div className = {home.des}>

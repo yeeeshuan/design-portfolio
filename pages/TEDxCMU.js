@@ -1,6 +1,7 @@
 import styled from 'styled-components'; 
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
+import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import TED from "../Images/About/TEDxCMU.jpg"
@@ -8,6 +9,9 @@ import TED from "../Images/About/TEDxCMU.jpg"
 export default function TEDxCMU(){
     return(
         <div>
+            <Head>
+            <title>Ethan Huang Design | TEDxCMU</title>
+            </Head>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

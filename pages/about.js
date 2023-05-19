@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import styles from "../styles/About.module.css"; 
 import Navbar from '../components/navbar';
 import Image from "next/image";
+import Head from 'next/head';
 import Footer from '../components/footer'; 
 import Me from '../Images/About/About_1.jpg'; 
 import Photo from '../Images/About/About_2.jpg'; 
@@ -34,7 +35,9 @@ const About = () => {
 
 return(
     <div className = {styles.page}>
-        
+        <Head>
+            <title>Ethan Huang Design | About</title>
+        </Head> 
         <Navbar/>
         <div className = {styles.display}>
         <div>

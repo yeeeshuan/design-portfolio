@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components'; 
+import Head from 'next/head';
 import { useState, useEffect } from 'react'
 import React, {Component } from 'react';
 import styles from "../styles/Projects.module.css"; 
@@ -91,6 +92,9 @@ class Graphics extends Component{
     render(){
     return(
         <div className = {home.page}>
+        <Head>
+        <title>Ethan Huang Design | Experiments</title>
+        </Head>
             <Navbar/>
         <div className = {home.introWrap}>
         <div className = {home.des}>

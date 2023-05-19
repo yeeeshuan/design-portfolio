@@ -1,6 +1,7 @@
 import styled from 'styled-components'; 
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
+import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Thumbnail from "../Images/About/P2.png"
@@ -10,6 +11,9 @@ import Figma from "..//Images/Projects/Teachable/Figma.png"
 export default function Teachable(){
     return(
         <div>
+             <Head>
+            <title>Ethan Huang Design | Teachable Machine</title>
+            </Head>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

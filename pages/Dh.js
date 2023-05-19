@@ -1,6 +1,7 @@
 import styled from 'styled-components'; 
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
+import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import DH from "../Images/About/DH.jpg"
@@ -25,6 +26,9 @@ import K4 from "../Images/Projects//DH/Kiosk/K_4.png"
 export default function DesignHero(){
     return(
         <div>
+            <Head>
+            <title>Ethan Huang Design | Design Hero</title>
+            </Head>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

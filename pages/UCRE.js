@@ -12,12 +12,16 @@ import Journey from "../Images/Projects/UCRE/Journey.png"
 import Crazy from "../Images/Projects/UCRE/Crazy.png"
 import Lofi from "../Images/Projects/UCRE/LoFi.png"
 import Final from "../Images/Projects/UCRE/Final.png"
+import Head from 'next/head';
 
 
 
 export default function UCRE(){
     return(
         <div>
+            <Head>
+            <title>Ethan Huang Design | UCRE</title>
+            </Head>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

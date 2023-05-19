@@ -1,6 +1,7 @@
 import styled from 'styled-components'; 
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
+import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import P1 from "../Images/About/P1.jpeg"
@@ -29,6 +30,9 @@ import W2 from "../Images/Projects/Math2Shine/W2.png"
 export default function Math2Shine(){
     return(
         <div>
+            <Head>
+            <title>Ethan Huang Design | Math2Shine</title>
+            </Head>
             <Navbar/>
             <main className={styles.main}>
             <div className = {styles.intro}>
