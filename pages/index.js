@@ -3,11 +3,15 @@ import styles from "../styles/Home.module.css";
 import Navbar from '../components/navbar';
 import Projects from '../components/projects';
 import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
 import Footer from '../components/footer';
 
 export default function Home() {
     return (
       <div className = {styles.page}>
+        <Head>
+        <title>Ethan Huang Design</title>
+        </Head>
         <Navbar/>
         <div className = {styles.introWrap}>
         <div className = {styles.des}>
