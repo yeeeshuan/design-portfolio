@@ -185,15 +185,15 @@ export default function Math2Shine(){
             </div>
             <div className = {styles.page}>
             <p className = {styles.d}> 
-                    Figma student portal mockup
+                    Student portal prototype
                 </p>
-                <Image src = {I8} alt = "user flow" />
+                <iframe width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUBN2aTVAiO4XoEXr4EHVCs%2FTeacher-Portal%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D650-3123%26viewport%3D233%252C-1616%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D70%253A192%26show-proto-sidebar%3D1%26hide-ui=1" frameBorder = "0"></iframe>
             </div>
             <div className = {styles.page}>
             <p className = {styles.d}> 
-                    Figma teacher portal mockup
+                    Teacher portal prototype
                 </p>
-                <Image src = {I17} alt = "user flow" />
+                <iframe width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUBN2aTVAiO4XoEXr4EHVCs%2FTeacher-Portal%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D75-13%26viewport%3D233%252C-1616%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D70%253A192%26show-proto-sidebar%3D1%26hide-ui=1" frameBorder = "0"></iframe>
             </div>
             <div className = {styles.page}>
                 <div>
@@ -270,16 +270,18 @@ export default function Math2Shine(){
                 Development
                 </h1>
                 <p className = {styles.text}>
-                Collaborated with other developers to translate the designs from Figma to React.js while implementing the MUI library. 
+                Collaborated with the development team to build the frontend of the home page from Figma to React.js while implementing the MUI library. 
                 </p>
                 </div>
             </div>
 
             <div className = {styles.page}>
                 <div>
-
                 </div>
+                <div>
+                <iframe width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcKiE598kbG1W05pLyxSoKC%2FMath2Shine-Website-Redesign%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D637-85%26viewport%3D-13%252C59%252C0.19%26scaling%3Dscale-down%26starting-point-node-id%3D3%253A2%26show-proto-sidebar%3D1%26hide-ui=1" frameBorder = "0" allowFullScreen></iframe>
                 <Image src = {I10} alt = "Development team "/>
+                </div>
             </div>
             <div className = {styles.page}>
                 <div>

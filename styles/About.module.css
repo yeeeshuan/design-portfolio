@@ -70,22 +70,24 @@ span.CText{
 
     p.text{
         color: white; 
-        font-size: 12px; 
+        font-size: 16px; 
         line-height: 1.6;
-        margin-left: 50px; 
-        margin-right: 50px; 
+        margin-left: 2rem; 
+        margin-right: 2rem; 
     }
 
     span.CText{
         color: #718ef8; 
         display: inline; 
-        font-size: 12px; 
+        font-size: 16px; 
     }
 
     h1.title{
         color: white; 
         font-size: 24px; 
         margin-top: 0px; 
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
 }

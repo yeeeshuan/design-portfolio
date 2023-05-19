@@ -81,6 +81,8 @@ iframe.ytplayer{
     background-color: black;
     padding-right: 10rem; 
     padding-left: 10rem; 
+    padding-top: 5rem; 
+    padding-bottom: 5rem; 
 }
 
 .page{
@@ -236,6 +238,15 @@ a.links:hover{
  a.links_1:hover{
     color: darkgray; 
     transition: 0.3s
+ }
+
+ @media (min-width: 2000px) {
+    .main{
+        background-color: black;
+        padding-right: 30rem; 
+        padding-left: 30rem; 
+    }
+
  }
 
 @media (max-width: 600px) {
