@@ -204,7 +204,7 @@ export default function Exhibit(){
                     </p>
                     </div>
                     <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/775602316?autoplay=1&loop=1&mute=1&controls=0"
-                 frameBorder = "0" modestbranding = "1"></iframe>
+                 frameBorder = "0" modestBranding = "1"></iframe>
                 </div>
                 <div className = {styles.page}>
                     <div>

@@ -12,7 +12,7 @@ export default function Teachable(){
     return(
         <div>
              <Head>
-            <title>Ethan Huang Design | Teachable Machine</title>
+            <title>Ethan Huang Design | Interactive Grid</title>
             </Head>
             <Navbar/>
             <main className={styles.main}>
@@ -140,7 +140,7 @@ export default function Teachable(){
                     </div>
                     <div>
                     <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/myro03md-mc?autoplay=1&loop=1&mute=1&controls=0&playlist=myro03md-mc"
-                    frameBorder = "0" modestbranding = "1"></iframe>
+                    frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
                 <div className = {styles.page}>
@@ -167,7 +167,7 @@ export default function Teachable(){
                             Users show different items for the objectDetection library to detect different objects and allocate them to assigning colors and deleting colors. 
                         </p>
                     <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/O1qUn1EHfTQ?autoplay=1&loop=1&mute=1&controls=0&playlist=O1qUn1EHfTQ"
-                    frameBorder = "0" modestbranding = "1"></iframe>
+                    frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
                 <div className = {styles.page}>
@@ -194,7 +194,7 @@ export default function Teachable(){
                     </div>
                     <div>
                     <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/183t1zx_YNQ?autoplay=1&loop=1&mute=1&controls=0&playlist=183t1zx_YNQ"
-                    frameBorder = "0" modestbranding = "1"></iframe>
+                    frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@ export default function Teachable(){
                     </div>
                     <div>
                     <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/743139368?autoplay=1&loop=1&mute=1&controls=0"
-                 frameBorder = "0" modestbranding = "1"></iframe>
+                 frameBorder = "0" modestBranding = "1"></iframe>
 
                     </div>
                 </div>
@@ -236,7 +236,7 @@ export default function Teachable(){
                         cheeks, the forehead, and the mouth and found the distance of those points to the nose—when the distance passes or goes under a certain value, the grid would move. 
                     </p>
                     <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/hzHO7XYRJdw?autoplay=1&loop=1&mute=1&controls=0&playlist=hzHO7XYRJdw"
-                 frameBorder = "0" modestbranding = "1"></iframe>
+                 frameBorder = "0" modestBranding = "1"></iframe>
 
                     </div>
                 </div>

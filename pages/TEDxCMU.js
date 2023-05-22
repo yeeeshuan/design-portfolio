@@ -47,7 +47,7 @@ export default function TEDxCMU(){
             </div>
         <div className={styles.space}>
          <iframe width = "100%" height="600px" src="https://www.youtube.com/embed/PJDp8zVuNLw?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameBorder = "0" modestbranding = "1"></iframe>
+            frameBorder = "0" modestBranding = "1"></iframe>
          </div>
             </main>
             <Footer/>

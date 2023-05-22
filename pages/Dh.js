@@ -149,7 +149,7 @@ export default function DesignHero(){
 
          <div>
          <iframe width = "100%" height="600px" src="https://player.vimeo.com/video/822699151?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameBorder = "0" modestbranding = "1"></iframe>
+            frameBorder = "0" modestBranding = "1"></iframe>
          </div>
             </div>
             <div className={styles.project}>
@@ -181,7 +181,7 @@ export default function DesignHero(){
          </div>
          <div>
          <iframe width = "100%" height="600px" src="https://www.youtube.com/embed/5NBvxepx6Fc?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameBorder = "0" modestbranding = "1"></iframe>
+            frameBorder = "0" modestBranding = "1"></iframe>
          </div>
             </div>
             <div className={styles.project}>

@@ -17,7 +17,7 @@ function Video(props){
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
                     <iframe className = "ytplayer" width = "100%" height = "390px"src={props.thumbnail}
-                    frameBorder = "0" modestbranding = "1"></iframe>
+                    frameBorder = "0" modestBranding = "1"></iframe>
                 </div>
                     <h1 className = {styles.title}> {props.name}</h1>
                 <p className = {styles.words}> {props.description}</p>

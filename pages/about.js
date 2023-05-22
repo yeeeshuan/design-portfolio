@@ -8,7 +8,6 @@ import Me from '../Images/About/About_1.jpg';
 import Photo from '../Images/About/About_2.jpg'; 
 import Sketches from '../Images/About/About_3.jpg'; 
 
-
 const About = () => {
 
     const [isHovering, setIsHovering] = useState(false);
