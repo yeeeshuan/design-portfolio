@@ -57,6 +57,34 @@ nav.nav{
     justify-content: space-between;
     align-items: center; 
     background-color: #171717; 
+    padding: 0 2rem 0 2rem;
+}
+
+.deskNav{
+    background-color: rgb(240, 240, 240);
+    color:black; 
+    position:absolute;
+    z-index:8000;
+    width:100%; 
+    height: 100%; 
+    padding-top: 3rem; 
+    padding-right: 2rem; 
+    transform: 0.3s;
+}
+
+.deskLinks{
+    align-items: center; 
+    text-align: right;
+}
+
+h1.deskLink{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.cross:hover{
+    transform: rotate(45deg);
+    transition: 0.3s
 }
 
 span.styledLink{
@@ -99,7 +127,6 @@ nav.footer{
         justify-content: space-between;
         align-items: center; 
         background-color: #171717; 
-        margin-bottom: 25px; 
     }
 
     nav.footer{
