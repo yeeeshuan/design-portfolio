@@ -63,7 +63,7 @@ nav.nav{
 .deskNav{
     background-color: rgb(240, 240, 240);
     color:black; 
-    position:absolute;
+    position:fixed;
     z-index:8000;
     width:100%; 
     height: 100%; 
