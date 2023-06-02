@@ -207,7 +207,7 @@ export default function Math2Shine(){
                 Redesign 
                 </h1>
                 <p className = {styles.text}>
-                To prepare for user testing, we began to protoype the navigation and content of the website. We explored with color, type and layout, 
+                To prepare for user testing, we began to prototype the navigation and content of the website. We explored with color, type, and layout, 
                 imagining different scenarios that students and teachers may have when navigating the page. 
                 </p>
                 <p className = {styles.text}>
@@ -303,7 +303,7 @@ export default function Math2Shine(){
                 <br/>
                 <br/>
                 I was also able to gain many unique insights by collaborating and communicating with a team of developers — both as a designer and a member of the team. 
-                Although I learned some of the basics to how to utilize the React.js to work the frontend, I still have much to learn about 
+                Although I learned some of the basics of how to utilize the React.js to work the frontend, I still have much to learn about 
                 all that the library offers. 
 
                 </p>

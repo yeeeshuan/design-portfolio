@@ -205,7 +205,7 @@ export default function DesignHero(){
             highlighting his career and visual style. 
             </p>
             <br/>
-            <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/html/m.html" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+            <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/index.html#" rel="noopener noreferrer" target="_blank"> Live Website </a> 
             <a className = {styles.links} href = "https://github.com/yeeeshuan/DH_Mobile" rel="noopener noreferrer" target="_blank"> Github </a> 
             <br/>
          </div>
