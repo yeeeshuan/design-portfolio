@@ -320,7 +320,7 @@ a.links:hover{
     h1.bTitle{
         margin-top: 10px; 
         color: rgb(148, 148, 148); 
-        font-size: 18px; 
+        font-size: 14px; 
     }
 
     .intro{
@@ -352,6 +352,11 @@ a.links:hover{
         line-height: 120%;
     }
 
+    p.words{
+        font-size: 14px; 
+        color: lightgrey;
+    }
+
     .project{
         margin-bottom: 5rem; 
     }
@@ -381,7 +386,6 @@ a.links:hover{
         grid-column-gap: none;
         margin-top: 10px; 
         margin-bottom: 50px; 
-    
     }
 
 }

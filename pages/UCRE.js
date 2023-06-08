@@ -79,7 +79,7 @@ export default function UCRE(){
                     Our team first started by Walking the Wall. After we did some research with some of the current issues with AI used in social media platforms, we were able to determine that: 
                     <br/>
                     <br/>
-                    1. Some platforms make the process of reporting ads extremely difficult with the use of misleading UX. 
+                    1. Some platforms make the process of reporting ads extremely difficult with the use of misleading UI. 
                     <br/>
                     <br/>
                     2. Much of the bias from current platforms correspond to current societal biases—much of the bias from AI-algorithms stem demonstrate gender biases and socioeconomic biases.                  
