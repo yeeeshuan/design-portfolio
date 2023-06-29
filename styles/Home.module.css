@@ -77,8 +77,8 @@ nav.nav{
 }
 
 h1.deskLink{
-    font-size: 30px;
-    font-weight: normal;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .cross:hover{
@@ -150,12 +150,12 @@ nav.footer{
     }
 
     h2.intro{
-        font-size: 24px;
+        font-size: 30px;
         color: white; 
         background-color: black; 
         margin-top: 2rem; 
         margin-bottom: 2rem; 
-        line-height: 1.4;
+        line-height: 1.2;
       }
 
     .introWrap{
@@ -170,6 +170,6 @@ nav.footer{
     .curr{
         font-size: 15px; 
         color: white; 
-        line-height: 2.4;
+        line-height: 1.8;
     }
 }

@@ -282,6 +282,7 @@ a.links:hover{
         flex-wrap: none;
         margin-right: 0; 
         margin-left: 0; 
+        margin-bottom: 0;
     }
 
     .imageWrap{
@@ -307,21 +308,26 @@ a.links:hover{
         z-index: -1;      
     }
 
+    h1.title{
+        line-height: 1; 
+    }
+    
     h1.mTitle{
         color: white; 
-        font-size: 24px; 
+        font-size: 30px; 
+        line-height: 1.2;
     }
 
     h1.pTitle{
         margin-top: 15px; 
         color: white; 
-        font-size: 24px; 
+        font-size: 30px; 
     }
     
     h1.bTitle{
         margin-top: 10px; 
         color: rgb(148, 148, 148); 
-        font-size: 14px; 
+        font-size: 24px; 
     }
 
     .intro{
@@ -340,7 +346,7 @@ a.links:hover{
     }
 
     p.d{
-        font-size: 18px; 
+        font-size: 16px; 
     }
 
     p.d2 {

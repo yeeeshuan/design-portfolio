@@ -70,7 +70,7 @@ span.CText{
     p.text{
         color: white; 
         font-size: 16px; 
-        line-height: 2.4;
+        line-height: 2;
         margin-left: 2rem; 
         margin-right: 2rem; 
     }
@@ -83,7 +83,7 @@ span.CText{
 
     h1.title{
         color: white; 
-        font-size: 24px; 
+        font-size: 36px; 
         margin-top: 0px; 
         margin-left: 2rem;
         margin-right: 2rem;
