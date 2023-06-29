@@ -101,7 +101,6 @@ span.styledLink:hover{
 /*footer*/
 nav.footer{
     position: relative; 
-    margin-top: 4rem; 
     bottom: 0; 
     left: 0; 
     right: 0; 
@@ -139,7 +138,7 @@ nav.footer{
         /*display: inline-flex;*/
         justify-content: space-between; 
         align-items: center; 
-        margin-top: 0rem; 
+        margin-top: 2rem; 
     }
 
     span.styledLink{

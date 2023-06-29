@@ -10,6 +10,8 @@ import Aff from "../Images/Projects/UCRE/Aff.png"
 import Empathy from "../Images/Projects/UCRE/Empathy.png"
 import Journey from "../Images/Projects/UCRE/Journey.png"
 import Crazy from "../Images/Projects/UCRE/Crazy.png"
+import Lofi from "../Images/Projects/UCRE/LoFi.png"
+import Final from "../Images/Projects/UCRE/Final.png"
 import Head from 'next/head';
 
 

@@ -1,3 +1,6 @@
+import styled from 'styled-components'; 
+import Link from 'next/link';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
 import UCRE from '../Images/About/UCRE.png'; 
