@@ -98,7 +98,7 @@ class Projects extends Component{
     }
     render(){
     return(
-        <div className = "projectRow">
+        <div className = {styles.projectRow}>
             {this.state.projects.map((project, idx) => {
                 if (project.type == "v"){
                     return <Video

@@ -8,6 +8,7 @@
 .projectRow{
     display: flex;  
     flex-wrap: wrap;
+    margin-bottom: 5rem;
 }
 
 a.styledLink{
@@ -21,11 +22,6 @@ p.words{
 p.words:hover{
     color: lightgrey;
     font-weight: 400; 
-}
-
-h1.title{
-    color: white; 
-    font-size: 20px; 
 }
 
 .overLay{
@@ -106,6 +102,11 @@ iframe.ytplayer{
     margin-bottom: 10rem; 
 }
 
+h1.title{
+    color: white; 
+    font-size: 24px; 
+}
+
 h1.mTitle{
     color: white; 
     font-size: 45px; 
@@ -120,7 +121,7 @@ h1.pTitle{
 h1.bTitle{
     margin-top: 75px; 
     color: rgb(148, 148, 148); 
-    font-size: 30px; 
+    font-size: 36px; 
     font-weight: bold; 
 }
 

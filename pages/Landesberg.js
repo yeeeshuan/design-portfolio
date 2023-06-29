@@ -29,8 +29,8 @@ export default function Landesberg(){
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-            This summer, I will be a Design Intern at Landesberg Design working on brand design and learning how to design for the common good. 
-            More info to come!
+            In the summer of 2023, I interned as a brand designer at Landesberg Design, a creative studio in Pittsburgh. There, I helped design wireframes for websites, layouts for educational magazines, 
+            and audits to deliver to clients. 
             </p>
             <br/>
          </div>

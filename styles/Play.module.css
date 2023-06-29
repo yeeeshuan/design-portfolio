@@ -8,24 +8,23 @@ border:1px solid #303030;
 
 .exp{
     display: flex; 
-    margin: 0 5rem 0 5rem; 
+    margin: 0rem 5rem 0 5rem; 
 }
 
 h1.title{
 margin-left: 5rem; 
 color: white; 
 margin-top: 75px; 
-margin-bottom: 100px; 
 }
 
-p.intro{
+h1.intro{
     font-size: 30px; 
     display: inline-flex; 
-    color: white; 
+    color: rgb(148, 148, 148); 
  }
 
 p.description{
-font-size: 20px; 
+font-size: 16px; 
 display: inline-flex; 
 float: right; 
 color: white; 

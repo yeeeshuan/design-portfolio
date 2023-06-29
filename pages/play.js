@@ -37,12 +37,9 @@ return(
         </div>
         </div>
         <div className = {styles.exp}>
-        <p className={styles.intro}>
+        <h1 className={styles.intro}>
             Photos
-        </p>
-        <p className={styles.description}>
-            Snapshots of my everyday life
-        </p>
+        </h1>
         </div>
         <div className = {styles.photoGallery}>
             <div>
@@ -80,12 +77,9 @@ return(
             </div>
         </div>
         <div className = {styles.exp}>
-        <p className={styles.intro}>
+        <h1 className={styles.intro}>
             Sketches
-        </p>
-        <p className={styles.description}>
-            Sketches from my current sketchbook 
-        </p>
+        </h1>
         </div>
         <div className = {styles.photoGallery}>
             <div>
