@@ -61,25 +61,20 @@ class Graphics extends Component{
         <div>
             <Navbar/>
             <main className={styles.main}>
-            <div className = {styles.intro}>
-            <div>
             <h1 className = {styles.mTitle}> 
             Tangible Design Experiments
             </h1>
-            <br></br>
+            <div className = {styles.intro}>
+            <div>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Solidworks, 3D Printing, Raspberry Pi, Sketching</p>
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
             Studies and experiments done to learn about physical form, rapid prototyping, and design interactions. 
-
             </p>
             </div>
             </div>
             </main>
-        <br/>
-        <br/>
-
         <div className = "projectRow">
             {this.state.projects.map((project, idx) => {
                 if (project.type == "v"){

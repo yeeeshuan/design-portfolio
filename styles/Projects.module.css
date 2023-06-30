@@ -395,6 +395,24 @@ a.links:hover{
         margin-bottom: 50px; 
     }
 
+    .image_4{
+        align-items: center;
+        display: block; 
+        grid-template-columns: none;
+        grid-column-gap: none;
+        margin-top: 1px; 
+        margin-bottom: 1px; 
+    }
+
+    .image_5{
+        align-items: center;
+        display: block; 
+        grid-template-columns: none;
+        grid-column-gap: none;
+        margin-top: 1px; 
+        margin-bottom: 1px; 
+    }
+
 }
 
 @media only screen 
