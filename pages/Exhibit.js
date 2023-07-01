@@ -36,9 +36,7 @@ export default function Exhibit(){
             <div>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Interaction Designer, Prototyper</p> 
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> Dec 2022 </p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Physical Prototyping, Adobe Ai/Ps, Sketchup</p>
             </div>
@@ -48,7 +46,10 @@ export default function Exhibit(){
                 As users move through the exhibit, they will feel as if they are moving through time and seeing how the Eames&rsquo; work builds on top of each other. 
             </p>
             <br/>
+            <br/>
+            <p>
             <a className = {styles.links} href = "https://medium.com/@yixuanhu/hybrid-exhibit-environments-87b5a09daad6" rel="noopener noreferrer" target="_blank"> Full Process </a> 
+            </p>
          </div>
          </div>
          <div style = {{
@@ -203,7 +204,7 @@ export default function Exhibit(){
                     Prototyping with touch sensor and LED light 
                     </p>
                     </div>
-                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/775602316?autoplay=1&loop=1&mute=1&controls=0"
+                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/775602316?autoplay=1&loop=1&muted=1&controls=0"
                  frameBorder = "0" modestBranding = "1"></iframe>
                 </div>
                 <div className = {styles.page}>

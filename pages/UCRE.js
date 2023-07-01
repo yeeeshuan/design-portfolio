@@ -28,22 +28,20 @@ export default function UCRE(){
             Ad Recomendation System Redesign
             </h1>
             <div className = {styles.intro}>
-            <div>
-            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> UX Researcher, Designer</p> 
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> January—August 2023 </p>
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe CC, Figma, UX Research Methods</p>
-            </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            With current advancements in AI, AI has found itself in the world of ad recommendations on digital platforms. 
-            Working with a team, we looked at how we can use research and evaluation methods to ultimately develop a design solution that helps aid the process of reporting malicious, biased ads. 
-            </p>
-            <br/>
-         </div>
+                <div className = {styles.role}>
+                    <p className = {styles.d1}>Role //</p><p className = {styles.d2}> UX Researcher, Designer</p> 
+                    <br></br>
+                    <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> January—August 2023 </p>
+                    <br></br>
+                    <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe CC, Figma, UX Research Methods</p>
+                </div>
+                <div className = {styles.cont}> 
+                    <p className = {styles.text}>
+                    With current advancements in AI, AI has found itself in the world of ad recommendations on digital platforms. 
+                    Working with a team, we looked at how we can use research and evaluation methods to ultimately develop a design solution that helps aid the process of reporting malicious, biased ads. 
+                    </p>
+                    <br/>
+                </div>
          </div>
             <div style = {{
                 display: "flex", 

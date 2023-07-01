@@ -66,21 +66,18 @@ class Landesberg extends Component{
             Landesberg Design Internship 
             </h1>
             <div className = {styles.intro}>
-            <div>
-            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Design Intern</p> 
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> June—August 2023 </p>
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe CC, Figma</p>
-            </div>
+                <div className={styles.role}>
+                    <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Design Intern</p> 
+                    <br></br>
+                    <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> June—August 2023 </p>
+                    <br></br>
+                    <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe CC, Figma</p>
+                </div>
             <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            In the summer of 2023, I interned as a brand designer at Landesberg Design, a creative studio in Pittsburgh. There, I helped design wireframes for websites, layouts for educational magazines, 
-            and audits to deliver to clients. 
-            </p>
-            <br/>
+                <p className = {styles.text}>
+                    In the summer of 2023, I interned as a brand designer at Landesberg Design, a creative studio in Pittsburgh. There, I helped design wireframes for websites, layouts for educational magazines, 
+                and audits to deliver to clients. 
+                </p>
          </div>
          </div>
          <div style = {{

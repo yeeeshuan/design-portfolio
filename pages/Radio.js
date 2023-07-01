@@ -31,9 +31,7 @@ export default function Systems(){
             </h1>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Rapid Prototyping, Physical Computing, User Testing</p> 
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> October 2022 </p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Solidworks, Raspberry Pi, Stratasys 3D Printer, Sketching</p>
             </div>

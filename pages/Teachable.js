@@ -20,25 +20,26 @@ export default function Teachable(){
             Interactive Grid   
             </h1>
             <div className = {styles.intro}>
-            <div>
-            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Web Development, Creative Coding, Interaction Design </p> 
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> November 2022 </p>
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> React.js, P5.js, Google Teachable Machine, ML5.js</p>
-            </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            This project is a collection of interaction design experiments presented through the form of a game. Using the Google Teachable Machine 
-            and the ML5.js libraries, I was able to gain a deeper understanding of how to incorporate interactions into designs—if there is a better method to design 
-            interactions for the Human-Processing-Model. 
-            </p>
-            <br/>
-            <a className = {styles.links} href = "https://yeeeshuan.github.io/interactive_grid/" rel="noopener noreferrer" target="_blank"> Live Website </a> 
-            <a className = {styles.links} href = "https://github.com/yeeeshuan/interactive_grid" rel="noopener noreferrer" target="_blank">Github</a>
-         </div>
+                <div className = {styles.role}>
+                    <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Web Development, Creative Coding, Interaction Design </p> 
+                    <br></br>
+                    <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> November 2022 </p>
+                    <br></br>
+                    <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> React.js, P5.js, Google Teachable Machine, ML5.js</p>
+                </div>
+                <div className = {styles.cont}> 
+                    <p className = {styles.text}>
+                    This project is a collection of interaction design experiments presented through the form of a game. Using the Google Teachable Machine 
+                    and the ML5.js libraries, I was able to gain a deeper understanding of how to incorporate interactions into designs—if there is a better method to design 
+                    interactions for the Human-Processing-Model. 
+                    </p>
+                    <br/>
+                    <br/>
+                    <p>
+                        <a className = {styles.links} href = "https://yeeeshuan.github.io/interactive_grid/" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+                        <a className = {styles.links} href = "https://github.com/yeeeshuan/interactive_grid" rel="noopener noreferrer" target="_blank">Github</a>
+                    </p>
+                </div>
          </div>
             <div style = {{
                 display: "flex", 
@@ -154,20 +155,20 @@ export default function Teachable(){
                         Thinking about different ways users can use a webcam to assign interactions, I decided to have the ML5.js objectDetection library 
                         detect different items that users may have near them to assign colors to modules on the grid. 
                         </p>
+                        <p className = {styles.text}>
+                            Users show different items for the objectDetection library to detect different objects and allocate them to assigning colors and deleting colors. 
+                        </p>
                     </div>
                 </div>
                 <div className = {styles.page}>
                     <div>
                         <p className = {styles.d}> 
-                        Demonstration of how object detection interaction functions. First assign objects to color, then use objects to color modules. 
+                            Demonstration of how object detection interaction functions. First assign objects to color, then use objects to color modules. 
                         </p>
                     </div>
                     <div>
-                        <p className = {styles.text}>
-                            Users show different items for the objectDetection library to detect different objects and allocate them to assigning colors and deleting colors. 
-                        </p>
-                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/O1qUn1EHfTQ?autoplay=1&loop=1&mute=1&controls=0&playlist=O1qUn1EHfTQ"
-                    frameBorder = "0" modestBranding = "1"></iframe>
+                        <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/O1qUn1EHfTQ?autoplay=1&loop=1&mute=1&controls=0&playlist=O1qUn1EHfTQ"
+                        frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
                 <div className = {styles.page}>

@@ -38,15 +38,13 @@ export default function DesignHero(){
             <div>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Designer, Developer </p> 
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> January — May 2023 </p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ps, Ae, Id, Figma, HTML/CSS, Jquery.js</p>
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-            The project is a culmination of 5 different deliverables that come together to celebrate the life and work of Wolfgang Weingart.
+            This project is a culmination of 5 different deliverables that come together to celebrate the life and work of Wolfgang Weingart.
             </p>
             <br/>
          </div>
@@ -67,9 +65,7 @@ export default function DesignHero(){
             <div>
             <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 19.75 x 31.25 inches </p> 
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 3 Weeks </p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ps, Id</p>
             </div>
@@ -78,7 +74,10 @@ export default function DesignHero(){
                 A poster made to introduce viewers about typographer Wolfgang Weingart. 
             </p>
             <br/>
+            <br/>
+            <p>
             <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e" rel="noopener noreferrer" target="_blank"> Process </a> 
+            </p>
          </div>
          </div>
             <div>
@@ -93,9 +92,7 @@ export default function DesignHero(){
             <div>
             <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 8.25 x 10.5 inches, 16 pages </p> 
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 5 Weeks </p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ps, Ae, Id</p>
             </div>
@@ -104,7 +101,10 @@ export default function DesignHero(){
                 A 16-page booklet exploring the breadth of Weingart&rsquo;s career. 
             </p>
             <br/>
+            <br/>
+            <p>
             <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e" rel="noopener noreferrer" target="_blank"> Process </a> 
+            </p>
          </div>
          </div>
             <div className={styles.image_4}>
@@ -132,9 +132,7 @@ export default function DesignHero(){
             <div>
             <p className = {styles.d1}>Time //</p><p className = {styles.d2}> 1 Minute 15 Seconds </p> 
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 4 Weeks </p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ae, Film</p>
             </div>
@@ -143,7 +141,10 @@ export default function DesignHero(){
             Teaser film made using film, After Effects animation, and interview from Terry Irwin. 
             </p>
             <br/>
+            <br/>
+            <p>
             <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-hero-video-1ffb1503d645" rel="noopener noreferrer" target="_blank"> Process </a> 
+            </p>
          </div>
          </div>
 
@@ -160,9 +161,7 @@ export default function DesignHero(){
             <div>
             <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 48 x 27 Inches </p> 
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma</p>
             </div>
@@ -192,9 +191,7 @@ export default function DesignHero(){
             <div>
             <p className = {styles.d1}>Size //</p><p className = {styles.d2}> Desktop (1920 x 1080) </p> 
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> HTML/CSS, Jquery.js</p>
             </div>
@@ -205,9 +202,12 @@ export default function DesignHero(){
             highlighting his career and visual style. 
             </p>
             <br/>
+            <br/>
+            <p>
             <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/index.html#" rel="noopener noreferrer" target="_blank"> Live Website </a> 
             <a className = {styles.links} href = "https://github.com/yeeeshuan/DH_Mobile" rel="noopener noreferrer" target="_blank"> Github </a> 
             <br/>
+            </p>
          </div>
          </div>
          <div className={styles.image_4}>

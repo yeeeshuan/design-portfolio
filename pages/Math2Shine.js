@@ -14,9 +14,7 @@ import I6 from "../Images/Projects/Math2Shine/6.png"
 import I8 from "../Images/Projects/Math2Shine/8.png"
 import I9 from "../Images/Projects/Math2Shine/9.png"
 import I10 from "../Images/Projects/Math2Shine/10.png"
-import I11 from "../Images/Projects/Math2Shine/Ill_1.png"
-import I12 from "../Images/Projects/Math2Shine/Ill_2.png"
-import I13 from "../Images/Projects/Math2Shine/Ill_3.png"
+import I11 from "../Images/Projects/Math2Shine/Ill.png"
 import I15 from "../Images/Projects/Math2Shine/Sketch_1.png"
 import I16 from "../Images/Projects/Math2Shine/Sketch_2.png"
 import I17 from "../Images/Projects/Math2Shine/11.png"
@@ -35,26 +33,23 @@ export default function Math2Shine(){
             </Head>
             <Navbar/>
             <main className={styles.main}>
-            <div className = {styles.intro}>
-            <div>
             <h1 className = {styles.mTitle}> 
             Math2Shine Redesign 
             </h1>
-            <br></br>
-            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> UI Design and Web Development Intern </p> 
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> May 2022 - July 2022 </p>
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma, Illustrator, React.js, MUI Library</p>
-            </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            Math2Shine is an online learning platform that strives to teach students about the wonders of Vedic Maths. Working with the development team, 
-            I helped redesign and develop the Math2Shine website to reach out to more teachers, tutors, and students. 
-            </p>
-            </div>
+            <div className = {styles.intro}>
+                <div className = {styles.role}>
+                    <p className = {styles.d1}>Role //</p><p className = {styles.d2}> UI Design and Web Development Intern </p> 
+                    <br></br>
+                    <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> May 2022 - July 2022 </p>
+                    <br></br>
+                    <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma, Illustrator, React.js, MUI Library</p>
+                </div>
+                <div className = {styles.cont}> 
+                    <p className = {styles.text}>
+                    Math2Shine is an online learning platform that strives to teach students about the wonders of Vedic Maths. Working with the development team, 
+                    I helped redesign and develop the Math2Shine website to reach out to more teachers, tutors, and students. 
+                    </p>
+                </div>
          </div>
          <div style = {{
                 display: "flex", 
@@ -86,10 +81,9 @@ export default function Math2Shine(){
                     Brand guide    
                 </p>
             </div>
-              
-                    <div>
-                    <Image src = {I9} alt = "brand"/>
-                    </div>
+            <div>
+                <Image src = {I9} alt = "brand"/>
+            </div>
             </div>
             <br/>
             <br/>
@@ -99,11 +93,8 @@ export default function Math2Shine(){
                     Character Assets
                 </p>
             </div>
-
-                <div className = {styles.image_3}>
+                <div>
                     <Image src = {I11} alt = "brand"/>
-                    <Image src = {I12} alt = "brand"/>
-                    <Image src = {I13} alt = "brand"/>
                 </div>
             </div>
             <div className = {styles.page}>

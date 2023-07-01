@@ -18,25 +18,26 @@ export default function TEDxCMU(){
             TEDxCMU Event Website 
             </h1>
             <div className = {styles.intro}>
-            <div>
-            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Frontend Developer </p> 
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> March 2023 </p>
-            <br></br>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> React.js</p>
+            <div className = {styles.role}>
+                <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Frontend Developer </p> 
+                <br></br>
+                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> March 2023 </p>
+                <br></br>
+                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> React.js</p>
             </div>
             <div className = {styles.cont}> 
-            <p className = {styles.text}>
-             TEDxCMU Diffraction represents people who are willing to use their voice to influence, persuade, and change others&rsquo; worldview and perspective exponentially.
-            <br/>
-            <br/>
-            Website developed to promote the 2023 TEDxCMU main event, created in collaboration with the TEDxCMU design and innovation teams.
-            </p>
-            <br/>
-            <a className = {styles.links} href = "https://diffraction.tedxcmu.org/"> Live Website </a> 
-         </div>
+                <p className = {styles.text}>
+                TEDxCMU Diffraction represents people who are willing to use their voice to influence, persuade, and change others&rsquo; worldview and perspective exponentially.
+                <br/>
+                <br/>
+                Website developed to promote the 2023 TEDxCMU main event, created in collaboration with the TEDxCMU design and innovation teams.
+                </p>
+                <br/>
+                <br/>
+                <p>
+                <a className = {styles.links} href = "https://diffraction.tedxcmu.org/"> Live Website </a> 
+                </p>
+            </div>
          </div>
             <div style = {{
                 display: "flex", 

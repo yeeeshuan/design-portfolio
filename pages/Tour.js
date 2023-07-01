@@ -15,19 +15,16 @@ export default function Tour(){
         <div>
             <Navbar/>
             <main className={styles.main}>
-            <div className = {styles.intro}>
-            <div>
             <h1 className = {styles.mTitle}> 
             Virtual Tour  
             </h1>
+            <div className = {styles.intro}>
+            <div className = {styles.role}>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Interaction Designer, Prototyper</p> 
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> November 2022 </p>
             <br></br>
-            <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Rapid Prototyping, AfterEffects, Aero</p>
-            <br></br>
             <br></br>
             <p className = {styles.d1}>Collaborator //</p><p className = {styles.d2}> Evie Lacomb</p>
             </div>
@@ -146,9 +143,9 @@ export default function Tour(){
                     </p>
                     </div>
                     <div className = {styles.image_1}>
-                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/772267222?autoplay=1&loop=1&mute=1&controls=0"
+                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/772267222?autoplay=1&loop=1&muted=1&controls=0"
                  frameBorder = "0" modestBranding = "1"></iframe>
-                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/772265314?autoplay=1&loop=1&mute=1&controls=0"
+                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/772265314?autoplay=1&loop=1&muted=1&controls=0"
                  frameBorder = "0" modestBranding = "1"></iframe>
 
                     </div>
