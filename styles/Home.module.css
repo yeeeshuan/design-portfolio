@@ -190,6 +190,14 @@ nav.footer{
         width: 100%; 
     }
 
+    .intro{
+        width: 100%; 
+    }
+
+    .conf{
+        width: 0
+    }
+
     h2.intro{
         font-size: 30px;
         color: white; 
@@ -212,5 +220,9 @@ nav.footer{
         font-size: 15px; 
         color: white; 
         line-height: 1.8;
+    }
+
+    .button{
+        display: none; 
     }
 }
