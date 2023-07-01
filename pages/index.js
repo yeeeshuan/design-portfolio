@@ -5,6 +5,7 @@ import Projects from '../components/projects';
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Footer from '../components/footer';
+import Confetti from '../components/conf';
 
 export default function Home() {
     return (
@@ -32,6 +33,11 @@ export default function Home() {
           Developing interactive projects @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://diffraction.tedxcmu.org/">TEDxCMU</a></span>
         </p>
         </div>
+        </div>
+        <div className = {styles.conf}>
+          <div className = {styles.holder}>
+          <Confetti/>
+          </div>
         </div>
         </div>
         <Projects/>
