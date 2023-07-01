@@ -10,8 +10,6 @@ import Aff from "../Images/Projects/UCRE/Aff.png"
 import Empathy from "../Images/Projects/UCRE/Empathy.png"
 import Journey from "../Images/Projects/UCRE/Journey.png"
 import Crazy from "../Images/Projects/UCRE/Crazy.png"
-import Lofi from "../Images/Projects/UCRE/LoFi.png"
-import Final from "../Images/Projects/UCRE/Final.png"
 import Head from 'next/head';
 
 
@@ -202,7 +200,10 @@ export default function UCRE(){
                     After a certain amount of users report an ad, the ad would be taken down. Thus, users are encouraged to work with one another to “take down” biased ads. With this model, we believed that users would be more motivated than current models that are implemented to take actions against malicious ads. 
                     </p>
                     <br/>
+                    <br/>
+                    <p>
                     <a className = {styles.links} href = "https://www.figma.com/proto/l5PQA25ZqdPwOzoGBi1ArY/UCRE-Prototype?page-id=0%3A1&type=design&node-id=2-2&viewport=76%2C514%2C0.24&scaling=scale-down&starting-point-node-id=2%3A2" rel="noopener noreferrer" target="_blank"> Link to Prototype </a> 
+                    </p>
                 </div>
             </div>
             <div className={styles.space}></div>
@@ -228,7 +229,10 @@ export default function UCRE(){
                     Thus, in our final model, we decided to attempt to improve our prototype to be able to be navigated with as little reading an clicking as possible. 
                     </p>
                     <br/>
+                    <br/>
+                    <p>
                     <a className = {styles.links} href = "https://www.figma.com/proto/Tq25vEtwok2YFmao2izq3l/UCRE-FINAL-POSTER?page-id=0%3A1&type=design&node-id=20-2&viewport=443%2C152%2C0.14&scaling=contain&starting-point-node-id=20%3A2" rel="noopener noreferrer" target="_blank"> Link to Final Poster </a> 
+                    </p>
                 </div>
             </div>
             <div className={styles.space}></div>

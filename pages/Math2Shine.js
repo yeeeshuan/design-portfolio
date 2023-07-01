@@ -238,25 +238,6 @@ export default function Math2Shine(){
                 </p>
                 <Image src = {I5} alt = "student portal"/>
             </div>
-            <div className = {styles.page}>    
-                <p className = {styles.d}> 
-                    Assignment Page — designed a better way for students to recognize missing assignments 
-                </p>
-                <Image src = {I6} alt = "Assignment "/>
-            </div>
-            <div className = {styles.page}>    
-                <p className = {styles.d}> 
-                    Student worksheet page — incorporated a better flow of how to best meet student learning goals
-                </p>
-                <Image src = {I19} alt = "Assignment "/>
-            </div>
-            <div className = {styles.page}>    
-                <p className = {styles.d}> 
-                    Video page 
-                </p>
-                <Image src = {I18} alt = "Assignment "/>
-            </div>
-
             <div className = {styles.page}>
                 <div>
                 </div>           
