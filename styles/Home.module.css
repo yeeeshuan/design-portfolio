@@ -9,12 +9,12 @@
 }
 
 .des{
-    width: 50%; 
+    width: 60%; 
 }
 
 .conf{
     padding-top: 2rem;
-    width: 50%; 
+    width: 40%; 
     justify-content: space-between;
     flex-direction: column;
     display: flex;
