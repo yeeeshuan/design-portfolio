@@ -58,7 +58,7 @@ export default function DesignHero(){
             </div>
             <br/>
             <div className={styles.project}>
-            <h1 className = {styles.mTitle}> 
+            <h1 className = {styles.pTitle}> 
             Poster 
             </h1>
             <div className = {styles.intro}>
@@ -85,7 +85,7 @@ export default function DesignHero(){
             </div>
             </div>
             <div className={styles.project}>
-            <h1 className = {styles.mTitle}> 
+            <h1 className = {styles.pTitle}> 
             Booklet  
             </h1>
             <div className = {styles.intro}>
@@ -125,7 +125,7 @@ export default function DesignHero(){
             </div>
             </div>
             <div className={styles.project}>
-            <h1 className = {styles.mTitle}> 
+            <h1 className = {styles.pTitle}> 
             Animation   
             </h1>
             <div className = {styles.intro}>
@@ -154,7 +154,7 @@ export default function DesignHero(){
          </div>
             </div>
             <div className={styles.project}>
-            <h1 className = {styles.mTitle}> 
+            <h1 className = {styles.pTitle}> 
             Mobile Experience   
             </h1>
             <div className = {styles.intro}>
@@ -184,7 +184,7 @@ export default function DesignHero(){
          </div>
             </div>
             <div className={styles.project}>
-         <h1 className = {styles.mTitle}> 
+         <h1 className = {styles.pTitle}> 
             Interactive Website
             </h1>
             <div className = {styles.intro}>
@@ -197,7 +197,7 @@ export default function DesignHero(){
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-            The interactive website that consists of a timeline of Weingart&rsquo;s accomplishments, 
+            This interactive website consists of a timeline of Weingart&rsquo;s accomplishments, 
             a brief biography, and a gallery of his most famous pieces, 
             highlighting his career and visual style. 
             </p>

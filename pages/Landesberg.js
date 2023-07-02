@@ -6,6 +6,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import P7 from "../Images/About/P7.jpg"
 import Web from "../Images/Projects/Landesberg/Web.png"
+import Mag from "../Images/Projects/Landesberg/Mag.png"
 import React, {Component } from 'react';
 
 function Video(props){
@@ -48,8 +49,8 @@ class Landesberg extends Component{
         super(props);
         this.state = {
             projects:[
-                //{type : "i", name : "Web/Mobile Designs", description: "UX Design, Figma Wireframing and Prototyping", image: Web, link: "/Landesberg/Websites"},
-                //{type : "i", name : "Magazine Layouts", description: "Creating Design Languages", image: P7, link: "/Landesberg/Magazines"}, 
+                {type : "i", name : "Web/Mobile Designs", description: "UX Design, Figma Wireframing and Prototyping", image: Web, link: "/Landesberg/Websites"},
+                {type : "i", name : "Magazine Layouts", description: "Creating Design Languages", image: Mag, link: "/Landesberg/Magazines"}, 
                 //{type : "i", name : "Motion Graphics", description: "Animations and Videos", image: P7, link: "/Landesberg/Websites"},
                 //{type : "i", name : "Branded Packaging", description: "Stationary and Tickets", image: P7, link: "/Landesberg/Websites"}
             ]
@@ -81,12 +82,6 @@ class Landesberg extends Component{
                 </p>
          </div>
          </div>
-         <div style = {{
-                display: "flex", 
-                justifyContent: "center", 
-            }}>
-               <Image src = {P7} width = {1080} height ={600} alt = "cover image"/>
-            </div>
          </main>
          <div className = "projectRow">
             {this.state.projects.map((project, idx) => {

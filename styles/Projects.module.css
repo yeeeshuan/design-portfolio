@@ -41,13 +41,11 @@ iframe.ytplayer{
 
 .imageWrap{
     display: inline-block; 
-    width: 44.5%;
+    width: 43.5%;
     margin-left: 5rem; 
-    padding-top: 10px; 
-    padding-left: 10px; 
-    padding-right: 10px; 
+    padding: 0.5rem; 
     margin-bottom: 50px; 
-    border-radius: 10px; 
+    border-radius: 0.5rem; 
     background-color: #212121; 
     overflow: hidden;  
     transition: background-color 0.5s;  
@@ -117,14 +115,14 @@ h1.title{
 
 h1.mTitle{
     color: white; 
-    font-size: 45px; 
+    font-size: 48px; 
 }
 
 h1.pTitle{
     margin-top: 1rem; 
     margin-bottom: 1rem; 
     color: white; 
-    font-size: 50px; 
+    font-size: 42px; 
 }
 
 h1.bTitle{
