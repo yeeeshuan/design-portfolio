@@ -28,7 +28,6 @@ function Video(props){
 }
 
 function Img(props){
-    console.log(props.image)
     return(
          <div className = {styles.imageWrap}>
             <div className="item-container">
@@ -83,7 +82,7 @@ class Landesberg extends Component{
          </div>
          </div>
          </main>
-         <div className = "projectRow">
+         <div className = {styles.projectRow}>
             {this.state.projects.map((project, idx) => {
                 if (project.type == "v"){
                     return <Video

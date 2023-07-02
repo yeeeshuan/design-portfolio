@@ -8,9 +8,9 @@
 .projectRow{
     display: flex;  
     flex-wrap: wrap;
-    margin-bottom: 5rem;
+    justify-content: space-between;
+    margin: 0 5rem 5rem 5rem;
 }
-
 a.styledLink{
     text-decoration: none;
 }
@@ -41,19 +41,13 @@ iframe.ytplayer{
 
 .imageWrap{
     display: inline-block; 
-    width: 43.5%;
-    margin-left: 5rem; 
+    width: 48%;
     padding: 0.5rem; 
     margin-bottom: 50px; 
     border-radius: 0.5rem; 
     background-color: #212121; 
     overflow: hidden;  
     transition: background-color 0.5s;  
-}
-
-.imageWrap:nth-child(even){
-    margin-left: 2rem;
-    margin-right: 5rem; 
 }
 
 .imageWrap:hover{
