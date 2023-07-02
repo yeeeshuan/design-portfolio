@@ -335,7 +335,8 @@ a.links:hover{
 
     h1.pTitle{
         margin-top: 15px; 
-        color: white; 
+        color: white;
+        font-weight: 600;
         font-size: 30px; 
     }
     

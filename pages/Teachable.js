@@ -153,10 +153,6 @@ export default function Teachable(){
                         </h1>
                         <p className = {styles.text}>
                         Thinking about different ways users can use a webcam to assign interactions, I decided to have the ML5.js objectDetection library 
-                        detect different items that users may have near them to assign colors to modules on the grid. 
-                        </p>
-                        <p className = {styles.text}>
-                            Users show different items for the objectDetection library to detect different objects and allocate them to assigning colors and deleting colors. 
                         </p>
                     </div>
                 </div>
@@ -252,6 +248,7 @@ export default function Teachable(){
                         Since many of the modes to interact with the interface of experimental, a big part of designing the interface was aimed at 
                         educating users on the purpose of the interactions and the process of onboarding users.  
                     </p>
+                    <br/>
                     <br/>
                     <p className = {styles.text}>
                        With the addition of a home page, individual descriptions to describe the interaction and libraries used, and pop-ups to 
