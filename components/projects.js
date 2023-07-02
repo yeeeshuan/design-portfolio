@@ -84,7 +84,7 @@ class Projects extends Component{
         super(props);
         this.state = {
             projects:[
-                {type : "i", name : "Landesberg Design Internship", description: "Print and Digital Communications Design", image: P7, link: "/Landesberg"}, 
+                {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "/Landesberg"}, 
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "/Dh"}, 
                 {type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "/Math2Shine" }, 
                 {type : "i", name : "Ad Recomendation System Redesign", description: "UX Research/Design, User Testing ", image : UCRE, link: "/UCRE" }, 

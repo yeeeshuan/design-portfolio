@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import P7 from "../Images/About/P7.jpg"
+import Web from "../Images/Projects/Landesberg/Web.png"
 import React, {Component } from 'react';
 
 function Video(props){
@@ -47,8 +48,8 @@ class Landesberg extends Component{
         super(props);
         this.state = {
             projects:[
-                //{type : "i", name : "Web/Mobile Designs", description: "UX Design, Figma Wireframing and Prototyping", image: P7, link: "/Landesberg/Websites"},
-                //{type : "i", name : "Magazine Layouts", description: "Creating Design Languages", image: P7, link: "/Landesberg/Websites"}, 
+                //{type : "i", name : "Web/Mobile Designs", description: "UX Design, Figma Wireframing and Prototyping", image: Web, link: "/Landesberg/Websites"},
+                //{type : "i", name : "Magazine Layouts", description: "Creating Design Languages", image: P7, link: "/Landesberg/Magazines"}, 
                 //{type : "i", name : "Motion Graphics", description: "Animations and Videos", image: P7, link: "/Landesberg/Websites"},
                 //{type : "i", name : "Branded Packaging", description: "Stationary and Tickets", image: P7, link: "/Landesberg/Websites"}
             ]
@@ -75,8 +76,8 @@ class Landesberg extends Component{
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                    In the summer of 2023, I interned as a brand designer at Landesberg Design, a creative studio in Pittsburgh. There, I helped design wireframes for websites, layouts for educational magazines, 
-                and audits to deliver to clients. 
+                    In the summer of 2023, I interned as a designer at Landesberg Design, a creative studio in Pittsburgh. There, I helped design wireframes for websites, layouts for educational magazines, 
+                    and audits to deliver to clients. 
                 </p>
          </div>
          </div>
