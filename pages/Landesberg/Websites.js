@@ -18,7 +18,7 @@ export default function Websites(){
             Valparaiso Univeristy Online Magazine
             </h1>
             <div className = {styles.intro}>
-            <div>
+            <div className = {styles.role}>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Interaction designer </p> 
             <br></br>
             <br></br>

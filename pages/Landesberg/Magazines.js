@@ -18,7 +18,7 @@ export default function Magazine(){
             Lawrentian Magazine Layouts
             </h1>
             <div className = {styles.intro}>
-            <div>
+            <div className = {styles.role}>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}>Graphic Designer</p> 
             <br></br>
             <br></br>
