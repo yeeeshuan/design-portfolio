@@ -19,7 +19,7 @@ export default function Magazine(){
             </h1>
             <div className = {styles.intro}>
             <div className = {styles.role}>
-            <p className = {styles.d1}>Role //</p><p className = {styles.d2}>Graphic Designer</p> 
+            <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Graphic Designer</p> 
             <br></br>
             <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> June 2023 </p>
