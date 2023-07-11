@@ -84,13 +84,13 @@ class Projects extends Component{
         super(props);
         this.state = {
             projects:[
-                {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "/Landesberg"}, 
-                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "/Dh"}, 
-                {type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "/Math2Shine" }, 
-                {type : "i", name : "Ad Recomendation System Redesign", description: "UX Research/Design, User Testing ", image : UCRE, link: "/UCRE" }, 
-                {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "/Teachable", 
+                {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
+                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"}, 
+                {type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects//Math2Shine" }, 
+                {type : "i", name : "Ad Recomendation System Redesign", description: "UX Research/Design, User Testing ", image : UCRE, link: "Projects/UCRE" }, 
+                {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
                 thumbnail: "https://www.youtube.com/embed/7TSUz23Ogxs?start=6&end=14&autoplay=1&loop=1&mute=1&controls=0&playlist=7TSUz23Ogxs"}, 
-                {type : "i", name : "TEDxCMU: Diffraction", description: "TEDxCMU 2023 Event Website", image: TEDxCMU, link: "/TEDxCMU"}, 
+                {type : "i", name : "TEDxCMU: Diffraction", description: "TEDxCMU 2023 Event Website", image: TEDxCMU, link: "Projects/TEDxCMU"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 //{type : "i", name : "PGH Water Quality", description: "Systems Mapping", image : P4, link: "/Systems" }, 
             ]

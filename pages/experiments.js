@@ -82,9 +82,9 @@ class Graphics extends Component{
             projects:[
                 {type : "v", name : "Virtual Tour", description: "Prototyping with AR", link: "/Tour", 
                 thumbnail: "https://www.youtube.com/embed/topF8G5Y5ZY?start=98&end=104&autoplay=1&loop=1&mute=1&controls=0&playlist=topF8G5Y5ZY" }, 
-                {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "/Exhibit"}, 
+                {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "Experiments/Exhibit"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
-                {type : "i", name : "Tangible Design", description: "Experiments with Physical and Rapid Prototyping", image : P5, link: "/Tangible" }, 
+                {type : "i", name : "Tangible Design", description: "Experiments with Physical and Rapid Prototyping", image : P5, link: "Experiments/Tangible" }, 
             ]
         }
     }
