@@ -53,17 +53,17 @@ const Navbar = () => {
                     </Link>
                </h1>
                <h1 className ={styles.deskLink}>
-                <Link href = "/experiments">
+                <Link href = "/Experiments">
                     Experiments
                 </Link>
                </h1>
                <h1 className ={styles.deskLink}>
-               <Link href = "/play">
+               <Link href = "/Play">
                 Play 
                </Link>
                </h1>
                <h1 className ={styles.deskLink}>
-               <Link href = "/about">
+               <Link href = "/About">
                 About
             </Link>
             </h1>
