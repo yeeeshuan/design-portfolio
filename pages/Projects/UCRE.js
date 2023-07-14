@@ -36,7 +36,7 @@ export default function UCRE(){
                 <div className = {styles.cont}> 
                     <p className = {styles.text}>
                     With current advancements in AI, AI has found itself in the world of ad recommendations on digital platforms. 
-                    Working with a team, we looked at how we can use research and evaluation methods to ultimately develop a design solution that helps aid the process of reporting malicious, biased ads. 
+                    Working with a team, I looked at how we can use research and evaluation methods to ultimately develop a design solution that helps aid the process of reporting malicious, biased ads. 
                     </p>
                     <br/>
                 </div>
@@ -72,13 +72,13 @@ export default function UCRE(){
                     Background Research  
                 </h1>
                     <p className = {styles.text}>
-                    Our team first started by Walking the Wall. After we did some research with some of the current issues with AI used in social media platforms, we were able to determine that: 
+                    The team first started by Walking the Wall. After we did research with some of the current issues with AI used in social media platforms, we were able to determine that: 
                     <br/>
                     <br/>
                     1. Some platforms make the process of reporting ads extremely difficult with the use of misleading UI. 
                     <br/>
                     <br/>
-                    2. Much of the bias from current platforms correspond to current societal biases—much of the bias from AI-algorithms stem demonstrate gender biases and socioeconomic biases.                  
+                    2. Much of the bias from current platforms corresponds to current societal biases—much of the bias from AI-algorithms stems demonstrate gender biases and socioeconomic biases.                  
                     </p>
                 </div>
             </div>
@@ -98,9 +98,9 @@ export default function UCRE(){
                     Interviews and Surveys
                 </h1>
                     <p className = {styles.text}>
-                    After our research, the team went out to conduct contextual interviews and surveys. 
-                    We asked college students about how they approached biased ads on digital platforms, and their general thoughts around what they thought about ads. 
-                    We were able to gather insights about design decisions and needs that helped make the process of reporting ads more intuitive. 
+                    After our research, I went out to conduct contextual interviews and surveys. 
+                    I asked college students about how they approached biased ads on digital platforms, and their general thoughts on what they thought about ads. 
+                    I was able to gather insights about design decisions and needs that helped make the process of reporting ads more intuitive. 
                     </p>
                 </div>
             </div>
@@ -117,9 +117,8 @@ export default function UCRE(){
                 </div>
                 <div>
                     <p className = {styles.text}>
-                    With the help of Affinity Diagramming, we were able to make many more specific insights about the user&rsquo;s emotions, 
-                    interpretations, actions, and thoughts about design decisions when it came to reporting ads. Affinity Diagramming was where the team was able to get a better sense of the issues with the process of reporting ads, 
-                    and some of the solutions we could take to combat them. 
+                    With the help of Affinity Diagramming, I was able to make many more specific insights about the user&rsquo;s emotions, 
+                    interpretations, actions, and thoughts about design decisions when it came to reporting ads.
                     </p>
                 </div>
             </div>
@@ -136,16 +135,16 @@ export default function UCRE(){
                 </div>
                 <div>
                     <p className = {styles.text}>
-                    Something that the team wanted to dig a little deeper into were the emotions during the process of reporting ads, since it was one of the things that we learned the most about during our research. 
+                    Something that I wanted to dig a little deeper into was the emotions during the process of reporting ads since it was one of the things that the team learned the most about during our research. 
                     <br/>
                     <br/>
-                    By creating an Empathy Map and Journey Map, we understood some of the frustrations that users may face when they are reporting ads: 
+                    By creating an Empathy Map and Journey Map, I understood some of the frustrations that users may face when they are reporting ads: 
                     <br/>
                     <br/>
                     1. They are worried about their privacy being invaded and being used for malicious purposes. 
                     <br/>
                     <br/>
-                    2. Users are generally not motivated to report ads—most of users believe that the process of reporting ads sidetracks them from their original goals on the platform. 
+                    2. Users are generally not motivated to report ads—most users believe that the process of reporting ads sidetracks them from their original goals on the platform. 
                     </p>
                 </div>
             </div>
@@ -194,10 +193,11 @@ export default function UCRE(){
                     Prototyping
                 </h1>
                     <p className = {styles.text}>
-                    Our final solution to combat the issues of lack of motivation to reporting ads and privacy concerns was to incorporate the ideas of collective action to our prototype.
+                    Our final solution to combat the issues of lack of motivation to report ads and privacy concerns was to incorporate the ideas of collective action into our prototype.
                     <br/>
                     <br/>
-                    After a certain amount of users report an ad, the ad would be taken down. Thus, users are encouraged to work with one another to “take down” biased ads. With this model, we believed that users would be more motivated than current models that are implemented to take actions against malicious ads. 
+                    I designed the Lo-Fi prototype and tested the prototype with interviewees. The idea behind the prototype was that after a certain amount of users report an ad, the ad would be taken down. Thus, users are encouraged to work with one another to “take down” biased ads. With this model, 
+                    we believed that users would be more motivated than current models that are implemented to take action against malicious ads. 
                     </p>
                     <br/>
                     <br/>
@@ -220,13 +220,13 @@ export default function UCRE(){
                 </div>
                 <div>
                     <p className = {styles.text}>
-                    After some user testing, we realized that interviewees were more motivated to report ads with the new model. 
+                    After some user testing, the team realized that interviewees were more motivated to report ads with the new model. 
                     <br/>
                     <br/>
-                    However, there were still concerns with how complicated the process of reporting the ads were—interviewees believed that the process of having to choose a reason why the ad was biased was extremely time consuming. 
+                    However, there were still concerns with how complicated the process of reporting the ads was—interviewees believed that the process of having to choose a reason why the ad was biased was extremely time-consuming. 
                     <br/>
                     <br/>
-                    Thus, in our final model, we decided to attempt to improve our prototype to be able to be navigated with as little reading an clicking as possible. 
+                    Thus, in our final model, I helped redesign and improve the prototype to be able to be navigated with as little reading and clicking as possible. 
                     </p>
                     <br/>
                     <br/>

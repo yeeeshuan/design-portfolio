@@ -63,7 +63,7 @@ export default function Math2Shine(){
                  Branding 
                 </h1>
                 <p className = {styles.text}>
-                We designed the brand to feel both fun and serious; we incorporated elements to make the website seem playful to appeal 
+                I designed the brand to feel both fun and serious; we incorporated elements to make the website seem playful to appeal 
                 to the students while also keeping the design serious when it came to work. 
                 Part-playful, part-serious, just like how learning should be. 
                 </p>
@@ -102,7 +102,7 @@ export default function Math2Shine(){
                 </h1>
                 <p className = {styles.text}>
                 As students develop their math skills, many of their hardships stem from a lack of confidence in their fundamental computing skills. 
-                Through our redesign, we wanted to bring more attention to Vedic math to be able to teach students skills and tricks to be able to do 
+                Through the redesign, I wanted to bring more attention to Vedic math to teach students skills and tricks to do 
                 mathematics without second-guessing their answers.
 
                     <br/>
@@ -140,10 +140,8 @@ export default function Math2Shine(){
                 </div>
                 <div>
                 <p className = {styles.text}>
-                After sketching out a general user flow guide to guide students and tutors through the platform, we began to build high-fidelity 
-                wireframes. We wanted to ensure that the website was intuitive, with all of the main functions easily accessible.
-                What information is most important to help teachers run an online classroom? 
-                How can students most easily access resources to help them when they are stuck? 
+                After sketching out a general user flow guide to guide students and tutors through the platform, I began to build high-fidelity 
+                wireframes. I wanted to ensure that the website was intuitive, with all of the main functions easily accessible.
                 </p>
                 </div>
             </div>
@@ -168,8 +166,7 @@ export default function Math2Shine(){
                 </div>
                 <div>
                 <p className = {styles.text}>
-                In addition, since we were 
-                redesigning the website we also wanted to make sure that all of the functions from the backend were still present in the page. 
+                In addition, I also wanted to make sure that the website architecture from the previous website remained the same. 
                 </p>
                 </div>
             </div>
@@ -193,12 +190,13 @@ export default function Math2Shine(){
                 Redesign 
                 </h1>
                 <p className = {styles.text}>
-                To prepare for user testing, we began to prototype the navigation and content of the website. We explored with color, type, and layout, 
+                To prepare for user testing, I began to prototype the navigation and content of the website. I explored with color, type, and layout, 
                 imagining different scenarios that students and teachers may have when navigating the page. 
                 </p>
+                <br/>
+                <br/>
                 <p className = {styles.text}>
                 The original design of the page posed many problems, as the page was bombarded with information, and important tools were difficult to access. 
-                Users were confused as to how to navigate through the page, and 
                 My team worked on pinpointing the pain points and brainstormed a variety of methods to effectively help students and teachers navigate through 
                 the interface. 
                 </p>
