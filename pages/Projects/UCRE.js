@@ -10,6 +10,10 @@ import Aff from "../../Images/Projects/UCRE/Aff.png"
 import Empathy from "../../Images/Projects/UCRE/Empathy.png"
 import Journey from "../../Images/Projects/UCRE/Journey.png"
 import Crazy from "../../Images/Projects/UCRE/Crazy.png"
+import L1 from "../../Images/Projects/UCRE/L1.png"
+import L2 from "../../Images/Projects/UCRE/L2.png"
+import L3 from "../../Images/Projects/UCRE/L3.png"
+import Final from "../../Images/Projects/UCRE/Final.png"
 import Head from 'next/head';
 
 
@@ -213,8 +217,12 @@ export default function UCRE(){
                 LoFi Prototype
                 </p>
                 </div>
-                <iframe width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fl5PQA25ZqdPwOzoGBi1ArY%2FUCRE-Prototype%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D156-2%26viewport%3D270%252C477%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A2%26hide-ui=1" frameBorder = "0" allowFullScreen></iframe>
-            </div>
+                <div className={styles.image_3}>
+                <Image src = {L1} alt = "Contextual Interview"/>
+                <Image src = {L2} alt = "Contextual Interview"/>
+                <Image src = {L3} alt = "Contextual Interview"/>
+                </div>
+               </div>
             <div className = {styles.page}>
                 <div>
                 </div>
@@ -235,9 +243,11 @@ export default function UCRE(){
                     </p>
                 </div>
             </div>
-            <div className={styles.space}></div>
-                <iframe width="100%" height="800" 
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTq25vEtwok2YFmao2izq3l%2FUCRE-FINAL-POSTER%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D20-2%26viewport%3D443%252C152%252C0.14%26scaling%3Dcontain%26starting-point-node-id%3D20%253A2%26hide-ui=1" frameBorder = "0" allowFullScreen></iframe>
+            <div className = {styles.page}>
+                <div>
+                </div>
+                 <Image src = {Final} alt = "Final Deliverable"/>
+            </div>
             <div className = {styles.page}>
                 <div>
                 </div>
