@@ -9,6 +9,7 @@ import I2 from "../../Images/Projects/Math2Shine/2.png"
 import I3 from "../../Images/Projects/Math2Shine/3.png"
 import I4 from "../../Images/Projects/Math2Shine/4.png"
 import I5 from "../../Images/Projects/Math2Shine/5.png"
+import I14 from "../../Images/Projects/Math2Shine/14.png"
 import I5a from "../../Images/Projects/Math2Shine/5a.png"
 import I9 from "../../Images/Projects/Math2Shine/9.png"
 import I10 from "../../Images/Projects/Math2Shine/10.png"
@@ -17,6 +18,10 @@ import I15 from "../../Images/Projects/Math2Shine/Sketch_1.png"
 import I16 from "../../Images/Projects/Math2Shine/Sketch_2.png"
 import W1 from "../../Images/Projects/Math2Shine/W1.png"
 import W2 from "../../Images/Projects/Math2Shine/W2.png"
+import D1 from "../../Images/Projects/Math2Shine/D1.png"
+import D2 from "../../Images/Projects/Math2Shine/D2.png"
+import D3 from "../../Images/Projects/Math2Shine/D3.png"
+
 
 
 
@@ -161,27 +166,7 @@ export default function Math2Shine(){
             </div>
                 <Image src = {W2} alt = "iteration 1"/>
             </div>
-            <div className = {styles.page}>
-                <div>
-                </div>
-                <div>
-                <p className = {styles.text}>
-                In addition, I also wanted to make sure that the website architecture from the previous website remained the same. 
-                </p>
-                </div>
-            </div>
-            <div className = {styles.page}>
-            <p className = {styles.d}> 
-                    Student portal prototype
-                </p>
-                <iframe width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUBN2aTVAiO4XoEXr4EHVCs%2FTeacher-Portal%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D650-3123%26viewport%3D233%252C-1616%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D70%253A192%26show-proto-sidebar%3D1%26hide-ui=1" frameBorder = "0"></iframe>
-            </div>
-            <div className = {styles.page}>
-            <p className = {styles.d}> 
-                    Teacher portal prototype
-                </p>
-                <iframe width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUBN2aTVAiO4XoEXr4EHVCs%2FTeacher-Portal%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D75-13%26viewport%3D233%252C-1616%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D70%253A192%26show-proto-sidebar%3D1%26hide-ui=1" frameBorder = "0"></iframe>
-            </div>
+           
             <div className = {styles.page}>
                 <div>
                 </div>
@@ -191,7 +176,7 @@ export default function Math2Shine(){
                 </h1>
                 <p className = {styles.text}>
                 To prepare for user testing, I began to prototype the navigation and content of the website. I explored with color, type, and layout, 
-                imagining different scenarios that students and teachers may have when navigating the page. 
+                imagining different scenarios that students and teachers may have when navigating the page. In addition, I also wanted to make sure that the website architecture from the previous website remained the same. 
                 </p>
                 <br/>
                 <br/>
@@ -207,15 +192,10 @@ export default function Math2Shine(){
             <p className = {styles.d}> 
                    Color schemes tested 
                 </p>
-            <div className = {styles.image_1}>
-                <div>
+            <div className = {styles.image_3}>
                     <Image src = {I5a} alt = "iteration 3"/>
-                </div>
-                <div>
                     <Image src = {I3} alt = "iteration 1"/>
                     <Image src = {I4} alt = "iteration 2"/>
-                </div>
-
             </div>
             </div>
 
@@ -228,8 +208,14 @@ export default function Math2Shine(){
             <div className = {styles.page}>
             <p className = {styles.d}> 
                 Student Portal — explored methods of organizing visual clutter   
-                </p>
+            </p>
                 <Image src = {I5} alt = "student portal"/>
+            </div>
+            <div className = {styles.page}>
+            <p className = {styles.d}> 
+                Analytic Page
+            </p>
+                <Image src = {I14} alt = "student portal"/>
             </div>
             <div className = {styles.page}>
                 <div>
@@ -243,12 +229,26 @@ export default function Math2Shine(){
                 </p>
                 </div>
             </div>
+            <div className = {styles.page}>
+                <div>
+                    <p className = {styles.d}> 
+                    Pages Developed
+                    </p>
+                </div>
+                <div className = {styles.image_3}>
+                    <Image src = {D1} alt = "Development team "/>
+                    <Image src = {D2} alt = "Development team "/>
+                    <Image src = {D3} alt = "Development team "/>
+                </div>
+            </div>
 
             <div className = {styles.page}>
                 <div>
+                <p className = {styles.d}> 
+                    Collaborating with development team
+                </p>
                 </div>
                 <div>
-                <iframe width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcKiE598kbG1W05pLyxSoKC%2FMath2Shine-Website-Redesign%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D637-85%26viewport%3D-13%252C59%252C0.19%26scaling%3Dscale-down%26starting-point-node-id%3D3%253A2%26show-proto-sidebar%3D1%26hide-ui=1" frameBorder = "0" allowFullScreen></iframe>
                 <Image src = {I10} alt = "Development team "/>
                 </div>
             </div>
