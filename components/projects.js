@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
 import UCRE from '../Images/About/UCRE.png'; 
-import P1 from '../Images/About/P1.jpeg'; 
+import P1 from '../Images/About/P1.png'; 
 import P7 from '../Images/About/P7.jpg'; 
 import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/About/TEDxCMU.jpg'

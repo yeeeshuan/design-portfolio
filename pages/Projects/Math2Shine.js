@@ -4,7 +4,7 @@ import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
-import P1 from "../../Images/About/P1.jpeg"
+import P1 from "../../Images/About/P1.png"
 import I2 from "../../Images/Projects/Math2Shine/2.png"
 import I3 from "../../Images/Projects/Math2Shine/3.png"
 import I4 from "../../Images/Projects/Math2Shine/4.png"
