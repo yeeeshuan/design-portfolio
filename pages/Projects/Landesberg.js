@@ -49,8 +49,8 @@ class Landesberg extends Component{
         super(props);
         this.state = {
             projects:[
-                //{type : "i", name : "Valpo Alumni Magazine Website", description: "UX Design, Figma Wireframing and Prototyping", image: Web, link: "/Landesberg/Valpo"},
-                //{type : "i", name : "Pittsburgh Foundation Website", description: "UX Design, Figma Wireframing and Prototyping", image: PGH, link: "/Landesberg/Pgh"},
+                //{type : "i", name : "Valpo Alumni Magazine Website", description: "Prototyping", image: Web, link: "/Landesberg/Valpo"},
+                //{type : "i", name : "Pittsburgh Foundation Website", description: "Prototyping", image: PGH, link: "/Landesberg/Pgh"},
                 {type : "i", name : "Magazine Layouts", description: "Creating Design Languages", image: Mag, link: "/Landesberg/Magazines"}, 
                 {type : "i", name : "Motion Graphics", description: "Animations and Videos", image: Th, link: "/Landesberg/Motion"},
                 //{type : "i", name : "Branded Packaging", description: "Stationary and Tickets", image: P7, link: "/Landesberg/Websites"}
