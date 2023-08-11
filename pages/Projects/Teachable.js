@@ -140,7 +140,7 @@ export default function Teachable(){
                         </p>
                     </div>
                     <div>
-                    <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/myro03md-mc?autoplay=1&loop=1&mute=1&controls=0&playlist=myro03md-mc"
+                    <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/myro03md-mc?autoplay=0&loop=0&mute=0&controls=1&playlist=myro03md-mc"
                     frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
@@ -190,7 +190,7 @@ export default function Teachable(){
                     </p>
                     </div>
                     <div>
-                    <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/183t1zx_YNQ?autoplay=1&loop=1&mute=1&controls=0&playlist=183t1zx_YNQ"
+                    <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/183t1zx_YNQ?autoplay=0&loop=0&mute=0&controls=1&playlist=183t1zx_YNQ"
                     frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
@@ -216,8 +216,7 @@ export default function Teachable(){
                     </p>
                     </div>
                     <div>
-                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/743139368?autoplay=1&loop=1&mute=1&controls=0"
-                 frameBorder = "0" modestBranding = "1"></iframe>
+                    <iframe width = "100%" height = "500px"src= "https://player.vimeo.com/video/743139368" frameBorder = "0" modestBranding = "1"></iframe>
 
                     </div>
                 </div>

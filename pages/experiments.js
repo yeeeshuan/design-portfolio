@@ -37,23 +37,27 @@ function useWindowDimensions() {
 }
 
 function Video(props){
-
     const size = useWindowDimensions();
-    let height = 0; 
-    height = (size.height / 2.4); 
-
+    let height = size.height; 
+    if (height >= 700 && height <= 800){
+        height = (size.height/ 3.5); 
+    }
+    if (height >= 800){
+        height = (size.height / 2.5); 
+    }
     return(
         <div className = {styles.imageWrap}>
-            <div className="item-container">
-            <a href = {props.link}>
-            <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                <iframe className = "ytplayer" width = "100%" height = {height} src={props.thumbnail}
-                frameBorder = "0" modestBranding = "1"></iframe>
-            </div>
-                <h1 className = {styles.title}> {props.name}</h1>
-            <p className = {styles.words}> {props.description}</p>
-            </a> 
-            </div>
+                <div className="item-container">
+                <a href = {props.link}>
+                <div className = {styles.overLay}> <a href = {props.link}></a></div>
+                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                    <iframe className = "ytplayer" width = "100%" height ={height} src={props.thumbnail}
+                    frameBorder = "0" modestBranding = "1"></iframe>
+                </div>
+                    <h1 className = {styles.title}> {props.name}</h1>
+                <p className = {styles.words}> {props.description}</p>
+                </a> 
+                </div>
         </div>
     )
 

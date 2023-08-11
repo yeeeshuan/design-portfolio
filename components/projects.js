@@ -8,6 +8,7 @@ import P1 from '../Images/About/P1.png';
 import P7 from '../Images/About/P7.jpg'; 
 import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/About/TEDxCMU.jpg'
+import Web from "../Images/Projects/Landesberg/Valpo/Valpo.png"
 
 import React, {useState, useEffect, Component } from 'react';
 
@@ -85,6 +86,7 @@ class Projects extends Component{
         this.state = {
             projects:[
                 {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
+                {type : "i", name : "Valpo Alumni Magazine Website", description: "Wireframing and Prototyping", image: Web, link: "/Landesberg/Valpo"},
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"}, 
                 {type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
                 {type : "i", name : "Ad Recomendation System Redesign", description: "UX Research/Design, User Testing ", image : UCRE, link: "Projects/UCRE" }, 
