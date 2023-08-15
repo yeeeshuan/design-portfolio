@@ -1,4 +1,3 @@
-import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
 import Image from "next/image";
 import Head from 'next/head';
@@ -9,7 +8,6 @@ import Type from "../../Images/Projects/Landesberg/Valpo/Styles.png"
 import Buttons from "../../Images/Projects/Landesberg/Valpo/Buttons.png"
 import Footers from "../../Images/Projects/Landesberg/Valpo/Footers.png"
 import Sidebars from "../../Images/Projects/Landesberg/Valpo/Sidebars.png"
-import HP from "../../Images/Projects/Landesberg/Valpo/HP.png"
 import F1 from "../../Images/Projects/Landesberg/Valpo/F1.png"
 import F2 from "../../Images/Projects/Landesberg/Valpo/F2.png"
 
@@ -31,6 +29,8 @@ export default function Websites(){
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> June 2023 </p>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma</p>
+            <br></br>
+            <p className = {styles.d1}>Collaborators //</p><p className = {styles.d2}> Michael Artman</p>
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>

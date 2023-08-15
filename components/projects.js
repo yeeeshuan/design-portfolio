@@ -1,6 +1,3 @@
-import styled from 'styled-components'; 
-import Link from 'next/link';
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
 import UCRE from '../Images/About/UCRE.png'; 
@@ -8,7 +5,6 @@ import P1 from '../Images/About/P1.png';
 import P7 from '../Images/About/P7.jpg'; 
 import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/About/TEDxCMU.jpg'
-import Web from "../Images/Projects/Landesberg/Valpo/Valpo.png"
 
 import React, {useState, useEffect, Component } from 'react';
 
@@ -86,12 +82,11 @@ class Projects extends Component{
         this.state = {
             projects:[
                 {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
-                //{type : "i", name : "Valpo Alumni Magazine Website", description: "Wireframing and Prototyping", image: Web, link: "/Landesberg/Valpo"},
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"}, 
                 {type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
-                {type : "i", name : "Ad Recomendation System Redesign", description: "UX Research/Design, User Testing ", image : UCRE, link: "Projects/UCRE" }, 
                 {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
                 thumbnail: "https://www.youtube.com/embed/7TSUz23Ogxs?start=6&end=14&autoplay=1&loop=1&mute=1&controls=0&playlist=7TSUz23Ogxs"}, 
+                {type : "i", name : "Ad Recomendation System Redesign", description: "UX Research/Design, User Testing ", image : UCRE, link: "Projects/UCRE" }, 
                 {type : "i", name : "TEDxCMU: Diffraction", description: "TEDxCMU 2023 Event Website", image: TEDxCMU, link: "Projects/TEDxCMU"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 //{type : "i", name : "PGH Water Quality", description: "Systems Mapping", image : P4, link: "/Systems" }, 

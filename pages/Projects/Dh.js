@@ -57,7 +57,73 @@ export default function DesignHero(){
                 <Image src = {DH} width = {1080} height ={600} alt = "cover image"/>
             </div>
             <br/>
-            <div className={styles.project}>
+        <div className={styles.project}>
+         <h1 className = {styles.pTitle}> 
+            Interactive Website
+            </h1>
+            <div className = {styles.intro}>
+            <div>
+            <p className = {styles.d1}>Size //</p><p className = {styles.d2}> Desktop (1920 x 1080) </p> 
+            <br></br>
+            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
+            <br></br>
+            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> HTML/CSS, Jquery.js</p>
+            </div>
+            <div className = {styles.cont}> 
+            <p className = {styles.text}>
+            This interactive website consists of a timeline of Weingart&rsquo;s accomplishments, 
+            a brief biography, and a gallery of his most famous pieces, 
+            highlighting his career and visual style. 
+            </p>
+            <br/>
+            <br/>
+            <p>
+            <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/index.html#" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+            <a className = {styles.links} href = "https://github.com/yeeeshuan/DH_Mobile" rel="noopener noreferrer" target="_blank"> Github </a> 
+            <br/>
+            </p>
+         </div>
+         </div>
+         <div className={styles.image_4}>
+                <Image src = {D1} style = {styles.spreads}/>
+                <Image src = {D2} style = {styles.spreads}/>
+        </div>
+        <div className={styles.image_4}>
+                <Image src = {D3} style = {styles.spreads}/>
+                <Image src = {D4} style = {styles.spreads}/>
+        </div>
+        </div>
+        <div className={styles.project}>
+            <h1 className = {styles.pTitle}> 
+            Mobile Experience   
+            </h1>
+            <div className = {styles.intro}>
+            <div>
+            <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 48 x 27 Inches </p> 
+            <br></br>
+            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
+            <br></br>
+            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma</p>
+            </div>
+            <div className = {styles.cont}> 
+            <p className = {styles.text}>
+            Kiosk experience of Weingart&rsquo;s work and life as a compliment to the booklet. 
+            </p>
+            <br/>
+         </div>
+         </div>
+         <div className={styles.image_5}>
+            <Image src = {K1} style = {styles.spreads}/>
+            <Image src = {K2} style = {styles.spreads}/>
+            <Image src = {K3} style = {styles.spreads}/>
+            <Image src = {K4} style = {styles.spreads}/>
+         </div>
+         <div>
+         <iframe width = "100%" height="600px" src="https://www.youtube.com/embed/5NBvxepx6Fc?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameBorder = "0" modestBranding = "1"></iframe>
+         </div>
+        </div>
+        <div className={styles.project}>
             <h1 className = {styles.pTitle}> 
             Poster 
             </h1>
@@ -153,73 +219,6 @@ export default function DesignHero(){
             frameBorder = "0" modestBranding = "1"></iframe>
          </div>
             </div>
-            <div className={styles.project}>
-            <h1 className = {styles.pTitle}> 
-            Mobile Experience   
-            </h1>
-            <div className = {styles.intro}>
-            <div>
-            <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 48 x 27 Inches </p> 
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma</p>
-            </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            Kiosk experience of Weingart&rsquo;s work and life as a compliment to the booklet. 
-            </p>
-            <br/>
-         </div>
-         </div>
-         <div className={styles.image_5}>
-            <Image src = {K1} style = {styles.spreads}/>
-            <Image src = {K2} style = {styles.spreads}/>
-            <Image src = {K3} style = {styles.spreads}/>
-            <Image src = {K4} style = {styles.spreads}/>
-         </div>
-         <div>
-         <iframe width = "100%" height="600px" src="https://www.youtube.com/embed/5NBvxepx6Fc?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameBorder = "0" modestBranding = "1"></iframe>
-         </div>
-            </div>
-            <div className={styles.project}>
-         <h1 className = {styles.pTitle}> 
-            Interactive Website
-            </h1>
-            <div className = {styles.intro}>
-            <div>
-            <p className = {styles.d1}>Size //</p><p className = {styles.d2}> Desktop (1920 x 1080) </p> 
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> HTML/CSS, Jquery.js</p>
-            </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            This interactive website consists of a timeline of Weingart&rsquo;s accomplishments, 
-            a brief biography, and a gallery of his most famous pieces, 
-            highlighting his career and visual style. 
-            </p>
-            <br/>
-            <br/>
-            <p>
-            <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/index.html#" rel="noopener noreferrer" target="_blank"> Live Website </a> 
-            <a className = {styles.links} href = "https://github.com/yeeeshuan/DH_Mobile" rel="noopener noreferrer" target="_blank"> Github </a> 
-            <br/>
-            </p>
-         </div>
-         </div>
-         <div className={styles.image_4}>
-                <Image src = {D1} style = {styles.spreads}/>
-                <Image src = {D2} style = {styles.spreads}/>
-        </div>
-        <div className={styles.image_4}>
-                <Image src = {D3} style = {styles.spreads}/>
-                <Image src = {D4} style = {styles.spreads}/>
-        </div>
-            </div>
-
                 <div className = {styles.page}>
                     <div>
                     </div>
