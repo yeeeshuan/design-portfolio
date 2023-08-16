@@ -6,10 +6,14 @@ import Footer from '../../components/footer';
 import Web from "../../Images/Projects/Landesberg/Valpo/Valpo.png"
 import Type from "../../Images/Projects/Landesberg/Valpo/Styles.png"
 import Buttons from "../../Images/Projects/Landesberg/Valpo/Buttons.png"
+import Assets from "../../Images/Projects/Landesberg/Valpo/Assets.png"
 import Footers from "../../Images/Projects/Landesberg/Valpo/Footers.png"
 import Sidebars from "../../Images/Projects/Landesberg/Valpo/Sidebars.png"
 import F1 from "../../Images/Projects/Landesberg/Valpo/F1.png"
 import F2 from "../../Images/Projects/Landesberg/Valpo/F2.png"
+import D1 from "../../Images/Projects/Landesberg/Valpo/Desktop_1.png"
+import D2 from "../../Images/Projects/Landesberg/Valpo/Desktop_2.png"
+import Mobile from "../../Images/Projects/Landesberg/Valpo/Mobile.png"
 
 export default function Websites(){
     return(
@@ -93,6 +97,14 @@ export default function Websites(){
                 <div className = {styles.page}>
                     <div>
                     <p className = {styles.d}> 
+                    Mobile Assets
+                    </p>
+                    </div>
+                    <Image src = {Assets} alt = "Buttons"/>
+                </div>
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
                     Different Footers Tested
                     </p>
                     </div>
@@ -106,7 +118,7 @@ export default function Websites(){
                         Sidebars
                     </h1>
                     <p className = {styles.text}>
-                        Seeing how sidebars, interesting secondary information to the main article, could be translated into a digital format provided an interesting opportunity to prototype. 
+                        Exploring how sidebars, interesting secondary information to the main article, could be translated into a digital format provided an interesting opportunity to prototype. 
                     </p>
                     </div>
                 </div>
@@ -116,14 +128,38 @@ export default function Websites(){
                     Sidebars Tested
                     </p>
                     </div>
-                    <Image src = {Sidebars} alt = "Buttons"/>
+                    <Image src = {Sidebars} alt = "Sidebars"/>
                 </div>          
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                    Sidebar Iteration 1
+                    </p>
+                    </div>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/ga-lF1JGbjQ?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=ga-lF1JGbjQ" frameBorder = "0" modestBranding = "1"></iframe>
+                </div>       
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                    Sidebar Iteration 2
+                    </p>
+                    </div>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/NDESw25pOpI?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=NDESw25pOpI" frameBorder = "0" modestBranding = "1"></iframe>
+                </div>       
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                    Sidebar Iteration 3
+                    </p>
+                    </div>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/kS7K18vsvC0?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=kS7K18vsvC0" frameBorder = "0" modestBranding = "1"></iframe>
+                </div>       
                 <div className = {styles.page}>
                     <div>
                     </div>
                     <div>
                     <h1 className = {styles.pTitle}> 
-                        Desktop 
+                        Desktop View
                     </h1>
                     <p className = {styles.text}>
                         I worked on mocking up how some of the feature articles would be translated to a desktop view. 
@@ -136,12 +172,36 @@ export default function Websites(){
                 <div className = {styles.page}>
                     <div>
                     <p className = {styles.d}> 
-                    Desktop Feature Mock-Ups
+                    Desktop Screens
                     </p>
                     </div>
                     <div>
-                        <div className = {styles.image_2}>
+                        <div>
+                        <Image src = {D1} alt = "Buttons"/>
+                        <Image src = {D2} alt = "Buttons"/>
+                        </div>
+                    </div>
+                </div> 
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                    Desktop Feature Mock-Up 1
+                    </p>
+                    </div>
+                    <div>
+                        <div>
                         <Image src = {F1} alt = "Buttons"/>
+                        </div>
+                    </div>
+                </div> 
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                    Desktop Feature Mock-Up 2
+                    </p>
+                    </div>
+                    <div>
+                        <div>
                         <Image src = {F2} alt = "Buttons"/>
                         </div>
                     </div>
@@ -151,19 +211,40 @@ export default function Websites(){
                     </div>
                     <div>
                     <h1 className = {styles.pTitle}> 
-                        Mobile
+                        Mobile View
                     </h1>
                     <p className = {styles.text}>
-                        Our team first started by Walking the Wall. After we did some research with some of the current issues with AI used in social media platforms, we were able to determine that: 
-                    <br/>
-                    <br/>
-                        1. Some platforms make the process of reporting ads extremely difficult with the use of misleading UI. 
-                    <br/>
-                    <br/>
-                        2. Much of the bias from current platforms correspond to current societal biases—much of the bias from AI-algorithms stem demonstrate gender biases and socioeconomic biases.                  
+                       After building the desktop view, I explored how the wireframe could be translated to a mobile view. 
+                       I built a series of new components to adapt to the mobile screen, thinking about how typography, graphical elements, 
+                       and interactions could look. 
+
                     </p>
                     </div>
                 </div>
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                        Mobile Screen Mock-Ups
+                    </p>
+                    </div>
+                    <Image src = {Mobile} alt = "Mobile Screen Mock-ups"/>
+                </div>       
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                        Mobile Navigation 
+                    </p>
+                    </div>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/-SIgk64vpik?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=-SIgk64vpik" frameBorder = "0" modestBranding = "1"></iframe>
+                </div>       
+                <div className = {styles.page}>
+                    <div>
+                    <p className = {styles.d}> 
+                        Mobile Mock-Up
+                    </p>
+                    </div>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/AvJOtL_06T0?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=AvJOtL_06T0" frameBorder = "0" modestBranding = "1"></iframe>
+                </div>       
             </main>
             <Footer/>
         </div>

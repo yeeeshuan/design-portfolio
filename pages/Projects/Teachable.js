@@ -189,7 +189,7 @@ export default function Teachable(){
                     </p>
                     </div>
                     <div>
-                    <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/183t1zx_YNQ?autoplay=0&loop=0&mute=0&controls=1&playlist=183t1zx_YNQ"
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/183t1zx_YNQ?autoplay=0&loop=0&mute=0&controls=1&playlist=183t1zx_YNQ"
                     frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>

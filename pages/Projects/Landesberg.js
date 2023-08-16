@@ -48,7 +48,7 @@ class Landesberg extends Component{
         super(props);
         this.state = {
             projects:[
-                //{type : "i", name : "Valpo Alumni Magazine Website", description: "Wireframing and Prototyping", image: Web, link: "/Landesberg/Valpo"},
+                {type : "i", name : "Valpo Alumni Magazine Website", description: "Wireframing and Prototyping", image: Web, link: "/Landesberg/Valpo"},
                 //{type : "i", name : "Pittsburgh Foundation Website", description: "Prototyping", image: PGH, link: "/Landesberg/Pgh"},
                 {type : "i", name : "Magazine Layouts", description: "Creating Design Languages", image: Mag, link: "/Landesberg/Magazines"}, 
                 {type : "i", name : "Motion Graphics", description: "Animations and Videos", image: Th, link: "/Landesberg/Motion"},
@@ -76,7 +76,7 @@ class Landesberg extends Component{
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                    In the summer of 2023, I interned as a designer at Landesberg Design, a creative studio in Pittsburgh. There, I helped design wireframes for websites, layouts for educational magazines, 
+                    In the summer of 2023, I interned as a designer at Landesberg Design, a design firm in Pittsburgh. There, I helped design wireframes for websites, layouts for educational magazines, 
                     and audits to deliver to clients. 
                 </p>
          </div>
