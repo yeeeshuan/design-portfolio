@@ -3,21 +3,21 @@ import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
-import Mag from "../../Images/Projects/Landesberg/Mag.png"
-import B1 from "../../Images/Projects/Landesberg/Mag/Back_1.png"
-import B2 from "../../Images/Projects/Landesberg/Mag/Back_2.png"
-import F1 from "../../Images/Projects/Landesberg/Mag/Feature_1.png"
-import F2 from "../../Images/Projects/Landesberg/Mag/Feature_2.png"
-import F3 from "../../Images/Projects/Landesberg/Mag/Feature_3.png"
-import F4 from "../../Images/Projects/Landesberg/Mag/Feature_4.png"
-import F5 from "../../Images/Projects/Landesberg/Mag/Feature_5.png"
-import T1 from "../../Images/Projects/Landesberg/Mag/Titles_1.png"
-import T2 from "../../Images/Projects/Landesberg/Mag/Titles_2.png"
-import T3 from "../../Images/Projects/Landesberg/Mag/Titles_3.png"
-import CN1 from "../../Images/Projects/Landesberg/Mag/CN_1.png"
-import CN2 from "../../Images/Projects/Landesberg/Mag/CN_2.png"
-import CN3 from "../../Images/Projects/Landesberg/Mag/CN_3.png"
-import TOC from "../../Images/Projects/Landesberg/Mag/TOC.png"
+import Mag from "../../Images/Projects/Landesberg/Mag.png";
+import B1 from "../../Images/Projects/Landesberg/Mag/Back_1.png";
+import B2 from "../../Images/Projects/Landesberg/Mag/Back_2.png";
+import F1 from "../../Images/Projects/Landesberg/Mag/Feature_1.png";
+import F2 from "../../Images/Projects/Landesberg/Mag/Feature_2.png";
+import F3 from "../../Images/Projects/Landesberg/Mag/Feature_3.png";
+import F4 from "../../Images/Projects/Landesberg/Mag/Feature_4.png";
+import F5 from "../../Images/Projects/Landesberg/Mag/Feature_5.png";
+import T1 from "../../Images/Projects/Landesberg/Mag/Titles_1.png";
+import T2 from "../../Images/Projects/Landesberg/Mag/Titles_2.png";
+import T3 from "../../Images/Projects/Landesberg/Mag/Titles_3.png";
+import CN1 from "../../Images/Projects/Landesberg/Mag/CN_1.png";
+import CN2 from "../../Images/Projects/Landesberg/Mag/CN_2.png";
+import CN3 from "../../Images/Projects/Landesberg/Mag/CN_3.png";
+import TOC from "../../Images/Projects/Landesberg/Mag/TOC.png";
 
 
 export default function Magazine(){

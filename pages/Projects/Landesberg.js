@@ -3,10 +3,10 @@ import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
-import Web from "../../Images/Projects/Landesberg/Valpo/Valpo.png"
-import PGH from "../../Images/Projects/Landesberg/PGH/PGH.png"
-import Mag from "../../Images/Projects/Landesberg/Mag.png"
-import Th from "../../Images/Projects/Landesberg/Th.gif"
+import Web from "../../Images/Projects/Landesberg/Valpo/Valpo.png";
+import PGH from "../../Images/Projects/Landesberg/PGH/PGH.png";
+import Mag from "../../Images/Projects/Landesberg/Mag.png";
+import Th from "../../Images/Projects/Landesberg/Th.gif";
 import React, {Component } from 'react';
 
 function Video(props){
