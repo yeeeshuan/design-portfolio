@@ -241,6 +241,10 @@ a.links:hover{
     transition: 0.3s
  }
 
+.invisible{
+    display: None; 
+}
+
  @media (min-width: 2000px) {
     .main{
         background-color: black;

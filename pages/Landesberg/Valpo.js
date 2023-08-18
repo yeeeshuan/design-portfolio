@@ -21,6 +21,19 @@ export default function Websites(){
             <Head>
             <title>Ethan Huang Design | Valpo</title>
             </Head>
+            <div className = {styles.invisible}>
+                <Image src = {Web} alt = "photo rotation"/>
+                <Image src = {Type} alt = "photo rotation"/>
+                <Image src = {Buttons} alt = "photo rotation"/>
+                <Image src = {Assets} alt = "photo rotation"/>
+                <Image src = {Footers} alt = "photo rotation"/>
+                <Image src = {Sidebars} alt = "photo rotation"/>
+                <Image src = {F1} alt = "photo rotation"/>
+                <Image src = {F2} alt = "photo rotation"/>
+                <Image src = {D1} alt = "photo rotation"/>
+                <Image src = {D2} alt = "photo rotation"/>
+                <Image src = {Mobile} alt = "photo rotation"/>
+            </div>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

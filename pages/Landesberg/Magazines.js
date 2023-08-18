@@ -27,6 +27,22 @@ export default function Magazine(){
             <title>Ethan Huang Design | LD Magazines</title>
             </Head>
             <Navbar/>
+            <div className = {styles.invisible}>
+                <Image src = {B1} alt = "photo rotation"/>
+                <Image src = {B2} alt = "photo rotation"/>
+                <Image src = {F1} alt = "photo rotation"/>
+                <Image src = {F2} alt = "photo rotation"/>
+                <Image src = {F3} alt = "photo rotation"/>
+                <Image src = {F4} alt = "photo rotation"/>
+                <Image src = {F5} alt = "photo rotation"/>
+                <Image src = {T1} alt = "photo rotation"/>
+                <Image src = {T2} alt = "photo rotation"/>
+                <Image src = {T3} alt = "photo rotation"/>
+                <Image src = {CN1} alt = "photo rotation"/>
+                <Image src = {CN2} alt = "photo rotation"/>
+                <Image src = {CN3} alt = "photo rotation"/>
+                <Image src = {TOC} alt = "photo rotation"/>
+            </div>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
             Magazine Layouts
