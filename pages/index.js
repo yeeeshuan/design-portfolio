@@ -26,11 +26,9 @@ export default function Home() {
         <hr className = {styles.break}></hr>
         <div className = {styles.exp}>
         <p className = {styles.curr}>
-          <span className = {styles.bold}>Currently...</span>
+          <span className = {styles.bold}>Currently...</span> Developing interactive projects @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://diffraction.tedxcmu.org/">TEDxCMU</a></span>
           <br/>
-          Brand designing @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
-          <br/>
-          Developing interactive projects @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://diffraction.tedxcmu.org/">TEDxCMU</a></span>
+          <span className = {styles.bold}>Previously...</span> Design Intern @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
         </p>
         </div>
         </div>
