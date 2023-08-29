@@ -13,6 +13,11 @@ export default function Teachable(){
              <Head>
             <title>Ethan Huang Design | Interactive Grid</title>
             </Head>
+            <div className = {styles.invisible}>
+                <Image src = {Thumbnail} alt = "photo rotation"/>
+                <Image src = {GTM} alt = "photo rotation"/>
+                <Image src = {Figma} alt = "photo rotation"/>
+            </div>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

@@ -13,6 +13,16 @@ export default function Tour(){
     return(
 
         <div>
+             <Head>
+            <title>Ethan Huang Design | Tour</title>
+            </Head>
+            <div className = {styles.invisible}>
+                <Image src = {Storyboard} alt = "photo rotation"/>
+                <Image src = {Map} alt = "photo rotation"/>
+                <Image src = {One} alt = "photo rotation"/>
+                <Image src = {Two} alt = "photo rotation"/>
+                <Image src = {Three} alt = "photo rotation"/>
+            </div>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

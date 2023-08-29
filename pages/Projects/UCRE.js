@@ -24,6 +24,19 @@ export default function UCRE(){
             <Head>
             <title>Ethan Huang Design | UCRE</title>
             </Head>
+            <div className = {styles.invisible}>
+                <Image src = {Thumbnail} alt = "photo rotation"/>
+                <Image src = {Wall} alt = "photo rotation"/>
+                <Image src = {Cont} alt = "photo rotation"/>
+                <Image src = {Aff} alt = "photo rotation"/>
+                <Image src = {Empathy} alt = "photo rotation"/>
+                <Image src = {Journey} alt = "photo rotation"/>
+                <Image src = {Crazy} alt = "photo rotation"/>
+                <Image src = {L1} alt = "photo rotation"/>
+                <Image src = {L2} alt = "photo rotation"/>
+                <Image src = {L3} alt = "photo rotation"/>
+                <Image src = {Final} alt = "photo rotation"/>
+            </div>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

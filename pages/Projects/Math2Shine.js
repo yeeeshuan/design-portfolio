@@ -31,6 +31,25 @@ export default function Math2Shine(){
             <Head>
             <title>Ethan Huang Design | Math2Shine</title>
             </Head>
+            <div className = {styles.invisible}>
+                <Image src = {P1} alt = "photo rotation"/>
+                <Image src = {I2} alt = "photo rotation"/>
+                <Image src = {I3} alt = "photo rotation"/>
+                <Image src = {I4} alt = "photo rotation"/>
+                <Image src = {I5} alt = "photo rotation"/>
+                <Image src = {I14} alt = "photo rotation"/>
+                <Image src = {I5a} alt = "photo rotation"/>
+                <Image src = {I9} alt = "photo rotation"/>
+                <Image src = {I10} alt = "photo rotation"/>
+                <Image src = {I11} alt = "photo rotation"/>
+                <Image src = {I15} alt = "photo rotation"/>
+                <Image src = {I16} alt = "photo rotation"/>
+                <Image src = {W1} alt = "photo rotation"/>
+                <Image src = {W2} alt = "photo rotation"/>
+                <Image src = {D1} alt = "photo rotation"/>
+                <Image src = {D2} alt = "photo rotation"/>
+                <Image src = {D3} alt = "photo rotation"/>
+            </div>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

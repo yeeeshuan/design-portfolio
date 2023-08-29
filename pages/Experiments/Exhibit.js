@@ -27,6 +27,23 @@ export default function Exhibit(){
             <Head>
             <title>Ethan Huang Design | Exhibit</title>
             </Head>
+            <div className = {styles.invisible}>
+                <Image src = {Thumbnail} alt = "photo rotation"/>
+                <Image src = {Mood} alt = "photo rotation"/>
+                <Image src = {Parti} alt = "photo rotation"/>
+                <Image src = {Layout} alt = "photo rotation"/>
+                <Image src = {Diagram} alt = "photo rotation"/>
+                <Image src = {One} alt = "photo rotation"/>
+                <Image src = {Two} alt = "photo rotation"/>
+                <Image src = {Three} alt = "photo rotation"/>
+                <Image src = {Five} alt = "photo rotation"/>
+                <Image src = {Six} alt = "photo rotation"/>
+                <Image src = {Physical} alt = "photo rotation"/>
+                <Image src = {P1} alt = "photo rotation"/>
+                <Image src = {P2} alt = "photo rotation"/>
+                <Image src = {P3} alt = "photo rotation"/>
+                <Image src = {P4} alt = "photo rotation"/>
+            </div>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 

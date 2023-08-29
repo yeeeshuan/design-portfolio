@@ -29,6 +29,24 @@ export default function DesignHero(){
             <Head>
             <title>Ethan Huang Design | Design Hero</title>
             </Head>
+            <div className = {styles.invisible}>
+                <Image src = {S1} alt = "photo rotation"/>
+                <Image src = {S2} alt = "photo rotation"/>
+                <Image src = {S3} alt = "photo rotation"/>
+                <Image src = {S4} alt = "photo rotation"/>
+                <Image src = {S5} alt = "photo rotation"/>
+                <Image src = {S6} alt = "photo rotation"/>
+                <Image src = {S7} alt = "photo rotation"/>
+                <Image src = {S8} alt = "photo rotation"/>
+                <Image src = {D1} alt = "photo rotation"/>
+                <Image src = {D2} alt = "photo rotation"/>
+                <Image src = {D3} alt = "photo rotation"/>
+                <Image src = {D4} alt = "photo rotation"/>
+                <Image src = {K1} alt = "photo rotation"/>
+                <Image src = {K2} alt = "photo rotation"/>
+                <Image src = {K3} alt = "photo rotation"/>
+                <Image src = {K4} alt = "photo rotation"/>
+            </div>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
