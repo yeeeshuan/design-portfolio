@@ -81,6 +81,7 @@ export default function PGH(){
                 </div>
                 <div>
                 <h1 className = {styles.pTitle}> Buttons and Components </h1>
+                <p className = {styles.text}> A part of the redesign was to create components that gave the Pittsburgh Foundation website a new and fresh look. This provided for an opportunity to explore different interactions that could trigger when users interacted with components. </p>
                 </div>
             </div>
             <div className = {styles.page}>

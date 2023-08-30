@@ -38,7 +38,6 @@ return(
             <title>Ethan Huang Design | About</title>
         </Head> 
         <div className = {styles.invisible}>
-        <Image src = {Web} alt = "photo rotation"/>
             <Image src = {Me} alt = "photo rotation"/>
             <Image src = {Photo} alt = "photo rotation"/>
             <Image src = {Sketches} alt = "photo rotation"/>
