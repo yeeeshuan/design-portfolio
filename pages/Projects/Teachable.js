@@ -111,7 +111,7 @@ export default function Teachable(){
                         </p>
                     </div>
                     <div>
-                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/7TSUz23Ogxs?autoplay=1&loop=1&mute=1&controls=0&playlist=7TSUz23Ogxs" title="Handpose Demonstration" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/7TSUz23Ogxs?autoplay=0&amp;loop=1&amp;mute=1&amp;controls=0&amp;playlist=7TSUz23Ogxs" title="Handpose Demonstration" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div>
                 </div>
                 <div className = {styles.page}>
@@ -144,7 +144,7 @@ export default function Teachable(){
                         </p>
                     </div>
                     <div>
-                    <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/myro03md-mc?autoplay=0&loop=0&mute=0&controls=1&playlist=myro03md-mc"
+                    <iframe width = "100%" height = "500px"src="https://www.youtube.com/embed/myro03md-mc?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=myro03md-mc"
                     frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
@@ -167,7 +167,7 @@ export default function Teachable(){
                         </p>
                     </div>
                     <div>
-                        <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/O1qUn1EHfTQ?autoplay=1&loop=1&mute=1&controls=0&playlist=O1qUn1EHfTQ"
+                        <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/O1qUn1EHfTQ?autoplay=0&amp;loop=1&amp;mute=1&amp;controls=0&amp;playlist=O1qUn1EHfTQ"
                         frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
@@ -194,7 +194,7 @@ export default function Teachable(){
                     </p>
                     </div>
                     <div>
-                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/183t1zx_YNQ?autoplay=0&loop=0&mute=0&controls=1&playlist=183t1zx_YNQ"
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/183t1zx_YNQ?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=183t1zx_YNQ"
                     frameBorder = "0" modestBranding = "1"></iframe>
                     </div>
                 </div>
@@ -235,7 +235,7 @@ export default function Teachable(){
                         To detect when a user turned their head right, left, up, and opened their mouth to move down, I found the points in the Facemesh library that corresponded to the left and right of the
                         cheeks, the forehead, and the mouth and found the distance of those points to the nose—when the distance passes or goes under a certain value, the grid would move. 
                     </p>
-                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/hzHO7XYRJdw?autoplay=1&loop=1&mute=1&controls=0&playlist=hzHO7XYRJdw"
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/hzHO7XYRJdw?autoplay=0&amp;loop=1&amp;mute=1&amp;controls=0&amp;playlist=hzHO7XYRJdw"
                  frameBorder = "0" modestBranding = "1"></iframe>
 
                     </div>

@@ -1,4 +1,3 @@
-import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
 import Image from "next/image";
 import Head from 'next/head';

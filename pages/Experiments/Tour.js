@@ -1,4 +1,4 @@
-import styled from 'styled-components'; 
+import Head from 'next/head';
 import styles from "../../styles/Projects.module.css"; 
 import Image from "next/image";
 import Navbar from '../../components/navbar';
