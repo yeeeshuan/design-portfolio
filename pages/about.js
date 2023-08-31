@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 import styles from "../styles/About.module.css"; 
+import invis from "../styles/Home.module.css";
 import Navbar from '../components/navbar';
 import Image from "next/image";
 import Head from 'next/head';
@@ -37,7 +38,7 @@ return(
         <Head>
             <title>Ethan Huang Design | About</title>
         </Head> 
-        <div className = {styles.invisible}>
+        <div className = {invis.invisible}>
             <Image src = {Me} alt = "photo rotation"/>
             <Image src = {Photo} alt = "photo rotation"/>
             <Image src = {Sketches} alt = "photo rotation"/>
