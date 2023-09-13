@@ -8,6 +8,8 @@ import Thumbnail from "../../Images/About/Gmail.png";
 import Affinity from "../../Images/Projects/Gmail/Affinity.png";
 import Current from "../../Images/Projects/Gmail/Current.png";
 import Comp from "../../Images/Projects/Gmail/Components.png";
+import Figma from "../../Images/Projects/Gmail/Figma.png";
+import Journey from "../../Images/Projects/Gmail/Journey.png"
 
 export default function Gmail(){
     return(
@@ -66,6 +68,9 @@ export default function Gmail(){
             <h1 className = {styles.pTitle}> 
                 Research
             </h1>
+            <h1 className = {styles.bTitle}> 
+                Identifying pain points
+            </h1>
             <p className = {styles.text}>
                 To understand the pain points of the current Gmail labeling and filtering system, I conducted interviews with people around me (college students who understand technology). After affinity diagramming some of their concerns with the current system, I was able to conclude that : 
                 <br/>
@@ -79,7 +84,7 @@ export default function Gmail(){
                 This is good, because all the functionalities are there. However, there could be a better user flow to access the functionalities. 
             </p>
             </div>
-        </div>  
+        </div> 
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
@@ -95,6 +100,31 @@ export default function Gmail(){
             <div>
             </div>     
             <div>
+            <h1 className = {styles.bTitle}> 
+                Journey Mapping
+            </h1>
+            <p className = {styles.text}>
+                From the pain points identified by Affinity Mapping, I created a Journey Map to see how I could design the folder feature to help aid the user throughout the process of locating emails. 
+                <br/>
+                <br/>
+                I pinpointed that users feel the most frustrated when they have to select many options to customize and locate their emails. As a result, when users are selecting options to create folders, it is especially important for the menu to be easy and intuitive to understand. 
+            </p>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Journey Mapping
+                </p>
+            </div>
+            <div>
+                <Image src = {Journey}/>
+            </div>
+        </div>   
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
             <h1 className = {styles.pTitle}> 
                 Prototyping
             </h1>
@@ -105,9 +135,22 @@ export default function Gmail(){
         </div>   
         <div className = {styles.page}>
             <div>
+                <p className = {styles.d}> 
+                    Components
+                </p>
             </div>
             <div>
                 <Image src = {Comp}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                   Figma Frames
+                </p>
+            </div>
+            <div>
+                <Image src = {Figma}/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -158,14 +201,17 @@ export default function Gmail(){
             <div>
             </div>
             <div>
+                <h1 className = {styles.pTitle}> 
+                    Final Design Solution 
+                </h1>
                 <h1 className = {styles.bTitle}> 
-                Iteration 03 : Existing Features from other applications
+                    Iteration 03 : Existing Features from other applications
                 </h1>
                 <p className = {styles.text}>
                 After testing the first and second iteration prototypes, the prototypes were not well-designed for cases of large amounts of folders. In the third iteration, I looked at designs of pre-existing applications such as Folders in Google Drive, Finder on Mac, and Folders on Windows to see how I could create a folder system that can handle huge amounts of data. 
                 <br/>
                 <br/>
-                I also looked at how I could combine a folder recommendation feature when creating a new folder. 
+                I also further explored what types of options should exist for filters when users are creating a new folder. 
                 </p>
             </div>
         </div>  
