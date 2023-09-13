@@ -17,6 +17,7 @@ a.styledLink{
 }
 
 p.words{
+    font-size: 16; 
     color: lightgrey;
 }
 
@@ -96,7 +97,7 @@ iframe.ytplayer{
 .cont{
     padding-left: 5rem; 
     display: block; 
-    width: 60%; 
+    width: 65%; 
 }
 
 .project{
@@ -142,8 +143,8 @@ p.d {
 p.d2 {
     color: rgb(148, 148, 148); 
     display: inline; 
-    font-size: 18px; 
-    line-height: 160%; 
+    font-size: 16px; 
+    line-height: 1.8; 
     font-weight: 400; 
     vertical-align: text-top
 }
@@ -151,9 +152,9 @@ p.d2 {
 p.d1 {
     color: rgb(224, 127, 0); 
     display: inline; 
-    font-size: 18px; 
+    font-size: 16px; 
     font-weight: bold;
-    line-height: 160%; 
+    line-height: 1.8; 
     vertical-align: text-top
 }
 
@@ -161,8 +162,8 @@ p.d1 {
 p.text{
     color: white; 
     display: inline; 
-    font-size: 18px; 
-    line-height: 160%; 
+    font-size: 16px; 
+    line-height: 1.8; 
     font-weight: 400; 
     vertical-align: text-top
 }

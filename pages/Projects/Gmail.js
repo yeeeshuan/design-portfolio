@@ -55,7 +55,7 @@ export default function Gmail(){
                 Problem Space
             </h1>
             <p className = {styles.text}>
-                When searching for important emails, most Gmail users utilize the search bar to find their mail. However, not widely used by many Gmail users, Gmail has built-in features that allow for more advanced organization of emails: users can create labels that group emails together, or create filters that filter through emails. In this project, I look at how to bring the two functionalities together, optimizing the user flow to locate important emails. 
+                Gmail has built-in features that allow for more advanced organization of emails—users can create labels that group emails together, or create filters that filter through emails—that are not widely implemented by users. Most of the time, users utilize the search bar or scroll through their inbox to find their mail. In this project, I look at how to bring the two functionalities together, optimizing the user flow to locate important emails. 
             </p>
             </div>
         </div>

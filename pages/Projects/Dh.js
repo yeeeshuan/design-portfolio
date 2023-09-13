@@ -53,7 +53,7 @@ export default function DesignHero(){
             Wolfgang Weingart: My Design Hero   
             </h1>
             <div className = {styles.intro}>
-            <div>
+            <div className = {styles.role}>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Designer, Developer </p> 
             <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> January — May 2023 </p>
@@ -80,7 +80,7 @@ export default function DesignHero(){
             Interactive Website
             </h1>
             <div className = {styles.intro}>
-            <div>
+            <div className = {styles.role}>
             <p className = {styles.d1}>Size //</p><p className = {styles.d2}> Desktop (1920 x 1080) </p> 
             <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
@@ -89,8 +89,7 @@ export default function DesignHero(){
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-            This interactive website consists of a timeline of Weingart&rsquo;s accomplishments, 
-            a brief biography, and a gallery of his most famous pieces, 
+            This interactive website consists of a timeline of Weingart&rsquo;s accomplishments, a brief biography, and a gallery of his most famous pieces, 
             highlighting his career and visual style. 
             </p>
             <br/>
@@ -116,7 +115,7 @@ export default function DesignHero(){
             Mobile Experience   
             </h1>
             <div className = {styles.intro}>
-            <div>
+            <div className = {styles.role}>
             <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 48 x 27 Inches </p> 
             <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
@@ -146,7 +145,7 @@ export default function DesignHero(){
             Poster 
             </h1>
             <div className = {styles.intro}>
-            <div>
+            <div className = {styles.role}>
             <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 19.75 x 31.25 inches </p> 
             <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 3 Weeks </p>
@@ -173,7 +172,7 @@ export default function DesignHero(){
             Booklet  
             </h1>
             <div className = {styles.intro}>
-            <div>
+            <div className = {styles.role}>
             <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 8.25 x 10.5 inches, 16 pages </p> 
             <br></br>
             <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 5 Weeks </p>
@@ -213,23 +212,23 @@ export default function DesignHero(){
             Animation   
             </h1>
             <div className = {styles.intro}>
-            <div>
-            <p className = {styles.d1}>Time //</p><p className = {styles.d2}> 1 Minute 15 Seconds </p> 
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 4 Weeks </p>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ae, Film</p>
-            </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            Teaser film made using film, After Effects animation, and interview from Terry Irwin. 
-            </p>
-            <br/>
-            <br/>
-            <p>
-            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-hero-video-1ffb1503d645" rel="noopener noreferrer" target="_blank"> Process </a> 
-            </p>
-         </div>
+                <div className = {styles.role}>
+                    <p className = {styles.d1}>Time //</p><p className = {styles.d2}> 1 Minute 15 Seconds </p> 
+                    <br></br>
+                    <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 4 Weeks </p>
+                    <br></br>
+                    <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ae, Film</p>
+                </div>
+                <div className = {styles.cont}> 
+                    <p className = {styles.text}>
+                    Teaser film made using film, After Effects animation, and interview from Terry Irwin. 
+                    </p>
+                    <br/>
+                    <br/>
+                    <p>
+                    <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-hero-video-1ffb1503d645" rel="noopener noreferrer" target="_blank"> Process </a> 
+                    </p>
+                </div>
          </div>
 
          <div>
