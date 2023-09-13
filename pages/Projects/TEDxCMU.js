@@ -4,7 +4,7 @@ import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
-import TED from "../../Images/About/TEDxCMU.jpg"
+import TED from "../../Images/About/TEDxCMU.png"
 
 export default function TEDxCMU(){
     return(
