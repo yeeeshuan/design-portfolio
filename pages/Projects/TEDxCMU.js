@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import TED from "../../Images/About/TEDxCMU.png"
+import Bear from "../../Images/Projects/TEDxCMU/Bear.png"
 
 export default function TEDxCMU(){
     return(
@@ -13,7 +14,7 @@ export default function TEDxCMU(){
             <title>Ethan Huang Design | TEDxCMU</title>
             </Head>
             <Navbar/>
-            <main className={styles.main}>
+            <main className={styles.main}>   
             <h1 className = {styles.mTitle}> 
             TEDxCMU Event Website 
             </h1>
@@ -39,17 +40,48 @@ export default function TEDxCMU(){
                 </p>
             </div>
          </div>
-            <div style = {{
-                display: "flex", 
-                justifyContent: "center", 
-            
-            }}>
-                <Image src = {TED} width = {1080} height ={600} alt = "cover image"/>
-            </div>
+        <div style = {{
+            display: "flex", 
+            justifyContent: "center", 
+        
+        }}>
+            <Image src = {TED} width = {1080} height ={600} alt = "cover image"/>
+        </div>
         <div className={styles.space}>
          <iframe width = "100%" height="600px" src="https://www.youtube.com/embed/PJDp8zVuNLw?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             frameBorder = "0" modestBranding = "1"></iframe>
          </div>
+         <br/>
+         <br/>
+         <h1 className = {styles.mTitle}> 
+            Build-A-Ted
+            </h1>
+            <div className = {styles.intro}>
+            <div className = {styles.role}>
+                <p className = {styles.d1}>Role //</p><p className = {styles.d2}> UI Designer, Frontend Developer, Artist </p> 
+                <br></br>
+                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> September 2023 </p>
+                <br></br>
+                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma, Next.js</p>
+            </div>
+            <div className = {styles.cont}> 
+                <p className = {styles.text}>
+                For the October TEDxCMU event, the theme was stand-up-comedy. Given this, the innovation team was tasked with creating an interactive project that was funny and delightful for audience members.  
+                <br/>
+                <br/>
+                Interactive website developed to promote the 2023 October TEDxCMU salon event, created in collaboration with the TEDxCMU innovation team.
+                </p>
+            </div>
+         </div>
+         <div style = {{
+                display: "flex", 
+                justifyContent: "center", 
+            
+            }}>
+                <Image src = {Bear} width = {2000} height ={1299} alt = "cover image"/>
+            </div>
+            <br/>
+            <br/>   
             </main>
             <Footer/>
         </div>

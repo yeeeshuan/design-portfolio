@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Thumbnail from "../../Images/About/Gmail.png";
+import Colors from "../../Images/Projects/Gmail/Colors.png"
 import Affinity from "../../Images/Projects/Gmail/Affinity.png";
 import Current from "../../Images/Projects/Gmail/Current.png";
 import Comp from "../../Images/Projects/Gmail/Components.png";
@@ -132,7 +133,17 @@ export default function Gmail(){
                 From the Affinity Diagramming, I wanted to incorporate a new folder feature that integrated well with current designs in Gmail that users have become accustomed to.
             </p>
             </div>
-        </div>   
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Gmail's color palette and type
+                </p>
+            </div>
+            <div>
+                <Image src = {Colors}/>
+            </div>
+        </div>  
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
@@ -202,27 +213,52 @@ export default function Gmail(){
             </div>
             <div>
                 <h1 className = {styles.pTitle}> 
-                    Final Design Solution 
+                    Final Solution
                 </h1>
                 <h1 className = {styles.bTitle}> 
-                    Iteration 03 : Existing Features from other applications
+                    Final Solution: Existing Features from other applications
                 </h1>
                 <p className = {styles.text}>
-                After testing the first and second iteration prototypes, the prototypes were not well-designed for cases of large amounts of folders. In the third iteration, I looked at designs of pre-existing applications such as Folders in Google Drive, Finder on Mac, and Folders on Windows to see how I could create a folder system that can handle huge amounts of data. 
+                After testing the first and second iteration prototypes, I concluded that: 
                 <br/>
                 <br/>
-                I also further explored what types of options should exist for filters when users are creating a new folder. 
+                1. The prototypes were not well-designed for cases of large amounts of folders. 
+                <br/>
+                <br/>
+                2. In the case that there are a lot of folders, the path to accessing a specific email becomes tedious. 
+                <br/>
+                <br/>
+                In the final design, I looked at designs of pre-existing applications such as Folders in Google Drive, Finder on Mac, and Folders on Windows to see how I could create a folder system that can handle huge amounts of data. 
+                </p>
+                <br/>
+                <br/>
+                <h1 className = {styles.bTitle}> 
+                    Bringing it all together
+                </h1>
+                <p className = {styles.text}>
+                    From these issues with my previous iterations, I thought of designs that could address the problem of large amounts of emails and folders: 
+                </p>
+                <br/>
+                <br/>
+                <p className = {styles.text}>
+                    1. Included folders at the top of the page. Once users click into a folder, subfolders will display at the top of the page. 
+                <br/>
+                <br/>
+                    2. Included a tab that showed recently accessed folders. Similar to Google Drive, users would be able to navigate directly to the folder from the tab. 
+                <br/>
+                <br/>
+                    3. Further explored what types of options should exist for filters when users are creating a new folder. 
                 </p>
             </div>
         </div>  
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Demonstration of Iteration 03
+                    Demonstration of Final Solution
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/d_WXXarDhpA?si=0Pkgc7xcA46czE9S&amp;loop=1&amp;mute=1&amp;controls=0&amp;" frameBorder = "0" modestBranding = "1"></iframe>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/oztf7JNVtoA?&amp;loop=1&amp;mute=1&amp;controls=0&amp;" frameBorder = "0" modestBranding = "1"></iframe>
             </div>
         </div>
         <div className = {styles.page}>
@@ -245,11 +281,29 @@ export default function Gmail(){
             </div>
         </div>  
         <div className = {styles.page}>
-                <div></div>
-                <h1 className = {styles.bTitle}>
-                    More info soon 
-                </h1>
-            </div>   
+            <div></div>
+            <h1 className = {styles.bTitle}>
+                More info soon 
+            </h1>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.pTitle}> 
+                Final Thoughts
+            </h1>
+            <p className = {styles.text}>
+            From this project, I learned how to design for recognition, and create design solutions that users are familiar with. 
+            This idea was able to aid my design decisions, especially because I was introducing a new feature that might come with a learning curve. 
+            <br/>
+            <br/>
+            Thoughout this process of testing and iterating for this project, I also thought it was interesting that I was able to understand the reasoning behind the UI that exists for current systems that deal with storing and sorting through large amounts of information. 
+            <br/>
+            <br/>
+            </p>
+            </div>
+        </div>   
         </main>
         <Footer/>
         </div>
