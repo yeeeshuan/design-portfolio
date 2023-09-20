@@ -137,7 +137,7 @@ export default function Gmail(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Gmail's color palette and type
+                    Gmail color palette and type
                 </p>
             </div>
             <div>
