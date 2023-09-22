@@ -88,7 +88,7 @@ class Graphics extends Component{
             projects:[
                 {type : "i", name : "Augmented Body", description: "Augmenting perception with sound", image: Augmented, link: "Experiments/Augmented"},
                 {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "Experiments/Exhibit"}, 
-                {type : "i", name : "Virtual CMU Tour", description: "Prototyping with AR", image: Tour, link: "Experiments/Tour"},
+                //{type : "i", name : "Virtual CMU Tour", description: "Prototyping with AR", image: Tour, link: "Experiments/Tour"},
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 {type : "i", name : "Tangible Design", description: "Experiments with Physical and Rapid Prototyping", image : P5, link: "Experiments/Tangible" }, 
             ]
