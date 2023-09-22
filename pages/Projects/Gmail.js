@@ -11,6 +11,7 @@ import Current from "../../Images/Projects/Gmail/Current.png";
 import Comp from "../../Images/Projects/Gmail/Components.png";
 import Figma from "../../Images/Projects/Gmail/Figma.png";
 import Journey from "../../Images/Projects/Gmail/Journey.png"
+import Code from "../../Images/Projects/Gmail/Code.png"
 
 export default function Gmail(){
     return(
@@ -286,6 +287,16 @@ export default function Gmail(){
                 More info soon 
             </h1>
         </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                   Next.js Development
+                </p>
+            </div>
+            <div>
+                <Image src = {Code}/>
+            </div>
+        </div> 
         <div className = {styles.page}>
             <div>
             </div>     

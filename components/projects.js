@@ -5,6 +5,7 @@ import P7 from '../Images/About/P7.jpg';
 import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/About/TEDxCMU.png'
 import Gmail from "../Images/About/Gmail.png";
+import Teachable from "../Images/About/Teachable.gif"; 
 
 import React, {useState, useEffect, Component } from 'react';
 
@@ -17,14 +18,14 @@ function getWindowDimensions() {
 }
 
 function useWindowDimensions() {
-    const [windowDimensions, setWindowDimensions] = useState({width: 0, height: 0}) // <-- don't invoke here
+    const [windowDimensions, setWindowDimensions] = useState({width: 0, height: 0})
 
     useEffect(() => {
         function handleResize() {
             setWindowDimensions(getWindowDimensions())
         }
 
-        handleResize() // <-- invoke this on component mount
+        handleResize()
         window.addEventListener('resize', handleResize)
         
         return () => { window.removeEventListener('resize', handleResize) }
@@ -85,8 +86,7 @@ class Projects extends Component{
                 {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" },  
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
                 //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
-                {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
-                thumbnail: "https://www.youtube.com/embed/7TSUz23Ogxs?start=6&end=14&autoplay=1&loop=1&mute=1&controls=0&playlist=7TSUz23Ogxs"}, 
+                {type : "i", name : "Interactive Grid", description: "Designing with ML", image: Teachable, link: "Projects/Teachable"},
                 {type : "i", name : "Ad Recomendation System Redesign", description: "UX Research/Design, User Testing ", image : UCRE, link: "Projects/UCRE" }, 
                 {type : "i", name : "TEDxCMU Innovation", description: "Interactive Projects", image: TEDxCMU, link: "Projects/TEDxCMU"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 

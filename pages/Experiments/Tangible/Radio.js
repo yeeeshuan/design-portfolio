@@ -48,7 +48,7 @@ export default function Systems(){
                 justifyContent: "center", 
             
             }}>
-                <Image src = {Thumbnail} width = {1080} height ={720} alt = "cover image"/>
+                <Image src = {Thumbnail} width = {1080} height ={600} alt = "cover image"/>
             </div>
 
             <div className = {styles.page}>
@@ -175,12 +175,6 @@ export default function Systems(){
                     <Image src = {Sketch8}  alt = "cover image"/>
                     <Image src = {Sketch9}  alt = "cover image"/>
                 </div>
-            </div>
-            <div className = {styles.page}>
-                <div></div>
-                <h1 className = {styles.bTitle}>
-                    More info soon 
-                </h1>
             </div>
             </main>
         <Footer/>
