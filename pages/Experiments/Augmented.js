@@ -1,12 +1,11 @@
-import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
 import Image from "next/image";
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
-import Thumbnail from "../../Images/About/Augmented.gif";
+import Aug from "../../Images/About/Augmented.png"
 
 
-export default function Systems(){
+export default function Augmented(){
     return(
 
         <div>
@@ -35,7 +34,7 @@ export default function Systems(){
                 justifyContent: "center", 
             
             }}>
-                <Image src = {Thumbnail} width = {1080} height ={600} alt = "cover image"/>
+                <Image src = {Aug} alt = "Augmented Body"/>
             </div>
             <div className = {styles.page}>
                 <div></div>
