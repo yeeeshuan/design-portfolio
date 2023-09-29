@@ -60,7 +60,7 @@ return(
         </h1>
         <p className = {styles.text}>
 
-            I am a junior at Carnegie Mellon studying <span className = {styles.CText}>Environments Design</span> with minors in 
+            I am a junior at Carnegie Mellon studying <span className = {styles.CText}>Experience Design</span> with minors in 
             <span className = {styles.CText}> Human-Computer-Interaction</span> and  <span className = {styles.CText}>Computer Science</span>. I am interested in interaction design 
             and creating digital experiences — I strive to create meaningful interactions through exploring the intersection of design and technology. 
 
