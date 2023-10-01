@@ -8,6 +8,8 @@ import SingleTech from "../../Images/Projects/Augmented/Single_Tech.png"
 import SingleScene from "../../Images/Projects/Augmented/Single_Scenario.png"
 import DoubleTech from "../../Images/Projects/Augmented/Double_Tech.png"
 import DoubleScene from "../../Images/Projects/Augmented/Double_Scenario.png"
+import EggDrawing from "../../Images/Projects/Augmented/Egg_Drawing.jpeg"
+import Egg from "../../Images/Projects/Augmented/Egg.jpeg"
 
 export default function Augmented(){
     return(
@@ -141,6 +143,26 @@ export default function Augmented(){
             </div>
             <div>
                 <Image src = {Concept} alt = "Concept Sketches"/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <p className = {styles.text}>
+                When considering the form of the object to be found, the object needed have a distinguishable outline that vistors have a clear image of in their head. As a result, I landed on the form of an egg—a form that suggests a round shape with a wide base and a sharper top. 
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Object ideation and prototyping
+                </p>
+            </div>
+            <div className = {styles.image_2}>
+                <Image src = {EggDrawing} alt = "Tech Diag"/>
+                <Image src = {Egg} alt = "Tech Diag"/>
             </div>
         </div> 
         <div className = {styles.page}>
