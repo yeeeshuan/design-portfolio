@@ -150,7 +150,7 @@ export default function Augmented(){
             </div>     
             <div>
             <p className = {styles.text}>
-                When considering the form of the object to be found, the object needed have a distinguishable outline that vistors have a clear image of in their head. As a result, I landed on the form of an egg—a form that suggests a round shape with a wide base and a sharper top. 
+                When considering the form of the object to be found, the object needed to have a distinguishable outline that vistors have a clear image of in their head. As a result, I landed on the form of an egg—a form that suggests a round shape with a wide base and a sharper top. 
             </p>
             </div>
         </div>
