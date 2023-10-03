@@ -307,9 +307,6 @@ export default function Augmented(){
             <h1 className = {styles.pTitle}> 
                 Prototyping
             </h1>
-            <h1 className = {styles.bTitle}> 
-                Motive to Unity to Arduino
-            </h1>
             <p className = {styles.text}>
             Going about the prototyping for the single person interaction, I attempted to utilize an Arduino, a sonar sensor, and a speaker to attempt to create the experience, this time on a much smaller scale.
             <br/>
