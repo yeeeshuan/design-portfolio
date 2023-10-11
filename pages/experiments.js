@@ -82,6 +82,8 @@ class Graphics extends Component{
         super(props);
         this.state = {
             projects:[
+                {type : "v", name : "AR Drawing Tool", description: "Bringing drawing tools into spatial computing", link: "../Experiments/Drawing", 
+                thumbnail: "https://www.youtube.com/embed/U7Dsg2RzCeA?&autoplay=1&loop=1&mute=1&controls=0&playlist=U7Dsg2RzCeA" }, 
                 {type : "v", name : "Augmented Body", description: "Augmenting perception with sound", link: "../Experiments/Augmented", 
                 thumbnail: "https://www.youtube.com/embed/giTR6jkj510?&autoplay=1&loop=1&mute=1&controls=0&playlist=giTR6jkj510" }, 
                 {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "Experiments/Exhibit"}, 
