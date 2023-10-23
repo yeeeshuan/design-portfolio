@@ -64,7 +64,7 @@ export default function Drawing(){
             1. The interaction of users bringing their drawings out of the digital screen and into the physical space—and then back to the digital screen.
             <br/>
             <br/>
-            2. Different ways the user can control colors, brush width/size when drawing in space.
+            2. Different ways the user can control colors, brush width/size when drawing in space. <strong>I wanted for the interactions to take advantage of the user&rsquo;s ability to move and interact in the physical space.</strong>
             <br/>
             <br/>
             3. How haptics can help aid the action of drawing if users are using an external device to draw.
@@ -76,31 +76,10 @@ export default function Drawing(){
             </div>     
             <div>
             <h1 className = {styles.pTitle}> 
-                Research
+                Prototyping
             </h1>
-            <p className = {styles.text}>
-            Since I wanted to see what a drawing application in a spatial computing space would look like, I first did a bit of research understanding some of the shortcomings to drawing tools on the digital screen. 
-            <br/>
-            <br/>
-            - <strong>Limitations to interactions</strong>: Users are limited to dragging a mouse to create extremely accurate lines and curves—it is difficult to draw freeform using the trackpad without an external tool.
-            <br/>
-            <br/>
-            - <strong>Mode errors:</strong> When wanting to change the color or mode, there is a need for the user to stop what they are doing, toggle a different mode, and continue working.
-            <br/>
-            <br/>
-            - <strong>Accessibility Issues:</strong> When coloring or drawing, it is difficult for users with hand problems to utilize the trackpad and keyboard.
-            <br/>
-            <br/>
-            With this, I wanted to explore how I could bring a 2-D interaction into the spatial computing space: a drawing tool. Drawing tools in many digital applications have a very defined paradigm for how users can (and should) use it—but how can bringing it into the spatial computing space help improve the interaction?
-            </p>
-            </div>
-        </div>
-        <div className = {styles.page}>
-            <div>
-            </div>     
-            <div>
-            <h1 className = {styles.pTitle}> 
-                Drawing Interaction Prototype
+            <h1 className = {styles.bTitle}> 
+                Drawing Interaction
             </h1>
             <p className = {styles.text}>
             To start this project, I started with creating a simple drawing tool that draws a line on the wall of the studio. <strong>I wanted to make sure that the drawing interaction itself was user friendly</strong> before thinking about features such as changing color.
@@ -150,9 +129,6 @@ export default function Drawing(){
             <br/>
             <br/>
             To improve the interaction, it would be interesting to think about how I wanted to <strong>change the parameters that determine how sensitive the system is to better aid the action of drawing.</strong>
-            <br/>
-            <br/>
-            Another thought that occurred to me was that maybe the calibration of the object in motive was inaccurate. Thus, I tried recalibrating the object; it worked a lot better, but the application was still very sensitive to small movements and inaccuracies.
             </p>
             </div>
         </div>
@@ -164,6 +140,28 @@ export default function Drawing(){
             </div>
             <div>
                 <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/U7Dsg2RzCeA?si=I54Pe1gBHdgTTRaW&amp;loop=1&amp;mute=0&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1"></iframe>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div>
+            <h1 className = {styles.bTitle}> 
+            Changing Color Interaction
+            </h1>
+            <p className = {styles.text}>
+               Next, I prototyped an interaction for how users can change colors. I wanted for users to feel as if there was a physical color palette in front of them, blending the use of both physcial and digital interactions. 
+            </p>    
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Changing Color Interaction in Unity
+                </p>
+            </div>
+            <div>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/W4tB8SHo-bk?si=OnA-AwaeqBj6msSw&amp;loop=1&amp;mute=0&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1"></iframe>
             </div>
         </div>
         <div className = {styles.page}>
