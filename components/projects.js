@@ -5,6 +5,7 @@ import P7 from '../Images/About/P7.jpg';
 import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/About/TEDxCMU.png'
 import Gmail from "../Images/About/Gmail.png";
+import Deceptive from "../Images/About/Deceptive.png";
 
 import React, {useState, useEffect, Component } from 'react';
 
@@ -87,7 +88,7 @@ class Projects extends Component{
                 {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
                 thumbnail: "https://www.youtube.com/embed/7TSUz23Ogxs?start=0&end=14&autoplay=1&loop=1&mute=1&controls=0&playlist=7TSUz23Ogxs" }, 
                 //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
-                {type : "i", name : "Ad Recomendation System Redesign", description: "UX Research/Design, User Testing ", image : UCRE, link: "Projects/UCRE" }, 
+                {type : "i", name : "Deceptive UI Study", description: "UX Research, Prototyping", image: Deceptive, link: "https://bold-milkshake-c2a.notion.site/Deceptive-UI-Study-2862f1bc4f834ae6af4ae73f5eed2867?pvs=4"}, 
                 {type : "i", name : "TEDxCMU Innovation", description: "Interactive Projects", image: TEDxCMU, link: "Projects/TEDxCMU"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 //{type : "i", name : "PGH Water Quality", description: "Systems Mapping", image : P4, link: "/Systems" }, 
