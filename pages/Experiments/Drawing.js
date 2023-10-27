@@ -3,6 +3,7 @@ import styles from "../../styles/Projects.module.css";
 import Image from "next/image";
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
+import BG from '../../Images/Projects/Drawing/BG.png'
 
 export default function Drawing(){
     return(
@@ -53,22 +54,55 @@ export default function Drawing(){
             <br/>
             <br/>
             With this, I wanted to explore how I could bring a 2-D interaction into the spatial computing space: a drawing tool. The pen tool in many digital applications has a very defined paradigm for how users can (and should) use it—but how can bringing it into the spatial computing space help improve the interaction?
-            <br/>
-            <br/>
-            <h1 className = {styles.pTitle}> 
-                Main Features Explored
-            </h1>
-            For this project, I wanted to explore how I could create a drawing application that fully explores the capabilities of Spatial Computing. I explore: 
-            <br/>
-            <br/>
-            1. The interaction of users bringing their drawings out of the digital screen and into the physical space—and then back to the digital screen.
-            <br/>
-            <br/>
-            2. Different ways the user can control colors, brush width/size when drawing in space. <strong>I wanted for the interactions to take advantage of the user&rsquo;s ability to move and interact in the physical space.</strong>
-            <br/>
-            <br/>
-            3. How haptics can help aid the action of drawing if users are using an external device to draw.
             </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div>
+                <h1 className = {styles.pTitle}> 
+                    Background Research
+                </h1>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Study of current applications
+                </p>
+            </div>
+            <div>
+                <Image src = {BG} alt = "Background Info"/>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div></div>
+            <div>
+                <p className = {styles.text}>
+                    To start the project, I explored how current applications allow for users to draw. It was interesting to think about how even though the final product exists on the digital screen, the interactions to create it are physical, and take inspiration from the physical act of drawing. 
+                </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div>
+                <h1 className = {styles.pTitle}> 
+                    Main Features Explored
+                </h1>
+                <p className = {styles.text}>
+                I wanted to explore how I could create a drawing application that fully explores the capabilities of Spatial Computing. I explore: 
+                <br/>
+                <br/>
+                1. The interaction of users bringing their drawings out of the digital screen and into the physical space—and then back to the digital screen.
+                <br/>
+                <br/>
+                2. Different ways the user can control colors, brush width/size when drawing in space. <strong>I wanted for the interactions to take advantage of the user&rsquo;s ability to move and interact in the physical space.</strong>
+                <br/>
+                <br/>
+                3. How haptics can help aid the action of drawing if users are using an external device to draw.
+                </p>
             </div>
         </div>
         <div className = {styles.page}>
