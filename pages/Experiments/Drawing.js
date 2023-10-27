@@ -28,7 +28,7 @@ export default function Drawing(){
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-            A spatial computing application that explores how to bring 2D tools build for the computer screen in to a digital/physical space.
+            A spatial computing application that explores how to bring 2D tools built for the computer screen in to a digital/physical space.
             </p>
          </div>
          </div>
@@ -162,6 +162,16 @@ export default function Drawing(){
             </div>
             <div>
                 <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/W4tB8SHo-bk?si=OnA-AwaeqBj6msSw&amp;loop=1&amp;mute=0&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1"></iframe>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Changing Color Interaction
+                </p>
+            </div>
+            <div>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/Sn2jOkYIO_Q?si=i2fqx7xx4L4pMvPX&amp;loop=1&amp;mute=0&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1"></iframe>
             </div>
         </div>
         <div className = {styles.page}>
