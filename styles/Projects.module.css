@@ -64,7 +64,7 @@ iframe.ytplayer{
 /* Individual Project Pages*/
 
 .space{
-    margin-top: 3rem; 
+    margin-bottom: 10rem; 
 }
 
 .main{
@@ -244,6 +244,13 @@ a.links:hover{
 
 .invisible{
     display: None; 
+}
+
+.divider{
+    display: block; 
+    height: 1px; 
+    border: 0;
+    border-top: 1px solid rgb(88, 88, 88); ; 
 }
 
  @media (min-width: 2000px) {

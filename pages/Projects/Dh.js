@@ -65,8 +65,8 @@ export default function DesignHero(){
             This project is a culmination of 5 different deliverables that come together to celebrate the life and work of Wolfgang Weingart.
             </p>
             <br/>
-         </div>
-         </div>
+            </div>
+            </div>
             <div style = {{
                 display: "flex", 
                 justifyContent: "center", 
@@ -75,66 +75,69 @@ export default function DesignHero(){
                 <Image src = {DH} width = {1080} height ={600} alt = "cover image"/>
             </div>
             <br/>
+            <br/>
+            <br/>
+            <br/>
         <div className={styles.project}>
          <h1 className = {styles.pTitle}> 
             Interactive Website
             </h1>
             <div className = {styles.intro}>
-            <div className = {styles.role}>
-            <p className = {styles.d1}>Size //</p><p className = {styles.d2}> Desktop (1920 x 1080) </p> 
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> HTML/CSS, Jquery.js</p>
+                <div className = {styles.role}>
+                <p className = {styles.d1}>Size //</p><p className = {styles.d2}> Desktop (1920 x 1080) </p> 
+                <br></br>
+                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
+                <br></br>
+                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> HTML/CSS, Jquery.js</p>
+                </div>
+                <div className = {styles.cont}> 
+                    <p className = {styles.text}>
+                    This interactive website consists of a timeline of Weingart&rsquo;s accomplishments, a brief biography, and a gallery of his most famous pieces, 
+                    highlighting his career and visual style. 
+                    </p>
+                    <br/>
+                    <br/>
+                    <p>
+                    <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/index.html#" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+                    <a className = {styles.links} href = "https://github.com/yeeeshuan/DH_Mobile" rel="noopener noreferrer" target="_blank"> Github </a> 
+                    <br/>
+                    </p>
+                </div>
             </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            This interactive website consists of a timeline of Weingart&rsquo;s accomplishments, a brief biography, and a gallery of his most famous pieces, 
-            highlighting his career and visual style. 
-            </p>
-            <br/>
-            <br/>
-            <p>
-            <a className = {styles.links} href = "https://yeeeshuan.github.io/DH_Mobile/index.html#" rel="noopener noreferrer" target="_blank"> Live Website </a> 
-            <a className = {styles.links} href = "https://github.com/yeeeshuan/DH_Mobile" rel="noopener noreferrer" target="_blank"> Github </a> 
-            <br/>
-            </p>
-         </div>
-         </div>
-         <div className={styles.image_4}>
-                <Image src = {D1} style = {styles.spreads}/>
-                <Image src = {D2} style = {styles.spreads}/>
-        </div>
-        <div className={styles.image_4}>
-                <Image src = {D3} style = {styles.spreads}/>
-                <Image src = {D4} style = {styles.spreads}/>
-        </div>
+            <div className={styles.image_4}>
+                    <Image src = {D1} style = {styles.spreads}/>
+                    <Image src = {D2} style = {styles.spreads}/>
+            </div>
+            <div className={styles.image_4}>
+                    <Image src = {D3} style = {styles.spreads}/>
+                    <Image src = {D4} style = {styles.spreads}/>
+            </div>
         </div>
         <div className={styles.project}>
             <h1 className = {styles.pTitle}> 
             Mobile Experience   
             </h1>
             <div className = {styles.intro}>
-            <div className = {styles.role}>
-            <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 48 x 27 Inches </p> 
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma</p>
+                <div className = {styles.role}>
+                <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 48 x 27 Inches </p> 
+                <br></br>
+                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 2 Weeks </p>
+                <br></br>
+                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma</p>
+                </div>
+                <div className = {styles.cont}> 
+                    <p className = {styles.text}>
+                    Kiosk experience of Weingart&rsquo;s work and life as a compliment to the booklet. 
+                    </p>
+                    <br/>
+                </div>
             </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-            Kiosk experience of Weingart&rsquo;s work and life as a compliment to the booklet. 
-            </p>
-            <br/>
-         </div>
-         </div>
-         <div className={styles.image_5}>
-            <Image src = {K1} style = {styles.spreads}/>
-            <Image src = {K2} style = {styles.spreads}/>
-            <Image src = {K3} style = {styles.spreads}/>
-            <Image src = {K4} style = {styles.spreads}/>
-         </div>
+            <div className={styles.image_5}>
+                <Image src = {K1} style = {styles.spreads}/>
+                <Image src = {K2} style = {styles.spreads}/>
+                <Image src = {K3} style = {styles.spreads}/>
+                <Image src = {K4} style = {styles.spreads}/>
+            </div>
          <div>
          <iframe width = "100%" height="600px" src="https://www.youtube.com/embed/5NBvxepx6Fc?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             frameBorder = "0" modestBranding = "1"></iframe>
@@ -145,51 +148,51 @@ export default function DesignHero(){
             Poster 
             </h1>
             <div className = {styles.intro}>
-            <div className = {styles.role}>
-            <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 19.75 x 31.25 inches </p> 
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 3 Weeks </p>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ps, Id</p>
+                <div className = {styles.role}>
+                    <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 19.75 x 31.25 inches </p> 
+                    <br></br>
+                    <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 3 Weeks </p>
+                    <br></br>
+                    <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ps, Id</p>
+                </div>
+                <div className = {styles.cont}> 
+                    <p className = {styles.text}>
+                        A poster made to introduce viewers about typographer Wolfgang Weingart. 
+                    </p>
+                    <br/>
+                    <br/>
+                    <p>
+                    <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e" rel="noopener noreferrer" target="_blank"> Process </a> 
+                    </p>
+                </div>
             </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-                A poster made to introduce viewers about typographer Wolfgang Weingart. 
-            </p>
-            <br/>
-            <br/>
-            <p>
-            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e" rel="noopener noreferrer" target="_blank"> Process </a> 
-            </p>
-         </div>
-         </div>
             <div>
-            <Image src = {Poster} className = {styles.spreads}/>
+                <Image src = {Poster} className = {styles.spreads}/>
             </div>
             </div>
             <div className={styles.project}>
-            <h1 className = {styles.pTitle}> 
-            Booklet  
-            </h1>
+                <h1 className = {styles.pTitle}> 
+                Booklet  
+                </h1>
             <div className = {styles.intro}>
-            <div className = {styles.role}>
-            <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 8.25 x 10.5 inches, 16 pages </p> 
-            <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 5 Weeks </p>
-            <br></br>
-            <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ps, Ae, Id</p>
-            </div>
-            <div className = {styles.cont}> 
-            <p className = {styles.text}>
-                A 16-page booklet exploring the breadth of Weingart&rsquo;s career. 
-            </p>
-            <br/>
-            <br/>
-            <p>
-            <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e" rel="noopener noreferrer" target="_blank"> Process </a> 
-            </p>
-         </div>
-         </div>
+                <div className = {styles.role}>
+                <p className = {styles.d1}>Size //</p><p className = {styles.d2}> 8.25 x 10.5 inches, 16 pages </p> 
+                <br></br>
+                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> 5 Weeks </p>
+                <br></br>
+                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Adobe Ai, Ps, Ae, Id</p>
+                </div>
+                <div className = {styles.cont}> 
+                <p className = {styles.text}>
+                    A 16-page booklet exploring the breadth of Weingart&rsquo;s career. 
+                </p>
+                <br/>
+                <br/>
+                <p>
+                <a className = {styles.links} href = "https://medium.com/@yixuanhu/design-heroes-poster-25f477c0df7e" rel="noopener noreferrer" target="_blank"> Process </a> 
+                </p>
+                </div>
+             </div>
             <div className={styles.image_4}>
                 <Image src = {S1} style = {styles.spreads}/>
                 <Image src = {S2} style = {styles.spreads}/>

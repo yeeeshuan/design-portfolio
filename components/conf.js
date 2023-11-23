@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css"; 
-import fav from "../public/Favicon.png"; 
+import fav from "../public/favicon.ico"; 
 import One from "../Images/About/1.jpeg"; 
 import Two from "../Images/About/2.JPG"; 
 import Three from "../Images/About/3.jpg"; 

@@ -11,6 +11,7 @@ export default function Home() {
     return (
       <div className = {styles.page}>
         <Head>
+        <link rel="icon" href="public/favicon.ico" />
         <title>Ethan Huang Design | Home</title>
         </Head>
         <Navbar/>

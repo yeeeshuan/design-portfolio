@@ -84,11 +84,11 @@ class Projects extends Component{
             projects:[
                 {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
                 {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" },  
-                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
                 {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
                 thumbnail: "https://www.youtube.com/embed/7TSUz23Ogxs?start=0&end=14&autoplay=1&loop=1&mute=1&controls=0&playlist=7TSUz23Ogxs" }, 
                 //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
                 {type : "i", name : "Deceptive UI Study", description: "UX Research, Prototyping", image: Deceptive, link: "https://bold-milkshake-c2a.notion.site/Deceptive-UI-Study-2862f1bc4f834ae6af4ae73f5eed2867?pvs=4"}, 
+                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
                 {type : "i", name : "TEDxCMU Innovation", description: "Interactive Projects", image: TEDxCMU, link: "Projects/TEDxCMU"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 //{type : "i", name : "PGH Water Quality", description: "Systems Mapping", image : P4, link: "/Systems" }, 
