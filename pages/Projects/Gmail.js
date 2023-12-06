@@ -184,7 +184,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/d1AGeNxfc24?si=lL5l7T-hBtnZerR7&amp;loop=1&amp;mute=1&amp;controls=0&amp;" frameBorder = "0" modestBranding = "1"></iframe>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/d1AGeNxfc24?si=lL5l7T-hBtnZerR7&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
             </div>
         </div>
         <div className = {styles.page}>
@@ -206,7 +206,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/Z4PzIMvI8W4?si=HPPTcSIU6VZVrztWh&amp;loop=1&amp;mute=1&amp;controls=0&amp;" frameBorder = "0" modestBranding = "1"></iframe>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/Z4PzIMvI8W4?si=HPPTcSIU6VZVrztWh&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
             </div>
         </div>
         <div className = {styles.page}>
@@ -259,7 +259,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/oztf7JNVtoA?&amp;loop=1&amp;mute=1&amp;controls=0&amp;" frameBorder = "0" modestBranding = "1"></iframe>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/oztf7JNVtoA?&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
             </div>
         </div>
         <div className = {styles.page}>

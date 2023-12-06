@@ -149,7 +149,7 @@ export default function Websites(){
                     Sidebar Iteration 1
                     </p>
                     </div>
-                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/ga-lF1JGbjQ?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=ga-lF1JGbjQ" frameBorder = "0" modestBranding = "1"></iframe>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/ga-lF1JGbjQ?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=ga-lF1JGbjQ" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
                 </div>       
                 <div className = {styles.page}>
                     <div>
@@ -157,7 +157,7 @@ export default function Websites(){
                     Sidebar Iteration 2
                     </p>
                     </div>
-                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/NDESw25pOpI?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=NDESw25pOpI" frameBorder = "0" modestBranding = "1"></iframe>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/NDESw25pOpI?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=NDESw25pOpI" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
                 </div>       
                 <div className = {styles.page}>
                     <div>
@@ -165,7 +165,7 @@ export default function Websites(){
                     Sidebar Iteration 3
                     </p>
                     </div>
-                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/kS7K18vsvC0?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=kS7K18vsvC0" frameBorder = "0" modestBranding = "1"></iframe>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/kS7K18vsvC0?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=kS7K18vsvC0" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
                 </div>       
                 <div className = {styles.page}>
                     <div>
@@ -248,7 +248,7 @@ export default function Websites(){
                         Mobile Navigation 
                     </p>
                     </div>
-                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/-SIgk64vpik?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=-SIgk64vpik" frameBorder = "0" modestBranding = "1"></iframe>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/-SIgk64vpik?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=-SIgk64vpik" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
                 </div>       
                 <div className = {styles.page}>
                     <div>
@@ -256,7 +256,7 @@ export default function Websites(){
                         Mobile Mock-Up
                     </p>
                     </div>
-                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/AvJOtL_06T0?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=AvJOtL_06T0" frameBorder = "0" modestBranding = "1"></iframe>
+                    <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/AvJOtL_06T0?autoplay=0&amp;loop=0&amp;mute=0&amp;controls=1&amp;playlist=AvJOtL_06T0" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
                 </div>       
             </main>
             <Footer/>
