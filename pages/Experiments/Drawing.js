@@ -39,7 +39,7 @@ export default function Drawing(){
             marginTop: "50px",
         
         }}>
-            <iframe className = "thumbnail" src = "https://www.youtube.com/embed/U7Dsg2RzCeA?&autoplay=1&loop=1&mute=1&controls=0&playlist=U7Dsg2RzCeA"
+            <iframe className = "thumbnail" src="https://www.youtube.com/embed/Y57mo29ETNE?si=XD-G6duvHZ2PW2lY&autoplay=1&loop=1&mute=1&controls=0&playlist=Y57mo29ETNE"
                 width = {1080} height ={600} frameBorder="0" alt = "cover image"/>
         </div>
         <div className = {styles.page}>
@@ -113,7 +113,7 @@ export default function Drawing(){
                 Prototyping
             </h1>
             <h1 className = {styles.bTitle}> 
-                Drawing Interaction
+                Drawing Interaction 
             </h1>
             <p className = {styles.text}>
             To start this project, I started with creating a simple drawing tool that draws a line on the wall of the studio. <strong>I wanted to make sure that the drawing interaction itself was user friendly</strong> before thinking about features such as changing color.
@@ -178,10 +178,20 @@ export default function Drawing(){
         </div>
         <div className = {styles.page}>
             <div>
+                <p className = {styles.d}> 
+                    Final Drawing Interaction
+                </p>
+            </div>
+            <div>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/Y57mo29ETNE?si=XD-G6duvHZ2PW2lY&amp;loop=1&amp;mute=0&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1"></iframe>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
             </div>
             <div>
             <h1 className = {styles.bTitle}> 
-            Changing Color Interaction
+            Changing Color Interaction 
             </h1>
             <p className = {styles.text}>
                Next, I prototyped an interaction for how users can change colors. I wanted for users to feel as if there was a physical color palette in front of them, blending the use of both physcial and digital interactions. 
@@ -201,11 +211,35 @@ export default function Drawing(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Changing Color Interaction
+                    Changing Color Interaction Iter01
                 </p>
             </div>
             <div>
                 <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/Sn2jOkYIO_Q?si=i2fqx7xx4L4pMvPX&amp;loop=1&amp;mute=0&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1"></iframe>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div>
+            <p className = {styles.text}>
+                Although this interaction was utilizing tracking,<strong> it did not feel like it was taking full advantage of the spatial computing space.</strong> The three blocks felt like they were limiting users to move around the space and simulating buttons in a digital interface. 
+            </p>    
+            <br/>
+            <br/>
+            <p className = {styles.text}>
+                Thus, moving forward, I wanted to think more about how I could take advantage of the physical computing space to seamlessly mesh physical and digital interactions. To encourage more physicality into the interactions, I came up with the idea that to change colors, users would switch an attachment to the pen. 
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Drawing Interaction Iter02
+                </p>
+            </div>
+            <div>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/tCSG15mESjc?si=4buWVsdAYjmYcMEJ&amp;loop=1&amp;mute=0&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1"></iframe>
             </div>
         </div>
         <div className = {styles.page}>

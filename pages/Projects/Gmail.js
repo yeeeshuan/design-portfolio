@@ -11,6 +11,8 @@ import Current from "../../Images/Projects/Gmail/Current.png";
 import Comp from "../../Images/Projects/Gmail/Components.png";
 import Figma from "../../Images/Projects/Gmail/Figma.png";
 import Journey from "../../Images/Projects/Gmail/Journey.png"
+import FJourney from "../../Images/Projects/Gmail/FilterJourney.png"
+import LJourney from "../../Images/Projects/Gmail/LabelJourney.png"
 import Code from "../../Images/Projects/Gmail/Code.png"
 
 export default function Gmail(){
@@ -93,9 +95,19 @@ export default function Gmail(){
                     Affinity Diagramming and understanding Current Systems
                 </p>
             </div>
-            <div className={styles.image_2}>
+            <div>
                 <Image src = {Affinity}/>
-                <Image src = {Current}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Understanding Current Label and Filter Systems
+                </p>
+            </div>
+            <div className = {styles.image_2}>
+                <Image src = {LJourney}/>
+                <Image src = {FJourney}/>
             </div>
         </div> 
         <div className = {styles.page}>
