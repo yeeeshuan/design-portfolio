@@ -68,7 +68,7 @@ export default function Expo(){
                     Problem Space 
                 </h1>
                     <p className = {styles.text}>
-                    Expo 2025 Osaka is an event that "brings together people and innovations from around the world in an effort to address issues facing mankind on a global scale." Each country participating is in charge of designing a pavilion that highlights these innovations. 
+                    Expo 2025 Osaka is an event that &ldquo;brings together people and innovations from around the world in an effort to address issues facing mankind on a global scale.&rdquo; Each country participating is in charge of designing a pavilion that highlights these innovations. 
                     <br/>
                     <br/>
                     From the Expo&rsquo;s mission of highlighting how a country saves lives, empowers lives, and connects lives, I chose to specifically focus on creating an experience that highlights the efforts China is putting into creating innovations that <strong>empower lives</strong>.
