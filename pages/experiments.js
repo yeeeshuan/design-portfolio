@@ -125,8 +125,6 @@ class Graphics extends Component{
         </h2>
         </div>
         </div>
-        <div className={styles.space}>
-        </div>
         <div className = {styles.projectRow}>
             {this.state.projects.map((project, idx) => {
                 if (project.type == "v"){
