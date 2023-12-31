@@ -41,7 +41,7 @@ export default function Expo(){
             <div>
             <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Interaction Designer, Prototyper</p> 
             <br></br>
-            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> Dec 2022 </p>
+            <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> Nov — Dec 2023 </p>
             <br></br>
             <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> P5.js, AfterEffects, Illustrator, Rhino</p>
             </div>
@@ -346,7 +346,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image width = {1600} height = {900} src = {Fireworks} alt = "Background Info"/>
+                <iframe width = "100%" height = "500px" src="https://player.vimeo.com/video/898931706?&amp;loop=1&amp;mute=0&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1"></iframe>
                 </div>
             </div>
             <div className = {styles.page}>
