@@ -345,6 +345,10 @@ a.links:hover{
         margin-right: 0; 
     }
 
+    .imageWrap:hover .cardRight{
+        opacity: 0%; 
+    }
+
     .empty{
         width: 0px; 
         height: 0px; 
