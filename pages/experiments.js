@@ -9,6 +9,7 @@ import Footer from '../components/footer';
 import P5 from '../Images/About/P5.png'; 
 import P6 from '../Images/About/P6.png'; 
 import Expo from "../Images/Projects/Expo/Thumbnail.png"; 
+import onHover from "../Images/About/onHover.png"
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window
@@ -53,8 +54,15 @@ function Video(props){
                     <iframe className = "ytplayer" width = "100%" height ={height} src={props.thumbnail}
                     frameBorder = "0" modestBranding = "1"></iframe>
                 </div>
+                <div className={styles.cardDes}>
+                <div className={styles.cardLeft}>
                     <h1 className = {styles.title}> {props.name}</h1>
-                <p className = {styles.words}> {props.description}</p>
+                    <p className = {styles.words}> {props.description} </p>
+                </div>
+                <div className={styles.cardRight}>
+                    <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                </div>
+            </div>
                 </a> 
                 </div>
         </div>
@@ -70,8 +78,15 @@ function Img(props){
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
                 <Image src = {props.image} alt = "Fruit Ninja"/> 
             </div>
-                <h1 className = {styles.title}> {props.name}</h1>
-            <p className = {styles.words}> {props.description} </p>
+            <div className={styles.cardDes}>
+                <div className={styles.cardLeft}>
+                    <h1 className = {styles.title}> {props.name}</h1>
+                    <p className = {styles.words}> {props.description} </p>
+                </div>
+                <div className={styles.cardRight}>
+                    <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                </div>
+            </div>
             </a> 
             </div>
          </div>

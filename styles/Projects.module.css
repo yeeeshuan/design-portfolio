@@ -44,7 +44,7 @@ iframe.ytplayer{
 .imageWrap{
     display: inline-block; 
     width: 48%;
-    padding: 0.5rem; 
+    padding: 1rem; 
     margin-bottom: 50px; 
     border-radius: 0.5rem; 
     background-color: #212121; 
@@ -54,6 +54,26 @@ iframe.ytplayer{
 
 .imageWrap:hover{
     background-color: #373737; 
+}
+
+.cardDes{
+    display: flex; 
+}
+
+.cardLeft{
+    width: 80%; 
+}
+
+.cardRight{
+    opacity: 0%;
+    width: 20%; 
+    margin-top: 1.5rem; 
+    transition: 0.5s;
+    text-align: right;
+}
+
+.imageWrap:hover .cardRight{
+    opacity: 100%
 }
 
 .ytplayer{

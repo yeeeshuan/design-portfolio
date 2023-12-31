@@ -6,6 +6,7 @@ import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/About/TEDxCMU.png'
 import Gmail from "../Images/About/Gmail.png";
 import Deceptive from "../Images/About/Deceptive.png";
+import onHover from "../Images/About/onHover.png"
 
 import React, {useState, useEffect, Component } from 'react';
 
@@ -52,8 +53,15 @@ function Video(props){
                     <iframe className = "ytplayer" width = "100%" height ={height} src={props.thumbnail}
                     frameBorder = "0" modestBranding = "1"></iframe>
                 </div>
+                <div className={styles.cardDes}>
+                <div className={styles.cardLeft}>
                     <h1 className = {styles.title}> {props.name}</h1>
-                <p className = {styles.words}> {props.description}</p>
+                    <p className = {styles.words}> {props.description} </p>
+                </div>
+                <div className={styles.cardRight}>
+                    <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                </div>
+            </div>
                 </a> 
                 </div>
         </div>
@@ -69,8 +77,15 @@ function Img(props){
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
                 <Image src = {props.image} alt = "image"/> 
             </div>
-                <h1 className = {styles.title}> {props.name}</h1>
-            <p className = {styles.words}> {props.description} </p>
+            <div className={styles.cardDes}>
+                <div className={styles.cardLeft}>
+                    <h1 className = {styles.title}> {props.name}</h1>
+                    <p className = {styles.words}> {props.description} </p>
+                </div>
+                <div className={styles.cardRight}>
+                    <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                </div>
+            </div>
             </a> 
             </div>
          </div>
@@ -88,7 +103,7 @@ class Projects extends Component{
                 thumbnail: "https://www.youtube.com/embed/7TSUz23Ogxs?start=0&end=14&autoplay=1&loop=1&mute=1&controls=0&playlist=7TSUz23Ogxs" }, 
                 //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
                 {type : "i", name : "Deceptive UI Study", description: "UX Research, Prototyping", image: Deceptive, link: "https://bold-milkshake-c2a.notion.site/Deceptive-UI-Study-2862f1bc4f834ae6af4ae73f5eed2867?pvs=4"}, 
-                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Poster, Booklet, Animation, App, and Website for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
+                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Multi-media series for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
                 {type : "i", name : "TEDxCMU Innovation", description: "Interactive Projects", image: TEDxCMU, link: "Projects/TEDxCMU"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 //{type : "i", name : "PGH Water Quality", description: "Systems Mapping", image : P4, link: "/Systems" }, 
