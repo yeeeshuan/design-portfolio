@@ -29,7 +29,7 @@ export default function Drawing(){
             </div>
             <div className = {styles.cont}> 
             <p className = {styles.text}>
-            A spatial computing application that explores how to bring 2D tools built for the computer screen in to a digital/physical space.
+            A spatial computing application that explores how to bring 2D tools built for the computer screen into spatial computing.
             </p>
          </div>
          </div>
@@ -50,10 +50,10 @@ export default function Drawing(){
                 Project Ideation
             </h1>
             <p className = {styles.text}>
-            When thinking about Spatial Computing, something that interested me was the idea of exploring what combining physical and digital interactions would afford the user. Interactions in Spatial Computing are not limited to the 2-D computer screen and keyboard and mouse—allowing me to completely rethink how I want users to interact with an interface.
+            When thinking about the possibilities of spatial computing, something that interested me was the idea of exploring what combining physical and digital interactions would afford the user. Spatial computing allowed for a whole new set of interactions — for users to both physically and digitally interact with artifacts and move around the space — all things that I could explore. 
             <br/>
             <br/>
-            With this, I wanted to explore how I could bring a 2-D interaction into the spatial computing space: a drawing tool. The pen tool in many digital applications has a very defined paradigm for how users can (and should) use it—but how can bringing it into the spatial computing space help improve the interaction?
+            With this, I wanted to experiment with how I could bring a 2-D interaction into the spatial computing space. The pen tool in many digital applications has a very defined paradigm for how users can use it—but how can bringing it into the spatial computing space add to the interaction?
             </p>
             </div>
         </div>
