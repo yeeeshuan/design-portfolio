@@ -54,12 +54,14 @@ export default function Expo(){
          </div>
          </div>
          <div style = {{
-                display: "flex", 
-                justifyContent: "center", 
-            
-            }}>
-                <Image src = {Thumbnail} width = {1080} height ={600} alt = "cover image"/>
-            </div>
+            display: "flex", 
+            justifyContent: "center", 
+            marginTop: "50px",
+        
+        }}>
+            <iframe className = "thumbnail" src="https://www.youtube.com/embed/Z1zpiw-alP4?si=jpFB7RLbKDfpXwhJ&autoplay=1&loop=1&mute=1&controls=0&playlist=Z1zpiw-alP4"
+                width = {1080} height ={600} frameBorder="0" alt = "cover image"/>
+        </div>
             <div className = {styles.page}>
                 <div>
                 </div>
