@@ -49,7 +49,8 @@ return(
             <span className = {styles.imageWrap_1}>
                 {isHovering? (<Image style = {{borderRadius: '10px', overflow: 'hidden'}} className = "Photo" src = {Photo}  alt = "Photo"/>)
                 : twoIsHovering? (<Image style = {{borderRadius: '10px', overflow: 'hidden'}} className = "About" src = {Sketches}  alt = "About"/>)
-                :(<Image style = {{borderRadius: '10px', overflow: 'hidden'}} className = "About" src = {Me}  alt = "About"/> )
+                : <Image style = {{borderRadius: '10px', overflow: 'hidden'}} className = "Photo" src = {Me}  alt = "Photo"/>
+             
 }
  
             </span>

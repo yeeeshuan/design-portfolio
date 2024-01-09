@@ -155,7 +155,9 @@ nav.footer{
   }
 
   .invisible{
-    display: None; 
+    opacity: 0;
+    width: 0; 
+    height: 0;  
 }
 
 @media (max-width: 500px){
