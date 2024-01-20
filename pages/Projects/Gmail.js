@@ -7,7 +7,6 @@ import Footer from '../../components/footer';
 import Thumbnail from "../../Images/About/Gmail.png";
 import Colors from "../../Images/Projects/Gmail/Colors.png"
 import Affinity from "../../Images/Projects/Gmail/Affinity.png";
-import Current from "../../Images/Projects/Gmail/Current.png";
 import Comp from "../../Images/Projects/Gmail/Components.png";
 import Figma from "../../Images/Projects/Gmail/Figma.png";
 import Journey from "../../Images/Projects/Gmail/Journey.png"
@@ -22,6 +21,15 @@ export default function Gmail(){
             <title>Ethan Huang Design | Gmail Redesign</title>
             </Head>
             <div className = {styles.invisible}>
+                <Image src = {Thumbnail} alt = "preload"/>
+                <Image src = {Colors} alt = "preload"/>
+                <Image src = {Affinity} alt = "preload"/>
+                <Image src = {Comp} alt = "preload"/>
+                <Image src = {Figma} alt = "preload"/>
+                <Image src = {Journey} alt = "preload"/>
+                <Image src = {FJourney} alt = "preload"/>
+                <Image src = {LJourney} alt = "preload"/>
+                <Image src = {Code} alt = "preload"/>
             </div>
             <Navbar/>
             <main className={styles.main}>

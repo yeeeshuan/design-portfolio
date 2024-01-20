@@ -37,12 +37,26 @@ function useWindowDimensions() {
 
 function Video(props){
     const size = useWindowDimensions();
-    let height = size.height; 
-    if (height >= 700 && height <= 800){
-        height = (size.height/ 3.5); 
+    let width = size.width; 
+    let temp = size.width; 
+    if (width <= 600){
+        temp = 250; 
     }
-    if (height >= 800){
-        height = (size.height / 2.5); 
+    else if (width > 600 && width <= 700){
+        temp = 100; 
+    }
+    else if (width > 700 && width <= 800){
+        temp = 175; 
+    }
+    else if (width > 800 && width <= 900){
+        temp = 200; 
+    }
+    else if (width > 900 && width <= 1100){
+        temp = 250; 
+    }
+    else
+    {
+        temp = 350; 
     }
     return(
         <div className = {styles.imageWrap}>
@@ -50,7 +64,7 @@ function Video(props){
                 <a href = {props.link}>
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    <iframe className = "ytplayer" width = "100%" height ={height} src={props.thumbnail}
+                    <iframe className = "ytplayer" width = {"100%"} height ={temp} src={props.thumbnail}
                     frameBorder = "0" modestBranding = "1"></iframe>
                 </div>
                 <div className={styles.cardDes}>
