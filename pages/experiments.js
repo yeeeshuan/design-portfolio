@@ -6,10 +6,10 @@ import home from "../styles/Home.module.css";
 import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import P5 from '../Images/About/P5.png'; 
 import P6 from '../Images/About/P6.png'; 
 import Expo from "../Images/Projects/Expo/Thumbnail.png"; 
 import onHover from "../Images/About/onHover.png"
+import playVideo from '../components/PlayVideo';
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window
@@ -65,8 +65,7 @@ function Video(props){
                 <a href = {props.link}>
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    <iframe className = "ytplayer" width = "100%" height ={temp} src={props.thumbnail}
-                    frameBorder = "0" modestBranding = "1"></iframe>
+                    {playVideo(props.thumbnail)}
                 </div>
                 <div className={styles.cardDes}>
                 <div className={styles.cardLeft}>
@@ -114,9 +113,9 @@ class Graphics extends Component{
             projects:[
                 {type : "i", name : "China Expo Pavilion 2025", description: "Designing Immersive Experiences", image: Expo, link: "../Experiments/Expo"},
                 {type : "v", name : "AR Drawing Tool", description: "Bringing drawing tools into spatial computing", link: "../Experiments/Drawing", 
-                thumbnail: "https://www.youtube.com/embed/Y57mo29ETNE?&autoplay=1&loop=1&mute=1&controls=0&playlist=Y57mo29ETNE" }, 
+                thumbnail: "./Drawing.mp4" }, 
                 {type : "v", name : "Augmented Body", description: "Augmenting perception with sound", link: "../Experiments/Augmented", 
-                thumbnail: "https://www.youtube.com/embed/giTR6jkj510?&autoplay=1&loop=1&mute=1&controls=0&playlist=giTR6jkj510" }, 
+                thumbnail: "./Augmented.mp4" }, 
                 {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "Experiments/Exhibit"}, 
                 //{type : "v", name : "Virtual Tour", description: "Prototyping with AR", link: "Experiments/Tour", 
                 //thumbnail: "https://www.youtube.com/embed/topF8G5Y5ZY?start=98&end=104&autoplay=1&loop=1&mute=1&controls=0&playlist=topF8G5Y5ZY" }, 

@@ -6,7 +6,8 @@ import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/About/TEDxCMU.png'
 import Gmail from "../Images/About/Gmail.png";
 import Deceptive from "../Images/About/Deceptive.png";
-import onHover from "../Images/About/onHover.png"
+import onHover from "../Images/About/onHover.png";
+import playVideo from '../components/PlayVideo';
 
 import React, {useState, useEffect, Component } from 'react';
 
@@ -64,8 +65,9 @@ function Video(props){
                 <a href = {props.link}>
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    <iframe className = "ytplayer" width = {"100%"} height ={temp} src={props.thumbnail}
-                    frameBorder = "0" modestBranding = "1"></iframe>
+                    {playVideo(props.thumbnail)}
+                    {/* <iframe className = "ytplayer" width = {"100%"} height ={temp} src={props.thumbnail}
+                    frameBorder = "0" modestBranding = "1"></iframe> */}
                 </div>
                 <div className={styles.cardDes}>
                 <div className={styles.cardLeft}>
@@ -114,7 +116,7 @@ class Projects extends Component{
                 {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
                 {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" },  
                 {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
-                thumbnail: "https://www.youtube.com/embed/7TSUz23Ogxs?start=0&end=14&autoplay=1&loop=1&mute=1&controls=0&playlist=7TSUz23Ogxs" }, 
+                thumbnail: "./Teachable.mp4" }, 
                 //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
                 {type : "i", name : "Deceptive UI Study", description: "UX Research, Prototyping", image: Deceptive, link: "https://bold-milkshake-c2a.notion.site/Deceptive-UI-Study-2862f1bc4f834ae6af4ae73f5eed2867?pvs=4"}, 
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Multi-media series for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
