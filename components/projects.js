@@ -7,8 +7,7 @@ import TEDxCMU from '../Images/About/TEDxCMU.png'
 import Gmail from "../Images/About/Gmail.png";
 import Deceptive from "../Images/About/Deceptive.png";
 import onHover from "../Images/About/onHover.png";
-import playVideo from '../components/PlayVideo';
-
+import PlayVideo from "./PlayVideo";
 import React, {useState, useEffect, Component } from 'react';
 
 function getWindowDimensions() {
@@ -65,7 +64,7 @@ function Video(props){
                 <a href = {props.link}>
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    {playVideo(props.thumbnail)}
+                    {PlayVideo(props.thumbnail)}
                     {/* <iframe className = "ytplayer" width = {"100%"} height ={temp} src={props.thumbnail}
                     frameBorder = "0" modestBranding = "1"></iframe> */}
                 </div>
