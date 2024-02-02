@@ -159,8 +159,7 @@ class Graphics extends Component{
                     link = {project.link}
                     />
                 }
-            }
-            
+            }         
             )}
         </div>
         <Footer/>

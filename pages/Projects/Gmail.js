@@ -6,6 +6,7 @@ import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Thumbnail from "../../Images/About/Gmail.png";
 import Colors from "../../Images/Projects/Gmail/Colors.png"
+import UI from "../../Images/Projects/Gmail/UI.png"
 import Affinity from "../../Images/Projects/Gmail/Affinity.png";
 import Comp from "../../Images/Projects/Gmail/Components.png";
 import Figma from "../../Images/Projects/Gmail/Figma.png";
@@ -50,7 +51,11 @@ export default function Gmail(){
                 <br/>
                 <br/>
                 </p>
+            <p>
+                <a className = {styles.links} href = "https://gmail-redesign.vercel.app" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+                <a className = {styles.links} href = "https://github.com/yeeeshuan/gmail-redesign" rel="noopener noreferrer" target="_blank"> Github </a> 
                 <br/>
+            </p>
             </div>
          </div>
         <div style = {{
@@ -100,11 +105,11 @@ export default function Gmail(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Affinity Diagramming and understanding Current Systems
+                    Current UI Systems
                 </p>
             </div>
             <div>
-                <Image src = {Affinity}/>
+                <Image src = {UI}/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -113,8 +118,7 @@ export default function Gmail(){
                     Understanding Current Label and Filter Systems
                 </p>
             </div>
-            <div className = {styles.image_2}>
-                <Image src = {LJourney}/>
+            <div>
                 <Image src = {FJourney}/>
             </div>
         </div> 
@@ -153,16 +157,6 @@ export default function Gmail(){
             <p className = {styles.text}>
                 From the Affinity Diagramming, I wanted to incorporate a new folder feature that integrated well with current designs in Gmail that users have become accustomed to.
             </p>
-            </div>
-        </div>  
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                    Gmail color palette and type
-                </p>
-            </div>
-            <div>
-                <Image src = {Colors}/>
             </div>
         </div>  
         <div className = {styles.page}>
@@ -253,23 +247,6 @@ export default function Gmail(){
                 </p>
                 <br/>
                 <br/>
-                <h1 className = {styles.bTitle}> 
-                    Bringing it all together
-                </h1>
-                <p className = {styles.text}>
-                    From these issues with my previous iterations, I thought of designs that could address the problem of large amounts of emails and folders: 
-                </p>
-                <br/>
-                <br/>
-                <p className = {styles.text}>
-                    1. Included folders at the top of the page. Once users click into a folder, subfolders will display at the top of the page. 
-                <br/>
-                <br/>
-                    2. Included a tab that showed recently accessed folders. Similar to Google Drive, users would be able to navigate directly to the folder from the tab. 
-                <br/>
-                <br/>
-                    3. Further explored what types of options should exist for filters when users are creating a new folder. 
-                </p>
             </div>
         </div>  
         <div className = {styles.page}>
@@ -289,10 +266,6 @@ export default function Gmail(){
             <h1 className = {styles.pTitle}> 
                 Development
             </h1>
-            <p className = {styles.text}>
-                Work in progress. Currently working on a fully-functioning prototype using Next.js from Figma designs. Website is deployed using Vercel. 
-            </p>
-            <br/>
             <br/>
             <p>
                 <a className = {styles.links} href = "https://gmail-redesign.vercel.app" rel="noopener noreferrer" target="_blank"> Live Website </a> 
@@ -300,12 +273,6 @@ export default function Gmail(){
                 <br/>
             </p>
             </div>
-        </div>  
-        <div className = {styles.page}>
-            <div></div>
-            <h1 className = {styles.bTitle}>
-                More info soon 
-            </h1>
         </div>  
         <div className = {styles.page}>
             <div>
