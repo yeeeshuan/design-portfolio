@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import React, {Component } from 'react';
 import styles from "../styles/Projects.module.css"; 
 import home from "../styles/Home.module.css"; 
@@ -9,7 +9,56 @@ import Footer from '../components/footer';
 import P6 from '../Images/About/P6.png'; 
 import Expo from "../Images/Projects/Expo/Thumbnail.png"; 
 import onHover from "../Images/About/onHover.png"
-import playVideo from '../components/PlayVideo';
+
+function PlayVideo(link) {
+    const videoRef = useRef(null);
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // Play the video when the video element comes into view
+              videoRef.current.play();
+            } else {
+              videoRef.current.pause();
+            }
+          });
+        },
+        {
+          threshold: 0.5, // 50% of the video must be visible to trigger play
+          rootMargin: '0px', // Margin around the root
+        }
+      );
+  
+      if (videoRef.current) {
+        observer.observe(videoRef.current);
+      }
+  
+      return () => {
+        if (videoRef.current) {
+          observer.unobserve(videoRef.current);
+        }
+      };
+    }, [videoRef]);
+  
+    return (
+      <div className={styles.container}>
+        <video
+          ref={videoRef}
+          width="100%"
+          muted
+          loop
+          playsInline
+          preload="none"
+          className={styles.video}
+        >
+          <source src={link} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    );
+  }
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window
@@ -65,7 +114,7 @@ function Video(props){
                 <a href = {props.link}>
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
                 <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    {playVideo(props.thumbnail)}
+                    {PlayVideo(props.thumbnail)}
                 </div>
                 <div className={styles.cardDes}>
                 <div className={styles.cardLeft}>
