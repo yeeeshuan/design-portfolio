@@ -13,14 +13,13 @@ import Figma from "../../Images/Projects/Gmail/Figma.png";
 import Journey from "../../Images/Projects/Gmail/Journey.png"
 import FJourney from "../../Images/Projects/Gmail/FilterJourney.png"
 import LJourney from "../../Images/Projects/Gmail/LabelJourney.png"
-import BA from "../../Images/Projects/Gmail/BA.png"; 
 import Code from "../../Images/Projects/Gmail/Code.png"
 
 export default function Gmail(){
     return(
         <div>
             <Head>
-            <title>Ethan Huang Design | Gmail Redesign</title>
+            <title>Ethan Huang Design | The Creative Bureau</title>
             </Head>
             <div className = {styles.invisible}>
                 <Image src = {Thumbnail} alt = "preload"/>
@@ -36,7 +35,7 @@ export default function Gmail(){
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
-            Gmail Filtering System Redesign
+            The Creative Bureau | Freelance Work
             </h1>
             <div className = {styles.intro}>
             <div className = {styles.role}>
@@ -44,11 +43,11 @@ export default function Gmail(){
                 <br></br>
                 <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> September 2023 </p>
                 <br></br>
-                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma, Next.js</p>
+                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma</p>
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                This project is a redesign of the Gmail filtering system. By incorporating folders into Gmail, this project looks at how to optimize user flow accessing important mail by grouping emails that are related using folders and subfolders. 
+                I am currently working as a freelance product designer at a creative studio called The Creative Bureau. Below are some of the projects that I have worked on. 
                 <br/>
                 <br/>
                 </p>
@@ -303,16 +302,6 @@ export default function Gmail(){
             </p>
             </div>
         </div>   
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                   Before and After
-                </p>
-            </div>
-            <div>
-                <Image src = {BA}/>
-            </div>
-        </div> 
         </main>
         <Footer/>
         </div>
