@@ -26,7 +26,6 @@ function PlayVideo(link) {
           });
         },
         {
-          threshold: 0.5, // 50% of the video must be visible to trigger play
           rootMargin: '0px', // Margin around the root
         }
       );
