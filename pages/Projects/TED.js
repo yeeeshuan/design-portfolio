@@ -155,7 +155,7 @@ class TED extends Component{
             projects:[
                 {type : "i", name : "2023 Event Website", description: "Full-Stack Development", image: W3, link: "../TED/2023"}, 
                 {type : "i", name : "Build-A-Bear", description: "Interaction Design, Front-End Development", image: Build, link: "../TED/Bear"}, 
-                {type : "v", name : "2024 Event Website", description: "Full-Stack Development, 3D Modeling", thumbnail: "../../TEDxCMU.mp4"}, 
+                {type : "v", name : "2024 Event Website", description: "Full-Stack Development, 3D Modeling", thumbnail: "../TEDxCMU.mp4"}, 
             ]
         }
     }
@@ -180,7 +180,7 @@ class TED extends Component{
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                    I am a developer on the TEDxCMU Innovation team. Depending on the theme of the event, I would work with the Innovation team to ideate and develop creative, interactive projects in the form of digital applications and immersive experiences.
+                    I am a developer on the TEDxCMU Innovation team. Depending on the theme of the event, I work with the Innovation team to ideate and develop creative, interactive projects in the form of digital applications and immersive experiences.
                 </p>
          </div>
          </div>
