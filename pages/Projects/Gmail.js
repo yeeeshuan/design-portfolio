@@ -172,16 +172,6 @@ export default function Gmail(){
         </div> 
         <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
-                   Figma Frames
-                </p>
-            </div>
-            <div>
-                <Image src = {Figma}/>
-            </div>
-        </div> 
-        <div className = {styles.page}>
-            <div>
             </div>
             <div>
                 <h1 className = {styles.bTitle}> 

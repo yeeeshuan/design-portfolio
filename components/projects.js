@@ -3,6 +3,7 @@ import Image from "next/image";
 import P7 from '../Images/About/P7.jpg'; 
 import DH from '../Images/About/DH.jpg'
 import TEDxCMU from '../Images/Projects/TEDxCMU/2024.png'
+import Repl from "../Images/Projects/Replit/Replit.png"
 import Gmail from "../Images/About/Gmail.png";
 import Deceptive from "../Images/About/Deceptive.png";
 import onHover from "../Images/About/onHover.png";
@@ -156,12 +157,12 @@ class Projects extends Component{
             projects:[
                 {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
                 {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" },  
+                {type : "i", name : "Replit Community Page", description: "UX Research, Prototyping", image: Repl, link: "Projects/Replit"},
                 {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
                 thumbnail: "./Teachable.mp4" }, 
                 //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Multi-media series for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
-                {type : "i", name : "TEDxCMU Innovation", description: "Interactive Projects", image: TEDxCMU, link: "Projects/TED"},
-                {type : "i", name : "Deceptive UI Study", description: "UX Research, Prototyping", image: Deceptive, link: "https://bold-milkshake-c2a.notion.site/Deceptive-UI-Study-2862f1bc4f834ae6af4ae73f5eed2867?pvs=4"}, 
+                {type : "i", name : "TEDxCMU Innovation", description: "Interactive Projects", image: TEDxCMU, link: "Projects/TED"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 //{type : "i", name : "PGH Water Quality", description: "Systems Mapping", image : P4, link: "/Systems" }, 
             ]
