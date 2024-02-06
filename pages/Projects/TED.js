@@ -4,6 +4,7 @@ import Head from "next/head";
 import Navbar from "../../components/navbar";
 import W3 from '../../Images/Projects/TEDxCMU/2023.png'; 
 import Build from '../../Images/Projects/TEDxCMU/Bear.png'; 
+import W4 from '../../Images/Projects/TEDxCMU/2024.png'; 
 import onHover from "../../Images/About/onHover.png"; 
 import React, {useState, useEffect, useRef, Component } from 'react';
 
@@ -155,7 +156,7 @@ class TED extends Component{
             projects:[
                 {type : "i", name : "2023 Event Website", description: "Full-Stack Development", image: W3, link: "../TED/2023"}, 
                 {type : "i", name : "Build-A-Bear", description: "Interaction Design, Front-End Development", image: Build, link: "../TED/Bear"}, 
-                {type : "v", name : "2024 Event Website", description: "Full-Stack Development, 3D Modeling", thumbnail: "../TEDxCMU.mp4"}, 
+                {type : "i", name : "2024 Event Website", description: "Full-Stack Development, 3D Modeling", image: W4}, 
             ]
         }
     }
