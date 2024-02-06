@@ -1,57 +1,55 @@
-import styles from "../styles/Projects.module.css"; 
+import styles from "../../styles/Projects.module.css"; 
 import Image from "next/image";
-import UCRE from '../Images/About/UCRE.png'; 
-import P7 from '../Images/About/P7.jpg'; 
-import DH from '../Images/About/DH.jpg'
-import TEDxCMU from '../Images/About/TEDxCMU.png'
-import Gmail from "../Images/About/Gmail.png";
-import Deceptive from "../Images/About/Deceptive.png";
-import onHover from "../Images/About/onHover.png";
+import Head from "next/head";
+import Navbar from "../../components/navbar";
+import W3 from '../../Images/Projects/TEDxCMU/2023.png'; 
+import Build from '../../Images/Projects/TEDxCMU/Bear.png'; 
+import onHover from "../../Images/About/onHover.png"; 
 import React, {useState, useEffect, useRef, Component } from 'react';
 
 function PlayVideo(link) {
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach((entry) => {
-          videoRef.current.play();
-        });
-      },
-      {
-        rootMargin: '0px', // Margin around the root
-      }
-    );
-
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
-    }
-
-    return () => {
+    const videoRef = useRef(null);
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            videoRef.current.play();
+          });
+        },
+        {
+          rootMargin: '0px', // Margin around the root
+        }
+      );
+  
       if (videoRef.current) {
-        observer.unobserve(videoRef.current);
+        observer.observe(videoRef.current);
       }
-    };
-  }, [videoRef]);
-
-  return (
-    <div className={styles.container}>
-      <video
-        ref={videoRef}
-        width="100%"
-        muted
-        loop
-        playsInline
-        preload="none"
-        className={styles.video}
-      >
-        <source src={link} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  );
-}
+  
+      return () => {
+        if (videoRef.current) {
+          observer.unobserve(videoRef.current);
+        }
+      };
+    }, [videoRef]);
+  
+    return (
+      <div className={styles.container}>
+        <video
+          ref={videoRef}
+          width="100%"
+          muted
+          loop
+          playsInline
+          preload="none"
+          className={styles.video}
+        >
+          <source src={link} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    );
+  }
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window
@@ -150,26 +148,43 @@ function Img(props){
     )
 }
 
-class Projects extends Component{
+class TED extends Component{
     constructor(props){
         super(props);
         this.state = {
             projects:[
-                {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
-                {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" },  
-                {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
-                thumbnail: "./Teachable.mp4" }, 
-                //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
-                {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Multi-media series for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
-                {type : "v", name : "TEDxCMU Innovation", description: "Interactive Projects", link: "Projects/TED", thumbnail: "./TEDxCMU.mp4"}, 
-                {type : "i", name : "Deceptive UI Study", description: "UX Research, Prototyping", image: Deceptive, link: "https://bold-milkshake-c2a.notion.site/Deceptive-UI-Study-2862f1bc4f834ae6af4ae73f5eed2867?pvs=4"}, 
-                //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
-                //{type : "i", name : "PGH Water Quality", description: "Systems Mapping", image : P4, link: "/Systems" }, 
+                {type : "i", name : "2023 Event Website", description: "Full-Stack Development", image: W3, link: "../TED/2023"}, 
+                {type : "i", name : "Build-A-Bear", description: "Interaction Design, Front-End Development", image: Build, link: "../TED/Bear"}, 
+                {type : "v", name : "2024 Event Website", description: "Full-Stack Development, 3D Modeling", thumbnail: "../../TEDxCMU.mp4"}, 
             ]
         }
     }
     render(){
     return(
+        <div>
+          <Head>
+            <title>Ethan Huang Design | TEDxCMU</title>
+            </Head>
+            <Navbar/>
+            <main className={styles.main}>
+            <h1 className = {styles.mTitle}> 
+            TEDxCMU Innovation Team
+            </h1>
+            <div className = {styles.intro}>
+                <div className={styles.role}>
+                    <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Developer, Designer</p> 
+                    <br></br>
+                    <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> October 2022 - Present </p>
+                    <br></br>
+                    <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Next.js, P5.js, MongoDB, Figma</p>
+                </div>
+            <div className = {styles.cont}> 
+                <p className = {styles.text}>
+                    I am a developer on the TEDxCMU Innovation team. Depending on the theme of the event, I would work with the Innovation team to ideate and develop creative, interactive projects in the form of digital applications and immersive experiences.
+                </p>
+         </div>
+         </div>
+         </main>
         <div className = {styles.projectRow}>
             {this.state.projects.map((project, idx) => {
                 if (project.type == "v"){
@@ -195,8 +210,9 @@ class Projects extends Component{
             )}
 
       </div>
+      </div>
     )
     }
 }
 
-export default Projects
+export default TED
