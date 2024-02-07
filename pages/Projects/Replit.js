@@ -54,7 +54,7 @@ export default function Gmail(){
             </h1>
             <p className = {styles.text}>
                 Replit is an online IDE to help users of different coding backgrounds host projects. It has a community page, where users find projects for inspiration and learning purposes. 
-                For this project, I designed a set of new components to help users filter though projects (Repls) on the community page, considering the needs and interests of students and professionals.
+                For this project, I designed a set of new components to help users filter through projects (Repls) on the community page, considering the needs and interests of students and professionals.
             </p>
             </div>
         </div>
@@ -69,10 +69,10 @@ export default function Gmail(){
                 Identifying pain points
             </h1>
             <p className = {styles.text}>
-                To understand the problem space, I did a bit of journey mapping to understand areas where design could help users select and filter though projects. From this, I noticed that: 
+                To understand the problem space, I did a bit of journey mapping to understand areas where design could help users select and filter through projects. From this, I noticed that: 
                 <br/>
                 <br/>
-                1. There is no options for users to select the tags that they are interested in — the tags seem to be auto generated, from the most popular tags that other users are selecting. 
+                1. There are no options for users to select the tags that they are interested in — the tags seem to be auto generated, from the most popular tags that other users are selecting. 
                 <br/>
                 <br/>
                 2. The metrics (Hot, Top, New), are not the most effective metrics to filter through projects.
@@ -149,7 +149,7 @@ export default function Gmail(){
                 Feature 02 : Tags
                 </h1>
                 <p className = {styles.text}>
-                    The second component that the user encounters are the tags that they can select. The tags are recommended to the users based off of their intersts from the onboarding process and recent activity, but users can add/delete tags depending on their changing interests. 
+                    The second component that the user encounters is the tags that they can select. The tags are recommended to the users based off of their interests from the onboarding process and recent activity, but users can add/delete tags depending on their changing interests. 
                 </p>
             </div>
         </div>  
@@ -171,7 +171,7 @@ export default function Gmail(){
                     Feature 03: Filtering
                 </h1>
                 <p className = {styles.text}>
-                    The final component is the filtering component. When users have a clear idea for the type of project they want, they can use the filtering feature to more specifically filter projects with the language, complexity, time, and collaborators searches. 
+                    The final component is the filtering component. When users have a clear idea of the type of project they want, they can use the filtering feature to more specifically filter projects with the language, complexity, time, and collaborators searches. 
                 </p>
                 <br/>
                 <br/>
