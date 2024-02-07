@@ -154,9 +154,9 @@ class TED extends Component{
         super(props);
         this.state = {
             projects:[
+                {type : "i", name : "2024 Event Website", description: "Full-Stack Development, 3D Modeling", image: W4, link: "../TED/2024"}, 
                 {type : "i", name : "2023 Event Website", description: "Full-Stack Development", image: W3, link: "../TED/2023"}, 
-                {type : "i", name : "Build-A-Bear", description: "Interaction Design, Front-End Development", image: Build, link: "../TED/Bear"}, 
-                {type : "i", name : "2024 Event Website", description: "Full-Stack Development, 3D Modeling", image: W4}, 
+                // {type : "i", name : "Build-A-Bear", description: "Interaction Design, Front-End Development", image: Build, link: "../TED/Bear"}, 
             ]
         }
     }
