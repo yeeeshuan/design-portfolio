@@ -7,7 +7,7 @@ import Head from 'next/head';
 import Footer from '../components/footer';
 import Confetti from '../components/conf';
 
-export default function Home() {
+function Home() {
     return (
       <div className = {styles.page}>
         <Head>
@@ -45,3 +45,5 @@ export default function Home() {
       
     )
 }
+
+export default Home; 

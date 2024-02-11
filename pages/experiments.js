@@ -49,8 +49,6 @@ function PlayVideo(link) {
           muted
           loop
           playsInline
-          preload="none"
-          className={styles.video}
         >
           <source src={link} type="video/mp4" />
           Your browser does not support the video tag.
