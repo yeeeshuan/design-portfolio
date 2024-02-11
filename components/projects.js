@@ -112,7 +112,6 @@ function Video(props){
         temp = 350; 
     }
 
-    console.log(props.thumbnail); 
     return(
         <div className = {styles.imageWrap}>
                 <div>
@@ -127,7 +126,7 @@ function Video(props){
                             loop
                             playsInline
                         >
-                            <source src='./Teachable.mp4' type="video/mp4" />
+                            <source src={props.thumbnail} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -145,7 +144,6 @@ function Video(props){
                 </div>
         </div>
     )
-
 }
 
 function Img(props){
@@ -183,7 +181,7 @@ class Projects extends Component{
                 thumbnail: "./Teachable.mp4" }, 
                 //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Multi-media series for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
-                {type : "i", name : "TEDxCMU Innovation", description: "Interactive Projects", image: TEDxCMU, link: "Projects/TED"}, 
+                {type : "v", name : "TEDxCMU Innovation", description: "Interactive Projects", link: "Projects/TED", thumbnail: "./TEDxCMU.mp4"}, 
                 //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
                 //{type : "i", name : "PGH Water Quality", description: "Systems Mapping", image : P4, link: "/Systems" }, 
             ]

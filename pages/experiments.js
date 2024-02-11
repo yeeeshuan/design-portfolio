@@ -10,53 +10,6 @@ import P6 from '../Images/About/P6.png';
 import Expo from "../Images/Projects/Expo/Thumbnail.png"; 
 import onHover from "../Images/About/onHover.png"
 
-function PlayVideo(link) {
-    const videoRef = useRef(null);
-  
-    useEffect(() => {
-      const observer = new IntersectionObserver(
-        (entries, observer) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              // Play the video when the video element comes into view
-              videoRef.current.play();
-            } else {
-              videoRef.current.pause();
-            }
-          });
-        },
-        {
-          rootMargin: '0px', // Margin around the root
-        }
-      );
-  
-      if (videoRef.current) {
-        observer.observe(videoRef.current);
-      }
-  
-      return () => {
-        if (videoRef.current) {
-          observer.unobserve(videoRef.current);
-        }
-      };
-    }, [videoRef]);
-  
-    return (
-      <div className={styles.container}>
-        <video
-          ref={videoRef}
-          width="100%"
-          muted
-          loop
-          playsInline
-        >
-          <source src={link} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    );
-  }
-
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window
     return {
@@ -83,9 +36,19 @@ function useWindowDimensions() {
 }
 
 function Video(props){
+    const videoRef = useRef(null);
     const size = useWindowDimensions();
     let width = size.width; 
     let temp = size.width; 
+
+    useEffect(() => {
+        if (videoRef.current) {
+          if (videoRef.current.paused) {
+            videoRef.current.play();
+          }
+        }
+      }, [videoRef]);
+
     if (width <= 600){
         temp = 250; 
     }
@@ -105,28 +68,39 @@ function Video(props){
     {
         temp = 350; 
     }
+
     return(
         <div className = {styles.imageWrap}>
-                <div className="item-container">
+                <div>
                 <a href = {props.link}>
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
-                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    {PlayVideo(props.thumbnail)}
+                <div style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                    <div className={styles.container}>
+                        <video
+                            ref={videoRef}
+                            width="100%"
+                            muted
+                            loop
+                            playsInline
+                        >
+                            <source src={props.thumbnail} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
                 <div className={styles.cardDes}>
-                <div className={styles.cardLeft}>
-                    <h1 className = {styles.title}> {props.name}</h1>
-                    <p className = {styles.words}> {props.description} </p>
+                    <div className={styles.cardLeft}>
+                        <h1 className = {styles.title}> {props.name}</h1>
+                        <p className = {styles.words}> {props.description} </p>
+                    </div>
+                    <div className={styles.cardRight}>
+                        <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                    </div>
                 </div>
-                <div className={styles.cardRight}>
-                    <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
-                </div>
-            </div>
                 </a> 
                 </div>
         </div>
     )
-
 }
 
 function Img(props){

@@ -8,58 +8,6 @@ import W4 from '../../Images/Projects/TEDxCMU/2024.png';
 import onHover from "../../Images/About/onHover.png"; 
 import React, {useState, useEffect, useRef, Component } from 'react';
 
-function PlayVideo(link) {
-    const videoRef = useRef(null);
-  
-    useEffect(() => {
-      const observer = new IntersectionObserver(
-        (entries, observer) => {
-          entries.forEach((entry) => {
-            videoRef.current.play();
-          });
-        },
-        {
-          rootMargin: '0px', // Margin around the root
-        }
-      );
-  
-      if (videoRef.current) {
-        observer.observe(videoRef.current);
-      }
-  
-      return () => {
-        if (videoRef.current) {
-          observer.unobserve(videoRef.current);
-        }
-      };
-    }, [videoRef]);
-  
-    return (
-      <div className={styles.container}>
-        <video
-          ref={videoRef}
-          width="100%"
-          muted
-          loop
-          playsInline
-          preload="none"
-          className={styles.video}
-        >
-          <source src={link} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    );
-  }
-
-function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window
-    return {
-        width,
-        height,
-    }
-}
-
 function useWindowDimensions() {
     const [windowDimensions, setWindowDimensions] = useState({width: 0, height: 0})
 
@@ -78,9 +26,19 @@ function useWindowDimensions() {
 }
 
 function Video(props){
+    const videoRef = useRef(null);
     const size = useWindowDimensions();
     let width = size.width; 
     let temp = size.width; 
+
+    useEffect(() => {
+        if (videoRef.current) {
+          if (videoRef.current.paused) {
+            videoRef.current.play();
+          }
+        }
+      }, [videoRef]);
+
     if (width <= 600){
         temp = 250; 
     }
@@ -100,30 +58,39 @@ function Video(props){
     {
         temp = 350; 
     }
+
     return(
         <div className = {styles.imageWrap}>
-                <div className="item-container">
+                <div>
                 <a href = {props.link}>
                 <div className = {styles.overLay}> <a href = {props.link}></a></div>
-                <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                    {PlayVideo(props.thumbnail)}
-                    {/* <iframe className = "ytplayer" width = {"100%"} height ={temp} src={props.thumbnail}
-                    frameBorder = "0" modestBranding = "1"></iframe> */}
+                <div style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                    <div className={styles.container}>
+                        <video
+                            ref={videoRef}
+                            width="100%"
+                            muted
+                            loop
+                            playsInline
+                        >
+                            <source src={props.thumbnail} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
                 <div className={styles.cardDes}>
-                <div className={styles.cardLeft}>
-                    <h1 className = {styles.title}> {props.name}</h1>
-                    <p className = {styles.words}> {props.description} </p>
+                    <div className={styles.cardLeft}>
+                        <h1 className = {styles.title}> {props.name}</h1>
+                        <p className = {styles.words}> {props.description} </p>
+                    </div>
+                    <div className={styles.cardRight}>
+                        <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                    </div>
                 </div>
-                <div className={styles.cardRight}>
-                    <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
-                </div>
-            </div>
                 </a> 
                 </div>
         </div>
     )
-
 }
 
 function Img(props){
