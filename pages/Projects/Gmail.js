@@ -48,15 +48,15 @@ export default function Gmail(){
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                This project is a redesign of the Gmail filtering system. By incorporating folders into Gmail, this project looks at how to optimize user flow accessing important mail by grouping emails that are related using folders and subfolders. 
-                <br/>
-                <br/>
+                    This project is a redesign of the Gmail filtering system. By incorporating folders into Gmail, this project looks at how to optimize user flow accessing important mail by grouping emails that are related using folders and subfolders. 
+                    <br/>
+                    <br/>
                 </p>
-            <p>
-                <a className = {styles.links} href = "https://gmail-redesign.vercel.app" rel="noopener noreferrer" target="_blank"> Live Website </a> 
-                <a className = {styles.links} href = "https://github.com/yeeeshuan/gmail-redesign" rel="noopener noreferrer" target="_blank"> Github </a> 
-                <br/>
-            </p>
+                <p>
+                    <a className = {styles.links} href = "https://gmail-redesign.vercel.app" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+                    <a className = {styles.links} href = "https://github.com/yeeeshuan/gmail-redesign" rel="noopener noreferrer" target="_blank"> Github </a> 
+                    <br/>
+                </p>
             </div>
          </div>
         <div style = {{

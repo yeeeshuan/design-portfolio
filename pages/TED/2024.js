@@ -32,9 +32,13 @@ export default function TEDxCMU(){
                     <div className = {styles.cont}> 
                         <p className = {styles.text}>
                         TEDxCMU Ignite represents how ideas can expand, fluctuate, grow, and transform, much like a burning flame.
-                        <br/>
-                        <br/>
                         Website, game, and renders developed to promote the 2024 TEDxCMU main event, created in collaboration with the TEDxCMU design and innovation teams.
+                        </p>
+                        <br/>
+                        <br/>
+                        <p>
+                            <a className = {styles.links} href = "https://ignite.tedxcmu.org/" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+                            <br/>
                         </p>
                         <br/>
                         <br/>
