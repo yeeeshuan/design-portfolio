@@ -99,10 +99,10 @@ export default function Gmail(){
                 Journey Mapping
             </h1>
             <p className = {styles.text}>
-                From the pain points identified, I came to the conclusion that there could be three new components added to the page to help the process of selecting a project: <strong>Onboarding, Tagging, and Filtering</strong>.
+                From the pain points identified, I came to the conclusion that there could be four new components added to the page to help the process of selecting a project: <strong>Onboarding, Tagging, Filtering, and Saving</strong>.
                 <br/>
                 <br/>
-                These new components can help the user identify earlier in the user journey the type of projects that they would like to see. 
+                These new components can help the user identify earlier in the user journey the type of projects that they would like to see, and also more easily navigate to Repls they are interested in. 
             </p>
             </div>
         </div>  
@@ -171,7 +171,7 @@ export default function Gmail(){
                     Feature 03: Filtering
                 </h1>
                 <p className = {styles.text}>
-                    The final component is the filtering component. When users have a clear idea of the type of project they want, they can use the filtering feature to more specifically filter projects with the language, complexity, time, and collaborators searches. 
+                    When users have a clear idea of the type of project they want, they can use the filtering feature to more specifically filter projects with the language, complexity, time, and collaborators searches. 
                 </p>
                 <br/>
                 <br/>
@@ -185,6 +185,30 @@ export default function Gmail(){
             </div>
             <div>
                 <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/97kU4UxSBKo?si=krMIuS887KVHoKDQ?&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div>
+                <h1 className = {styles.bTitle}> 
+                    Feature 04: Saving
+                </h1>
+                <p className = {styles.text}>
+                    From interviews, I noticed that many people bookmark important websites to refer back to later when searching for answers. Similarly, I wanted to incorporate a feature where users could save interesting Repls they can refer to later.
+                </p>
+                <br/>
+                <br/>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Demonstration of Saving Feature
+                </p>
+            </div>
+            <div>
+                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/WCUi5zXcC2s?si=Abls-sSYtwNyyiuX?&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
             </div>
         </div>
         <div className = {styles.page}>
