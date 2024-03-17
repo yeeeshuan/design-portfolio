@@ -262,6 +262,20 @@ a.links:hover{
     transition: 0.3s
  }
 
+ a.links_col{
+    color: white; 
+    font-size: 12px; 
+    padding: 5px 7px 5px 7px; 
+    background-color: #2d2d2d; 
+    border-radius: 5px; 
+    margin-top: 2rem; 
+ }
+
+ a.links_col:hover{
+    color: darkgray; 
+    transition: 0.3s
+ }
+
 .invisible{
     display: None; 
 }
