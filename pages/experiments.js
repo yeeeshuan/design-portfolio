@@ -41,13 +41,13 @@ function Video(props){
     let width = size.width; 
     let temp = size.width; 
 
-    // useEffect(() => {
-    //     if (videoRef.current) {
-    //       if (videoRef.current.paused) {
-    //         videoRef.current.play();
-    //       }
-    //     }
-    //   }, [videoRef]);
+    useEffect(() => {
+        if (videoRef.current) {
+          if (videoRef.current.paused) {
+            videoRef.current.play();
+          }
+        }
+      }, [videoRef]);
 
     if (width <= 600){
         temp = 250; 
@@ -79,10 +79,11 @@ function Video(props){
                         <video
                             ref={videoRef}
                             width="100%"
-                            muted
+                            muted  // Mute the video
                             loop
                             playsInline
-                            autoPlay
+                            autoPlay // Add the autoplay attribute
+                            preload="auto" // Try adding preload attribute
                             onLoadedData={(e) => {
                                 if (e.target.paused) {
                                     e.target.play();
