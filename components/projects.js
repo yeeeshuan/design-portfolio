@@ -40,13 +40,13 @@ function Video(props){
     let width = size.width; 
     let temp = size.width; 
 
-    useEffect(() => {
-        if (videoRef.current) {
-          if (videoRef.current.paused) {
-            videoRef.current.play();
-          }
-        }
-      }, [videoRef]);
+    // useEffect(() => {
+    //     if (videoRef.current) {
+    //       if (videoRef.current.paused) {
+    //         videoRef.current.play();
+    //       }
+    //     }
+    //   }, [videoRef]);
 
     if (width <= 600){
         temp = 250; 
@@ -81,6 +81,12 @@ function Video(props){
                                 muted
                                 loop
                                 playsInline
+                                autoPlay
+                                onLoadedData={(e) => {
+                                    if (e.target.paused) {
+                                        e.target.play();
+                                    }
+                                }}
                             >
                                 <source src={props.thumbnail} type="video/mp4" />
                                 Your browser does not support the video tag.
