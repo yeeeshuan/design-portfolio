@@ -83,7 +83,7 @@ function Video(props){
                             loop
                             playsInline
                             autoPlay // Add the autoplay attribute
-                            preload="auto" // Try adding preload attribute
+                            // preload="auto" // Try adding preload attribute
                             onLoadedData={(e) => {
                                 if (e.target.paused) {
                                     e.target.play();
