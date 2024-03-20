@@ -160,6 +160,10 @@ nav.footer{
     height: 0;  
 }
 
+.projects{
+    margin: 5rem; 
+}
+
 @media (max-width: 500px){
     nav.nav{
         padding-left: 1.5rem; 
@@ -230,5 +234,9 @@ nav.footer{
 
     .button{
         display: none; 
+    }
+
+    .projects{
+        margin: 0rem; 
     }
 }

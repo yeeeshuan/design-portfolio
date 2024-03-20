@@ -165,28 +165,30 @@ class Graphics extends Component{
         </h2>
         </div>
         </div>
-        <div className = {styles.projectRow}>
-            {this.state.projects.map((project, idx) => {
-                if (project.type == "v"){
-                    return <Video
-                    key={idx}
-                    name = {project.name}
-                    description = {project.description}
-                    image = {project.image}
-                    link = {project.link}
-                    thumbnail = {project.thumbnail}
-                            />
-                } else if (project.type == "i"){
-                    return <Img
-                    key={idx}
-                    name = {project.name}
-                    description = {project.description}
-                    image = {project.image}
-                    link = {project.link}
-                    />
-                }
-            }         
-            )}
+        <div className={home.projects}>
+            <div className = {styles.projectRow}>
+                {this.state.projects.map((project, idx) => {
+                    if (project.type == "v"){
+                        return <Video
+                        key={idx}
+                        name = {project.name}
+                        description = {project.description}
+                        image = {project.image}
+                        link = {project.link}
+                        thumbnail = {project.thumbnail}
+                                />
+                    } else if (project.type == "i"){
+                        return <Img
+                        key={idx}
+                        name = {project.name}
+                        description = {project.description}
+                        image = {project.image}
+                        link = {project.link}
+                        />
+                    }
+                }         
+                )}
+            </div>
         </div>
         <Footer/>
         </div>

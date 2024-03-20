@@ -73,7 +73,7 @@ function Video(props){
                 <div>
                     <a href = {props.link}>
                     <div className = {styles.overLay}> <a href = {props.link}></a></div>
-                    <div style = {{borderRadius: '10px', overflow: 'hidden'}}>
+                    <div>
                         <div className={styles.container}>
                             <video
                                 ref={videoRef}
@@ -113,7 +113,7 @@ function Img(props){
          <div className = {styles.imageWrap}>
             <div className="item-container">
             <a href = {props.link}>
-            <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
+            <div className="item-container">
                 <Image src = {props.image} alt = "image"/> 
             </div>
             <div className={styles.cardDes}>

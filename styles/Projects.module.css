@@ -9,7 +9,6 @@
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 5rem 5rem 5rem;
     background-color: black;
 }
 a.styledLink{
@@ -44,12 +43,12 @@ iframe.ytplayer{
 .imageWrap{
     display: inline-block; 
     width: 48%;
-    padding: 1rem; 
     margin-bottom: 50px; 
-    border-radius: 0.5rem; 
+    border-radius: 1rem; 
     background-color: #212121; 
     overflow: hidden;  
     transition: background-color 0.5s;  
+    border: #373737 2px solid; 
 }
 
 .imageWrap:hover{
@@ -58,6 +57,7 @@ iframe.ytplayer{
 
 .cardDes{
     display: flex; 
+    margin: 0.5rem 1rem 0.5rem 1rem; 
 }
 
 .cardLeft{

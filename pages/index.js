@@ -41,7 +41,9 @@ function Home() {
           </div>
         </div>
         </div>
-        <Projects/>
+        <div className={styles.projects}>
+          <Projects/>
+        </div>
         <Footer/>
       </div>
       
