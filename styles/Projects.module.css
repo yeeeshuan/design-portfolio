@@ -347,9 +347,6 @@ a.links:hover{
         display: inline-block; 
         margin-right: 2rem; 
         margin-left: 2rem; 
-        padding-top: 10px; 
-        padding-left: 10px; 
-        padding-right: 10px; 
         overflow: hidden;  
         transition: background-color 0.5s;  
     }
