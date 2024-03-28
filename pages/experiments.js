@@ -144,10 +144,6 @@ class Graphics extends Component{
                 {type : "v", name : "Augmented Body", description: "Augmenting perception with sound", link: "../Experiments/Augmented", 
                 thumbnail: "./Augmented.mp4" }, 
                 {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "Experiments/Exhibit"}, 
-                //{type : "v", name : "Virtual Tour", description: "Prototyping with AR", link: "Experiments/Tour", 
-                //thumbnail: "https://www.youtube.com/embed/topF8G5Y5ZY?start=98&end=104&autoplay=1&loop=1&mute=1&controls=0&playlist=topF8G5Y5ZY" }, 
-                //{type : "i", name : "Graphic Studies", description: "Illustration, typesetting, and animation", image : P3, link: "/Posters" }, 
-                //{type : "i", name : "Tangible Design", description: "Experiments with Physical and Rapid Prototyping", image : P5, link: "Experiments/Tangible" }, 
             ]
         }
     }
@@ -176,7 +172,7 @@ class Graphics extends Component{
                         image = {project.image}
                         link = {project.link}
                         thumbnail = {project.thumbnail}
-                                />
+                        />
                     } else if (project.type == "i"){
                         return <Img
                         key={idx}

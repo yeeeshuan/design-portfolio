@@ -35,6 +35,11 @@ export default function Gmail(){
                 <br/>
                 <br/>
                 </p>
+                <p>
+                <a className = {styles.links} href = "https://replit-xi.vercel.app/" rel="noopener noreferrer" target="_blank"> Live Website </a> 
+                <a className = {styles.links} href = "https://github.com/yeeeshuan/replit" rel="noopener noreferrer" target="_blank"> Github </a> 
+                <br/>
+            </p>
             </div>
          </div>
         <div style = {{
