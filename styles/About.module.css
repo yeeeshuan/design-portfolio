@@ -38,7 +38,7 @@ p.text{
 }
 
 span.CText{
-    color: #718ef8; 
+    color: #2897FF;
     display: inline; 
     font-size: 18px; 
     font-weight: 400;
@@ -84,7 +84,7 @@ span.CText{
     }
 
     span.CText{
-        color: #718ef8; 
+        color: #2897FF;
         display: inline; 
         font-size: 16px; 
     }

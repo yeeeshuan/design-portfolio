@@ -137,9 +137,9 @@ class Projects extends Component{
         this.state = {
             projects:[
                 {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" }, 
+                {type : "i", name : "Replit Community Page", description: "UX Research, Prototyping", image: Repl, link: "Projects/Replit"},
                 {type : "v", name : "Lil' Garden", description: "XR Nurturing Experience", link: "Projects/Garden", 
                 thumbnail: "./Garden.mp4" },  
-                {type : "i", name : "Replit Community Page", description: "UX Research, Prototyping", image: Repl, link: "Projects/Replit"},
                 {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
                 thumbnail: "./Teachable.mp4" }, 
                 {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
