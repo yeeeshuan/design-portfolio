@@ -136,8 +136,8 @@ class Projects extends Component{
         super(props);
         this.state = {
             projects:[
-                {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" }, 
                 {type : "i", name : "Replit Community Page", description: "UX Research, Prototyping", image: Repl, link: "Projects/Replit"},
+                {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" }, 
                 {type : "v", name : "Lil' Garden", description: "XR Nurturing Experience", link: "Projects/Garden", 
                 thumbnail: "./Garden.mp4" },  
                 {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
