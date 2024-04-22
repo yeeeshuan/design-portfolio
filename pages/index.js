@@ -26,7 +26,7 @@ function Home() {
         <hr className = {styles.break}></hr>
         <div className = {styles.exp}>
         <p className = {styles.curr}>
-          <span className = {styles.bold}>Incoming...</span> Computational Designer Intern @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
+          <span className = {styles.bold}>Incoming...</span> Creative Technologist Intern @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
           <br/>
           <span className = {styles.bold}>Previously...</span> Design Intern @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
         </p>
