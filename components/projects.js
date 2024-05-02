@@ -2,10 +2,9 @@ import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import P7 from '../Images/About/P7.jpg'; 
 import DH from '../Images/About/DH.jpg'
-import TEDxCMU from '../Images/Projects/TEDxCMU/2024.png'
 import Repl from "../Images/Projects/Replit/Replit.png"
 import Gmail from "../Images/About/Gmail.png";
-import Deceptive from "../Images/About/Deceptive.png";
+import Cookie from "../Images/About/Cookie.png"
 import onHover from "../Images/About/onHover.png";
 import React, {useState, useEffect, useRef, Component } from 'react';
 
@@ -138,10 +137,9 @@ class Projects extends Component{
             projects:[
                 {type : "i", name : "Replit Community Page", description: "UX Research, Prototyping", image: Repl, link: "Projects/Replit"},
                 {type : "i", name : "Gmail Filtering System Redesign", description: "Interaction Design, Front-End Development", image : Gmail, link: "Projects/Gmail" }, 
-                {type : "v", name : "Lil' Garden", description: "XR Nurturing Experience", link: "Projects/Garden", 
-                thumbnail: "./Garden.mp4" },  
-                {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", 
-                thumbnail: "./Teachable.mp4" }, 
+                {type : "v", name : "Lil' Garden", description: "XR Nurturing Experience", link: "Projects/Garden", thumbnail: "./Garden.mp4" },  
+                {type : "i", name : "Cookie Monster Cooking", description: "AI for Transparent Data Collection Methods", image: Cookie, link: "Projects/Cookie"},
+                {type : "v", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", thumbnail: "./Teachable.mp4" }, 
                 {type : "i", name : "Landesberg Design Internship", description: "Web and Print Design", image: P7, link: "Projects/Landesberg"}, 
                 //{type : "i", name : "Math2Shine Redesign", description: "Interaction Design, Front-End Development", image : P1, link: "Projects/Math2Shine" }, 
                 {type : "i", name : "Design Hero: Wolfgang Weingart", description: "Multi-media series for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},

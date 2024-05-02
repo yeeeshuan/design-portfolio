@@ -4,8 +4,38 @@ import Image from "next/image";
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import BG from '../../Images/Projects/Drawing/BG.png'
+import { useState, useEffect } from 'react';
+
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window
+    return {
+        width,
+        height,
+    }
+}
+
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState({width: 0, height: 0})
+
+    useEffect(() => {
+        function handleResize() {
+            setWindowDimensions(getWindowDimensions())
+        }
+
+        handleResize()
+        window.addEventListener('resize', handleResize)
+        
+        return () => { window.removeEventListener('resize', handleResize) }
+    }, [])
+
+    return windowDimensions
+}
 
 export default function Drawing(){
+
+    const size = useWindowDimensions();
+    let width = size.width; 
+
     return(
 
         <div>
@@ -39,8 +69,16 @@ export default function Drawing(){
             marginTop: "50px",
         
         }}>
+            {width > 500 && (
             <iframe className = "thumbnail" src="https://www.youtube.com/embed/Y57mo29ETNE?si=XD-G6duvHZ2PW2lY&autoplay=1&loop=1&mute=1&controls=0&playlist=Y57mo29ETNE"
                 width = {1080} height ={600} frameBorder="0" alt = "cover image"/>
+            )}
+
+            {width <= 500 && (
+            <iframe className = "thumbnail" src="https://www.youtube.com/embed/Y57mo29ETNE?si=XD-G6duvHZ2PW2lY&autoplay=1&loop=1&mute=1&controls=0&playlist=Y57mo29ETNE"
+                width = {1080} height ={250} frameBorder="0" alt = "cover image"/>
+            )}
+
         </div>
         <div className = {styles.page}>
             <div>
