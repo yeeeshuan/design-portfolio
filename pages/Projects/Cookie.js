@@ -102,7 +102,7 @@ export default function Cookie(){
                 Problem Space
             </h1>
             <p className = {styles.text}>
-                Currently, websites employ digital cookies to collect user data for individualized user experiences when browsing. However, by clicking "Accept All Cookies", users give the website full control over data such as their search history, location, and more. In this project, I look at how I can use AI to redesign invasive data collection methods such as web cookies—to recommend a tasty cookie recipe at the end of the week.
+                Currently, websites employ digital cookies to collect user data for individualized user experiences when browsing. However, by clicking <strong>Accept All Cookies</strong>, users give the website full control over data such as their search history, location, and more. In this project, I look at how I can use AI to redesign invasive data collection methods such as web cookies—to recommend a tasty cookie recipe at the end of the week.
             </p>
             </div>
         </div>
