@@ -4,6 +4,7 @@ import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
+import Video from '../../components/video';
 import Thumbnail from "../../Images/About/Cookie.jpg";
 import Dig from "../../Images/Projects/Cookie/DigCookie.png"
 import Journey from "../../Images/Projects/Cookie/Journey.png"
@@ -178,8 +179,9 @@ export default function Cookie(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "600px" src="https://www.youtube.com/embed/bgxpkxPdcOw?si=5-_OezuMaSrmHgLR&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" 
-                modestBranding = "1" allowFullScreen></iframe>
+            <Video
+                    thumbnail =  "./../../CMC_Spotify.mp4"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -189,8 +191,9 @@ export default function Cookie(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "600px" src="https://www.youtube.com/embed/q7FLUKYk6I8?si=wHGak2nPK6NktlSw&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" 
-                modestBranding = "1" allowFullScreen></iframe>
+            <Video
+                    thumbnail =  "./../../CMC_Git.mp4"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -263,8 +266,9 @@ export default function Cookie(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "600px" src="https://www.youtube.com/embed/bsVDTmPERO4?si=j9Uq_gSmV2BMKyHU&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" 
-                modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                    thumbnail =  "./../../CMC.mov"
+                />
             </div>
         </div>
         <div className = {styles.page}>

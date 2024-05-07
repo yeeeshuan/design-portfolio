@@ -4,6 +4,7 @@ import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
+import Video from '../../components/video';
 import Thumbnail from "../../Images/Projects/Replit/Replit.png";
 import UI from "../../Images/Projects/Replit/Flow.png"
 import Journey from "../../Images/Projects/Replit/Journey.png"
@@ -27,7 +28,7 @@ export default function Gmail(){
                 <br></br>
                 <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> January 2024 </p>
                 <br></br>
-                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma, Next.js, MongoDB</p>
+                <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma, Next.js, WordPress</p>
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
@@ -74,11 +75,10 @@ export default function Gmail(){
                 Identifying pain points
             </h1>
             <p className = {styles.text}>
-                To understand the problem space, I did a bit of journey mapping to understand areas where design could help users select and filter through projects. From this, I noticed that: 
+                From journey mapping, I noticed that: 
                 <br/>
                 <br/>
-                1. There are no options for users to select the tags that they are interested in — the tags seem to be auto generated, from the most popular tags that other users are selecting. 
-                <br/>
+                1. There are no options for users to select the tags that they are interested in. 
                 <br/>
                 2. The metrics (Hot, Top, New), are not the most effective metrics to filter through projects.
                 <br/>
@@ -104,10 +104,7 @@ export default function Gmail(){
                 Journey Mapping
             </h1>
             <p className = {styles.text}>
-                From the pain points identified, I came to the conclusion that there could be four new components added to the page to help the process of selecting a project: <strong>Onboarding, Tagging, Filtering, and Saving</strong>.
-                <br/>
-                <br/>
-                These new components can help the user identify earlier in the user journey the type of projects that they would like to see, and also more easily navigate to Repls they are interested in. 
+                I came to the conclusion that there could be four new components added to the page to help the process of selecting a project: <strong>Onboarding, Tagging, Filtering, and Saving</strong>. 
             </p>
             </div>
         </div>  
@@ -139,11 +136,25 @@ export default function Gmail(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Demonstration of Onboarding process
+                    Select Needs
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/9N9a0j_oF9g?si=PWaTqAm2dp9QvNIu&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                    thumbnail =  "./../../Replit_On_1.mov"
+                />
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Select Interests
+                </p>
+            </div>
+            <div>
+                <Video
+                    thumbnail =  "./../../Replit_On_2.mov"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -154,18 +165,20 @@ export default function Gmail(){
                 Feature 02 : Tags
                 </h1>
                 <p className = {styles.text}>
-                    The second component that the user encounters is the tags that they can select. The tags are recommended to the users based off of their interests from the onboarding process and recent activity, but users can add/delete tags depending on their changing interests. 
+                    The second component that the user encounters is the tags that they can select. The tags are recommended to the users based off of their interests from the onboarding process and recent activity.
                 </p>
             </div>
         </div>  
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Demonstration of Tagging feature
+                    Tagging feature
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/0G6DheeGGMY?si=w0sTfQ91GKEl7LaQ&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+            <Video
+                thumbnail =  "./../../Replit_Tag.mov"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -185,11 +198,13 @@ export default function Gmail(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Demonstration of Filter feature
+                    Filter feature
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/97kU4UxSBKo?si=krMIuS887KVHoKDQ?&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                    thumbnail =  "./../../Replit_Filter.mov"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -209,11 +224,13 @@ export default function Gmail(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Demonstration of Saving Feature
+                    Saving Feature
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/Wkorjy9MQ9I?si=xY9NZuwmXLDApIgX?&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                    thumbnail =  "./../../Replit_Drag.mov"
+                />
             </div>
         </div>
         <div className = {styles.page}>

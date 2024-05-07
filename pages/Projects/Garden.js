@@ -3,6 +3,7 @@ import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
+import Video from '../../components/video';
 import DH from "../../Images/Projects/Garden/Thumb.jpg"
 import Journey from "../../Images/Projects/Garden/Journey.png"
 import Parti from "../../Images/Projects/Garden/Parti.png"
@@ -180,18 +181,6 @@ export default function DesignHero(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                Physical Interactions (work in progress)
-            </h1>
-            <p className = {styles.text}>
-                In the physical world, the bucket communicates with the visitor the status of the garden with an LED on the side of it. It also grounds the virtual experience: after placing the bucket down in the physical world, the virtual scene will grow around the bucket.
-            </p>
-            </div>
-        </div> 
-        <div className = {styles.page}>
-            <div>
-            </div>     
-            <div>
-            <h1 className = {styles.bTitle}> 
                 Virtual Interactions
             </h1>
             <p className = {styles.text}>
@@ -209,7 +198,9 @@ export default function DesignHero(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://player.vimeo.com/video/924343670?&amp;loop=0&amp;mute=1&amp;controls=1&amp;transparent=0&amp;" frameBorder="0" modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                    thumbnail =  "./../../LG_Water.mp4"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -301,7 +292,9 @@ export default function DesignHero(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/oowDrpTLK44?si=6AIdHrpvskxmKt2D&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+            <Video
+                thumbnail =  "./../../LG_Day.mov"
+            />
             </div>
         </div>
         <div className = {styles.page}>
@@ -311,7 +304,9 @@ export default function DesignHero(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/byt1VbskB2I?si=1wTepIWoB_Alg1K7&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                thumbnail =  "./../../LG_Night.mov"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -390,7 +385,9 @@ export default function DesignHero(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://player.vimeo.com/video/924341574?&amp;loop=0&amp;mute=1&amp;controls=1&amp;transparent=0&amp;" frameBorder="0" modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                    thumbnail =  "./../../LG_Over.mp4"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -412,32 +409,9 @@ export default function DesignHero(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://player.vimeo.com/video/924342907?&amp;loop=0&amp;mute=1&amp;controls=1&amp;transparent=0&amp;" frameBorder="0" modestBranding = "1" allowFullScreen></iframe>
-            </div>
-        </div>
-        <div className = {styles.page}>
-            <div>
-            </div>     
-            <div>
-            <p className = {styles.text}>
-                To aid with the process of weeding, the team thought of interactions that would communicate to the visitor that a weed has appeared in the scene: 
-                <br/>
-                <br/>
-                1. The shovel will glow bright red, gaining the visitor&rsquo;s attention
-                <br/>
-                <br/>
-                2. At night, visitors are equipped with a flashlight to help them navigate the scene better. 
-            </p>
-            </div>
-        </div> 
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                    Weeding
-                </p>
-            </div>
-            <div>
-                <iframe width = "100%" height = "500px" src="https://player.vimeo.com/video/924344461?&amp;loop=0&amp;mute=1&amp;controls=1&amp;transparent=0&amp;" frameBorder="0" modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                    thumbnail =  "./../../LG_Weed.mp4"
+                />
             </div>
         </div>
         <div className = {styles.page}>

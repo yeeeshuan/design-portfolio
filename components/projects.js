@@ -158,7 +158,6 @@ class Projects extends Component{
                     key={idx}
                     name = {project.name}
                     description = {project.description}
-                    image = {project.image}
                     link = {project.link}
                     thumbnail = {project.thumbnail}
                             />
