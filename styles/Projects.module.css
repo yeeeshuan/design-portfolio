@@ -11,6 +11,15 @@
     justify-content: space-between;
     background-color: black;
 }
+
+.temp{
+    margin: 5rem 10rem 5rem 10rem; 
+}
+
+.projects{
+    margin: 0 5rem 0 5rem; 
+}
+
 a.styledLink{
     text-decoration: none;
 }

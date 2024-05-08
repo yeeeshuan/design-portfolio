@@ -6,8 +6,28 @@ import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Footer from '../components/footer';
 import Confetti from '../components/conf';
+import { useMediaQuery } from 'react-responsive';
+
 
 function Home() {
+
+  const [product, setProduct] = useState(true); 
+  const [tech, setTech] = useState(false); 
+  const matches = useMediaQuery({ query: '(max-width: 500px)' });
+
+
+  const pClick=()=>
+  {
+    setProduct(true); 
+    setTech(false); 
+  }
+
+  const cClick=()=>
+  {
+    setTech(true); 
+    setProduct(false); 
+  }
+
     return (
       <div className = {styles.page}>
         <Head>
@@ -38,8 +58,29 @@ function Home() {
           </div>
         </div>
         </div>
-        <div className={styles.projects}>
-          <Projects/>
+        <div style={{margin: "0 5rem 0 5rem"}}>
+        {matches ? (
+            <div/>
+          ) : (
+            <>
+              {product ? (
+                <a style={{ border: "3px solid #2897FF" }} className={styles.links} onClick={() => pClick()}>Product Design</a>
+              ) : (
+                <a className={styles.links} onClick={() => pClick()}>Product Design</a>
+              )}
+
+              {tech ? (
+                <a style={{ border: "3px solid #2897FF" }} className={styles.links} onClick={() => cClick()}>Creative Technology</a>
+              ) : (
+                <a className={styles.links} onClick={() => cClick()}>Creative Technology</a>
+              )}
+            </>
+          )}
+        
+        </div>
+
+        <div style={{marginTop: "3rem"}} className={styles.projects}>
+          <Projects product={product} tech={tech} matches={matches}/>
         </div>
         <Footer/>
       </div>
