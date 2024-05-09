@@ -67,7 +67,7 @@ function Home() {
               )}
 
               {tech ? (
-                <a style={{ border: "3px solid #2897FF" }} className={styles.links} onClick={() => cClick()}>Creative Technology</a>
+                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => cClick()}>Creative Technology</a>
               ) : (
                 <a className={styles.links} onClick={() => cClick()}>Creative Technology</a>
               )}

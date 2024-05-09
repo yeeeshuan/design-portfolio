@@ -248,15 +248,17 @@ a.links{
    color: white; 
    font-size: 16px; 
    padding: 1rem 2rem 1rem 1rem; 
-   background-color: #2d2d2d; 
+   background-color: #212121; 
    margin-right: 15px; 
    border-radius: 5px; 
    width: 40%; 
+   border: 3px solid #212121; 
 }
 
 a.links:hover{
-    color: darkgray; 
-    transition: 0.3s
+    transition: 0.3s;
+    border: 3px solid #2897FF;
+    background-color: #2d2d2d;
  }
 
  a.links_1{

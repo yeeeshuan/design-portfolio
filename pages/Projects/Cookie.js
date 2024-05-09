@@ -14,6 +14,10 @@ import Tech from "../../Images/Projects/Cookie/Tech.png"
 import Recipe from "../../Images/Projects/Cookie/Recipe.png"
 import Fridge from "../../Images/Projects/Cookie/Fridge.jpg"
 import Mock from "../../Images/Projects/Cookie/Mockup.png"
+import SL from "../../Images/Projects/Cookie/SpotifyL.png"
+import SR from "../../Images/Projects/Cookie/SpotifyR.png"
+import GL from "../../Images/Projects/Cookie/GitL.png"
+import GR from "../../Images/Projects/Cookie/GitR.png"
 import { useState, useEffect } from 'react';
 
 function getWindowDimensions() {
@@ -163,13 +167,50 @@ export default function Cookie(){
                 Onboarding Interface
                 </h1>
                 <p className = {styles.text}>
-                   To start the cookie monster cooking process, users choose the types of data they want to feed to the cookie monster. Each app that the user connects controls a different aspect of the cookie recipe. In this case, I chose to connect: 
-                   <br/>
-                   <br/>
-                    1. Spotify, which represents my mood for the week, and determines the toppings that go on the cookie. 
-                    <br/>
-                    2. Github, which represents how hard I worked in a week and determines the amount of cookies that the recipe can make. 
+                   To start the cookie monster cooking process, users choose the types of data they want to feed to the cookie monster. Each app that the user connects controls a different aspect of the cookie recipe. In this case, I chose to connect Spotify and Github. 
                 </p>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Mockup with other types of data that can be sent
+                </p>
+            </div>
+            <div>
+                <Image src = {Mock}/>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div>
+                <h1 className = {styles.bTitle}> 
+                Spotify
+                </h1>
+                <p className = {styles.text}>
+                    Spotify, which represents my mood for the week, and determines the toppings that go on the cookie. 
+                </p>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Uploading Spotify Data
+                </p>
+            </div>
+            <div>
+                <Image src = {SL}/>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Spotify Generated Toppings
+                </p>
+            </div>
+            <div>
+                <Image src = {SR}/>
             </div>
         </div>  
         <div className = {styles.page}>
@@ -186,6 +227,38 @@ export default function Cookie(){
         </div>
         <div className = {styles.page}>
             <div>
+            </div>
+            <div>
+                <h1 className = {styles.bTitle}> 
+                Github
+                </h1>
+                <p className = {styles.text}>
+                    Github, which represents how hard I worked in a week and determines the amount of cookies that the recipe can make. 
+                </p>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Uploading Github Data
+                </p>
+            </div>
+            <div>
+                <Image src = {GL}/>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Github Generated Portion Size
+                </p>
+            </div>
+            <div>
+                <Image src = {GR}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
                 <p className = {styles.d}> 
                     Github Data
                 </p>
@@ -198,24 +271,13 @@ export default function Cookie(){
         </div>
         <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
-                    Loading Screen
-                </p>
             </div>
             <div>
-                <Image src = {W2}/>
+                <h1 className = {styles.bTitle}> 
+                Website Walkthrough
+                </h1>
             </div>
-        </div>
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                    Mockup with other types of data that can be sent
-                </p>
-            </div>
-            <div>
-                <Image src = {Mock}/>
-            </div>
-        </div>
+        </div> 
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
