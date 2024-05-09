@@ -146,30 +146,7 @@ class Projects extends Component{
         <div className = {styles.projectRow}>
             {this.state.projects.map((project, idx) => {
                 
-                if (!this.props.matches)
-                {
-                    if ((this.props.product && project.category=="P") || (this.props.tech && project.category=="C")){
-                        if (project.type == "v"){
-                            return <Video
-                            key={idx}
-                            name = {project.name}
-                            description = {project.description}
-                            link = {project.link}
-                            thumbnail = {project.thumbnail}
-                                    />
-                        } else if (project.type == "i"){
-                            return <Img
-                            key={idx}
-                            name = {project.name}
-                            description = {project.description}
-                            image = {project.image}
-                            link = {project.link}
-                            />
-                        }
-                    }
-                }
-                else 
-                {
+                if ((this.props.product && project.category=="P") || (this.props.tech && project.category=="C")){
                     if (project.type == "v"){
                         return <Video
                         key={idx}

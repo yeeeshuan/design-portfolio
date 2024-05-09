@@ -56,12 +56,13 @@ iframe.ytplayer{
     border-radius: 1rem; 
     background-color: #212121; 
     overflow: hidden;  
-    transition: background-color 0.5s;  
-    border: #373737 2px solid; 
+    transition: 0.5s;  
+    border: #212121 2px solid; 
 }
 
 .imageWrap:hover{
     background-color: #373737; 
+    border: #2897FF 2px solid; 
 }
 
 .cardDes{

@@ -58,13 +58,10 @@ function Home() {
           </div>
         </div>
         </div>
-        <div style={{margin: "0 5rem 0 5rem"}}>
-        {matches ? (
-            <div/>
-          ) : (
+        <div className={styles.toggle}>
             <>
               {product ? (
-                <a style={{ border: "3px solid #2897FF" }} className={styles.links} onClick={() => pClick()}>Product Design</a>
+                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => pClick()}>Product Design</a>
               ) : (
                 <a className={styles.links} onClick={() => pClick()}>Product Design</a>
               )}
@@ -74,9 +71,7 @@ function Home() {
               ) : (
                 <a className={styles.links} onClick={() => cClick()}>Creative Technology</a>
               )}
-            </>
-          )}
-        
+            </> 
         </div>
 
         <div style={{marginTop: "3rem"}} className={styles.projects}>
