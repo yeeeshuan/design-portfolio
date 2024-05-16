@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Thumbnail from "../../Images/About/Gmail.png";
+import Mock from "../../Images/Projects/Gmail/Mock.png"; 
 import Colors from "../../Images/Projects/Gmail/Colors.png"
 import UI from "../../Images/Projects/Gmail/UI.png"
 import Affinity from "../../Images/Projects/Gmail/Affinity.png";
@@ -15,6 +16,8 @@ import FJourney from "../../Images/Projects/Gmail/FilterJourney.png"
 import LJourney from "../../Images/Projects/Gmail/LabelJourney.png"
 import BA from "../../Images/Projects/Gmail/BA.png"; 
 import Code from "../../Images/Projects/Gmail/Code.png"
+import Folder from "../../Images/Projects/Gmail/Folder.png"
+import Video from '../../components/video';
 
 export default function Gmail(){
     return(
@@ -106,16 +109,6 @@ export default function Gmail(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Current UI Systems
-                </p>
-            </div>
-            <div>
-                <Image src = {UI}/>
-            </div>
-        </div> 
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
                     Understanding Current Label and Filter Systems
                 </p>
             </div>
@@ -131,9 +124,6 @@ export default function Gmail(){
                 Journey Mapping
             </h1>
             <p className = {styles.text}>
-                From the pain points identified by Affinity Mapping, I created a Journey Map to see how I could design the folder feature to help aid the user throughout the process of locating emails. 
-                <br/>
-                <br/>
                 I pinpointed that users feel the most frustrated when they have to select many options to customize and locate their emails. As a result, when users are selecting options to create folders, it is especially important for the menu to be easy and intuitive to understand. 
             </p>
             </div>
@@ -156,20 +146,10 @@ export default function Gmail(){
                 Prototyping
             </h1>
             <p className = {styles.text}>
-                From the Affinity Diagramming, I wanted to incorporate a new folder feature that integrated well with current designs in Gmail that users have become accustomed to.
+                I wanted to incorporate a new folder feature that integrated well with current designs in Gmail that users have become accustomed to. I first started with lo-fi prototypes, getting a look and feel for the different concepts. 
             </p>
             </div>
         </div>  
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                    Components
-                </p>
-            </div>
-            <div>
-                <Image src = {Comp}/>
-            </div>
-        </div> 
         <div className = {styles.page}>
             <div>
             </div>
@@ -178,7 +158,7 @@ export default function Gmail(){
                 Iteration 01 : Existing Features 
                 </h1>
                 <p className = {styles.text}>
-                For the first iteration, the prototype explores how to combine designs of existing features from Gmail with the new designs of a folder system. The button that sorted through read/unread, starred/unstarred emails, and the ability to color labels were integrated as a part of my design. 
+                For the first iteration, the prototype explores how to combine designs of existing features from Gmail with the new designs of a folder system.
                 </p>
             </div>
         </div>  
@@ -221,35 +201,47 @@ export default function Gmail(){
                 <h1 className = {styles.pTitle}> 
                     Final Solution
                 </h1>
-                <h1 className = {styles.bTitle}> 
-                    Final Solution: Existing Features from other applications
-                </h1>
+
                 <p className = {styles.text}>
-                After testing the first and second iteration prototypes, I concluded that: 
-                <br/>
-                <br/>
-                1. The prototypes were not well-designed for cases of large amounts of folders. 
-                <br/>
-                <br/>
-                2. In the case that there are a lot of folders, the path to accessing a specific email becomes tedious. 
-                <br/>
-                <br/>
-                In the final design, I looked at designs of pre-existing applications such as Folders in Google Drive, Finder on Mac, and Folders on Windows to see how I could create a folder system that can handle huge amounts of data. 
+                From past iterations, I noticed the need to simplify the process to creating the filter. I expanded the Folder Creation Popup, limiting the process to two main interactions: Typing and Selecting.  
                 </p>
-                <br/>
-                <br/>
             </div>
         </div>  
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Demonstration of Final Solution
+                    Folder Creation Components
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/oztf7JNVtoA?&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+                <Image src = {Folder}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Typing
+                </p>
+            </div>
+            <div>
+            <Video
+                thumbnail =  "./../../Gmail_Type.mp4"
+                />
             </div>
         </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Select
+                </p>
+            </div>
+            <div>
+            <Video
+                thumbnail =  "./../../Gmail_Color.mov"
+                />
+            </div>
+        </div>
+
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
@@ -257,9 +249,21 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/sD3LYOQxr_w?si=qxx4Y6ETSSGwYUi9&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+                <Video
+                    thumbnail =  "./../../Gmail_Drag.mp4"
+                    />
             </div>
         </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                   Dashboard Mockup
+                </p>
+            </div>
+            <div>
+                <Image src = {Mock}/>
+            </div>
+        </div> 
         <div className = {styles.page}>
             <div>
             </div>     
