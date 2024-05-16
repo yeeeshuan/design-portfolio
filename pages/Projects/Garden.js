@@ -82,12 +82,8 @@ export default function DesignHero(){
             <br/>
             </div>
             </div>
-            <div style = {{
-                display: "flex", 
-                justifyContent: "center", 
-            
-            }}>
-                <Image src = {DH} width = {1080} height ={600} alt = "cover image"/>
+            <div>
+                <Image src = {DH} alt = "cover image"/>
             </div>
             <br/>
             <br/>

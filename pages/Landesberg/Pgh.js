@@ -46,12 +46,8 @@ export default function PGH(){
             </p>
          </div>
          </div>
-            <div style = {{
-                display: "flex", 
-                justifyContent: "center", 
-            
-            }}>
-                <Image src = {Web} width = {1080} height ={600} alt = "cover image"/>
+            <div>
+                <Image src = {Web} alt = "cover image"/>
             </div>
             <div className = {styles.page}>
                 <div>

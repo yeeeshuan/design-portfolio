@@ -36,12 +36,8 @@ export default function Magazine(){
             </p>
          </div>
          </div>
-            <div style = {{
-                display: "flex", 
-                justifyContent: "center", 
-            
-            }}>
-                <Image src = {Th} width = {1080} height ={600} alt = "cover image"/>
+            <div>
+                <Image alt = "cover image"/>
             </div>
             <div className = {styles.page}>
                     <div>

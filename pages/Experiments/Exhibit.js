@@ -68,12 +68,8 @@ export default function Exhibit(){
             </p>
          </div>
          </div>
-         <div style = {{
-                display: "flex", 
-                justifyContent: "center", 
-            
-            }}>
-                <Image src = {Thumbnail} width = {1080} height ={600} alt = "cover image"/>
+         <div>
+                <Image src = {Thumbnail} alt = "cover image"/>
             </div>
             <div className = {styles.page}>
                 <div>
