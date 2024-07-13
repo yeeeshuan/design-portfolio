@@ -154,10 +154,10 @@ class Graphics extends Component{
         <title>Ethan Huang Design | Experiments</title>
         </Head>
             <Navbar/>
-        <div className = {home.introWrap}>
+        <div className = {home.introWrap} style={{height:"fit-content"}}>
         <div className = {home.des}>
         <h2 className = {home.intro}>
-            These projects are more experimental. They help me explore questions I have about how people can interact with things. 
+            These projects are more <span style={{color: "#70D7FF"}}>experimental</span>. They help me explore questions I have about how people can <span style={{color: "#70D7FF"}}>interact with things</span>.
         </h2>
         </div>
         </div>
