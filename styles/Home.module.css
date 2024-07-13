@@ -1,64 +1,145 @@
-/*Intro*/
-.page{
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&display=swap');
+
+/* Intro */
+
+.page {
     margin-top: 0px; 
     background-color: black; 
 }
 
-.exp{
-    margin-top: 2rem;  
+.des {
+    width: 70%; 
+    display: flex; 
 }
 
-.des{
-    width: 60%; 
-}
-
-.conf{
+.conf {
     padding-top: 2rem;
-    width: 40%; 
+    width: 30%; 
     justify-content: space-between;
     flex-direction: column;
     display: flex;
 }
 
-.holder{
+.holder {
     justify-content: flex-end;
     display: flex;
 }
 
-.curr{
-    color: white; 
-    line-height: 1.6;
-}
-
-.introWrap{
+.introWrap {
     padding-top: 5rem; 
     margin-left: 5rem;
     margin-right: 5rem; 
     margin-bottom: 5rem; 
+    height: 30rem;
     display: flex; 
 }
 
-.bold{
+.bold {
     font-weight: bold; 
 }
 
-h2.intro{
-  font-size: 36px;
-  color: white; 
-  background-color: black; 
-  margin-bottom: 2rem; 
-  line-height: 1;
-}
-
-.break{
-    width: 15%;
-    margin: 0px;
-}
-
-span.CText{
-    color: #2897FF;
+h2.intro {
+    color: white; 
+    background-color: black; 
+    margin-bottom: 2rem; 
     display: inline; 
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 28px; 
+    font-style: normal;
+    line-height: 2.2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
+.cmu {
+    font-family: "Source Serif 4", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800; 
+    color: #E0051C; 
+    line-height: 1;
+    text-decoration: underline;
+}
+
+.LD {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    font-weight: 600; 
+    line-height: 1;
+}
+
+.CB {
+    font-family: "Roboto Mono", monospace;
+    font-size: 28px;
+    font-weight: 800;
+    color: #30DB5B; 
+    text-decoration: underline;
+    line-height: 1;
+}
+
+.ZD {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #DC208D;
+    text-decoration: underline;
+    line-height: 1;
+}
+
+
+span.CText {
+    color: #2897FF;
+    font-size: 34px; 
+}
+
+button.click{
+    background: var(--background); 
+    padding: 0 1rem 1rem 1rem;
+    transition: 150ms;
+    width: fit-content;
+    margin-top: 0.5rem;
+    line-height: 0.8;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 48px; 
+    outline: none; 
+    border: none; 
+    border-radius: 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button.clicked {
+    background: var(--background-active); 
+    padding: 0 1rem 1rem 1rem;
+    transition: 150ms;
+    width: fit-content;
+    margin-top: 0.5rem;
+    line-height: 0.8;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 800;
+    font-size: 48px; 
+    outline: none; 
+    border: none; 
+    border-radius: 4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button.click:hover {
+    background: var(--background-active);  
+    cursor: pointer;
+}
+
+button.clicked:hover{
+    cursor: pointer;
+}
+
 
 /*Navbar*/
 nav.nav{
@@ -138,8 +219,8 @@ nav.footer{
     border-radius: 0.5em;
     z-index: 999;
     display: flex;
-    height: 10rem; 
-    width: 10rem; 
+    height: 14rem; 
+    width: 14rem; 
     background-color: #212121; 
     transition: 0.3s;
   }
@@ -183,10 +264,12 @@ a.links{
  }
 
  .toggle{
+    display: block; 
     margin: 0 5rem 0 5rem; 
  }
 
 @media (max-width: 500px){
+
     nav.nav{
         padding-left: 1.5rem; 
         position: none; 
@@ -217,41 +300,57 @@ a.links{
         padding: 1em; 
         transition: color 0.3s;  
     }
-
     .des{
         width: 100%; 
+        display: block; 
     }
 
     .intro{
         width: 100%; 
     }
 
+    .break {
+        width: 30%;
+        margin: 0px;
+        border: 0.5px solid white; 
+    }    
+
     .conf{
         width: 0
     }
 
     h2.intro{
-        font-size: 30px;
+        font-size: 32px;
         color: white; 
-        background-color: black; 
-        margin-top: 2rem; 
-        margin-bottom: 1rem; 
-        line-height: 1.2;
+        background-color: black;
+        line-height: 1.4;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: 800;
       }
 
+    span.CText {
+        color: #2897FF;
+        font-size:14px; 
+    }
+    
+
     .introWrap{
-        margin-top: 0rem; 
-        margin-bottom: 0rem; 
+        margin-top: 2rem; 
+        margin-bottom: 2rem; 
         margin-left: 2rem;
         margin-right: 2rem; 
         padding-top: 0rem; 
-        padding-bottom: 2rem; 
+        height: fit-content;
     }
 
     .curr{
-        font-size: 15px; 
+        font-size: 14px; 
         color: white; 
         line-height: 1.8;
+    }
+
+    .exp {
+        margin-top: 1rem;  
     }
 
     .button{
@@ -276,5 +375,39 @@ a.links{
 
     .toggle{
         margin: 0 2rem 0 2rem; 
+    }
+
+    button.click{
+        background: var(--background); 
+        padding: 0 0.5rem 1rem 0.5rem;
+        transition: 150ms;
+        width: fit-content;
+        margin-top: 0.5rem;
+        line-height: 0.4;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: 800;
+        font-size: 48px; 
+        outline: none; 
+        border: none; 
+        border-radius: 4px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    button.clicked {
+        background: var(--background-active); 
+        padding: 0 0.25rem 0.5rem 0.25rem;
+        transition: 150ms;
+        width: fit-content;
+        margin-top: 0.5rem;
+        line-height: 0.4;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: 800;
+        font-size: 48px; 
+        outline: none; 
+        border: none; 
+        border-radius: 4px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 }

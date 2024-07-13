@@ -1,4 +1,5 @@
 /*Projects*/
+
 .gallery{
     align-items: center;
     display: grid; 
@@ -54,15 +55,15 @@ iframe.ytplayer{
     width: 48%;
     margin-bottom: 50px; 
     border-radius: 1rem; 
-    background-color: #212121; 
+    background-color: var(--background); 
     overflow: hidden;  
     transition: 0.5s;  
-    border: #212121 2px solid; 
+    border: var(--background) 2px solid; 
 }
 
 .imageWrap:hover{
-    background-color: #373737; 
-    border: #2897FF 2px solid; 
+    background-color: var(--background-active);
+    border: var(--card-active) 2px solid; 
 }
 
 .cardDes{
@@ -71,12 +72,12 @@ iframe.ytplayer{
 }
 
 .cardLeft{
-    width: 80%; 
+    width: 85%; 
 }
 
 .cardRight{
     opacity: 0%;
-    width: 20%; 
+    width: 15%; 
     margin-top: 1.5rem; 
     transition: 0.5s;
     text-align: right;
@@ -257,7 +258,7 @@ a.links{
 
 a.links:hover{
     transition: 0.3s;
-    border: 3px solid #2897FF;
+    border: 3px solid var(--card-active);
     background-color: #2d2d2d;
  }
 

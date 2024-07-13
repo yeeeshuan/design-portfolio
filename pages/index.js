@@ -7,12 +7,17 @@ import Head from 'next/head';
 import Footer from '../components/footer';
 import Confetti from '../components/conf';
 import { useMediaQuery } from 'react-responsive';
+import { name } from 'file-loader';
 
 
 function Home() {
 
   const [product, setProduct] = useState(true); 
   const [tech, setTech] = useState(false); 
+  const [nameClicked, setNameClicked] = useState(false); 
+  const [PDClicked, setPDClicked] = useState(false); 
+  const [LDClicked, setLDClicked] = useState(false); 
+  const [Zenda, setZenda] = useState(false); 
   const matches = useMediaQuery({ query: '(max-width: 500px)' });
 
 
@@ -36,22 +41,85 @@ function Home() {
         </Head>
         <Navbar/>
         <div className = {styles.introWrap}>
-        <div className = {styles.des}>
-        <h2 className = {styles.intro}>
-            Hi! My name is Ethan Huang and I am a 
-            <span className = {styles.CText}> Product Designer </span> 
-            and 
-            <span className={styles.CText}> Creative Technologist</span>. 
-        </h2>
-        <hr className = {styles.break}></hr>
-        <div className = {styles.exp}>
-        <p className = {styles.curr}>
-          <span className = {styles.bold}>Incoming...</span> Creative Technologist Intern @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
+        {!matches && (
+          <div className={styles.des}>
+            <h2 className={styles.intro}>
+              <span>
+                Hi! I&rsquo;m
+              </span>
+              <button className={nameClicked? styles.clicked : styles.click} onClick={() => setNameClicked(!nameClicked)}>
+                <span className={styles.CText}>Ethan Huang</span>
+              </button>
+              {nameClicked && (
+                <span>
+                  , a senior studying <span style={{color: "#70D7FF"}}>Design & HCI/CS </span> @ 
+                  <a href="https://design.cmu.edu/" target="_blank" className={styles.cmu}>CMU</a>
+                </span>
+              )}
+              .
+              <span>
+                &nbsp;I&rsquo;m a <span style={{color: "#70D7FF"}}>Product Designer/Creative Technologist</span>
+              </span>
+              .
+              <br/>
+              <span>
+                Currently, I&rsquo;m a <span style={{color: "#70D7FF"}}>Creative Technologist Intern</span> @ 
+                <button onClick={() => setZenda(!Zenda)} className={Zenda? styles.clicked : styles.click}>
+                  <span className={styles.CText}>Zenda Consulting</span>
+                </button> 
+                {Zenda && (
+                  <>
+                    <br/>
+                    <span>building <a href="https://www.zendaai.com/" className={styles.ZD}>GenAI Features</a></span>
+                  </>
+                )}
+              </span>
+              .
+              <br/>
+              <span>
+                Previously, I was a<span style={{color: "#70D7FF"}}> Product Design Intern</span> @ 
+                <button onClick={() => setLDClicked(!LDClicked)} className={LDClicked? styles.clicked : styles.click}>
+                  <span className={styles.CText}>Landesberg Design</span> 
+                </button> 
+                {LDClicked && (
+                <span>
+                designing&nbsp;
+                <a href="https://landesbergdesign.com/" target="_blank" className={styles.CB}>Digital Experiences</a>
+                </span>
+                )}
+              </span>
+              .
+            </h2>
+
+
+          {/* <hr className = {styles.break}></hr>
+          <div className = {styles.exp}>
+          <p className = {styles.curr}>
+            <span className = {styles.bold}>Incoming...</span> Creative Technologist Intern @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
+            <br/>
+            <span className = {styles.bold}>Previously...</span> Design Intern @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
+          </p>
+          </div> */}
+          </div>
+        )}
+
+        {matches && (
+          <div className={styles.des}>
+          <h2 className={styles.intro}>
+            <span>
+              Hi! I&rsquo;m Ethan Huang, a <span style={{color:"#2897FF"}}>Product Designer</span> and <span style={{color:"#2897FF"}}>Creative Technologist</span>. 
+            </span>
+          </h2>
           <br/>
-          <span className = {styles.bold}>Previously...</span> Design Intern @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
-        </p>
+          <br/>
+            <hr className = {styles.break}></hr>
+            <p className = {styles.curr}>
+              <span className = {styles.bold}>Currently...</span> Creative Technologist Intern @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
+              <br/>
+              <span className = {styles.bold}>Previously...</span> Product Design Intern @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
+            </p>
         </div>
-        </div>
+        )}
         <div className = {styles.conf}>
           <div className = {styles.holder}>
           <Confetti/>
