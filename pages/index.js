@@ -69,7 +69,6 @@ function Home() {
                 </button> 
                 {Zenda && (
                   <>
-                    <br/>
                     <span>building <a href="https://www.zendaai.com/" target="_blank" rel="noreferrer" className={styles.ZD}>GenAI Features</a></span>
                   </>
                 )}
