@@ -53,7 +53,7 @@ function Home() {
               {nameClicked && (
                 <span>
                   , a senior studying <span style={{color: "#70D7FF"}}>Design & HCI/CS </span> @ 
-                  <a href="https://design.cmu.edu/" target="_blank" className={styles.cmu}>CMU</a>
+                  <a href="https://design.cmu.edu/" target="_blank" rel="noreferrer" className={styles.cmu}>CMU</a>
                 </span>
               )}
               .
@@ -84,7 +84,7 @@ function Home() {
                 {LDClicked && (
                 <span>
                 designing&nbsp;
-                <a href="https://landesbergdesign.com/" target="_blank" className={styles.CB}>Digital Experiences</a>
+                <a href="https://landesbergdesign.com/" target="_blank" rel="noreferrer" className={styles.CB}>Digital Experiences</a>
                 </span>
                 )}
               </span>
