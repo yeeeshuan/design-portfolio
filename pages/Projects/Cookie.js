@@ -303,9 +303,6 @@ export default function Cookie(){
         </div>  
         <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
-                    Demonstration of Tagging feature
-                </p>
             </div>
             <div>
                 <Image src = {Thumbnail}/>
@@ -313,9 +310,6 @@ export default function Cookie(){
         </div>
         <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
-                    Demonstration of Tagging feature
-                </p>
             </div>
             <div>
                 <Image src = {C2}/>
@@ -323,9 +317,6 @@ export default function Cookie(){
         </div>
         <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
-                    Cookie Monster Functionalities
-                </p>
             </div>
             <div>
                 <Video
@@ -355,9 +346,6 @@ export default function Cookie(){
         </div>  
         <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
-                    Demonstration of Filter feature
-                </p>
             </div>
             <div>
                 <Image src={Recipe}/>
@@ -365,9 +353,6 @@ export default function Cookie(){
         </div>
         <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
-                    Demonstration of Filter feature
-                </p>
             </div>
             <div>
                 <Image src={Fridge}/>
