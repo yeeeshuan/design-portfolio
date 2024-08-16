@@ -47,9 +47,9 @@ h2.intro {
     background-color: black; 
     margin-bottom: 2rem; 
     display: inline; 
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 28px; 
+    font-family: 'Darker Grotesque';
+    font-weight: 800;
+    font-size: 32px; 
     font-style: normal;
     line-height: 2.2;
     -webkit-font-smoothing: antialiased;
@@ -94,7 +94,7 @@ h2.intro {
 
 span.CText {
     color: #2897FF;
-    font-size: 34px; 
+    font-size: 26px; 
 }
 
 button.click{
@@ -104,8 +104,8 @@ button.click{
     width: fit-content;
     margin-top: 0.5rem;
     line-height: 0.8;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     font-size: 48px; 
     outline: none; 
     border: none; 
@@ -121,8 +121,8 @@ button.clicked {
     width: fit-content;
     margin-top: 0.5rem;
     line-height: 0.8;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     font-size: 48px; 
     outline: none; 
     border: none; 

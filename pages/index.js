@@ -63,7 +63,7 @@ function Home() {
               .
               <br/>
               <span>
-                Currently, I&rsquo;m a <span style={{color: "#70D7FF"}}>Creative Technologist Intern</span> @ 
+                Currently, I&rsquo;m a <span style={{color: "#70D7FF"}}>Creative Technologist</span> @ 
                 <button onClick={() => setZenda(!Zenda)} className={Zenda? styles.clicked : styles.click}>
                   <span className={styles.CText}>Zenda Consulting</span>
                 </button> 
