@@ -33,7 +33,7 @@
     padding-top: 5rem; 
     margin-left: 5rem;
     margin-right: 5rem; 
-    margin-bottom: 5rem; 
+    margin-bottom: 2rem; 
     height: 30rem;
     display: flex; 
 }
@@ -51,89 +51,49 @@ h2.intro {
     font-weight: 800;
     font-size: 32px; 
     font-style: normal;
-    line-height: 2.2;
+    line-height: 2;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.cmu {
-    font-family: "Source Serif 4", serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 800; 
-    color: #E0051C; 
-    line-height: 1;
-    text-decoration: underline;
-}
-
-.LD {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px; 
-    font-weight: 600; 
-    line-height: 1;
-}
-
-.CB {
-    font-family: "Roboto Mono", monospace;
-    font-size: 28px;
-    font-weight: 800;
-    color: #30DB5B; 
-    text-decoration: underline;
-    line-height: 1;
-}
-
-.ZD {
-    font-family: "Outfit", sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    color: #DC208D;
-    text-decoration: underline;
-    line-height: 1;
-}
-
-
 span.CText {
-    color: #2897FF;
-    font-size: 26px; 
+    font-size: 32px; 
+    line-height: 0;
+
 }
 
 button.click{
     background: var(--background); 
-    padding: 0 1rem 1rem 1rem;
+    padding: 1.2rem 0.8rem 0.8rem 0.8rem;
     transition: 150ms;
     width: fit-content;
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     line-height: 0.8;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 48px; 
+    font-weight: 800;
     outline: none; 
-    border: none; 
+    border: 3px solid #212121; 
     border-radius: 4px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Darker Grotesque';
 }
 
 button.clicked {
     background: var(--background-active); 
-    padding: 0 1rem 1rem 1rem;
+    padding: 1.2rem 0.8rem 0.8rem 0.8rem;
     transition: 150ms;
     width: fit-content;
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     line-height: 0.8;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 48px; 
+    font-weight: 800;
     outline: none; 
-    border: none; 
+    border: 3px solid #2897FF;
     border-radius: 4px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Darker Grotesque';
 }
 
 button.click:hover {
     background: var(--background-active);  
     cursor: pointer;
+    border: 3px solid #2897FF;
 }
 
 button.clicked:hover{

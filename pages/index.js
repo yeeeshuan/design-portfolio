@@ -52,38 +52,38 @@ function Home() {
               </button>
               {nameClicked && (
                 <span>
-                  , a senior studying <span style={{color: "#70D7FF"}}>Design & HCI/CS </span> @ 
-                  <a href="https://design.cmu.edu/" target="_blank" rel="noreferrer" className={styles.cmu}>CMU</a>
+                  , a senior studying Design & HCI/CS @
+                  <a href="https://design.cmu.edu/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}>CMU</a>
                 </span>
               )}
               .
               <span>
-                &nbsp;I&rsquo;m a <span style={{color: "#70D7FF"}}>Product Designer/Creative Technologist</span>
+                &nbsp;I&rsquo;m a <span style={{color: "#2897FF"}}>Product Designer/Creative Technologist</span>
               </span>
               .
               <br/>
               <span>
-                Currently, I&rsquo;m a <span style={{color: "#70D7FF"}}>Creative Technologist</span> @ 
+                Currently, I&rsquo;m a Creative Technologist @ 
                 <button onClick={() => setZenda(!Zenda)} className={Zenda? styles.clicked : styles.click}>
-                  <span className={styles.CText}>Zenda Consulting</span>
+                  <span className={styles.CText}>Zenda</span>
                 </button> 
                 {Zenda && (
                   <>
-                    <span>building <a href="https://www.zendaai.com/" target="_blank" rel="noreferrer" className={styles.ZD}>GenAI Features</a></span>
+                    <span>building <a href="https://www.zendaai.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}>GenAI Features</a></span>
                   </>
                 )}
               </span>
               .
               <br/>
               <span>
-                Previously, I was a<span style={{color: "#70D7FF"}}> Product Design Intern</span> @ 
+                Previously, I was a Product Design Intern @ 
                 <button onClick={() => setLDClicked(!LDClicked)} className={LDClicked? styles.clicked : styles.click}>
                   <span className={styles.CText}>Landesberg Design</span> 
                 </button> 
                 {LDClicked && (
                 <span>
                 designing&nbsp;
-                <a href="https://landesbergdesign.com/" target="_blank" rel="noreferrer" className={styles.CB}>Digital Experiences</a>
+                <a href="https://landesbergdesign.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}>Digital Experiences</a>
                 </span>
                 )}
               </span>
