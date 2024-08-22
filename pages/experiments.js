@@ -157,7 +157,7 @@ class Graphics extends Component{
         <div className = {home.introWrap} style={{height:"fit-content"}}>
         <div className = {home.des}>
         <h2 className = {home.intro}>
-            These projects are more <span style={{color: "#70D7FF"}}>experimental</span>. They help me explore questions I have about how people can <span style={{color: "#70D7FF"}}>interact with things</span>.
+            These projects are more <span style={{color: "#2897FF"}}>experimental</span>. They help me explore questions I have about how people can <span style={{color: "#2897FF"}}>interact with things</span>.
         </h2>
         </div>
         </div>
