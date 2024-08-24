@@ -48,7 +48,7 @@ function Home() {
                 Hi! I&rsquo;m
               </span>
               <button className={nameClicked? styles.clicked : styles.click} onClick={() => setNameClicked(!nameClicked)}>
-                <span className={styles.CText}>Ethan Huang</span>
+                <span className={styles.CText} style={{color: "white"}}>Ethan Huang</span>
               </button>
               {nameClicked && (
                 <span>
@@ -65,7 +65,7 @@ function Home() {
               <span>
                 Currently, I&rsquo;m a Creative Technologist @ 
                 <button onClick={() => setZenda(!Zenda)} className={Zenda? styles.clicked : styles.click}>
-                  <span className={styles.CText}>Zenda</span>
+                  <span className={styles.CText} style={{color: "white"}}>Zenda</span>
                 </button> 
                 {Zenda && (
                   <>
