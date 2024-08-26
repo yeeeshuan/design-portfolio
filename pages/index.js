@@ -78,7 +78,7 @@ function Home() {
               <span>
                 Previously, I was a Product Design Intern @ 
                 <button onClick={() => setLDClicked(!LDClicked)} className={LDClicked? styles.clicked : styles.click}>
-                  <span className={styles.CText}>Landesberg Design</span> 
+                  <span className={styles.CText} style={{color: "white"}}>Landesberg Design</span> 
                 </button> 
                 {LDClicked && (
                 <span>
