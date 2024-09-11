@@ -153,30 +153,32 @@ class TED extends Component{
          </div>
          </div>
          </main>
-        <div className = {styles.projectRow}>
-            {this.state.projects.map((project, idx) => {
-                if (project.type == "v"){
-                    return <Video
-                    key={idx}
-                    name = {project.name}
-                    description = {project.description}
-                    image = {project.image}
-                    link = {project.link}
-                    thumbnail = {project.thumbnail}
-                            />
-                } else if (project.type == "i"){
-                    return <Img
-                    key={idx}
-                    name = {project.name}
-                    description = {project.description}
-                    image = {project.image}
-                    link = {project.link}
-                    />
+        <div className={styles.projects}>
+            <div className = {styles.projectRow}>
+                {this.state.projects.map((project, idx) => {
+                    if (project.type == "v"){
+                        return <Video
+                        key={idx}
+                        name = {project.name}
+                        description = {project.description}
+                        image = {project.image}
+                        link = {project.link}
+                        thumbnail = {project.thumbnail}
+                                />
+                    } else if (project.type == "i"){
+                        return <Img
+                        key={idx}
+                        name = {project.name}
+                        description = {project.description}
+                        image = {project.image}
+                        link = {project.link}
+                        />
+                    }
                 }
-            }
-            
-            )}
+                
+                )}
 
+        </div>
       </div>
       </div>
     )
