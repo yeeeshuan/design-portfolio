@@ -320,6 +320,14 @@ a.links:hover{
         padding-bottom: 2rem; 
     }
 
+    .temp{
+        margin: 5rem 2rem 5rem 2rem; 
+    }
+
+    .projects{
+        margin: 0; 
+    }
+
     .gallery {
         align-items: center;
         display: grid;
