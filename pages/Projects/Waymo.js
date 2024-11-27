@@ -25,7 +25,7 @@ export default function Zenda(){
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                    As AI and autonomous driving technologies evolve, I envisioned a collaboration where Waymo seamlessly integrates with a service like Airbnb. In this concept, I explored how the collaboration between Airbnb and Waymo could deliver highly personalized travel experiences for users.
+                    As AI and autonomous driving technologies evolve, I envisioned a collaboration where Waymo seamlessly integrates with a service like Airbnb. In this concept, I explored how the collaboration between Airbnb and Waymo could deliver personalized travel experiences. 
                 </p>
                 <br/>
                 <br/>
