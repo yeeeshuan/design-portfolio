@@ -106,7 +106,7 @@ function Home() {
           <div className={styles.des}>
           <h2 className={styles.intro}>
             <span>
-              Hi! I&rsquo;m Ethan Huang, a <span style={{color:"#2897FF"}}>Product Designer</span> and <span style={{color:"#2897FF"}}>Creative Technologist</span>. 
+              Hi! I&rsquo;m Ethan Huang, a <span style={{color:"#2897FF"}}>Product Designer</span> and <span style={{color:"#2897FF"}}>Design Engineer</span>. 
             </span>
           </h2>
           <br/>
