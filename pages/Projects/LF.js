@@ -44,7 +44,7 @@ export default function LF(){
          <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    "duckie" Lego Set
+                    duckie Lego Set
                 </p>
             </div>
             <div>
@@ -56,7 +56,7 @@ export default function LF(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    "frog" Lego Set
+                    frog Lego Set
                 </p>
             </div>
             <div>
