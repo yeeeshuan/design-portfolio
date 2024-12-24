@@ -14,9 +14,6 @@ function Home() {
 
   const [product, setProduct] = useState(true); 
   const [tech, setTech] = useState(false); 
-  const [nameClicked, setNameClicked] = useState(false); 
-  const [PDClicked, setPDClicked] = useState(false); 
-  const [LDClicked, setLDClicked] = useState(false); 
   const [Zenda, setZenda] = useState(false); 
   const matches = useMediaQuery({ query: '(max-width: 500px)' });
 
@@ -43,62 +40,29 @@ function Home() {
         <div className = {styles.introWrap}>
         {!matches && (
           <div className={styles.des}>
+            <div style={{width: "35%"}}>
             <h2 className={styles.intro}>
               <span>
-                Hi! I&rsquo;m
-              </span>
-              <button className={nameClicked? styles.clicked : styles.click} onClick={() => setNameClicked(!nameClicked)}>
-                <span className={styles.CText} style={{color: "white"}}>Ethan Huang</span>
-              </button>
-              {nameClicked && (
-                <span>
-                  , a senior studying Design & HCI/CS @
-                  <a href="https://design.cmu.edu/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}>CMU</a>
-                </span>
-              )}
-              .
-              <span>
-                &nbsp;I&rsquo;m a <span style={{color: "#2897FF"}}>Product Designer/Design Engineer</span>
-              </span>
-              .
-              <br/>
-              <span>
-                Currently, I&rsquo;m a Design Engineer @ 
-                <button onClick={() => setZenda(!Zenda)} className={Zenda? styles.clicked : styles.click}>
-                  <span className={styles.CText} style={{color: "white"}}>Zenda</span>
-                </button> 
-                {Zenda && (
-                  <>
-                    <span>building <a href="https://www.zendaai.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}>GenAI Features</a></span>
-                  </>
-                )}
-              </span>
-              .
-              <br/>
-              <span>
-                Previously, I was a Product Design Intern @ 
-                <button onClick={() => setLDClicked(!LDClicked)} className={LDClicked? styles.clicked : styles.click}>
-                  <span className={styles.CText} style={{color: "white"}}>Landesberg Design</span> 
-                </button> 
-                {LDClicked && (
-                <span>
-                designing&nbsp;
-                <a href="https://landesbergdesign.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}>Digital Experiences</a>
-                </span>
-                )}
+                Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> <br/>Designer and Developer</span>
               </span>
               .
             </h2>
-
-
-          {/* <hr className = {styles.break}></hr>
-          <div className = {styles.exp}>
-          <p className = {styles.curr}>
-            <span className = {styles.bold}>Incoming...</span> Creative Technologist Intern @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
-            <br/>
-            <span className = {styles.bold}>Previously...</span> Design Intern @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
-          </p>
-          </div> */}
+            </div>
+            <div style={{width: "65%"}}>
+              <h2 className={styles.intro} style={{fontSize: "28px"}}>
+                <span>
+                  Currently, Design Engineer @ 
+                  <a href="https://www.zendaplatform.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> Zenda Consulting</a>
+                </span>
+                .
+                <br/>
+                <span>
+                  Previously, Product Designer @ 
+                  <a href="https://landesbergdesign.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> Landesberg Design</a>
+                </span>
+                .
+              </h2>
+            </div>
           </div>
         )}
 
@@ -106,16 +70,16 @@ function Home() {
           <div className={styles.des}>
           <h2 className={styles.intro}>
             <span>
-              Hi! I&rsquo;m Ethan Huang, a <span style={{color:"#2897FF"}}>Product Designer</span> and <span style={{color:"#2897FF"}}>Design Engineer</span>. 
+              Hi! I&rsquo;m Ethan Huang, a <span style={{color:"#2897FF"}}>Designer and Developer</span>. 
             </span>
           </h2>
           <br/>
           <br/>
             <hr className = {styles.break}></hr>
             <p className = {styles.curr}>
-              <span className = {styles.bold}>Currently...</span> Creative Technologist Intern @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
+              <span className = {styles.bold}>Currently...</span> Design Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
               <br/>
-              <span className = {styles.bold}>Previously...</span> Product Design Intern @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
+              <span className = {styles.bold}>Previously...</span> Product Designer @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
             </p>
         </div>
         )}
@@ -128,15 +92,15 @@ function Home() {
         <div className={styles.toggle}>
             <>
               {product ? (
-                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => pClick()}>Product Design</a>
+                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => pClick()}>Design</a>
               ) : (
-                <a className={styles.links} onClick={() => pClick()}>Product Design</a>
+                <a className={styles.links} onClick={() => pClick()}>Design</a>
               )}
 
               {tech ? (
-                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => cClick()}>Creative Technology</a>
+                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => cClick()}>Development</a>
               ) : (
-                <a className={styles.links} onClick={() => cClick()}>Creative Technology</a>
+                <a className={styles.links} onClick={() => cClick()}>Development</a>
               )}
             </> 
         </div>

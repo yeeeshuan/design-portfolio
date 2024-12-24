@@ -138,12 +138,12 @@ class Graphics extends Component{
         super(props);
         this.state = {
             projects:[
-                {type : "i", name : "China Expo Pavilion 2025", description: "Designing Immersive Experiences", image: Expo, link: "../Experiments/Expo"},
+                {type : "v", category:"C", name : "Lego Type", description: "Variable Type, Frontend Development", link: "Projects/LF", thumbnail: "./LF_Frog.mov" }, 
                 {type : "v", name : "AR Drawing Tool", description: "Bringing drawing tools into spatial computing", link: "../Experiments/Drawing", 
                 thumbnail: "./Drawing.mp4" }, 
+                {type : "i", name : "China Expo Pavilion 2025", description: "Designing Immersive Experiences", image: Expo, link: "../Experiments/Expo"},
                 {type : "v", name : "Augmented Body", description: "Augmenting perception with sound", link: "../Experiments/Augmented", 
                 thumbnail: "./Augmented.mp4" }, 
-                {type : "i", name : "Immersive Pop-up Exhibit", description: "Designing Intelligent Environments", image: P6, link: "Experiments/Exhibit"}, 
             ]
         }
     }
@@ -157,7 +157,9 @@ class Graphics extends Component{
         <div className = {home.introWrap} style={{height:"fit-content"}}>
         <div className = {home.des}>
         <h2 className = {home.intro}>
-            These projects are more <span style={{color: "#2897FF"}}>experimental</span>. They help me explore questions I have about how people can <span style={{color: "#2897FF"}}>interact with things</span>.
+            These projects are more <span style={{color: "#2897FF"}}>experimental</span>. 
+            <br/>
+            They help me understand how people <span style={{color: "#2897FF"}}>interact with things</span>.
         </h2>
         </div>
         </div>
