@@ -9,6 +9,7 @@ import Video from '../../components/video';
 import W1 from "../../Images/Projects/Waymo/Waymo_1.png"; 
 import W2 from "../../Images/Projects/Waymo/Waymo_2.png"; 
 import W3 from "../../Images/Projects/Waymo/Waymo_3.png"; 
+import W4 from "../../Images/Projects/Waymo/Waymo_4.png"; 
 
 export default function Zenda(){
     return(
@@ -65,6 +66,18 @@ export default function Zenda(){
             </p>
             </div>
         </div> 
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    User Flow for Waymo x Airbnb Experience
+                </p>
+            </div>
+            <div>
+                <Image
+                   src = {W4}
+                />
+            </div>
+        </div>
 
         <div className = {styles.page}>
             <div>
