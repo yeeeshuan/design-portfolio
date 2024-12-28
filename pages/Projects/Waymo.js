@@ -10,6 +10,7 @@ import W1 from "../../Images/Projects/Waymo/Waymo_1.png";
 import W2 from "../../Images/Projects/Waymo/Waymo_2.png"; 
 import W3 from "../../Images/Projects/Waymo/Waymo_3.png"; 
 import W4 from "../../Images/Projects/Waymo/Waymo_4.png"; 
+import W5 from "../../Images/Projects/Waymo/Components.png"; 
 
 export default function Zenda(){
     return(
@@ -221,6 +222,19 @@ export default function Zenda(){
             <div>
                 <Video
                     thumbnail =  "./../../Waymo_Next.mov"
+                />
+            </div>
+        </div>
+
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Components
+                </p>
+            </div>
+            <div>
+                <Image
+                   src = {W5}
                 />
             </div>
         </div>
