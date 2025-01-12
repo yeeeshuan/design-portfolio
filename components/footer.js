@@ -22,7 +22,7 @@ const Footer = () =>{
         <nav className = {styles.footer} onMouseEnter={enterText} onMouseLeave = {leaveText}>
             {!matches?
             (<><div>
-                    {isHovering ? (<span className={styles.styledLink}>Ethan Huang 2024</span>)
+                    {isHovering ? (<span className={styles.styledLink}>Ethan Huang 2025</span>)
                         : (<span className={styles.styledLink}>Made with Next.js</span>)}
                 </div><div>
                         <a href="https://www.linkedin.com/in/ethanhuang2002" rel="noopener noreferrer" target="_blank">

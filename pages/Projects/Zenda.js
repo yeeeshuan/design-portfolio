@@ -25,7 +25,7 @@ export default function Zenda(){
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                    In the summer of 2024, I was hired by Zenda Consulting as a Creative Technologist Intern. I worked on the product team, designing and developing a new software system/product.
+                    In the summer of 2024, I was hired by Zenda Consulting as a Design Engineer Intern. I worked on the product team, designing and developing a new software system/product.
                 </p>
                 <br/>
                 <br/>

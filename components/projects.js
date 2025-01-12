@@ -130,7 +130,7 @@ class Projects extends Component{
         this.state = {
             projects:[
                 {type : "i", category:"P", name : "Zenda Internship", description: "Designing with GenAI, Frontend Development", image: Zenda, link: "Projects/Zenda" }, 
-                {type : "v", category:"P", name : "Waymo x Airbnb", description: "Product Design", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
+                {type : "v", category:"P", name : "Waymo x Airbnb", description: "Product Design", link: "Projects/Waymo", thumbnail: "./Waymo.mov" },  
                 {type : "i", category:"P", name : "Gmail Filtering System Redesign", description: "Product Design, Frontend Development", image : Gmail, link: "Projects/Gmail" }, 
                 {type : "i", category:"P", name : "Replit Community Page", description: "Product Design, Frontend Development", image: Repl, link: "Projects/Replit"},
                 {type : "i", category:"C", name : "Cookie Monster Cooking", description: "Designing with GenAI", image: Cookie, link: "Projects/Cookie"},
