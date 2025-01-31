@@ -14,16 +14,27 @@
     padding-bottom: 15%;  
 }
 
-span.imageWrap_1{
-    margin-left: 25px; 
-    margin-right: 25px; 
+.imageWrap_1{
+    display: flex; 
+    margin-left:10rem;
+    margin-right:10rem;
+    margin-top:6.5rem;
+    margin-bottom:6.5rem;
+}
+
+.left{
+    width: 50%; 
+}
+
+.right{
+    width: 50%; 
+    margin-left: 4rem;
+    align-content: center;
 }
 
 h1.title{
     color: white; 
     font-size: 32px; 
-    margin-left: 50px; 
-    margin-top: 100px; 
     font-weight: bold; 
 }
 
@@ -33,8 +44,6 @@ p.text{
     font-weight: medium;
     font-size: 18px; 
     line-height: 1.6;
-    margin-left: 50px; 
-    margin-right: 200px; 
 }
 
 span.CText{
@@ -55,13 +64,22 @@ span.CText{
 
 @media (max-width: 600px){
 
-    span.imageWrap_1{
+    .imageWrap_1{
         /*margin-left: 25px; 
         margin-right: 25px;*/
         position: none; 
-        width: 85%; 
-        display: flex;
+        display: block;
         padding: 10px; 
+        margin: 2rem; 
+    }
+
+    .left{
+        width: 100%; 
+    }
+
+    .right{
+        width: 100%; 
+        margin:0; 
     }
     
     .display{   
@@ -79,8 +97,6 @@ span.CText{
         color: white; 
         font-size: 16px; 
         line-height: 2;
-        margin-left: 2rem; 
-        margin-right: 2rem; 
     }
 
     span.CText{
@@ -91,10 +107,8 @@ span.CText{
 
     h1.title{
         color: white; 
-        font-size: 36px; 
-        margin-top: 0px; 
-        margin-left: 2rem;
-        margin-right: 2rem;
+        font-size: 32px; 
+        margin-top: 2rem; 
     }
 
 }
