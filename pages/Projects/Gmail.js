@@ -62,16 +62,6 @@ export default function Gmail(){
         </div>
         <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
-                   Filtering and grouping buttons and their modals 
-                </p>
-            </div>
-            <div>
-                <Image src = {But}/>
-            </div>
-        </div> 
-        <div className = {styles.page}>
-            <div>
             </div>     
             <div>
             <h1 className = {styles.pTitle}> 
@@ -94,6 +84,16 @@ export default function Gmail(){
             </p>
             </div>
         </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                   Filtering and grouping buttons and their modals 
+                </p>
+            </div>
+            <div>
+                <Image src = {But}/>
+            </div>
+        </div> 
         <div className = {styles.page}>
             <div>
             </div>     
