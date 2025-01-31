@@ -6,15 +6,7 @@ import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Thumbnail from "../../Images/About/Gmail.png";
 import Mock from "../../Images/Projects/Gmail/Mock.png"; 
-import Colors from "../../Images/Projects/Gmail/Colors.png"
-import UI from "../../Images/Projects/Gmail/UI.png"
-import Affinity from "../../Images/Projects/Gmail/Affinity.png";
-import Comp from "../../Images/Projects/Gmail/Components.png";
-import Figma from "../../Images/Projects/Gmail/Figma.png";
-import Journey from "../../Images/Projects/Gmail/Journey.png"
-import FJourney from "../../Images/Projects/Gmail/FilterJourney.png"
-import LJourney from "../../Images/Projects/Gmail/LabelJourney.png"
-import BA from "../../Images/Projects/Gmail/BA.png"; 
+import But from "../../Images/Projects/Gmail/Buttons.png"
 import Code from "../../Images/Projects/Gmail/Code.png"
 import Folder from "../../Images/Projects/Gmail/Folder.png"
 import Video from '../../components/video';
@@ -25,17 +17,7 @@ export default function Gmail(){
             <Head>
             <title>Ethan Huang Design | Gmail Redesign</title>
             </Head>
-            <div className = {styles.invisible}>
-                <Image src = {Thumbnail} alt = "preload"/>
-                <Image src = {Colors} alt = "preload"/>
-                <Image src = {Affinity} alt = "preload"/>
-                <Image src = {Comp} alt = "preload"/>
-                <Image src = {Figma} alt = "preload"/>
-                <Image src = {Journey} alt = "preload"/>
-                <Image src = {FJourney} alt = "preload"/>
-                <Image src = {LJourney} alt = "preload"/>
-                <Image src = {Code} alt = "preload"/>
-            </div>
+
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
@@ -80,6 +62,16 @@ export default function Gmail(){
         </div>
         <div className = {styles.page}>
             <div>
+                <p className = {styles.d}> 
+                   Filtering and grouping buttons and their modals 
+                </p>
+            </div>
+            <div>
+                <Image src = {But}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
             </div>     
             <div>
             <h1 className = {styles.pTitle}> 
@@ -89,7 +81,7 @@ export default function Gmail(){
                 Identifying pain points
             </h1>
             <p className = {styles.text}>
-                To understand the pain points of the current Gmail labeling and filtering system, I conducted interviews with people around me (college students who understand technology). After affinity diagramming some of their concerns with the current system, I was able to conclude that : 
+                To understand the pain points of the current Gmail labeling and filtering system, I conducted interviews with people around me (college students who understand technology). Some of the key insights were: 
                 <br/>
                 <br/>
                 1. The current label and filter systems are hard to locate for novice Gmail users. Most interviewees did not use the features often. 
@@ -101,39 +93,7 @@ export default function Gmail(){
                 This is good, because all the functionalities are there. However, there could be a better user flow to access the functionalities. 
             </p>
             </div>
-        </div> 
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                    Understanding Current Label and Filter Systems
-                </p>
-            </div>
-            <div>
-                <Image src = {FJourney}/>
-            </div>
-        </div> 
-        <div className = {styles.page}>
-            <div>
-            </div>     
-            <div>
-            <h1 className = {styles.bTitle}> 
-                Journey Mapping
-            </h1>
-            <p className = {styles.text}>
-                I pinpointed that users feel the most frustrated when they have to select many options to customize and locate their emails. As a result, when users are selecting options to create folders, it is especially important for the menu to be easy and intuitive to understand. 
-            </p>
-            </div>
         </div>  
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                    Journey Mapping
-                </p>
-            </div>
-            <div>
-                <Image src = {Journey}/>
-            </div>
-        </div>   
         <div className = {styles.page}>
             <div>
             </div>     
@@ -165,7 +125,9 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/d1AGeNxfc24?si=lL5l7T-hBtnZerR7&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+            <Video
+                thumbnail =  "./../../Gmail_Solution01.mov"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -187,7 +149,9 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <iframe width = "100%" height = "500px" src="https://www.youtube.com/embed/Z4PzIMvI8W4?si=HPPTcSIU6VZVrztWh&amp;loop=1&amp;mute=1&amp;controls=1&amp;" frameBorder = "0" modestBranding = "1" allowFullScreen></iframe>
+            <Video
+                thumbnail =  "./../../Gmail_Solution02.mp4"
+                />
             </div>
         </div>
         <div className = {styles.page}>
@@ -303,16 +267,6 @@ export default function Gmail(){
             </p>
             </div>
         </div>   
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                   Before and After
-                </p>
-            </div>
-            <div>
-                <Image src = {BA}/>
-            </div>
-        </div> 
         </main>
         <Footer/>
         </div>

@@ -301,6 +301,24 @@ a.links:hover{
     border-top: 1px solid rgb(88, 88, 88); ; 
 }
 
+.progressContainer {
+    width: 15%;
+    height: 6px;
+    background: #ddd;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 2rem 0 4rem 0;
+}
+
+.progressBar {
+    height: 100%;
+    background: #8f8f8f;
+    transition: width 0.2s ease-in-out;
+}
+
  @media (min-width: 2000px) {
     .main{
         background-color: black;
@@ -491,6 +509,11 @@ a.links:hover{
         grid-column-gap: none;
         margin-top: 1px; 
         margin-bottom: 1px; 
+    }
+
+    .progressContainer {
+        width: 25%;
+        margin: 1rem 0 1rem 0;
     }
 
 }

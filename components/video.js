@@ -1,84 +1,84 @@
 import styles from "../styles/Projects.module.css"; 
-import React, {useState, useEffect, useRef, Component } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window
-    return {
-        width,
-        height,
-    }
+    const { innerWidth: width, innerHeight: height } = window;
+    return { width, height };
 }
 
 function useWindowDimensions() {
-    const [windowDimensions, setWindowDimensions] = useState({width: 0, height: 0})
+    const [windowDimensions, setWindowDimensions] = useState({ width: 0, height: 0 });
 
     useEffect(() => {
         function handleResize() {
-            setWindowDimensions(getWindowDimensions())
+            setWindowDimensions(getWindowDimensions());
         }
 
-        handleResize()
-        window.addEventListener('resize', handleResize)
+        handleResize();
+        window.addEventListener('resize', handleResize);
         
-        return () => { window.removeEventListener('resize', handleResize) }
-    }, [])
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
-    return windowDimensions
+    return windowDimensions;
 }
 
-
-function Video(props){
+function Video({ thumbnail }) {
     const videoRef = useRef(null);
     const size = useWindowDimensions();
-    let width = size.width; 
-    let temp = size.width; 
+    const [progress, setProgress] = useState(0);
+    const [currentTime, setCurrentTime] = useState("0:00");
 
-    // useEffect(() => {
-    //     if (videoRef.current) {
-    //       if (videoRef.current.paused) {
-    //         videoRef.current.play();
-    //       }
-    //     }
-    //   }, [videoRef]);
+    const handleTimeUpdate = () => {
+        const video = videoRef.current;
+        if (video) {
+            const percent = (video.currentTime / video.duration) * 100;
+            setProgress(percent);
+            setCurrentTime(formatTime(video.currentTime));
+        }
+    };
 
-    if (width <= 600){
-        temp = 250; 
-    }
-    else if (width > 600 && width <= 700){
-        temp = 100; 
-    }
-    else if (width > 700 && width <= 800){
-        temp = 175; 
-    }
-    else if (width > 800 && width <= 900){
-        temp = 200; 
-    }
-    else if (width > 900 && width <= 1100){
-        temp = 250; 
-    }
-    else
-    {
-        temp = 350; 
-    }
+    const handleSeek = (e) => {
+        const video = videoRef.current;
+        if (!video) return;
+        const rect = e.target.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const newTime = (clickX / rect.width) * video.duration;
+        video.currentTime = newTime;
+    };
 
-    return(
-        <video
-            ref={videoRef}
-            width="100%"
-            muted
-            loop
-            playsInline
-            autoPlay
-            onLoadedData={(e) => {
-                if (e.target.paused) {
-                    e.target.play();
-                }
-            }}
-        >
-            <source src={props.thumbnail} type="video/mp4" />
-            Your browser does not support the video tag.
-        </video>
-    )
+    const formatTime = (time) => {
+        const minutes = Math.floor(time / 60);
+        const seconds = Math.floor(time % 60).toString().padStart(2, "0");
+        return `${minutes}:${seconds}`;
+    };
+
+    return (
+        <div className={styles.videoContainer}>
+            <video
+                ref={videoRef}
+                width="100%"
+                muted
+                loop
+                playsInline
+                autoPlay
+                onTimeUpdate={handleTimeUpdate}
+                onLoadedData={(e) => {
+                    if (e.target.paused) e.target.play();
+                }}
+            >
+                <source src={thumbnail} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+            {/* Custom Progress Bar */}
+            <div style={{display:"flex", justifyContent:"center"}}>
+                <div className={styles.progressContainer} onClick={handleSeek}>
+                    <div className={styles.progressBar} style={{ width: `${progress}%` }}></div>
+                </div>
+            </div>
+        </div>
+    );
 }
 
-export default Video; 
+export default Video;
