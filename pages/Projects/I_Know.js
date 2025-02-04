@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Video from '../../components/video';
+import Card from "../../Images/Projects/I_Know/Cards.png"
 
 export default function iKnow(){
     return(
@@ -39,6 +40,32 @@ export default function iKnow(){
                  thumbnail =  "./../../I_Know.mov"
             />
         </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.pTitle}> 
+                Design Components
+            </h1>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Design Components
+                </p>
+            </div>
+            <div>
+                <Image src = {Card}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div>
+                <p>More to come soon!</p>
+            </div>
+        </div> 
         </main>
         <Footer/>
         </div>
