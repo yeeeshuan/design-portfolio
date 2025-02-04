@@ -1,14 +1,12 @@
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
 import P7 from '../Images/About/P7.jpg'; 
-import DH from '../Images/About/DH.jpg'
 import Zenda from "../Images/About/Zenda.png"
 import Repl from "../Images/Projects/Replit/Replit.png"
 import Gmail from "../Images/About/Gmail.png";
 import Cookie from "../Images/About/Cookie.png"
 import onHover from "../Images/About/onHover.png";
 import React, {useState, useEffect, useRef, Component } from 'react';
-import { useMediaQuery } from 'react-responsive';
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window
@@ -129,16 +127,16 @@ class Projects extends Component{
         super(props);
         this.state = {
             projects:[
-                {type : "i", category:"P", name : "Zenda Internship", description: "Designing with GenAI, Frontend Development", image: Zenda, link: "Projects/Zenda" }, 
+                {type : "v", category:"P", name : "Siri AI", description: "Designing with GenAI, Frontend Development", thumbnail: "./Siri.mov", link: "Projects/Siri" }, 
                 {type : "v", category:"P", name : "Waymo x Airbnb", description: "Product Design", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
+                {type : "i", category:"P", name : "Zenda Internship", description: "Designing with GenAI, Frontend Development", image: Zenda, link: "Projects/Zenda" }, 
                 {type : "i", category:"P", name : "Replit Community Page", description: "Product Design, Frontend Development", image: Repl, link: "Projects/Replit"},
-                {type : "i", category:"P", name : "Gmail Filtering System Redesign", description: "Product Design, Frontend Development", image : Gmail, link: "Projects/Gmail" }, 
+                {type : "i", category:"P", name : "Gmail Filtering System Redesign", description: "Product Design, Frontend Development", image : Gmail, link: "Projects/Gmail" },
+                {type : "i", category:"P", name : "Landesberg Design Internship", description: "Web + Print Design", image: P7, link: "Projects/Landesberg"}, 
+                {type : "v", category:"C", name : "I Know a Place", description: "Product Design, Frontend Development", thumbnail: "./I_Know.mov", link: "Projects/I_Know" },  
                 {type : "i", category:"C", name : "Cookie Monster Cooking", description: "Designing with GenAI", image: Cookie, link: "Projects/Cookie"},
                 {type : "v", category:"C", name : "Lil' Garden", description: "XR Nurturing Experience", link: "Projects/Garden", thumbnail: "./Garden.mp4" },  
                 {type : "v", category:"C", name : "Interactive Grid", description: "Designing with ML", link: "Projects/Teachable", thumbnail: "./Teachable.mp4" }, 
-                {type : "i", category:"P", name : "Landesberg Design Internship", description: "Web + Print Design", image: P7, link: "Projects/Landesberg"}, 
-                {type : "i", category:"P", name : "Design Hero: Wolfgang Weingart", description: "Multi-media series for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"},
-                {type : "v", category:"C", name : "TEDxCMU Innovation", description: "Interactive Projects", link: "Projects/TED", thumbnail: "./TEDxCMU.mp4"}, 
             ],
         }
     }

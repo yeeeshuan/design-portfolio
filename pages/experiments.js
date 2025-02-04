@@ -6,9 +6,8 @@ import home from "../styles/Home.module.css";
 import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import P6 from '../Images/About/P6.png'; 
-import Expo from "../Images/Projects/Expo/Thumbnail.png"; 
-import onHover from "../Images/About/onHover.png"
+import DH from '../Images/About/DH.jpg';
+import onHover from "../Images/About/onHover.png";
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window
@@ -141,9 +140,8 @@ class Graphics extends Component{
                 {type : "v", category:"C", name : "Lego Type", description: "Variable Type, Frontend Development", link: "Projects/LF", thumbnail: "./LF_Frog.mov" }, 
                 {type : "v", name : "AR Drawing Tool", description: "Bringing drawing tools into spatial computing", link: "../Experiments/Drawing", 
                 thumbnail: "./Drawing.mp4" }, 
-                {type : "i", name : "China Expo Pavilion 2025", description: "Designing Immersive Experiences", image: Expo, link: "../Experiments/Expo"},
-                {type : "v", name : "Augmented Body", description: "Augmenting perception with sound", link: "../Experiments/Augmented", 
-                thumbnail: "./Augmented.mp4" }, 
+                {type : "v", category:"C", name : "TEDxCMU Innovation", description: "Interactive Projects", link: "Projects/TED", thumbnail: "./TEDxCMU.mp4"}, 
+                {type : "i", category:"P", name : "Design Hero: Wolfgang Weingart", description: "Multi-media series for typographer Wolfgang Weingart", image: DH, link: "Projects/Dh"}
             ]
         }
     }
