@@ -104,7 +104,7 @@ export default function Zenda(){
                 </p>
             </div>
             <div>
-                <Image src = {UC2}/>
+                <Image src = {UC1}/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -129,7 +129,7 @@ export default function Zenda(){
                 </p>
             </div>
             <div>
-                <Image src = {UC1}/>
+                <Image src = {UC2}/>
             </div>
         </div> 
         <div className = {styles.page}>
