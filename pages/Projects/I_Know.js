@@ -37,7 +37,7 @@ export default function iKnow(){
          </div>
          <div>
             <Video
-                 thumbnail =  "./../../I_Know.mov"
+                 thumbnail =  "./../../I_Know.mp4"
             />
         </div>
         <div className = {styles.page}>

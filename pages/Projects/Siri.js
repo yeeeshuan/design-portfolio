@@ -42,7 +42,7 @@ export default function Zenda(){
          </div>
             <div>
             <Video
-                 thumbnail =  "./../../Siri.mov"
+                 thumbnail =  "./../../Siri.mp4"
             />
         </div>
         <div className = {styles.page}>
