@@ -11,21 +11,28 @@ import { name } from 'file-loader';
 
 
 function Home() {
-
-  const [product, setProduct] = useState(true); 
+  const [all, setAll] = useState(true);
+  const [product, setProduct] = useState(false); 
   const [tech, setTech] = useState(false); 
-  const [Zenda, setZenda] = useState(false); 
   const matches = useMediaQuery({ query: '(max-width: 500px)' });
 
+  const aClick=()=>
+  {
+    setAll(true); 
+    setProduct(false); 
+    setTech(false); 
+  }
 
   const pClick=()=>
   {
+    setAll(false); 
     setProduct(true); 
     setTech(false); 
   }
 
   const cClick=()=>
   {
+    setAll(false); 
     setTech(true); 
     setProduct(false); 
   }
@@ -91,6 +98,12 @@ function Home() {
         </div>
         <div className={styles.toggle}>
             <>
+              {all ? (
+                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => aClick()}>All</a>
+              ) : (
+                <a className={styles.links} onClick={() => aClick()}>All</a>
+              )}
+
               {product ? (
                 <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => pClick()}>Design</a>
               ) : (
@@ -106,7 +119,7 @@ function Home() {
         </div>
 
         <div style={{marginTop: "3rem"}} className={styles.projects}>
-          <Projects product={product} tech={tech} matches={matches}/>
+          <Projects all={all} product={product} tech={tech} matches={matches}/>
         </div>
         <Footer/>
       </div>
