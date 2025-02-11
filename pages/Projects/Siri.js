@@ -10,11 +10,11 @@ import Issues from "../../Images/Projects/Siri/Issues.png"
 import UC1 from "../../Images/Projects/Siri/UC1.png"
 import UC2 from "../../Images/Projects/Siri/UC2.png"
 
-export default function Zenda(){
+export default function Siri(){
     return(
         <div>
             <Head>
-            <title>Ethan Huang Design | Zenda Internship</title>
+            <title>Ethan Huang Design | Siri AI</title>
             </Head>
             <Navbar/>
             <main className={styles.main}>
@@ -112,13 +112,13 @@ export default function Zenda(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                02: Sendable Mini-Apps
+                02: Sendable Mini-Experiences
             </h1>
             <p className = {styles.text}>
-                Generating mini-apps that can be sent through iMessage. 
+                Generating mini-experiences that can be sent through iMessage. I aim to explore how to capture the essence of the recipient in the generated experience. 
                 <br/>
                 <br/>
-                For example, sending grandma a walkthrough of how to use iMessage. 
+                For example, sending grandma a walkthrough of how to use iMessage. How can she feel that it is her grandchild walking her through the experience, and not Siri? 
             </p>
             </div>
         </div>  
