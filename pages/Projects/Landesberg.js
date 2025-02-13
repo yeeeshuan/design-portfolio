@@ -72,7 +72,7 @@ class Landesberg extends Component{
     }
     render(){
     return(
-        <div>
+        <div style={{backgroundColor:"black"}}>
              <Head>
             <title>Ethan Huang Design | Landesberg</title>
             </Head>
