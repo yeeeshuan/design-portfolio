@@ -9,6 +9,8 @@ import Video from '../../components/video';
 import Issues from "../../Images/Projects/Siri/Issues.png"
 import UC1 from "../../Images/Projects/Siri/UC1.png"
 import UC2 from "../../Images/Projects/Siri/UC2.png"
+import T1 from "../../Images/Projects/Siri/Tiles.png"
+import T2 from "../../Images/Projects/Siri/Tile_Pattern.png"
 
 export default function Siri(){
     return(
@@ -33,7 +35,7 @@ export default function Siri(){
                 </p>
                 <br/>
                 <br/>
-                <p>This is an ongoing project, check again soon for more details!</p>
+                <p className={styles.text}>This is an ongoing project, check again soon for more details!</p>
 
                 <p className = {styles.text}>
                 <br/>
@@ -112,6 +114,38 @@ export default function Siri(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
+                Interactive Dashboard
+            </h1>
+            <p className = {styles.text}>
+            I wanted users to interact dynamically with the generated content, enabling actions like regenerating, editing, and rearranging it to refine responses.
+            </p>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Tiles For Different Apps
+                </p>
+            </div>
+            <div>
+                <Image src = {T1}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Tile Layout
+                </p>
+            </div>
+            <div>
+                <Image src = {T2}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
                 02: Sendable Mini-Experiences
             </h1>
             <p className = {styles.text}>
@@ -141,14 +175,26 @@ export default function Siri(){
             </h1>
             <p className = {styles.text}>
                 To start the project, I began by exploring the capabilities of generative AI, experimenting with various prompts to generate the most detailed responses.
-                I developed the following prototypes to understand how to integrate a generative AI tool with the frontend.
+                I developed the following prototypes to understand how to integrate a generative AI tool with the fronten using Next.js and the OpenAI API. 
             </p>
             </div>
         </div>
         <div className = {styles.page}>
             <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                01: Event Generation
+            </h1>
+            <p className = {styles.text}>
+                I started by experimenting with how well the OpenAI API could generate steps and action items. 
+            </p>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
                 <p className = {styles.d}> 
-                    Prototyping with Next.js and the OpenAI API
+                    Event Generation Prototypes
                 </p>
             </div>
             <div style={{display:"flex"}}>
@@ -171,9 +217,49 @@ export default function Siri(){
         </div>
         <div className = {styles.page}>
             <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                02: Grouping and Organizing Content
+            </h1>
+            <p className = {styles.text}>
+                I then moved to exploring how the OpenAI API can help with the tiling feature. This consisted of seeing if the generated information could be grouped into a left, middle, and right column. 
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Tiling prototype asked to help prepare for an interview
+                </p>
             </div>
             <div>
-                <p>More to come soon!</p>
+                <div>
+                    <Video
+                        thumbnail =  "./../../Siri_Interview.mov"
+                    />
+                </div>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Tiling prototype asked to help design a lobby experience for a gallery
+                </p>
+            </div>
+            <div>
+                <div>
+                    <Video
+                        thumbnail =  "./../../Siri_Lobby.mov"
+                    />
+                </div>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div>
+                <p className={styles.text}>More to come soon!</p>
             </div>
         </div> 
         </main>
