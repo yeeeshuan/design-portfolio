@@ -44,7 +44,7 @@ export default function Siri(){
          </div>
             <div>
             <Video
-                 thumbnail =  "./../../Siri.mp4"
+                 thumbnail =  "./../../Siri_Cake.mp4"
             />
         </div>
         <div className = {styles.page}>
@@ -141,7 +141,7 @@ export default function Siri(){
                 <Image src = {T2}/>
             </div>
         </div> 
-        <div className = {styles.page}>
+        {/* <div className = {styles.page}>
             <div>
             </div>     
             <div>
@@ -155,7 +155,7 @@ export default function Siri(){
                 For example, sending grandma a walkthrough of how to use iMessage. How can she feel that it is her grandchild walking her through the experience, and not Siri? 
             </p>
             </div>
-        </div>  
+        </div>   
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
@@ -165,7 +165,7 @@ export default function Siri(){
             <div>
                 <Image src = {UC2}/>
             </div>
-        </div> 
+        </div> */}
         <div className = {styles.page}>
             <div>
             </div>     
@@ -223,34 +223,54 @@ export default function Siri(){
                 02: Grouping and Organizing Content
             </h1>
             <p className = {styles.text}>
-                I then moved to exploring how the OpenAI API can help with the tiling feature. This consisted of seeing if the generated information could be grouped into a left, middle, and right column. 
+                I then moved to exploring how the OpenAI API can help with organizing and grouping the generated information into a left, middle, and right column. 
             </p>
             </div>
         </div>
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Tiling prototype asked to help prepare for an interview
+                    Tiling prototype when asked to bake a cake
                 </p>
             </div>
             <div>
                 <div>
                     <Video
-                        thumbnail =  "./../../Siri_Interview.mov"
+                        thumbnail =  "./../../Siri_Cake.mp4"
                     />
                 </div>
             </div>
         </div>
         <div className = {styles.page}>
             <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                03: Regeneration
+            </h1>
+            <p className = {styles.text}>
+                When prototyping for regeneration, I thought about how users currently interact with Generative AI tools. I played around with cases where users would want to: <br/><br/>
+                1. Completely change the generated content <br/>
+                2. Add/Remove from the generated content <br/><br/>
+                With a bit of prompt engineering here is the end result: 
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
                 <p className = {styles.d}> 
-                    Tiling prototype asked to help design a lobby experience for a gallery
+                    Regeration protype when asked to change directions and add 
                 </p>
             </div>
-            <div>
-                <div>
+            <div style={{display:"flex"}}>
+                <div style={{width:"49.5%"}}>
                     <Video
-                        thumbnail =  "./../../Siri_Lobby.mov"
+                        thumbnail =  "./../../Siri_Notes_Regen.mov"
+                    />
+                </div>
+                <div style={{width:"49.5%"}}>
+                    <Video
+                        thumbnail =  "./../../Siri_Reminders_Regen.mov"
                     />
                 </div>
             </div>
