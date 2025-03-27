@@ -119,6 +119,18 @@ export default function iKnow(){
         </div> 
         <div className = {styles.page}>
             <div>
+                <p className = {styles.d}> 
+                    Checking for appropriate story
+                </p>
+            </div>
+            <div>
+            <Video
+                 thumbnail =  "./../../IK_Check.mov"
+            />
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
             </div>     
             <div>
             <h1 className = {styles.pTitle}> 
