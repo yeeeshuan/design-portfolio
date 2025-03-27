@@ -129,10 +129,10 @@ class Projects extends Component{
             projects:[
                 {type : "v", category:"P", name : "Siri AI", description: "Exploring how GenAI can improve CUI interactions", thumbnail: "./Siri.mp4", link: "Projects/Siri" }, 
                 {type : "v", category:"P", name : "Waymo x Airbnb", description: "Waymo x Airbnb collaboration", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
+                {type : "v", category:"C", name : "I Know a Place", description: "Interactive mapping platform for telling stories", thumbnail: "./I_Know.mp4", link: "Projects/I_Know" }, 
                 {type : "i", category:"P", name : "Replit Community Page", description: "Redesigning the Replit community page", image: Repl, link: "Projects/Replit"},
                 {type : "i", category:"P", name : "Gmail Filtering System Redesign", description: "Redesigning Gmail filtering functionalities", image : Gmail, link: "Projects/Gmail" }, 
                 {type : "i", category:"C", name : "Cookie Monster Cooking", description: "Creating transparent data collection methods with GenAI", image: Cookie, link: "Projects/Cookie"},
-                {type : "v", category:"C", name : "I Know a Place", description: "Interactive mapping platform for telling stories", thumbnail: "./I_Know.mp4", link: "Projects/I_Know" }, 
                 {type : "v", category:"C", name : "Lil' Garden", description: "XR Nurturing Experience", link: "Projects/Garden", thumbnail: "./Garden.mp4" },  
                 {type : "v", category:"C", name : "Interactive Grid", description: "Experimenting with ML", link: "Projects/Teachable", thumbnail: "./Teachable.mp4" }, 
                 {type : "i", category:"P", name : "Zenda Internship", description: "Building product features with GenAI", image: Zenda, link: "Projects/Zenda" }, 
