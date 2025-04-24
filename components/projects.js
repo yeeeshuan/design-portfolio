@@ -127,7 +127,7 @@ class Projects extends Component{
         super(props);
         this.state = {
             projects:[
-                {type : "v", category:"P", name : "Siri AI", description: "Exploring how GenAI can improve CUI interactions", thumbnail: "./Siri.mp4", link: "Projects/Siri" }, 
+                {type : "v", category:"P", name : "Siri AI", description: "Exploring how GenAI can improve CUI interactions", thumbnail: "./Siri_AI.mp4", link: "Projects/Siri" }, 
                 {type : "v", category:"P", name : "Waymo x Airbnb", description: "Waymo x Airbnb collaboration", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
                 {type : "v", category:"C", name : "I Know a Place", description: "Interactive mapping platform for telling stories", thumbnail: "./I_Know.mp4", link: "Projects/I_Know" }, 
                 {type : "i", category:"P", name : "Replit Community Page", description: "Redesigning the Replit community page", image: Repl, link: "Projects/Replit"},

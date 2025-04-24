@@ -44,7 +44,7 @@ export default function Siri(){
          </div>
             <div>
             <Video
-                 thumbnail =  "./../../Siri_Cake.mp4"
+                 thumbnail =  "./../../Siri_AI.mp4"
             />
         </div>
         <div className = {styles.page}>
