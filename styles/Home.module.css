@@ -159,6 +159,7 @@ nav.footer{
     bottom: 0; 
     left: 0; 
     right: 0; 
+    top: 8vh;
     width: 100%; 
     padding-left: 25px; 
     height: 60px; 
