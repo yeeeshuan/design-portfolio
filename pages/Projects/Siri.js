@@ -141,31 +141,6 @@ export default function Siri(){
                 <Image src = {T2}/>
             </div>
         </div> 
-        {/* <div className = {styles.page}>
-            <div>
-            </div>     
-            <div>
-            <h1 className = {styles.bTitle}> 
-                02: Sendable Mini-Experiences
-            </h1>
-            <p className = {styles.text}>
-                Generating mini-experiences that can be sent through iMessage. I aim to explore how to capture the essence of the recipient in the generated experience. 
-                <br/>
-                <br/>
-                For example, sending grandma a walkthrough of how to use iMessage. How can she feel that it is her grandchild walking her through the experience, and not Siri? 
-            </p>
-            </div>
-        </div>   
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                    Multi-App Journey
-                </p>
-            </div>
-            <div>
-                <Image src = {UC2}/>
-            </div>
-        </div> */}
         <div className = {styles.page}>
             <div>
             </div>     
@@ -184,7 +159,7 @@ export default function Siri(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                01: Event Generation
+                01: Event Generation 
             </h1>
             <p className = {styles.text}>
                 I started by experimenting with how well the OpenAI API could generate steps and action items. 
@@ -220,33 +195,7 @@ export default function Siri(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                02: Grouping and Organizing Content
-            </h1>
-            <p className = {styles.text}>
-                I then moved to exploring how the OpenAI API can help with organizing and grouping the generated information into a left, middle, and right column. 
-            </p>
-            </div>
-        </div>
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}> 
-                    Tiling prototype when asked to bake a cake
-                </p>
-            </div>
-            <div>
-                <div>
-                    <Video
-                        thumbnail =  "./../../Siri_Cake.mp4"
-                    />
-                </div>
-            </div>
-        </div>
-        <div className = {styles.page}>
-            <div>
-            </div>     
-            <div>
-            <h1 className = {styles.bTitle}> 
-                03: Regeneration
+                02: Regeneration
             </h1>
             <p className = {styles.text}>
                 When prototyping for regeneration, I thought about how users currently interact with Generative AI tools. I played around with cases where users would want to: <br/><br/>
@@ -271,6 +220,101 @@ export default function Siri(){
                 <div style={{width:"49.5%"}}>
                     <Video
                         thumbnail =  "./../../Siri_Reminders_Regen.mov"
+                    />
+                </div>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                03: Grouping and Organizing Content
+            </h1>
+            <p className = {styles.text}>
+                I then moved to exploring how the OpenAI API can help with organizing and grouping the generated information into a left, middle, and right column. 
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Tiling prototype when asked to bake a cake
+                </p>
+            </div>
+            <div>
+                <div>
+                    <Video
+                        thumbnail =  "./../../Siri_Cake.mp4"
+                    />
+                </div>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.pTitle}> 
+                Dashboard UX
+            </h1>
+            <p className = {styles.text}>
+                After generating the tiled app views, I recognized that the interface was naturally evolving into a dynamic dashboard. This realization prompted me to explore how tile resizing and the addition of new columns could enhance the layout and overall user experience.
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                01: Tile Resizing
+            </h1>
+            <p className = {styles.text}>
+                To enhance interactivity, I introduced an active state for individual tiles. When a user engages with a specific tile, it highlights with a distinct border color and expands vertically. This helps users see their edits in context, emphasizing how their input contributes to the broader dashboard experience.
+            </p>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Tile Resizing
+                </p>
+            </div>
+            <div style={{display:"flex", justifyContent:"space-between"}}>
+                <div style={{width:"49%"}}>
+                    <Video
+                        thumbnail =  "./../../Siri_Resize.mov"
+                    />
+                </div>
+                <div style={{width:"49%"}}>
+                    <Video
+                        thumbnail =  "./../../Siri_Resize_1.mov"
+                    />
+                </div>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                02: Adding Col
+            </h1>
+            <p className = {styles.text}>
+                To accommodate growth, users can add an additional column of apps to their dashboard—a scaled-down implementation of future functionality. This sets the foundation for a more customizable experience, where users will eventually be able to generate and specify the types of apps they want to include.
+            </p>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Adding Column to Dashboard
+                </p>
+            </div>
+            <div>
+                <div>
+                    <Video
+                        thumbnail =  "./../../Siri_Add_Col.mov"
                     />
                 </div>
             </div>
