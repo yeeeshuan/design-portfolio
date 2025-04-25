@@ -8,7 +8,6 @@ import Video from '../../components/video';
 
 import Issues from "../../Images/Projects/Siri/Issues.png"
 import UC1 from "../../Images/Projects/Siri/UC1.png"
-import UC2 from "../../Images/Projects/Siri/UC2.png"
 import T1 from "../../Images/Projects/Siri/Tiles.png"
 import T2 from "../../Images/Projects/Siri/Tile_Pattern.png"
 import Prompt from "../../Images/Projects/Siri/Siri_Prompt.png"
@@ -33,15 +32,17 @@ export default function Siri(){
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                    In this project, I look at how generative AI can improve CUI (Conversational User Interface) interactions, specifically Siri. 
+                    In this project, I look at how generative AI can improve CUI (Conversational User Interface) interactions, specifically Siri. The experience was designed in Figma and developed using Next.js for the frontend, with generative capabilities powered by the OpenAI API.
                 </p>
                 <br/>
                 <br/>
                 <p className={styles.text}>This is an ongoing project, check again soon for more details!</p>
-
-                <p className = {styles.text}>
                 <br/>
-            </p>
+                <br/>
+                <p>
+                    <a className = {styles.links} href = "https://github.com/yeeeshuan/Siri_AI" rel="noopener noreferrer" target="_blank"> Github </a> 
+                    <br/>
+                </p>
             </div>
          </div>
             <div>
@@ -129,11 +130,11 @@ export default function Siri(){
                     Tiles, Prompt Box, and Input Box Components
                 </p>
             </div>
-            <div style={{display:"flex", justifyContent:"space-between"}}>
-                <div style={{width:"57%"}}>
+            <div className={styles.siriImg}>
+                <div className={styles.siriImg1}>
                     <Image src = {T1}/>
                 </div>
-                <div style={{width:"42%"}}>
+                <div className={styles.siriImg2}>
                     <Image src = {Input}/>
                     <Image src = {Prompt}/>
                 </div>
@@ -323,7 +324,33 @@ export default function Siri(){
             <div>
                 <div>
                     <Video
-                        thumbnail =  "./../../Siri_Add_Col.mov"
+                        thumbnail =  "./../../Siri_Add_Col.mp4"
+                    />
+                </div>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                03: Loading Screen
+            </h1>
+            <p className = {styles.text}>
+                To provide users with clear feedback during result generation, I designed a loading experience inspired by Apple&rsquo;s AI design system. 
+            </p>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Loading 
+                </p>
+            </div>
+            <div>
+                <div>
+                    <Video
+                        thumbnail =  "./../../Siri_Loading.mp4"
                     />
                 </div>
             </div>

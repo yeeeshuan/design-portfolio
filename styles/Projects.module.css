@@ -61,6 +61,19 @@ iframe.ytplayer{
     border: var(--background) 2px solid; 
 }
 
+.siriImg{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.siriImg1{
+    width: 57%
+}
+
+.siriImg2{
+    width: 42%
+}
+
 .imageWrap:hover{
     background-color: var(--background-active);
     border: var(--card-active) 2px solid; 
@@ -514,6 +527,18 @@ a.links:hover{
     .progressContainer {
         width: 25%;
         margin: 1rem 0 1rem 0;
+    }
+
+    .siriImg{
+        display: block;
+    }
+    
+    .siriImg1{
+        width: 100%
+    }
+    
+    .siriImg2{
+        width: 100%
     }
 
 }
