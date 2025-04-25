@@ -82,15 +82,6 @@ export default function Siri(){
             <h1 className = {styles.pTitle}> 
                 Use Cases
             </h1>
-            <p className = {styles.text}>
-                With this, there are three use cases that I want to explore:
-            </p>
-            </div>
-        </div>
-        <div className = {styles.page}>
-            <div>
-            </div>     
-            <div>
             <h1 className = {styles.bTitle}> 
                 01: Multi-App Experiences
             </h1>
@@ -116,8 +107,8 @@ export default function Siri(){
             <div>
             </div>     
             <div>
-            <h1 className = {styles.bTitle}> 
-                Interactive Dashboard
+            <h1 className = {styles.pTitle}> 
+                Design
             </h1>
             <p className = {styles.text}>
             I wanted users to interact dynamically with the generated content, enabling actions like regenerating, editing, and rearranging it to refine responses.

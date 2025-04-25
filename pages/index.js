@@ -58,7 +58,7 @@ function Home() {
             <div style={{width: "65%"}}>
               <h2 className={styles.intro} style={{fontSize: "28px"}}>
                 <span>
-                  Incoming, Designer @ 
+                  Incoming Designer @ 
                   <a href="https://www.ibm.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> IBM </a>
                 </span>
                 .
@@ -84,9 +84,9 @@ function Home() {
           <br/>
             <hr className = {styles.break}></hr>
             <p className = {styles.curr}>
-              <span className = {styles.bold}>Currently...</span> Design Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
+              <span className = {styles.bold}>Incoming...</span> Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span>
               <br/>
-              <span className = {styles.bold}>Previously...</span> Product Designer @ <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://landesbergdesign.com/">Landesberg Design</a></span>
+              <span className = {styles.bold}>Previously...</span> Design Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
             </p>
         </div>
         )}
