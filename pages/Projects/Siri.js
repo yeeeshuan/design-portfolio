@@ -11,6 +11,8 @@ import UC1 from "../../Images/Projects/Siri/UC1.png"
 import UC2 from "../../Images/Projects/Siri/UC2.png"
 import T1 from "../../Images/Projects/Siri/Tiles.png"
 import T2 from "../../Images/Projects/Siri/Tile_Pattern.png"
+import Prompt from "../../Images/Projects/Siri/Siri_Prompt.png"
+import Input from "../../Images/Projects/Siri/Siri_Input.png"
 
 export default function Siri(){
     return(
@@ -124,13 +126,20 @@ export default function Siri(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Tiles For Different Apps
+                    Tiles, Prompt Box, and Input Box Components
                 </p>
             </div>
-            <div>
-                <Image src = {T1}/>
+            <div style={{display:"flex", justifyContent:"space-between"}}>
+                <div style={{width:"57%"}}>
+                    <Image src = {T1}/>
+                </div>
+                <div style={{width:"42%"}}>
+                    <Image src = {Input}/>
+                    <Image src = {Prompt}/>
+                </div>
             </div>
         </div> 
+        
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
@@ -172,18 +181,18 @@ export default function Siri(){
                     Event Generation Prototypes
                 </p>
             </div>
-            <div style={{display:"flex"}}>
-                <div style={{width:"33.33%"}}>
+            <div style={{display:"flex", justifyContent:"space-between"}}>
+                <div style={{width:"33%"}}>
                     <Video
                         thumbnail =  "./../../Siri_P1.mov"
                     />
                 </div>
-                <div style={{width:"33.33%"}}>
+                <div style={{width:"33%"}}>
                     <Video
                         thumbnail =  "./../../Siri_P2.mov"
                     />
                 </div>
-                <div style={{width:"33.33%"}}>
+                <div style={{width:"33%"}}>
                     <Video
                         thumbnail =  "./../../Siri_P3.mov"
                     />
@@ -211,7 +220,7 @@ export default function Siri(){
                     Regeration protype when asked to change directions and add 
                 </p>
             </div>
-            <div style={{display:"flex"}}>
+            <div style={{display:"flex", justifyContent:"space-between"}}>
                 <div style={{width:"49.5%"}}>
                     <Video
                         thumbnail =  "./../../Siri_Notes_Regen.mov"
@@ -281,12 +290,12 @@ export default function Siri(){
                 </p>
             </div>
             <div style={{display:"flex", justifyContent:"space-between"}}>
-                <div style={{width:"49%"}}>
+                <div style={{width:"49.5%"}}>
                     <Video
                         thumbnail =  "./../../Siri_Resize.mov"
                     />
                 </div>
-                <div style={{width:"49%"}}>
+                <div style={{width:"49.5%"}}>
                     <Video
                         thumbnail =  "./../../Siri_Resize_1.mov"
                     />
@@ -298,7 +307,7 @@ export default function Siri(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                02: Adding Col
+                02: Adding Columns
             </h1>
             <p className = {styles.text}>
                 To accommodate growth, users can add an additional column of apps to their dashboard—a scaled-down implementation of future functionality. This sets the foundation for a more customizable experience, where users will eventually be able to generate and specify the types of apps they want to include.
