@@ -268,6 +268,33 @@ export default function Siri(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
+                01: App Tiles
+            </h1>
+            <p className = {styles.text}>
+            The variety of apps presented an opportunity to make each tile distinct and tailored to its functionality. 
+            <br/>
+            <br/>
+            For example, I designed the Notes tile to be editable, allowing users to modify content directly within the tile. Regenerating results would then pull from the updated input, creating a more dynamic and personalized experience.
+            </p>
+            </div>
+        </div>  
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Notes Tile
+                </p>
+            </div>
+            <div>
+                <Video
+                    thumbnail =  "./../../Siri_Notes_Tile.mov"
+                />
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
                 01: Tile Resizing
             </h1>
             <p className = {styles.text}>

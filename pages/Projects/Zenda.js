@@ -10,12 +10,12 @@ export default function Zenda(){
     return(
         <div>
             <Head>
-            <title>Ethan Huang Design | Zenda Internship</title>
+            <title>Ethan Huang Design | Zenda</title>
             </Head>
             <Navbar/>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
-            Zenda Internship
+            Zenda Platform
             </h1>
             <div className = {styles.intro}>
             <div className = {styles.role}>
@@ -25,7 +25,7 @@ export default function Zenda(){
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>
-                    In the summer of 2024, I was hired by Zenda Consulting as a Design Engineer Intern. I worked on the product team, designing and developing a new software system/product.
+                    In the summer of 2024, I was hired by Zenda Consulting as a Design Engineer. I worked on the product team, designing and developing a new software system/product.
                 </p>
                 <br/>
                 <br/>
@@ -33,15 +33,14 @@ export default function Zenda(){
                 During my time at Zenda, I worked on:
                 <br/>
                     - Designing and implementing generative AI features into the product
-
                 <br/>
                     - Conducting in-home product research for prompt engineering and feature testing
                 <br/>
                     - Scaling the product to accommodate increased software complexity
                 </p>
                 <br/>
-                <p>If interested, please get in touch for more details!</p>
-
+                <br/>
+                <p className = {styles.text}> If interested, please get in touch for more details!</p>
                 <br/>
                 <br/>
                 <p className = {styles.text}>
