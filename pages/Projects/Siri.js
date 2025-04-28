@@ -295,7 +295,7 @@ export default function Siri(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                01: Tile Resizing
+                02: Tile Resizing
             </h1>
             <p className = {styles.text}>
                 To enhance interactivity, I introduced an active state for individual tiles. When a user engages with a specific tile, it highlights with a distinct border color and expands vertically. This helps users see their edits in context, emphasizing how their input contributes to the broader dashboard experience.
@@ -326,7 +326,7 @@ export default function Siri(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                02: Adding Columns
+                03: Adding Columns
             </h1>
             <p className = {styles.text}>
                 To accommodate growth, users can add an additional column of apps to their dashboard—a scaled-down implementation of future functionality. This sets the foundation for a more customizable experience, where users will eventually be able to generate and specify the types of apps they want to include.
@@ -352,7 +352,7 @@ export default function Siri(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                03: Loading Screen
+                04: Loading Screen
             </h1>
             <p className = {styles.text}>
                 To provide users with clear feedback during result generation, I designed a loading experience inspired by Apple&rsquo;s AI design system. 
