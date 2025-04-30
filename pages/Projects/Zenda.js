@@ -21,7 +21,7 @@ export default function Zenda(){
             <div className = {styles.role}>
                 <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Product Designer, Frontend Developer </p> 
                 <br></br>
-                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> May 2024 - August 2024 </p>
+                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> May 2024 - May 2025 </p>
                 </div>
             <div className = {styles.cont}> 
                 <p className = {styles.text}>

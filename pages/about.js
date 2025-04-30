@@ -29,16 +29,18 @@ return(
             Hey! My name is Ethan Huang. 
         </h1>
         <p className={styles.text}>
-
-            I am a senior at Carnegie Mellon studying <span className = {styles.CText}>Interaction Design</span> and <span className = {styles.CText}> Human-Computer-Interaction </span>
-            with a minor in <span className = {styles.CText}>Computer Science</span>. I am interested in interaction design 
-            and creating digital experiences — I strive to create meaningful interactions through exploring the intersection of design and technology. 
-
+            I create meaningful experiences by exploring the intersection of design and technology.
+            I studied <span className={styles.CText}>Interaction Design</span> and <span className={styles.CText}>Computer Science</span> at Carnegie Mellon University.
             <br/>
             <br/>
-
-            When I am not designing, I can be seen taking photos, sketching, or curating the perfect 
-                
+            Starting this fall, I will be designing solutions with new technologies at
+            <span className = {styles.CText}>
+                <a href = "https://www.ibm.com/about/innovation-studio"> IBM&rsquo;s Innovation Studio. 
+                </a>
+            </span>
+            <br/>
+            <br/>
+            When I am not designing, I can be seen taking photos, running, or curating the perfect 
             <span className = {styles.CText}>
                 <a href = "https://open.spotify.com/user/ethanhuangpizza?si=2ee86a0814ba4650"> Spotify playlist. 
                 </a>
