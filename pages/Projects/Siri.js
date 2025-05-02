@@ -86,10 +86,10 @@ export default function Siri(){
                 01: Multi-App Experiences
             </h1>
             <p className = {styles.text}>
-                Generating tailored advice, which populates the appropriate apps. 
-                <br/>
-                <br/>
-                For example, when learning to bake a cake, Siri places a recipe in the Notes App, a series of timers for scheduling in the Timer App, and a cooking playlist in Spotify.  
+                When humans search for information, they typically do so sequentially—switching from one app to another. Generative AI, on the other hand, has the potential to query and coordinate across multiple apps in parallel.
+            <br/>
+            <br/>
+                For instance, when learning to bake a cake, Siri might place the recipe in the Notes app, set a series of timers in the Timer app, and queue up a cooking playlist in Spotify—all at once.
             </p>
             </div>
         </div>  
