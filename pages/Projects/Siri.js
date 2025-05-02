@@ -9,7 +9,10 @@ import Video from '../../components/video';
 import Issues from "../../Images/Projects/Siri/Issues.png"
 import UC1 from "../../Images/Projects/Siri/UC1.png"
 import T1 from "../../Images/Projects/Siri/Tiles.png"
-import T2 from "../../Images/Projects/Siri/Tile_Pattern.png"
+import L1 from "../../Images/Projects/Siri/L1.png"
+import L2 from "../../Images/Projects/Siri/L2.png"
+import L3 from "../../Images/Projects/Siri/L3.png"
+import L4 from "../../Images/Projects/Siri/L4.png"
 import Prompt from "../../Images/Projects/Siri/Siri_Prompt.png"
 import Input from "../../Images/Projects/Siri/Siri_Input.png"
 
@@ -34,9 +37,6 @@ export default function Siri(){
                 <p className = {styles.text}>
                     In this project, I look at how generative AI can improve CUI (Conversational User Interface) interactions, specifically Siri. The experience was designed in Figma and developed using Next.js for the frontend, with generative capabilities powered by the OpenAI API.
                 </p>
-                <br/>
-                <br/>
-                <p className={styles.text}>This is an ongoing project, check again soon for more details!</p>
                 <br/>
                 <br/>
                 <p>
@@ -138,8 +138,20 @@ export default function Siri(){
                     Tile Layout
                 </p>
             </div>
+            <div className={styles.image_2}>
+                <Image src = {L1}/>
+                <Image src = {L2}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
             <div>
-                <Image src = {T2}/>
+                <p className = {styles.d}> 
+                    Tile Resizing
+                </p>
+            </div>
+            <div className={styles.image_2}>
+                <Image src = {L3}/>
+                <Image src = {L4}/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -373,13 +385,6 @@ export default function Siri(){
                 </div>
             </div>
         </div>
-        <div className = {styles.page}>
-            <div>
-            </div>
-            <div>
-                <p className={styles.text}>More to come soon!</p>
-            </div>
-        </div> 
         </main>
         <Footer/>
         </div>

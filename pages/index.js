@@ -57,14 +57,14 @@ function Home() {
             </div>
             <div style={{width: "65%"}}>
               <h2 className={styles.intro} style={{fontSize: "28px"}}>
-                <span>
+                {/* <span>
                   Innovation Designer @ 
                   <a href="https://www.ibm.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> IBM </a>
                 </span>
                 .
-                <br/>
+                <br/> */}
                 <span>
-                  Previously, Design Engineer @ 
+                  Currently, Design Engineer @ 
                   <a href="https://www.zendaplatform.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> Zenda Consulting</a>
                 </span>
                 .

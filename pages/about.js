@@ -31,13 +31,13 @@ return(
         <p className={styles.text}>
             I create meaningful experiences by exploring the intersection of design and technology.
             I studied <span className={styles.CText}>Interaction Design</span> and <span className={styles.CText}>Computer Science</span> at Carnegie Mellon University.
-            <br/>
+            {/* <br/>
             <br/>
             Starting this fall, I will be designing solutions with new technologies at
             <span className = {styles.CText}>
                 <a href = "https://www.ibm.com/about/innovation-studio"> IBM&rsquo;s Innovation Studio. 
                 </a>
-            </span>
+            </span> */}
             <br/>
             <br/>
             When I am not designing, I can be seen taking photos, running, or curating the perfect 
