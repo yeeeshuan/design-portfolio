@@ -84,9 +84,9 @@ function Home() {
           <br/>
             <hr className = {styles.break}></hr>
             <p className = {styles.curr}>
-              <span className = {styles.bold}>Currently...</span> Innovation Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span>
-              <br/>
-              <span className = {styles.bold}>Previously...</span> Design Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
+              {/* <span className = {styles.bold}>Currently...</span> Innovation Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span> */}
+              {/* <br/> */}
+              <span className = {styles.bold}>Currently...</span> Design Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
             </p>
         </div>
         )}

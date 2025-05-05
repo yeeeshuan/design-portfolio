@@ -37,7 +37,7 @@ p.words:hover{
 
 .overLay{
     background-color : transparent; 
-    width: 46%; 
+    width: 48%; 
     height: 50%; 
     overflow: hidden; 
     position: absolute; 
@@ -52,8 +52,8 @@ iframe.ytplayer{
 
 .imageWrap{
     display: inline-block; 
-    width: 48%;
-    margin-bottom: 50px; 
+    width: 49%;
+    margin-bottom: 2rem; 
     border-radius: 1rem; 
     background-color: var(--background); 
     overflow: hidden;  
