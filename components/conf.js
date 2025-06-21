@@ -4,6 +4,7 @@ import One from "../Images/About/1.jpeg";
 import Two from "../Images/About/2.jpeg"; 
 import Three from "../Images/About/3.jpg"; 
 import Four from "../Images/About/4.jpeg"; 
+import Five from "../Images/About/5.jpg"; 
 import Image from "next/image";
 import { Component } from "react"; 
 
@@ -12,7 +13,7 @@ class Confetti extends Component{
     constructor(){
             super();
             this.state={
-                rotation: [Zero, One, Two, Four, Three],
+                rotation: [Zero, One, Two, Four, Three, Five],
                 index:0
             }
         }   

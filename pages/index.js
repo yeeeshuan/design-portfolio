@@ -47,29 +47,34 @@ function Home() {
         <div className = {styles.introWrap}>
         {!matches && (
           <div className={styles.des}>
-            <div style={{width: "35%"}}>
+            <div>
             <h2 className={styles.intro}>
               <span>
-                Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> <br/>Designer and Developer</span>
+                Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> Designer and Developer</span>.
+                <br/>
               </span>
-              .
+              <span>
+                  Currently, Design Engineer @ 
+                  <a href="https://www.zendaplatform.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> Zenda Consulting</a>
+              </span>
+              
             </h2>
             </div>
-            <div style={{width: "65%"}}>
+            {/* <div style={{width: "65%"}}>
               <h2 className={styles.intro} style={{fontSize: "28px"}}>
-                {/* <span>
+                <span>
                   Innovation Designer @ 
                   <a href="https://www.ibm.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> IBM </a>
                 </span>
                 .
-                <br/> */}
+                <br/>
                 <span>
                   Currently, Design Engineer @ 
                   <a href="https://www.zendaplatform.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> Zenda Consulting</a>
                 </span>
                 .
               </h2>
-            </div>
+            </div> */}
           </div>
         )}
 
