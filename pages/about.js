@@ -29,6 +29,9 @@ return(
             Hey! My name is Ethan Huang. 
         </h1>
         <p className={styles.text}>
+            I currently work as an <span className={styles.CText}>Innovation Desginer</span> at <span className={styles.CText}>IBM</span>.
+            <br/>
+            <br/>
             I create meaningful experiences by exploring the intersection of design and technology.
             I studied <span className={styles.CText}>Interaction Design</span> and <span className={styles.CText}>Computer Science</span> at Carnegie Mellon University.
             {/* <br/>
@@ -48,7 +51,7 @@ return(
             <br></br>
             <br></br>
 
-            Feel free to reach out at  <span className = {styles.CText}><a href = "mailto:ethanhuang@cmu.edu">ethanhuang@cmu.edu!</a></span>
+            Feel free to reach out at  <span className = {styles.CText}><a href = "mailto:yehuang2020@gmail.com">yehuang2020@gmail.com!</a></span>
         </p>
         </div>
 

@@ -53,10 +53,7 @@ function Home() {
                 Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> Designer and Developer</span>.
                 <br/>
               </span>
-              <span>
-                  Currently, Design Engineer @ 
-                  <a href="https://www.zendaplatform.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> Zenda Consulting</a>
-              </span>
+              <span>Currently,</span> Innovation Designer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/about/innovation-studio">IBM</a></span>.
               
             </h2>
             </div>
@@ -89,9 +86,8 @@ function Home() {
           <br/>
             <hr className = {styles.break}></hr>
             <p className = {styles.curr}>
-              {/* <span className = {styles.bold}>Currently...</span> Innovation Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span> */}
-              {/* <br/> */}
-              <span className = {styles.bold}>Currently...</span> Design Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span>
+              <span className = {styles.bold}>Currently...</span> Innovation Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span>.
+              {/* <span className = {styles.bold}>Currently...</span> Design Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span> */}
             </p>
         </div>
         )}
