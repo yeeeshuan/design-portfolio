@@ -50,7 +50,7 @@ function Home() {
             <div>
             <h2 className={styles.intro}>
               <span>
-                Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> Designer and Developer</span>.
+                Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> Designer and Developer</span>. 
                 <br/>
               </span>
               <span>Currently,</span> Innovation Designer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/about/innovation-studio">IBM</a></span>.

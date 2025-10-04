@@ -29,7 +29,7 @@ return(
             Hey! My name is Ethan Huang. 
         </h1>
         <p className={styles.text}>
-            I currently work as an <span className={styles.CText}>Innovation Designer</span> at <span className={styles.CText}>IBM</span>.
+            I currently work as an <span className={styles.CText}>Innovation Designer</span> at <span className={styles.CText}>IBM</span>, where I&rsquo;m based in San Francisco. 
             <br/>
             <br/>
             I create meaningful experiences by exploring the intersection of design and technology.
