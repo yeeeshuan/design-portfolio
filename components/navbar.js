@@ -23,9 +23,9 @@ const Navbar = () => {
                <Link href = "/">
                <span className = {styles.styledLink}> Work </span>
                </Link>
-               <Link href = "/experiments">
+               {/* <Link href = "/experiments">
                <span className = {styles.styledLink}> Experiments </span>
-               </Link>
+               </Link> */}
                {/* <Link href = "/play">
                <span className = {styles.styledLink}> Play </span>
                </Link> */}
