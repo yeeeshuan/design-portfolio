@@ -44,7 +44,7 @@ export default function Zenda(){
                 <br/>
                 <br/>
                 <p className = {styles.text}>
-                <a className = {styles.links} href = "https://www.zendaai.com/" rel="noopener noreferrer" target="_blank"> Product Website </a> 
+                <a className = {styles.links} href = "https://www.zendaplatform.com/" rel="noopener noreferrer" target="_blank"> Product Website </a> 
                 <br/>
             </p>
             </div>
