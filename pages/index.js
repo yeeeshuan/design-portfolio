@@ -64,7 +64,7 @@ function Home() {
             </div>
             <div style={{width: "20%", textAlign:"left"}}>
               <h2 className={styles.intro}>
-                Let&rsquo;s Chat:
+                Let&rsquo;s chat:
                 <br/>
                 <a href = "mailto:yehuang2020@gmail.com" rel="noopener noreferrer" target="_blank">
                 <span style={{color: "#2897FF"}}>Email&#8599;</span>
@@ -84,7 +84,7 @@ function Home() {
           <div className={styles.des}>
           <h2 className={styles.intro}>
             <span>
-            Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> Designer and Developer</span>. I design, prototype, and develop ambitious new software. I graduated from Carnegie Mellon University, where I studied Interaction Design and Computer Science. 
+            Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> Designer and Developer</span>. I design, prototype, and build new digital experiences. I graduated from Carnegie Mellon University, where I studied Interaction Design and Computer Science. 
             </span>
           </h2>
           <br/>
