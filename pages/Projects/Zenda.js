@@ -7,6 +7,9 @@ import Footer from '../../components/footer';
 import Thumbnail from '../../Images/About/Zenda.png';
 import Video from '../../components/video';
 
+import States from '../../Images/Projects/Zenda/states.png'
+import Flow from '../../Images/Projects/Zenda/flow.png'
+
 export default function Zenda(){
     return(
         <div>
@@ -146,6 +149,105 @@ export default function Zenda(){
                         thumbnail =  "./../../Zenda_P3.mov"
                     />
                 </div>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+                <h1 className = {styles.pTitle}> 
+                    Designing the Experience
+                </h1>
+                <p className = {styles.text}>
+                    While testing the feature, I was also considering how the generative AI feature could be integrated into the existing environment.
+                    <br/>
+                    A key challenge involved deciding which features were ready for production and how best to preview future ones.
+                </p>
+                <br/>
+                <br/>
+                <br/>
+                <Image src={Flow}/>
+            </div>
+        </div> 
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                Designing the Components
+            </h1>
+            <p className = {styles.text}>
+                In collaboration with product designers, I designed the input modal, ensuring it was consistent with the team&rsquo;s existing design system and visual standards.
+                <br/>
+                <br/>
+                Through testing, we discovered that examples effectively guide users in crafting prompts for the AI tool. 
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                    Input Modal Interactions
+                </p>
+            </div>
+            <div className={styles.image_2}>
+                <div>
+                    <Image src={States}/>
+                </div>
+                <div>
+                    <Video
+                        thumbnail =  "./../../Zenda_P4.mp4"
+                    />
+                </div>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                Injecting into the Current Environment
+            </h1>
+            <p className = {styles.text}>
+            The current environment was built in Express.js, but the team aimed to transition to a React.js-based setup. By integrating this feature, I created a streamlined approach that allows the team to develop components in React.js more efficiently.
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                   Feature in existing environment
+                </p>
+            </div>
+            <div>
+                <Video
+                    thumbnail =  "./../../Zenda_P5.mp4"
+                />
+            </div>
+        </div>
+
+        <div className = {styles.page}>
+            <div>
+            </div>     
+            <div>
+            <h1 className = {styles.bTitle}> 
+                Error Handling
+            </h1>
+            <p className = {styles.text}>
+                I considered use cases where inappropriate prompts would be entered into the input modal. 
+            </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}> 
+                   Error handling
+                </p>
+            </div>
+            <div>
+                <Video
+                    thumbnail =  "./../../Zenda_P6.mp4"
+                />
             </div>
         </div>
         </main>

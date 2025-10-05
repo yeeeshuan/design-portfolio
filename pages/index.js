@@ -97,7 +97,7 @@ function Home() {
           </div>
         </div>
         </div>
-        <div className={styles.toggle}>
+        {/* <div className={styles.toggle}>
             <>
               {all ? (
                 <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => aClick()}>All</a>
@@ -117,7 +117,7 @@ function Home() {
                 <a className={styles.links} onClick={() => cClick()}>Development</a>
               )}
             </> 
-        </div>
+        </div> */}
 
         <div style={{marginTop: "3rem"}} className={styles.projects}>
           <Projects all={all} product={product} tech={tech} matches={matches}/>

@@ -227,7 +227,7 @@ p.text{
 .image_2{
     margin-top: 25px; 
     margin-bottom: 25px; 
-    align-items: center;
+    align-items: top;
     display: grid; 
     grid-template-columns: repeat(2, 0.5fr);
     grid-column-gap: 10px;
