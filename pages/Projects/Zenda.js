@@ -53,7 +53,8 @@ export default function Zenda(){
             </div>
          </div>
         <div>
-            <Image src = {Thumbnail} alt = "cover image"/>
+            <Video 
+            src = {Thumbnail} />
         </div>
         <div className = {styles.page}>
             <div>
