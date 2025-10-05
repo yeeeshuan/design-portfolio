@@ -8,7 +8,6 @@ import Thumbnail from '../../Images/About/Zenda.png';
 import Video from '../../components/video';
 
 import States from '../../Images/Projects/Zenda/states.png'
-import Flow from '../../Images/Projects/Zenda/flow.png'
 
 export default function Zenda(){
     return(
@@ -164,10 +163,6 @@ export default function Zenda(){
                     <br/>
                     A key challenge involved deciding which features were ready for production and how best to preview future ones.
                 </p>
-                <br/>
-                <br/>
-                <br/>
-                <Image src={Flow}/>
             </div>
         </div> 
         <div className = {styles.page}>
