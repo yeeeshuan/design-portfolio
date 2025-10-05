@@ -46,78 +46,55 @@ function Home() {
         <Navbar/>
         <div className = {styles.introWrap}>
         {!matches && (
+          <>
           <div className={styles.des}>
-            <div>
+            <div style={{width:"51%", paddingRight: "6rem"}}>
             <h2 className={styles.intro}>
               <span>
-                Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> Designer and Developer</span>. 
-                <br/>
+                Hi, I&rsquo;m Ethan! I design, prototype, and build new digital experiences. I graduated from Carnegie Mellon University, where I studied Interaction Design and Computer Science. 
               </span>
-              <span>Currently,</span> Innovation Designer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/about/innovation-studio">IBM</a></span>.
-              
             </h2>
             </div>
-            {/* <div style={{width: "65%"}}>
-              <h2 className={styles.intro} style={{fontSize: "28px"}}>
-                <span>
-                  Innovation Designer @ 
-                  <a href="https://www.ibm.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> IBM </a>
-                </span>
-                .
-                <br/>
-                <span>
-                  Currently, Design Engineer @ 
-                  <a href="https://www.zendaplatform.com/" target="_blank" rel="noreferrer" style={{color: "#2897FF", borderBottom: "3px dotted #2897FF"}}> Zenda Consulting</a>
-                </span>
-                .
+            <div style={{width: "29%"}}>
+              <h2 className={styles.intro}>
+              Currently, Innovation Designer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/about/innovation-studio">IBM&#8599;</a></span>
+              <br/>
+              and working on freelance projects.
               </h2>
-            </div> */}
+            </div>
+            <div style={{width: "20%", textAlign:"left"}}>
+              <h2 className={styles.intro}>
+                Let&rsquo;s Chat:
+                <br/>
+                <a href = "mailto:yehuang2020@gmail.com" rel="noopener noreferrer" target="_blank">
+                <span style={{color: "#2897FF"}}>Email&#8599;</span>
+                </a>
+              </h2>
+              {/* <div className = {styles.holder}>
+              <Confetti/>
+              </div> */}
+            </div>
           </div>
+          <div>
+          </div>
+          </>
         )}
 
         {matches && (
           <div className={styles.des}>
           <h2 className={styles.intro}>
             <span>
-              Hi! I&rsquo;m Ethan Huang, a <span style={{color:"#2897FF"}}>Designer and Developer</span>. 
+            Hi! I&rsquo;m Ethan Huang, a<span style={{color: "#2897FF"}}> Designer and Developer</span>. I design, prototype, and develop ambitious new software. I graduated from Carnegie Mellon University, where I studied Interaction Design and Computer Science. 
             </span>
           </h2>
           <br/>
           <br/>
-            <hr className = {styles.break}></hr>
             <p className = {styles.curr}>
-              <span className = {styles.bold}>Currently...</span> Innovation Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span>.
-              {/* <span className = {styles.bold}>Currently...</span> Design Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href = "https://www.zendaconsulting.com/">Zenda Consulting</a></span> */}
+             Currently, Innovation Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span>.
             </p>
         </div>
         )}
-        <div className = {styles.conf}>
-          <div className = {styles.holder}>
-          <Confetti/>
-          </div>
         </div>
-        </div>
-        {/* <div className={styles.toggle}>
-            <>
-              {all ? (
-                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => aClick()}>All</a>
-              ) : (
-                <a className={styles.links} onClick={() => aClick()}>All</a>
-              )}
-
-              {product ? (
-                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => pClick()}>Design</a>
-              ) : (
-                <a className={styles.links} onClick={() => pClick()}>Design</a>
-              )}
-
-              {tech ? (
-                <a style={{ border: "3px solid #2897FF", backgroundColor: "#373737"}} className={styles.links} onClick={() => cClick()}>Development</a>
-              ) : (
-                <a className={styles.links} onClick={() => cClick()}>Development</a>
-              )}
-            </> 
-        </div> */}
 
         <div style={{marginTop: "3rem"}} className={styles.projects}>
           <Projects all={all} product={product} tech={tech} matches={matches}/>

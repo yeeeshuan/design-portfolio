@@ -20,31 +20,44 @@ export default function Siri(){
     return(
         <div>
             <Head>
-            <title>Ethan Huang Design | Siri AI</title>
+            <title>Ethan Huang Design | Siri Desktop</title>
             </Head>
             <Navbar/>
             <main className={styles.main}>
-            <h1 className = {styles.mTitle}> 
-            Siri AI
-            </h1>
             <div className = {styles.intro}>
-            <div className = {styles.role}>
-                <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Product Designer, Frontend Developer </p> 
-                <br></br>
-                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> Jan 2025 - Present </p>
-                </div>
-            <div className = {styles.cont}> 
-                <p className = {styles.text}>
-                    In this project, I look at how generative AI can improve CUI (Conversational User Interface) interactions, specifically Siri. The experience was designed in Figma and developed using Next.js for the frontend, with generative capabilities powered by the OpenAI API.
-                </p>
-                <br/>
-                <br/>
-                <p>
-                    <a className = {styles.links} href = "https://github.com/yeeeshuan/Siri_AI" rel="noopener noreferrer" target="_blank"> Github </a> 
+                <div className = {styles.cont}> 
+                <h1 className = {styles.mTitle}> 
+                            Siri Desktop
+                    </h1>
                     <br/>
-                </p>
+                    <p className = {styles.text}>
+                        In this project, I look at how generative AI can improve CUI (Conversational User Interface) interactions, specifically Siri. The experience was designed in Figma and developed using Next.js for the frontend, with generative capabilities powered by the OpenAI API.
+                    </p>
+                    <br/>
+                    <br/>
+                    <div>
+                        <div className={styles.desCont}>
+                            <div className={styles.des}>
+                                <p className = {styles.d1}>Role: </p>
+                                <br/>
+                                <p className = {styles.d2}> Product Designer
+                                <br/>
+                                Frontend Developer </p> 
+                            </div>
+                            <div className={styles.des}>
+                                <p className = {styles.d1}>Duration: </p>
+                                <br/>
+                                <p className = {styles.d2}> Jan 2025 - May 2025 </p>
+                            </div>
+                            <div className={styles.des}>
+                                <p className = {styles.d1}>Link to Project: </p>
+                                <br/>
+                                <p style={{margin:0}}><a href = "https://github.com/yeeeshuan/Siri_AI" rel="noopener noreferrer" target="_blank"> Github&#8599;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
             <div>
             <Video
                  thumbnail =  "./../../Siri_AI.mp4"

@@ -16,29 +16,43 @@ export default function iKnow(){
             </Head>
             <Navbar/>
             <main className={styles.main}>
-            <h1 className = {styles.mTitle}> 
-            I Know a Place
-            </h1>
             <div className = {styles.intro}>
-            <div className = {styles.role}>
-                <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Product Designer, Frontend Developer </p> 
-                <br></br>
-                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> January 2025 - March 2025 </p>
+                <div className = {styles.cont}> 
+                    <h1 className = {styles.mTitle}> 
+                    I Know a Place
+                    </h1>
+                    <br/>
+                    <p className = {styles.text}>
+                    I Know a Place is an interactive map that highlights how a single location can hold countless unique stories and experiences for different people.
+                    <br/>
+                    <br/>
+                    This project was built for the 2025 TEDxCMU main event.
+                    </p>
+                    <br/>
+                    <br/>
+                    <div>
+                        <div style={{display:"flex", gap: "1rem", marginTop:"1rem"}}>
+                            <div style={{width:"33%"}}>
+                                <p className = {styles.d1}>Role: </p>
+                                <br/>
+                                <p className = {styles.d2}> Product Designer
+                                <br/>
+                                Frontend Developer </p> 
+                            </div>
+                            <div style={{width:"33%"}}>
+                                <p className = {styles.d1}>Duration: </p>
+                                <br/>
+                                <p className = {styles.d2}> Jan 2025 - May 2025 </p>
+                            </div>
+                            <div style={{width:"33%"}}>
+                                <p className = {styles.d1}>Link to Project: </p>
+                                <br/>
+                                <p style={{margin:0}}><a href = "https://github.com/TEDxCMU/2025-I-Know-A-Place" rel="noopener noreferrer" target="_blank">Github&#8599;</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            <div className = {styles.cont}> 
-                <p className = {styles.text}>
-                    <strong>I Know a Place</strong> is an interactive map that highlights how a single location can hold countless unique stories and experiences for different people.
-                    <br/>
-                    <br/>
-                    This project was built for the 2025 TEDxCMU main event. 
-                    <br/>
-                    <br/>
-                    <br/>
-                    <a className = {styles.links} href = "https://lego-font.vercel.app/" rel="noopener noreferrer" target="_blank"> Project Website </a> 
-                    <a className = {styles.links} href = "https://github.com/TEDxCMU/2025-I-Know-A-Place" rel="noopener noreferrer" target="_blank"> Github </a> 
-                </p>
             </div>
-         </div>
          <div>
             <Video
                  thumbnail =  "./../../I_Know.mp4"

@@ -17,40 +17,46 @@ export default function Zenda(){
             </Head>
             <Navbar/>
             <main className={styles.main}>
-            <h1 className = {styles.mTitle}> 
-            Zenda Platform
-            </h1>
             <div className = {styles.intro}>
-            <div className = {styles.role}>
-                <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Product Designer, Frontend Developer </p> 
-                <br></br>
-                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> May 2024 - May 2025 </p>
-                </div>
-            <div className = {styles.cont}> 
-                <p className = {styles.text}>
+                <div className = {styles.cont}> 
+                <h1 className = {styles.mTitle}> 
+                        Zenda Platform
+                    </h1>
+                    <br/>
+                    <p className = {styles.text}>
                     In the summer of 2024, I was hired by Zenda Consulting as a Design Engineer. I worked on the product team, designing and developing a new software system/product.
-                </p>
-                <br/>
-                <br/>
-                <p className = {styles.text}>
-                During my time at Zenda, I worked on:
-                <br/>
-                    - Designing and implementing generative AI features into the product
-                <br/>
-                    - Conducting in-home product research for prompt engineering and feature testing
-                <br/>
-                    - Scaling the product to accommodate increased software complexity
-                </p>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <p className = {styles.text}>
-                <a className = {styles.links} href = "https://www.zendaplatform.com/" rel="noopener noreferrer" target="_blank"> Product Website </a> 
-                <br/>
-            </p>
+                    <br/>
+                    <br/>
+                    During my time at Zenda, I worked on:<br/>
+                    - Designing and implementing generative AI features into the product<br/>
+                    - Conducting in-home product research for prompt engineering and feature testing<br/>
+                    - Scaling the product to accommodate increased software complexity<br/>
+                    </p>
+                    <br/>
+                    <br/>
+                    <div>
+                        <div className={styles.desCont}>
+                            <div className={styles.des}>
+                                <p className = {styles.d1}>Role: </p>
+                                <br/>
+                                <p className = {styles.d2}> Product Designer
+                                <br/>
+                                Frontend Developer </p> 
+                            </div>
+                            <div className={styles.des}>
+                                <p className = {styles.d1}>Duration: </p>
+                                <br/>
+                                <p className = {styles.d2}> May 2024 - May 2025 </p>
+                            </div>
+                            <div className={styles.des}>
+                                <p className = {styles.d1}>Link to Project: </p>
+                                <br/>
+                                <p style={{margin:0}}><a href = "https://www.zendaplatform.com/" rel="noopener noreferrer" target="_blank">Product Site&#8599;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
         <div>
             <Image
             src = {Thumbnail}

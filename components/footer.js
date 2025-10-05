@@ -22,9 +22,11 @@ const Footer = () =>{
         <nav className = {styles.footer} onMouseEnter={enterText} onMouseLeave = {leaveText}>
             {!matches?
             (<><div>
-                    {isHovering ? (<span className={styles.styledLink}>Ethan Huang 2025</span>)
+                    {isHovering ? (<span>Ethan Huang 2025</span>)
                         : (<span className={styles.styledLink}>Made with Next.js</span>)}
-                </div><div>
+                </div>
+                <div style={{display:"flex", gap: "2rem"}}>
+
                         <a href="https://www.linkedin.com/in/ethanhuang2002" rel="noopener noreferrer" target="_blank">
                             <span className={styles.styledLink}> Linkedin </span>
                         </a>
@@ -37,19 +39,19 @@ const Footer = () =>{
                         <a href="https://github.com/yeeeshuan" rel="noopener noreferrer" target="_blank">
                             <span className={styles.styledLink}> Github </span>
                         </a>
-                        <a href="mailto:yixuanhu@andrew.cmu.edu">
+                        <a href="mailto:yehuang2020@gmail.com">
                             <span className={styles.styledLink}> Contact </span>
                         </a>
-                    </div></>)
-            :(<div>
+                </div></>)
+            :(<div style={{display:"flex", width:"100%", justifyContent:"space-between"}}>
                <a href = "https://www.linkedin.com/in/ethanhuang2002" rel="noopener noreferrer" target="_blank">
-                   <span className = {styles.styledLink}> Linkedin </span>
+                   <span> Linkedin </span>
                </a>
                <a href = "https://read.cv/nahte.huang" rel="noopener noreferrer" target="_blank">
-                   <span className = {styles.styledLink}> Resume </span>
+                   <span> Resume </span>
                </a>
-               <a href = "mailto:yixuanhu@andrew.cmu.edu" rel="noopener noreferrer" target="_blank">
-               <span className = {styles.styledLink}> Contact </span>
+               <a href = "mailto:yehuang2020@gmail.com" rel="noopener noreferrer" target="_blank">
+               <span> Contact </span>
                </a>
            </div>)
             }

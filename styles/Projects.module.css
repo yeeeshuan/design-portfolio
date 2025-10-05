@@ -32,7 +32,6 @@ p.words{
 
 p.words:hover{
     color: lightgrey;
-    font-weight: 400; 
 }
 
 .overLay{
@@ -130,8 +129,9 @@ iframe.ytplayer{
 
 .intro{
     margin-top: 0px; 
-    margin-bottom: 50px; 
+    margin-bottom: 8rem; 
     display: flex; 
+    justify-content:center;
 }
 
 .role{
@@ -141,11 +141,21 @@ iframe.ytplayer{
 .cont{
     padding-left: 5rem; 
     display: block; 
-    width: 65%; 
+    width: 80%; 
 }
 
 .project{
     margin-bottom: 10rem; 
+}
+
+.desCont{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.des{
+    width: 33%; 
 }
 
 h1.title{
@@ -156,6 +166,7 @@ h1.title{
 h1.mTitle{
     color: white; 
     font-size: 48px; 
+    margin: 0; 
 }
 
 h1.pTitle{
@@ -186,21 +197,23 @@ p.d {
     font-weight: 600; 
 }
 p.d2 {
-    color: rgb(148, 148, 148); 
+    color: white;
     display: inline; 
     font-size: 16px; 
     line-height: 1.8; 
     font-weight: 400; 
-    vertical-align: text-top
+    vertical-align: text-top; 
+    font-weight: 500;
 }
 
 p.d1 {
-    color: rgb(224, 127, 0); 
+    color: #2897FF;
     display: inline; 
     font-size: 16px; 
     font-weight: bold;
     line-height: 1.8; 
-    vertical-align: text-top
+    vertical-align: text-top; 
+    font-weight: 600;
 }
 
 
@@ -209,7 +222,7 @@ p.text{
     display: inline; 
     font-size: 16px; 
     line-height: 1.7; 
-    font-weight: 400; 
+    font-weight: 500; 
     vertical-align: text-top
 }
 
@@ -366,8 +379,6 @@ a.links:hover{
     }
 
     .page{
-        margin-right: 25px; 
-        margin-left: 25px; 
         margin-top: 0px; 
         margin-bottom: 3rem; 
         align-items: center;
@@ -389,24 +400,18 @@ a.links:hover{
     .projectRow{
         display: block;  
         flex-wrap: none;
-        margin-right: 0; 
-        margin-left: 0; 
+        margin-right: 2rem; 
+        margin-left: 2rem; 
         margin-bottom: 0;
         padding: 0; 
     }
 
     .imageWrap{
-        width: 80%; 
+        width: 100%; 
         display: inline-block; 
-        margin-right: 2rem; 
-        margin-left: 2rem; 
         overflow: hidden;  
         transition: background-color 0.5s;  
-    }
-
-    .imageWrap:nth-child(even){
-        margin-left: 2rem;
-        margin-right: 0; 
+        box-sizing: border-box;
     }
 
     .imageWrap:hover .cardRight{
@@ -451,22 +456,33 @@ a.links:hover{
         grid-gap: none;
     }
 
+    .desCont{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .des{
+        width: 40%; 
+        margin-top: 0.5rem;
+    }
+
     p.text{
-        font-size: 16px; 
-        line-height: 1.8; 
+        font-size: 14px; 
+        line-height: 1.6; 
     }
 
     p.d{
-        font-size: 16px; 
+        font-size: 14px; 
     }
 
     p.d2 {
-        font-size: 16px; 
+        font-size: 14px; 
         line-height: 1.6; 
+        color: white
     }
     
     p.d1 {
-        font-size: 16px; 
+        font-size: 14px; 
         line-height: 1.6;
     }
 

@@ -20,23 +20,33 @@ export default function Zenda(){
             </Head>
             <Navbar/>
             <main className={styles.main}>
-            <h1 className = {styles.mTitle}> 
-            Waymo x Airbnb
-            </h1>
             <div className = {styles.intro}>
-            <div className = {styles.role}>
-                <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Product Designer</p> 
-                <br></br>
-                <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> November 2024 </p>
+                <div className = {styles.cont}> 
+                <h1 className = {styles.mTitle}> 
+                    Waymo x Airbnb
+                    </h1>
+                    <br/>
+                    <p className = {styles.text}>
+                    As AI and autonomous driving technologies evolve, I envisioned a collaboration where Waymo seamlessly integrates with a service like Airbnb. In this concept, I explored how the collaboration between Airbnb and Waymo could deliver personalized travel experiences.
+                    </p>
+                    <br/>
+                    <br/>
+                    <div>
+                    <div className={styles.desCont}>
+                            <div className={styles.des}>
+                                <p className = {styles.d1}>Role: </p>
+                                <br/>
+                                <p className = {styles.d2}> Product Designer</p>
+                            </div>
+                            <div className={styles.des}>
+                                <p className = {styles.d1}>Duration: </p>
+                                <br/>
+                                <p className = {styles.d2}> Nov 2024</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            <div className = {styles.cont}> 
-                <p className = {styles.text}>
-                    As AI and autonomous driving technologies evolve, I envisioned a collaboration where Waymo seamlessly integrates with a service like Airbnb. In this concept, I explored how the collaboration between Airbnb and Waymo could deliver personalized travel experiences. 
-                </p>
-                <p className = {styles.text}>
-            </p>
             </div>
-         </div>
         <div>
             <Video
                 thumbnail =  "./../../Waymo.mp4"

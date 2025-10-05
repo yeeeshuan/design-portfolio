@@ -14,25 +14,23 @@ const Navbar = () => {
         <>
         <nav className = {styles.nav}>
         {!matches?
-           (<><div className = {styles.name}>
+           (<>
+           <div className = {styles.name} style={{width: "51%"}}>
                <Link href = "/">
-                   <span className = {styles.styledLink}> Ethan Huang </span>
+                   <span className = {styles.styledLink}>Ethan Huang </span>
                </Link>
            </div>
-           <div>
+           <div style={{width:"29%"}}>
                <Link href = "/">
-               <span className = {styles.styledLink}> Work </span>
+               <span> Design Engineer </span>
                </Link>
-               {/* <Link href = "/experiments">
-               <span className = {styles.styledLink}> Experiments </span>
-               </Link> */}
-               {/* <Link href = "/play">
-               <span className = {styles.styledLink}> Play </span>
-               </Link> */}
+            </div>
+            <div style={{width:"20%", textAlign:"left"}}>
                <Link href = "/about">
-               <span className = {styles.styledLink}> About </span>
+               <span> San Francisco, CA</span>
                </Link>
-           </div></>)
+            </div>
+           </>)
            :(
             <>
         <div className = {styles.name}>
@@ -40,35 +38,11 @@ const Navbar = () => {
                    <span className = {styles.styledLink}> Ethan Huang </span>
                </Link>
         </div>
-        <div onClick={() => setIsClicked((prevClick) => !prevClick)}>
-            <Image className = {styles.cross} style={{ transform: isClicked ? "rotate(0deg)" : "rotate(45deg)"}} width="30%" height="30%" src={Cross}/>
+        <div style={{textAlign:"right"}}>
+                Design Engineer
         </div></>
            )}
         </nav>
-        <div className = {styles.deskNav} style={{ transition: "0.3s", display: isClicked ? "none" : "block"}} >
-            <div className = {styles.deskLinks}>
-            <h1 className ={styles.deskLink}>
-                    <Link href = "/">
-                        Work 
-                    </Link>
-               </h1>
-               <h1 className ={styles.deskLink}>
-                <Link href = "/experiments">
-                    Experiments
-                </Link>
-               </h1>
-               <h1 className ={styles.deskLink}>
-               <Link href = "/play">
-                Play 
-               </Link>
-               </h1>
-               <h1 className ={styles.deskLink}>
-               <Link href = "/about">
-                About
-            </Link>
-            </h1>
-            </div>
-        </div>
         </>
     )
   }; 
