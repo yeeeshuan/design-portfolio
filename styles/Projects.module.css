@@ -150,12 +150,12 @@ iframe.ytplayer{
 
 .desCont{
     display: flex;
-    gap: 1rem;
+    justify-content: space-between;
     margin-top: 1rem;
 }
 
 .des{
-    width: 33%; 
+    width: 25%; 
 }
 
 h1.title{
@@ -462,7 +462,7 @@ a.links:hover{
     }
 
     .des{
-        width: 40%; 
+        width: 43%; 
         margin-top: 0.5rem;
     }
 

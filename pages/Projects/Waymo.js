@@ -39,6 +39,13 @@ export default function Zenda(){
                                 <p className = {styles.d2}> Product Designer</p>
                             </div>
                             <div className={styles.des}>
+                                <p className = {styles.d1}>Tools: </p>
+                                <br/>
+                                <p className = {styles.d2}> 
+                                    Figma
+                                </p> 
+                            </div>
+                            <div className={styles.des}>
                                 <p className = {styles.d1}>Duration: </p>
                                 <br/>
                                 <p className = {styles.d2}> Nov 2024</p>

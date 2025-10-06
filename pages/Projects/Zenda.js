@@ -44,6 +44,21 @@ export default function Zenda(){
                                 Frontend Developer </p> 
                             </div>
                             <div className={styles.des}>
+                                <p className = {styles.d1}>Tools: </p>
+                                <br/>
+                                <p className = {styles.d2}> 
+                                    Next.js
+                                    <br/>
+                                    OpenAI API
+                                    <br/>
+                                    MongoDB
+                                    <br/>
+                                    Sentry
+                                    <br/>
+                                    Figma
+                                </p> 
+                            </div>
+                            <div className={styles.des}>
                                 <p className = {styles.d1}>Duration: </p>
                                 <br/>
                                 <p className = {styles.d2}> May 2024 - May 2025 </p>

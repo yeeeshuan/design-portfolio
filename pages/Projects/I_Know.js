@@ -40,6 +40,21 @@ export default function iKnow(){
                                 Frontend Developer </p> 
                             </div>
                             <div className={styles.des}>
+                                <p className = {styles.d1}>Tools: </p>
+                                <br/>
+                                <p className = {styles.d2}> 
+                                    Next.js
+                                    <br/>
+                                    OpenAI API
+                                    <br/>
+                                    Google Sheets API
+                                    <br/>
+                                    Leafletjs
+                                    <br/>
+                                    Figma
+                                </p> 
+                            </div>
+                            <div className={styles.des}>
                                 <p className = {styles.d1}>Duration: </p>
                                 <br/>
                                 <p className = {styles.d2}> Jan 2025 - May 2025 </p>
