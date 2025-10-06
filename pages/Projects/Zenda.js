@@ -24,7 +24,7 @@ export default function Zenda(){
                     </h1>
                     <br/>
                     <p className = {styles.text}>
-                    In the summer of 2024, I was hired by Zenda Consulting as a Design Engineer. I worked on the product team, designing and developing a new software system/product.
+                    In the summer of 2024, I was hired by Zenda Consulting as a Design Engineer. Over the course of a year—working full-time during the summer and part-time during the school year—I worked on the product team, designing and developing a new software system/product.
                     <br/>
                     <br/>
                     During my time at Zenda, I worked on:<br/>
@@ -51,7 +51,7 @@ export default function Zenda(){
                             <div className={styles.des}>
                                 <p className = {styles.d1}>Link to Project: </p>
                                 <br/>
-                                <p style={{margin:0}}><a href = "https://www.zendaplatform.com/" rel="noopener noreferrer" target="_blank">Product Site&#8599;</a></p>
+                                <p style={{margin:0}}><a href = "https://www.zendaplatform.com/" rel="noopener noreferrer" target="_blank">Product Site &#8599;</a></p>
                             </div>
                         </div>
                     </div>

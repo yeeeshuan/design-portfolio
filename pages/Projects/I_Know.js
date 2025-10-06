@@ -47,7 +47,7 @@ export default function iKnow(){
                             <div style={{width:"33%"}}>
                                 <p className = {styles.d1}>Link to Project: </p>
                                 <br/>
-                                <p style={{margin:0}}><a href = "https://github.com/TEDxCMU/2025-I-Know-A-Place" rel="noopener noreferrer" target="_blank">Github&#8599;</a></p>
+                                <p style={{margin:0}}><a href = "https://github.com/TEDxCMU/2025-I-Know-A-Place" rel="noopener noreferrer" target="_blank">Github &#8599;</a></p>
                             </div>
                         </div>
                     </div>

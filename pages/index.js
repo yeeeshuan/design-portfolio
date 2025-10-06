@@ -57,7 +57,7 @@ function Home() {
             </div>
             <div style={{width: "29%"}}>
               <h2 className={styles.intro}>
-              Currently, Innovation Designer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/about/innovation-studio">IBM&#8599;</a></span>
+              Currently, Innovation Designer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/about/innovation-studio">IBM &#8599;</a></span>
               <br/>
               and working on freelance projects.
               </h2>
@@ -67,7 +67,7 @@ function Home() {
                 Let&rsquo;s chat:
                 <br/>
                 <a href = "mailto:yehuang2020@gmail.com" rel="noopener noreferrer" target="_blank">
-                <span style={{color: "#2897FF"}}>Email&#8599;</span>
+                <span style={{color: "#2897FF"}}>Email &#8599;</span>
                 </a>
               </h2>
               {/* <div className = {styles.holder}>

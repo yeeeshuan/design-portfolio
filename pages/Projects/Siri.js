@@ -52,7 +52,7 @@ export default function Siri(){
                             <div className={styles.des}>
                                 <p className = {styles.d1}>Link to Project: </p>
                                 <br/>
-                                <p style={{margin:0}}><a href = "https://github.com/yeeeshuan/Siri_AI" rel="noopener noreferrer" target="_blank"> Github&#8599;</a></p>
+                                <p style={{margin:0}}><a href = "https://github.com/yeeeshuan/Siri_AI" rel="noopener noreferrer" target="_blank"> Github &#8599;</a></p>
                             </div>
                         </div>
                     </div>
