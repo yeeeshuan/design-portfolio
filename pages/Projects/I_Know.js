@@ -31,20 +31,20 @@ export default function iKnow(){
                     <br/>
                     <br/>
                     <div>
-                        <div style={{display:"flex", gap: "1rem", marginTop:"1rem"}}>
-                            <div style={{width:"33%"}}>
+                        <div className={styles.desCont}>
+                            <div className={styles.des}>
                                 <p className = {styles.d1}>Role: </p>
                                 <br/>
                                 <p className = {styles.d2}> Product Designer
                                 <br/>
                                 Frontend Developer </p> 
                             </div>
-                            <div style={{width:"33%"}}>
+                            <div className={styles.des}>
                                 <p className = {styles.d1}>Duration: </p>
                                 <br/>
                                 <p className = {styles.d2}> Jan 2025 - May 2025 </p>
                             </div>
-                            <div style={{width:"33%"}}>
+                            <div className={styles.des}>
                                 <p className = {styles.d1}>Link to Project: </p>
                                 <br/>
                                 <p style={{margin:0}}><a href = "https://github.com/TEDxCMU/2025-I-Know-A-Place" rel="noopener noreferrer" target="_blank">Github &#8599;</a></p>
