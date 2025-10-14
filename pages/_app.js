@@ -8,6 +8,7 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>My App</title>
+      </Head>
          {/* Google Analytics */}
          <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-NZ9DNR5Z2J"
@@ -23,7 +24,6 @@ export default function MyApp({ Component, pageProps }) {
             });
           `}
         </Script>
-      </Head>
       <Component {...pageProps} />
     </>
   );
