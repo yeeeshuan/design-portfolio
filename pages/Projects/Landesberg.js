@@ -131,3 +131,5 @@
 // }
 
 // export default Landesberg
+
+export default function Landesberg(){}

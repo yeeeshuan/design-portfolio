@@ -186,3 +186,5 @@
 // }
 
 // export default TED
+
+export default function TED(){}

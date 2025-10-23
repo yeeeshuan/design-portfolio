@@ -7,7 +7,7 @@
 // import Thumbnail from '../../Images/About/Zenda.png';
 // import Video from '../../components/video';
 
-// export default function LF(){
+export default function LF(){
 //     return(
 //         <div>
 //             <Head>
@@ -69,4 +69,4 @@
 //         <Footer/>
 //         </div>
 //     )
-// }
+}

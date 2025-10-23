@@ -46,7 +46,7 @@
 // }
 
 
-// export default function Cookie(){
+export default function Cookie(){
 
 //     const size = useWindowDimensions();
 //     let width = size.width; 
@@ -379,4 +379,4 @@
 //         <Footer/>
 //         </div>
 //     )
-// }
+}

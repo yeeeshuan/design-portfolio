@@ -11,7 +11,7 @@
 // import Student from "../../Images/Projects/Replit/Student.png"; 
 // import Prof from "../../Images/Projects/Replit/Prof.png"; 
 
-// export default function Gmail(){
+export default function Gmail(){
 //     return(
 //         <div>
 //             <Head>
@@ -277,4 +277,4 @@
 //         <Footer/>
 //         </div>
 //     )
-// }
+}

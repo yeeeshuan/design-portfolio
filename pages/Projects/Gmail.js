@@ -11,7 +11,7 @@
 // import Folder from "../../Images/Projects/Gmail/Folder.png"
 // import Video from '../../components/video';
 
-// export default function Gmail(){
+export default function Gmail(){
 //     return(
 //         <div>
 //             <Head>
@@ -271,4 +271,4 @@
 //         <Footer/>
 //         </div>
 //     )
-// }
+}

@@ -22,7 +22,7 @@
 // import K3 from "../../Images/Projects//DH/Kiosk/K_3.png"
 // import K4 from "../../Images/Projects//DH/Kiosk/K_4.png"
 
-// export default function DesignHero(){
+export default function DesignHero(){
 //     return(
 //         <div>
 //             <Head>
@@ -253,4 +253,4 @@
 //             <Footer/>
 //         </div>
 //     )
-// }
+}

@@ -7,7 +7,7 @@
 // import GTM from "../../Images/Projects/Teachable/GTM.png"; 
 // import Figma from "../..//Images/Projects/Teachable/Figma.png"
 
-// export default function Teachable(){
+export default function Teachable(){
 //     return(
 //         <div>
 //              <Head>
@@ -288,4 +288,4 @@
 //             <Footer/>
 //         </div>
 //     )
-// }
+}
