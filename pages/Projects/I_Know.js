@@ -47,7 +47,7 @@ export default function iKnow(){
                                     <br/>
                                     OpenAI API
                                     <br/>
-                                    Google Sheets API
+                                    Google API
                                     <br/>
                                     Leafletjs
                                     <br/>

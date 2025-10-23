@@ -1,10 +1,9 @@
 import styles from "../styles/Projects.module.css"; 
 import Image from "next/image";
-import P7 from '../Images/About/P7.jpg'; 
+
 import Zenda from "../Images/About/Zenda.png"
-import Repl from "../Images/Projects/Replit/Replit.png"
-import Gmail from "../Images/About/Gmail.png";
-import Cookie from "../Images/About/Cookie.png"
+import BSP from "../Images/About/BSP.png"
+
 import onHover from "../Images/About/onHover.png";
 import React, {useState, useEffect, useRef, Component } from 'react';
 
@@ -129,8 +128,10 @@ class Projects extends Component{
             projects:[
                 {type : "v", category:"P", name : "Siri Desktop", description: "AI Productivity Tool", thumbnail: "./Siri_AI.mp4", link: "Projects/Siri" }, 
                 {type : "i", category:"C", name : "Zenda Platform", description: "Building product features with GenAI", image: Zenda, link: "Projects/Zenda" }, 
+                {type : "i", category:"C", name : "Best Summer Programs", description: "Helping families navigate high school summer programs", image: BSP , link: "Projects/BSP" }, 
                 {type : "v", category:"P", name : "Waymo x Airbnb", description: "Waymo x Airbnb collaboration", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
                 {type : "v", category:"C", name : "I Know a Place", description: "Interactive mapping platform for telling stories", thumbnail: "./I_Know.mp4", link: "Projects/I_Know" }, 
+
                 // {type : "i", category:"P", name : "Replit Community Page", description: "Redesigning the Replit community page", image: Repl, link: "Projects/Replit"},
                 // {type : "i", category:"P", name : "Gmail Filtering System Redesign", description: "Redesigning Gmail filtering functionalities", image : Gmail, link: "Projects/Gmail" }, 
                 // {type : "i", category:"C", name : "Cookie Monster Cooking", description: "Creating transparent data collection methods with GenAI", image: Cookie, link: "Projects/Cookie"},
