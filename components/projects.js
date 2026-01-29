@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Zenda from "../Images/About/Zenda.png"
 import BSP from "../Images/About/BSP.png"
+import Repl from "../Images/Projects/Replit/Replit.png"
 
 import onHover from "../Images/About/onHover.png";
 import React, {useState, useEffect, useRef, Component } from 'react';
@@ -131,7 +132,6 @@ class Projects extends Component{
                 {type : "i", category:"C", name : "Best Summer Programs", description: "Helping families navigate high school summer programs", image: BSP , link: "Projects/BSP" }, 
                 {type : "v", category:"P", name : "Waymo x Airbnb", description: "Waymo x Airbnb collaboration", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
                 {type : "v", category:"C", name : "I Know a Place", description: "Interactive mapping platform for telling stories", thumbnail: "./I_Know.mp4", link: "Projects/I_Know" }, 
-
                 // {type : "i", category:"P", name : "Replit Community Page", description: "Redesigning the Replit community page", image: Repl, link: "Projects/Replit"},
                 // {type : "i", category:"P", name : "Gmail Filtering System Redesign", description: "Redesigning Gmail filtering functionalities", image : Gmail, link: "Projects/Gmail" }, 
                 // {type : "i", category:"C", name : "Cookie Monster Cooking", description: "Creating transparent data collection methods with GenAI", image: Cookie, link: "Projects/Cookie"},

@@ -21,14 +21,10 @@ const Navbar = () => {
                </Link>
            </div>
            <div style={{width:"29%"}}>
-               <Link href = "/">
                <span> Design Engineer </span>
-               </Link>
             </div>
             <div style={{width:"20%", textAlign:"left"}}>
-               <Link href = "/about">
                <span> San Francisco, CA</span>
-               </Link>
             </div>
            </>)
            :(

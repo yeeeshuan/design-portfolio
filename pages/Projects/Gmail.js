@@ -1,15 +1,15 @@
-// import styled from 'styled-components'; 
-// import styles from "../../styles/Projects.module.css"; 
-// import Image from "next/image";
-// import Head from 'next/head';
-// import Navbar from '../../components/navbar';
-// import Footer from '../../components/footer';
-// import Thumbnail from "../../Images/About/Gmail.png";
-// import Mock from "../../Images/Projects/Gmail/Mock.png"; 
-// import But from "../../Images/Projects/Gmail/Buttons.png"
-// import Code from "../../Images/Projects/Gmail/Code.png"
-// import Folder from "../../Images/Projects/Gmail/Folder.png"
-// import Video from '../../components/video';
+import styled from 'styled-components'; 
+import styles from "../../styles/Projects.module.css"; 
+import Image from "next/image";
+import Head from 'next/head';
+import Navbar from '../../components/navbar';
+import Footer from '../../components/footer';
+import Thumbnail from "../../Images/About/Gmail.png";
+import Mock from "../../Images/Projects/Gmail/Mock.png"; 
+import But from "../../Images/Projects/Gmail/Buttons.png"
+import Code from "../../Images/Projects/Gmail/Code.png"
+import Folder from "../../Images/Projects/Gmail/Folder.png"
+import Video from '../../components/video';
 
 export default function Gmail(){
 //     return(
@@ -24,13 +24,7 @@ export default function Gmail(){
 //             Gmail Filtering System Redesign
 //             </h1>
 //             <div className = {styles.intro}>
-//             <div className = {styles.role}>
-//                 <p className = {styles.d1}>Role //</p><p className = {styles.d2}> Product Designer, Developer </p> 
-//                 <br></br>
-//                 <p className = {styles.d1}>Duration //</p><p className = {styles.d2}> September 2023 </p>
-//                 <br></br>
-//                 <p className = {styles.d1}>Tools //</p><p className = {styles.d2}> Figma, Next.js</p>
-//                 </div>
+
 //             <div className = {styles.cont}> 
 //                 <p className = {styles.text}>
 //                     This project is a redesign of the Gmail filtering system. By incorporating folders into Gmail, this project looks at how to optimize user flow accessing important mail by grouping emails that are related using folders and subfolders. 
