@@ -47,17 +47,17 @@ function Home() {
         <div className = {styles.introWrap}>
         {!matches && (
           <>
-          <div className={styles.des}>
-            <div style={{width:"51%", paddingRight: "6rem"}}>
+          <div className={styles.des} style={{width:"100%"}}>
+            <div style={{width:"60%", paddingRight: "6rem"}}>
             <h2 className={styles.intro}>
               <span>
                 Hi, I&rsquo;m Ethan! I design, prototype, and build new digital experiences. I graduated from Carnegie Mellon University, where I studied Interaction Design and Computer Science. 
               </span>
             </h2>
             </div>
-            <div style={{width: "29%"}}>
+            <div style={{width: "40%"}}>
               <h2 className={styles.intro}>
-              Currently, Innovation Designer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/about/innovation-studio">IBM &#8599;</a></span>
+              Currently, Strategy Designer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/about/innovation-studio">IBM &#8599;</a></span>
               <br/>
               and working on freelance projects.
               </h2>

@@ -25,7 +25,8 @@ export default function BSP(){
                     <br/>
                     <br/>
                     I led the project while serving as the lead developer and contributing to site&rsquo;s design with
-                    <a href = "https://diondesigns.me/" rel="noopener noreferrer" target="_blank" style={{color: "var(--card-active)"}}> Dion &#8599; </a>
+                    <a href = "https://aarnavdesigns.com/" rel="noopener noreferrer" target="_blank" style={{color: "var(--card-active)"}}> Aarnav &#8599; </a>, 
+                    <a href = "https://diondesigns.me/" rel="noopener noreferrer" target="_blank" style={{color: "var(--card-active)"}}> Dion &#8599; </a>, 
                     and 
                     <a href = "https://www.linkedin.com/in/yuer-j-zhu/" rel="noopener noreferrer" target="_blank" style={{color: "var(--card-active)"}}> Yuer &#8599;</a>.
                     </p>
@@ -47,6 +48,8 @@ export default function BSP(){
                                 <br/>
                                 <p className = {styles.d2}> 
                                     Next.js
+                                    <br/>
+                                    Neon Postgres
                                     <br/>
                                     Google API
                                     <br/>
