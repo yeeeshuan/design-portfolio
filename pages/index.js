@@ -70,9 +70,6 @@ function Home() {
                 <span style={{color: "#2897FF"}}>Email &#8599;</span>
                 </a>
               </h2>
-              {/* <div className = {styles.holder}>
-              <Confetti/>
-              </div> */}
             </div>
           </div>
           <div>
@@ -90,7 +87,7 @@ function Home() {
           <br/>
           <br/>
             <p className = {styles.curr}>
-             Currently, Innovation Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span>.
+             Currently, Strategy Designer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span>.
             </p>
         </div>
         )}
