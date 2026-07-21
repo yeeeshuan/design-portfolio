@@ -62,7 +62,7 @@ export default function Zenda(){
             </div>
         <div>
             <Video
-                thumbnail =  "./../../Figma_MCP.mp4"
+                thumbnail =  "./../../Project_Update.mp4"
             />
         </div>
         <div className = {styles.page}>
@@ -70,13 +70,38 @@ export default function Zenda(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                Mural to Figma Workflow
+                01: Mural to Figma Workflow
             </h1>
             <p className = {styles.text}>
                 I built is an internal Agentic AI tool layer for IBM Bob, IBM&rsquo;s generative task assistant, which integrates directly with Mural, a white boarding tool we use with clients, via the Model Context Protocol.
                 <br/><br/>
                 A problem I noticed is that during intense client workshops, critical requirements often get lost in translation with the team. I engineered this to act as a bridge, enabling Bob to dynamically read, synthesize, and structurally execute changes directly into Mural. 
+                <br/><br/>
+                Here&rsquo;s how it works: 
             </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div className={styles.diagram}>
+                <pre>
+                <code>
+                Client Workshop (Mural)<br/><br/>
+                │   unstructured sticky notes, research, & requirements<br/>
+                ▼<br/><br/>
+                Custom Mural MCP Server<br/><br/>
+                │   exposes canvas objects & spatial context via Model Context Protocol<br/>
+                ▼<br/><br/>
+                IBM Bob (Generative Task Assistant)<br/><br/>
+                │   synthesizes raw notes & generates structured UI/UX specs<br/>
+                ▼<br/><br/>
+                IBM Internal Figma MCP<br/><br/>
+                │   executes layout mutations & generates component templates<br/>
+                ▼<br/><br/>
+                Figma Wireframe Templates<br/>
+                </code>
+                </pre>
             </div>
         </div>
         <div className = {styles.page}>
@@ -92,7 +117,7 @@ export default function Zenda(){
         <div className = {styles.page}>
             <div>
                 <p className = {styles.d}> 
-                    Using Mural MCP to synthesize Mural board
+                    Using Custom Mural MCP to synthesize Mural board
                 </p>
             </div>
             <div>
@@ -131,11 +156,37 @@ export default function Zenda(){
             </div>     
             <div>
             <h1 className = {styles.bTitle}> 
-                Monday.com Workflow
+                02: Monday.com Workflow
             </h1>
             <p className={styles.text}>
-                Engineered an automated Monday.com workflow that dynamically enriches board data from unstructured user inputs. When a project name or status update is modified, a webhook triggers a custom NodeJS server hosted on Railway, which processes the payload via the OpenAI API and populates the remaining board fields automatically.
+                Engineered an automated Monday.com workflow that dynamically enriches board data from unstructured user inputs. When a project name or status update is modified, a webhook triggers a custom NodeJS server hosted on Railway, which processes the payload via the OpenAI API and populates the remaining board fields automatically.<br/><br/>
+                Here&rsquo;s how it works: 
             </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div>
+            </div>
+            <div className={styles.diagram}>
+                <pre>
+                <code>
+                    monday.com (Board is updated)<br/><br/>
+                    │  signs the POST with your MONDAY_SIGNING_SECRET (JWT)<br/>
+                    │  sends over HTTPS (TLS encrypted)<br/>
+                    ▼<br/><br/>
+                    your server (Railway)<br/><br/>
+                    │  verifies JWT – rejects anything not from monday.com<br/>
+                    │  extracts note text<br/>
+                    ▼<br/><br/>
+                    watsonx.ai (IBM Cloud – stays within IBM infrastructure)<br/><br/>
+                    │  parses the note<br/>
+                    ▼<br/><br/>
+                    monday.com GraphQL API (over HTTPS)<br/><br/>
+                    │  updates the columns<br/>
+                    ▼<br/><br/>
+                    board updated <br/>
+                </code>
+                </pre>
             </div>
         </div>
         <div className = {styles.page}>
