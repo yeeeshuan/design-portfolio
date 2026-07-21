@@ -36,14 +36,14 @@ class Confetti extends Component{
             <div>
             <button className={styles.button} style={{width: "175px", height:"175px"}} onClick={this.handleClick}>
                 <div style={{borderRadius: '5px', overflow: 'hidden'}}>
-                    <Image style={{borderRadius: '5px'}} src = {this.state.rotation[this.state.index]} alt = "photo rotation"/>
+                    <Image style={{borderRadius: '5px', width:'100%', height:'auto'}} src = {this.state.rotation[this.state.index]} alt = "photo rotation"/>
                 </div>
             </button>
             <div className={styles.invisible}>
-                <Image src = {One} alt = "photo rotation"/>
-                <Image src = {Two} alt = "photo rotation"/>
-                <Image src = {Three} alt = "photo rotation"/>
-                <Image src = {Four} alt = "photo rotation"/>
+                <Image src = {One} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
+                <Image src = {Two} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
+                <Image src = {Three} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
+                <Image src = {Four} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
             </div>
             </div>
         );

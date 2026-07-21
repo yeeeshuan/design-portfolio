@@ -7,7 +7,6 @@ import Head from 'next/head';
 import Footer from '../components/footer';
 import Confetti from '../components/conf';
 import { useMediaQuery } from 'react-responsive';
-import { name } from 'file-loader';
 
 
 function Home() {

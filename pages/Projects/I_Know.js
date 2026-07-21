@@ -67,7 +67,7 @@ export default function IKnow(){
                 </p>
             </div>
             <div>
-                <Image src={IK} alt="I Know a Place map on first load" priority sizes="(max-width: 600px) 100vw, 80vw"/>
+                <Image src={IK} alt="I Know a Place map on first load" priority sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -218,7 +218,7 @@ export default function IKnow(){
                 </p>
             </div>
             <div>
-                <Image src={Card} alt="Design components" sizes="(max-width: 600px) 100vw, 80vw"/>
+                <Image src={Card} alt="Design components" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
             </div>
         </div> 
         </main>

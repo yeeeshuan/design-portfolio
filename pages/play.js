@@ -44,35 +44,35 @@ return(
         <div className = {styles.photoGallery}>
             <div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {P1}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P1}  alt = "P1"/> 
                 </div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {P2}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P2}  alt = "P1"/> 
                 </div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {P3}  alt = "P1"/> 
-                </div>
-            </div>
-            <div>
-                <div className = {styles.sep}>
-                    <Image className = "P1" src = {P4}  alt = "P1"/> 
-                </div>
-                <div className = {styles.sep}>
-                    <Image className = "P1" src = {P5}  alt = "P1"/> 
-                </div>
-                <div className = {styles.sep}>
-                    <Image className = "P1" src = {P6}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P3}  alt = "P1"/> 
                 </div>
             </div>
             <div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {P7}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P4}  alt = "P1"/> 
                 </div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {P8}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P5}  alt = "P1"/> 
                 </div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {P9}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P6}  alt = "P1"/> 
+                </div>
+            </div>
+            <div>
+                <div className = {styles.sep}>
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P7}  alt = "P1"/> 
+                </div>
+                <div className = {styles.sep}>
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P8}  alt = "P1"/> 
+                </div>
+                <div className = {styles.sep}>
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {P9}  alt = "P1"/> 
                 </div>
             </div>
         </div>
@@ -84,31 +84,31 @@ return(
         <div className = {styles.photoGallery}>
             <div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {S1}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {S1}  alt = "P1"/> 
                 </div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {S4}  alt = "P1"/> 
-                </div>
-            </div>
-            <div>
-                <div className = {styles.sep}>
-                    <Image className = "P1" src = {S2}  alt = "P1"/> 
-                </div>
-                <div className = {styles.sep}>
-                    <Image className = "P1" src = {S5}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {S4}  alt = "P1"/> 
                 </div>
             </div>
             <div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {S6}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {S2}  alt = "P1"/> 
                 </div>
                 <div className = {styles.sep}>
-                    <Image className = "P1" src = {S3}  alt = "P1"/> 
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {S5}  alt = "P1"/> 
+                </div>
+            </div>
+            <div>
+                <div className = {styles.sep}>
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {S6}  alt = "P1"/> 
+                </div>
+                <div className = {styles.sep}>
+                    <Image className = "P1" style={{width:'100%', height:'auto'}} src = {S3}  alt = "P1"/> 
                 </div>
             </div>
         </div>
         <div className = {styles.singlePhoto}>
-            <Image className = "P1" src = {S7}  alt = "P1"/> 
+            <Image className = "P1" style={{width:'100%', height:'auto'}} src = {S7}  alt = "P1"/> 
         </div>
         <br></br>
         <br></br>

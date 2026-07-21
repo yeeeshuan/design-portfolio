@@ -77,7 +77,7 @@ function Img(props){
     return(
         <div className={styles.imageWrap}>
             <a href={props.link}>
-                <Image src={props.image} alt="image"/>
+                <Image src={props.image} alt="image" style={{width:'100%', height:'auto'}}/>
                 <div className={styles.cardDes}>
                     <div className={styles.cardLeft}>
                         <h1 className={styles.title}>{props.name}</h1>

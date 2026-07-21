@@ -618,8 +618,8 @@ a.links:hover{
     }
 
     p.words{
-        font-size: 14px; 
-        color: lightgrey;
+        font-size: 14px;
+        color: var(--text-words);
     }
 
     .project{

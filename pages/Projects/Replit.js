@@ -89,7 +89,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <Image src = {UI}/>
+                <Image src = {UI} alt="Current UI Systems" style={{width:'100%', height:'auto'}}/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -111,7 +111,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <Image src = {Journey}/>
+                <Image src = {Journey} alt="Journey map" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>   
         <div className = {styles.page}>
@@ -243,7 +243,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <Image src = {Student}/>
+                <Image src = {Student} alt="Student mockup" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>   
         <div className = {styles.page}>
@@ -253,7 +253,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <Image src = {Prof}/>
+                <Image src = {Prof} alt="Prof" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>   
         <div className = {styles.page}>

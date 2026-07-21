@@ -89,29 +89,29 @@ export default function TEDxCMU(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Mushroom}/>
+                    <Image src = {Mushroom} alt="Mushroom render" style={{width:'100%', height:'auto'}}/>
                 </div>
-            </div>   
+            </div>
             <div className = {styles.page}>
                 <div>
-                    <p className = {styles.d}> 
+                    <p className = {styles.d}>
                         Succulent render
                     </p>
                 </div>
                 <div>
-                    <Image src = {Succ}/>
+                    <Image src = {Succ} alt="Succulent render" style={{width:'100%', height:'auto'}}/>
                 </div>
-            </div>   
+            </div>
             <div className = {styles.page}>
                 <div>
-                    <p className = {styles.d}> 
+                    <p className = {styles.d}>
                         Flower render
                     </p>
                 </div>
                 <div>
-                    <Image src = {Flower}/>
+                    <Image src = {Flower} alt="Flower render" style={{width:'100%', height:'auto'}}/>
                 </div>
-            </div>   
+            </div>
          </div>
         <br/>
         <br/>

@@ -70,7 +70,7 @@ export default function Siri(){
                         <p className={styles.d}>Command prompts for Siri</p>
                     </div>
                     <div>
-                        <Image src={Issues} alt="Command prompts for Siri" priority sizes="(max-width: 600px) 100vw, 80vw"/>
+                        <Image src={Issues} alt="Command prompts for Siri" priority sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
                     </div>
                 </div>
                 <div className={styles.page}>
@@ -90,7 +90,7 @@ export default function Siri(){
                         <p className={styles.d}>Mini-App Journey</p>
                     </div>
                     <div>
-                        <Image src={UC1} alt="Mini-App Journey" sizes="(max-width: 600px) 100vw, 80vw"/>
+                        <Image src={UC1} alt="Mini-App Journey" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
                     </div>
                 </div>
                 <div className={styles.page}>

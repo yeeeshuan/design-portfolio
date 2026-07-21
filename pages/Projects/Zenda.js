@@ -185,7 +185,7 @@ export default function Zenda(){
             </div>
             <div className={styles.image_2}>
                 <div>
-                    <Image src={States} alt="Input modal states" sizes="(max-width: 600px) 100vw, 40vw"/>
+                    <Image src={States} alt="Input modal states" sizes="(max-width: 600px) 100vw, 40vw" style={{width:'100%', height:'auto'}}/>
                 </div>
                 <div>
                     <Video

@@ -99,7 +99,7 @@ export default function IBM(){
                         <p className={styles.d}>Sample Mural board</p>
                     </div>
                     <div>
-                        <Image src={Mural} alt="Sample Mural board" priority sizes="(max-width: 600px) 100vw, 80vw"/>
+                        <Image src={Mural} alt="Sample Mural board" priority sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
                     </div>
                 </div>
                 <div className={styles.page}>

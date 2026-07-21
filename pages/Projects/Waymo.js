@@ -123,7 +123,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W4} alt="User Flow for Waymo x Airbnb Experience" priority sizes="(max-width: 600px) 100vw, 80vw"/>
+                <Image src={W4} alt="User Flow for Waymo x Airbnb Experience" priority sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
 
@@ -150,7 +150,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W1} alt="Search Bar on Home Page" sizes="(max-width: 600px) 100vw, 80vw"/>
+                <Image src={W1} alt="Search Bar on Home Page" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
         
@@ -161,7 +161,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W2} alt="Tile on Location Page" sizes="(max-width: 600px) 100vw, 80vw"/>
+                <Image src={W2} alt="Tile on Location Page" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
 
@@ -172,7 +172,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W3} alt="Card on Confirmation Page" sizes="(max-width: 600px) 100vw, 80vw"/>
+                <Image src={W3} alt="Card on Confirmation Page" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
 
@@ -274,7 +274,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W5} alt="Components" sizes="(max-width: 600px) 100vw, 80vw"/>
+                <Image src={W5} alt="Components" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
 
