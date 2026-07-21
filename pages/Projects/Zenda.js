@@ -16,7 +16,7 @@ export default function Zenda(){
             <Navbar/>
             <main className={styles.main}>
                 <div className={styles.hero}>
-                    <img src={Thumbnail.src} alt="Zenda Platform" style={{objectFit:"cover",width:"100%",height:"100%",maxHeight:"70vh"}}/>
+                    <img src={Thumbnail.src} alt="Zenda Platform" style={{objectFit:"cover",width:"100%",height:"100%",maxHeight:"70vh", objectPosition:"center"}}/>
                 </div>
                 <div className={styles.intro}>
                     <div className={styles.introTitle}>
