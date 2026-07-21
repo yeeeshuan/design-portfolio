@@ -120,8 +120,8 @@ export default function Siri(){
                         <p className={styles.d}>Tile Layout</p>
                     </div>
                     <div className={styles.image_2}>
-                        <img src={L1.src} alt="Tile layout 1"/>
-                        <img src={L2.src} alt="Tile layout 2"/>
+                        <img src={L1.src} alt="Tile layout 1" style={{width:'100%', height:'auto'}}/>
+                        <img src={L2.src} alt="Tile layout 2" style={{width:'100%', height:'auto'}}/>
                     </div>
                 </div>
                 <div className={styles.page}>
@@ -129,8 +129,8 @@ export default function Siri(){
                         <p className={styles.d}>Tile Resizing</p>
                     </div>
                     <div className={styles.image_2}>
-                        <img src={L3.src} alt="Tile resizing 1"/>
-                        <img src={L4.src} alt="Tile resizing 2"/>
+                        <img src={L3.src} alt="Tile resizing 1" style={{width:'100%', height:'auto'}}/>
+                        <img src={L4.src} alt="Tile resizing 2" style={{width:'100%', height:'auto'}}/>
                     </div>
                 </div>
                 <div className={styles.page}>
