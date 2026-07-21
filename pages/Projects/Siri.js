@@ -108,11 +108,11 @@ export default function Siri(){
                     </div>
                     <div className={styles.siriImg}>
                         <div className={styles.siriImg1}>
-                            <Image src={T1} alt="Tiles component" sizes="(max-width: 600px) 100vw, 55vw"/>
+                            <Image src={T1} alt="Tiles component" sizes="(max-width: 600px) 100vw, 55vw" style={{width:'100%', height:'auto'}}/>
                         </div>
                         <div className={styles.siriImg2}>
-                            <Image src={Input} alt="Input component" sizes="(max-width: 600px) 100vw, 40vw"/>
-                            <Image src={Prompt} alt="Prompt component" sizes="(max-width: 600px) 100vw, 40vw"/>
+                            <Image src={Input} alt="Input component" sizes="(max-width: 600px) 100vw, 40vw" style={{width:'100%', height:'auto'}}/>
+                            <Image src={Prompt} alt="Prompt component" sizes="(max-width: 600px) 100vw, 40vw" style={{width:'100%', height:'auto'}}/>
                         </div>
                     </div>
                 </div>

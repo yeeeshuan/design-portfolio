@@ -9,11 +9,66 @@ body {
   font-weight: 500;
 }
 
+/* ── Dark theme (default) ── */
 :root {
-  --card-active: #2897FF; 
-  --background:  #212121; 
-  --background-active: #373737; 
-  --font-size: 16px;
+  --card-active:        #2897FF;
+  --background:         #212121;
+  --background-active:  #373737;
+  --font-size:          16px;
+
+  /* surfaces */
+  --bg-page:            #000000;
+  --bg-nav:             #171717;
+  --bg-main:            #000000;
+  --bg-card:            #212121;
+  --bg-card-hover:      #373737;
+  --bg-diagram:         #0d0d0d;
+  --bg-button:          #212121;
+  --bg-button-hover:    #373737;
+
+  /* text */
+  --text-primary:       #ffffff;
+  --text-secondary:     rgb(148, 148, 148);
+  --text-muted:         lightgrey;
+  --text-nav:           #ffffff;
+
+  /* borders */
+  --border-subtle:      rgb(50, 50, 50);
+  --border-diagram:     #2a2a2a;
+  --border-divider:     rgb(88, 88, 88);
+
+  /* links */
+  --link-color:         #2897FF;
+
+  /* project tiles */
+  --text-words:         lightgrey;
+}
+
+/* ── Light theme ── */
+[data-theme="light"] {
+  --background:         #e8e8e8;
+  --background-active:  #d0d0d0;
+
+  --bg-page:            #f5f5f5;
+  --bg-nav:             #ffffff;
+  --bg-main:            #f5f5f5;
+  --bg-card:            #e8e8e8;
+  --bg-card-hover:      #d8d8d8;
+  --bg-diagram:         #efefef;
+  --bg-button:          #e8e8e8;
+  --bg-button-hover:    #d8d8d8;
+
+  --text-primary:       #111111;
+  --text-secondary:     #555555;
+  --text-muted:         #666666;
+  --text-nav:           #111111;
+
+  --border-subtle:      #d0d0d0;
+  --border-diagram:     #cccccc;
+  --border-divider:     #bbbbbb;
+
+  /* project tiles */
+  --text-words:         black;
 }
 
 h1, h2 {
@@ -22,8 +77,8 @@ h1, h2 {
 }
 
 p{
-  font-size: 16px; 
-  line-height: 1.6; 
+  font-size: 16px;
+  line-height: 1.6;
   font-weight: 500;
 }
 
@@ -36,24 +91,20 @@ a {
   box-sizing: border-box;
 }
 
+body {
+  background: var(--bg-page);
+  color: var(--text-primary);
+  transition: background 0.25s, color 0.25s;
+}
+
 @media screen and (max-width:700px) {
   p{
-    font-size: 14px; 
-    line-height: 1.4; 
+    font-size: 14px;
+    line-height: 1.4;
     font-weight: 500;
   }
 
   body{
     font-size: 14px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
   }
 }
