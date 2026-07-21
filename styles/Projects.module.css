@@ -477,7 +477,7 @@ a.links:hover{
 @media (max-width: 600px) {
 
     .main{
-        background-color: black;
+        background-color: var(--bg-main);
         padding-right: 2rem;
         padding-left: 2rem;
         padding-top: 2rem;
@@ -556,16 +556,16 @@ a.links:hover{
     }
     
     h1.mTitle{
-        color: white; 
-        font-size: 30px; 
+        color: var(--text-primary);
+        font-size: 30px;
         line-height: 1.2;
     }
 
     h1.pTitle{
-        margin-top: 15px; 
-        color: white;
+        margin-top: 15px;
+        color: var(--text-primary);
         font-weight: 600;
-        font-size: 30px; 
+        font-size: 30px;
     }
     
     h1.bTitle{
@@ -615,9 +615,9 @@ a.links:hover{
     }
 
     p.d2 {
-        font-size: 14px; 
-        line-height: 1.6; 
-        color: white
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--text-primary);
     }
     
     p.d1 {
