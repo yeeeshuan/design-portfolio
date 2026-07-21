@@ -110,38 +110,116 @@ iframe.ytplayer{
     margin-bottom: 10rem; 
 }
 
+.hero{
+    width: calc(100% + 20rem);
+    margin-left: -10rem;
+    margin-right: -10rem;
+    margin-top: -5rem;
+    max-height: 85vh;
+    overflow: hidden;
+}
+
+.hero > *{
+    width: 100%;
+    max-height: 80vh;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    max-height: 85vh;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.hero video{
+    width: 100%;
+    max-height: 85vh;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
 .main{
     background-color: black;
-    padding-right: 10rem; 
-    padding-left: 10rem; 
-    padding-top: 5rem; 
-    padding-bottom: 5rem; 
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .page{
     margin-top: 3rem;
     margin-bottom: 3rem;  
-    align-items: center;
+    align-items: top;
     display: grid; 
     grid-template-columns: 1fr 8fr;
     grid-gap: 5em;
 }
 
 .intro{
-    margin-top: 0px; 
-    margin-bottom: 8rem; 
-    display: flex; 
-    justify-content:center;
+    margin-bottom: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+    align-items: start;
+    border-bottom: 1px solid rgb(50, 50, 50);
+    padding: 3rem 0;
+}
+
+.introTitle{
+    position: sticky;
+    top: 5rem;
+}
+
+.introTitle h1{
+    margin: 0 0 1.25rem 0;
+    line-height: 1;
+}
+
+.introBody{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.introMeta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 2rem;
+    border-top: 1px solid rgb(50, 50, 50);
+    padding-top: 1.5rem;
+}
+
+.metaField{
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.metaLabel{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2897FF;
+}
+
+.metaValue{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    line-height: 1.6;
 }
 
 .role{
-    width: 30%; 
+    width: 30%;
 }
 
 .cont{
-    padding-left: 5rem; 
-    display: block; 
-    width: 80%; 
+    padding-left: 5rem;
+    display: block;
+    width: 80%;
 }
 
 .project{
@@ -178,9 +256,9 @@ h1.pTitle{
 
 h1.bTitle{
     margin-top: 0; 
-    margin-bottom: 0.5rem; 
+    margin-bottom: 0.75rem; 
     color: rgb(148, 148, 148); 
-    font-size: 36px; 
+    font-size: 32px; 
     font-weight: bold; 
 }
 
@@ -190,9 +268,17 @@ h1.bTitle{
 }
 
 .diagram{
-    border: 0.5px solid white; 
-    padding: 16px 32px; 
-    border-radius: 16px;
+    background-color: #0d0d0d;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    overflow: hidden;
+    font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', monospace;
+    padding: 0 32px 32px 32px; 
+    overflow-x: scroll;
+}
+
+.diagram code{
+    font-size: 12px;
 }
 
 p.d {
@@ -226,7 +312,7 @@ p.d1 {
 p.text{
     color: white; 
     display: inline; 
-    font-size: 16px; 
+    font-size: 15px; 
     line-height: 1.7; 
     font-weight: 500; 
     vertical-align: text-top
@@ -258,6 +344,20 @@ p.text{
     grid-template-columns: repeat(3, 2fr);
     grid-column-gap: 10px;
     margin-top: 25px; 
+}
+
+.videoRow2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    align-items: top;
+}
+
+.videoRow3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    align-items: top;
 }
 
 .image_4{
@@ -354,8 +454,14 @@ a.links:hover{
  @media (min-width: 2000px) {
     .main{
         background-color: black;
-        padding-right: 30rem; 
-        padding-left: 30rem; 
+        padding-right: 30rem;
+        padding-left: 30rem;
+    }
+
+    .hero{
+        width: calc(100% + 60rem);
+        margin-left: -30rem;
+        margin-right: -30rem;
     }
 
  }
@@ -364,10 +470,17 @@ a.links:hover{
 
     .main{
         background-color: black;
-        padding-right: 2rem; 
-        padding-left: 2rem; 
-        padding-top: 2rem; 
-        padding-bottom: 2rem; 
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .hero{
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+        margin-right: -2rem;
+        margin-top: -2rem;
     }
 
     .temp{
@@ -454,12 +567,24 @@ a.links:hover{
     }
 
     .intro{
-        display: block; 
-        margin-top: 0px; 
-        margin-bottom: 3rem; 
-        align-items: center;
-        grid-template-columns: none;
-        grid-gap: none;
+        display: block;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid rgb(50, 50, 50);
+        padding-bottom: 2rem;
+    }
+
+    .introBody{
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .introTitle{
+        position: static;
+    }
+
+    .introMeta{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.25rem 1rem;
     }
 
     .desCont{
@@ -562,7 +687,6 @@ a.links:hover{
     .siriImg2{
         width: 100%
     }
-
 }
 
 @media only screen 

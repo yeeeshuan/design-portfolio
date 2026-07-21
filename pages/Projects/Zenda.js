@@ -1,5 +1,4 @@
-import styled from 'styled-components'; 
-import styles from "../../styles/Projects.module.css"; 
+import styles from "../../styles/Projects.module.css";
 import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
@@ -13,70 +12,46 @@ export default function Zenda(){
     return(
         <div>
             <Head>
-            <title>Ethan Huang Design | Zenda</title>
+                <title>Ethan Huang Design | Zenda</title>
             </Head>
             <Navbar/>
             <main className={styles.main}>
-            <div className = {styles.intro}>
-                <div className = {styles.cont}> 
-                <h1 className = {styles.mTitle}> 
-                        Zenda Platform
-                    </h1>
-                    <br/>
-                    <p className = {styles.text}>
-                    In the summer of 2024, I was hired by Zenda Consulting as a Design Engineer. Over the course of a year—working full-time during the summer and part-time during the school year—I worked on the product team, designing and developing a new software system/product.
-                    <br/>
-                    <br/>
-                    During my time at Zenda, I worked on:<br/>
-                    - Designing and implementing generative AI features into the product<br/>
-                    - Conducting in-home product research for prompt engineering and feature testing<br/>
-                    - Scaling the product to accommodate increased software complexity<br/>
-                    </p>
-                    <br/>
-                    <br/>
-                    <div>
-                        <div className={styles.desCont}>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Role: </p>
-                                <br/>
-                                <p className = {styles.d2}> Product Designer
-                                <br/>
-                                Frontend Developer </p> 
+                <div className={styles.hero}>
+                    <Image src={Thumbnail} alt="Zenda Platform" priority sizes="100vw" style={{objectFit:"cover",width:"100%",height:"100%",maxHeight:"70vh"}}/>
+                </div>
+                <div className={styles.intro}>
+                    <div className={styles.introTitle}>
+                        <h1 className={styles.mTitle}>Zenda Platform</h1>
+                    </div>
+                    <div className={styles.introBody}>
+                        <p className={styles.text}>
+                            In the summer of 2024, I was hired by Zenda Consulting as a Design Engineer. Over the course of a year—working full-time during the summer and part-time during the school year—I worked on the product team, designing and developing a new software system/product.
+                            <br/><br/>
+                            During my time at Zenda, I worked on:<br/>
+                            - Designing and implementing generative AI features into the product<br/>
+                            - Conducting in-home product research for prompt engineering and feature testing<br/>
+                            - Scaling the product to accommodate increased software complexity<br/>
+                        </p>
+                        <div className={styles.introMeta}>
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Role</span>
+                                <span className={styles.metaValue}>Product Designer · Frontend Developer</span>
                             </div>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Tools: </p>
-                                <br/>
-                                <p className = {styles.d2}> 
-                                    Next.js
-                                    <br/>
-                                    OpenAI API
-                                    <br/>
-                                    MongoDB
-                                    <br/>
-                                    Sentry
-                                    <br/>
-                                    Figma
-                                </p> 
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Tools</span>
+                                <span className={styles.metaValue}>Next.js · OpenAI API · MongoDB · Sentry · Figma</span>
                             </div>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Duration: </p>
-                                <br/>
-                                <p className = {styles.d2}> May 2024 - May 2025 </p>
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Duration</span>
+                                <span className={styles.metaValue}>May 2024 – May 2025</span>
                             </div>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Link to Project: </p>
-                                <br/>
-                                <p style={{margin:0}}><a href = "https://www.zendaplatform.com/" rel="noopener noreferrer" target="_blank">Product Site &#8599;</a></p>
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Link</span>
+                                <span className={styles.metaValue}><a href="https://www.zendaplatform.com/" rel="noopener noreferrer" target="_blank" style={{color:"#2897FF"}}>Product Site &#8599;</a></span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        <div>
-            <Image
-            src = {Thumbnail}
-            alt = "Thumbnail"/>
-        </div>
         <div className = {styles.page}>
             <div>
             </div>     
@@ -210,7 +185,7 @@ export default function Zenda(){
             </div>
             <div className={styles.image_2}>
                 <div>
-                    <Image src={States}/>
+                    <Image src={States} alt="Input modal states" sizes="(max-width: 600px) 100vw, 40vw"/>
                 </div>
                 <div>
                     <Video

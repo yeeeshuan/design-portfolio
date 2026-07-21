@@ -1,65 +1,51 @@
-import styled from 'styled-components'; 
-import styles from "../../styles/Projects.module.css"; 
+import styles from "../../styles/Projects.module.css";
 import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Video from '../../components/video';
 
-import W1 from "../../Images/Projects/Waymo/Waymo_1.png"; 
-import W2 from "../../Images/Projects/Waymo/Waymo_2.png"; 
-import W3 from "../../Images/Projects/Waymo/Waymo_3.png"; 
-import W4 from "../../Images/Projects/Waymo/Waymo_4.png"; 
-import W5 from "../../Images/Projects/Waymo/Components.png"; 
+import W1 from "../../Images/Projects/Waymo/Waymo_1.png";
+import W2 from "../../Images/Projects/Waymo/Waymo_2.png";
+import W3 from "../../Images/Projects/Waymo/Waymo_3.png";
+import W4 from "../../Images/Projects/Waymo/Waymo_4.png";
+import W5 from "../../Images/Projects/Waymo/Components.png";
 
-export default function Zenda(){
+export default function Waymo(){
     return(
         <div>
             <Head>
-            <title>Ethan Huang Design | Waymo</title>
+                <title>Ethan Huang Design | Waymo</title>
             </Head>
             <Navbar/>
             <main className={styles.main}>
-            <div className = {styles.intro}>
-                <div className = {styles.cont}> 
-                <h1 className = {styles.mTitle}> 
-                    Waymo x Airbnb
-                    </h1>
-                    <br/>
-                    <p className = {styles.text}>
-                    As AI and autonomous driving technologies evolve, I envisioned a collaboration where Waymo seamlessly integrates with a service like Airbnb. In this concept, I explored how the collaboration between Airbnb and Waymo could deliver personalized travel experiences.
-                    </p>
-                    <br/>
-                    <br/>
-                    <div>
-                    <div className={styles.desCont}>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Role: </p>
-                                <br/>
-                                <p className = {styles.d2}> Product Designer</p>
+                <div className={styles.hero}>
+                    <Video thumbnail="./../../Waymo.mp4"/>
+                </div>
+                <div className={styles.intro}>
+                    <div className={styles.introTitle}>
+                        <h1 className={styles.mTitle}>Waymo x Airbnb</h1>
+                    </div>
+                    <div className={styles.introBody}>
+                        <p className={styles.text}>
+                            As AI and autonomous driving technologies evolve, I envisioned a collaboration where Waymo seamlessly integrates with a service like Airbnb. In this concept, I explored how the collaboration between Airbnb and Waymo could deliver personalized travel experiences.
+                        </p>
+                        <div className={styles.introMeta}>
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Role</span>
+                                <span className={styles.metaValue}>Product Designer</span>
                             </div>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Tools: </p>
-                                <br/>
-                                <p className = {styles.d2}> 
-                                    Figma
-                                </p> 
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Tools</span>
+                                <span className={styles.metaValue}>Figma</span>
                             </div>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Duration: </p>
-                                <br/>
-                                <p className = {styles.d2}> Nov 2024</p>
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Duration</span>
+                                <span className={styles.metaValue}>Nov 2024</span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        <div>
-            <Video
-                thumbnail =  "./../../Waymo.mp4"
-            />
-        </div>
-
         <div className = {styles.page}>
             <div>
             </div>     
@@ -85,15 +71,59 @@ export default function Zenda(){
             </div>
         </div> 
         <div className = {styles.page}>
+            <div/>
+            <pre className={styles.diagram}><code>{`
++-----------------------------------------------+
+| Airbnb App                                    |
+| user books stay in Waymo-enabled city         |
++-----------------------------------------------+
+         |
+         | booking confirmed: { destination, dates, guest_id }
+         v
++-----------------------------------------------+
+| Airbnb Backend                                |
+| checks Waymo service availability at location |
++-----------------------------------------------+
+         |
+         | POST /waymo/reserve { pickup, dropoff, time }
+         v
++-----------------------------------------------+
+| Waymo Fleet API                               |
+| assigns nearest available vehicle             |
++-----------------------------------------------+
+         |
+         | real-time sensor fusion + path execution
+         v
++-----------------------------------------------+
+| Waymo Vehicle                                 |
+| executes drive to Airbnb pickup location      |
++-----------------------------------------------+
+         |
+         | trip in progress
+         v
++-----------------------------------------------+
+| Airbnb App — In-Trip View                     |
+| live vehicle tracking                         |
+| Smart Itinerary · attraction suggestions      |
+| next ride scheduling                          |
++-----------------------------------------------+
+         |
+         | trip complete
+         v
++-----------------------------------------------+
+| Airbnb Backend                                |
+| logs trip · charges guest · updates itinerary |
++-----------------------------------------------+
+`}</code></pre>
+        </div>
+        <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
+                <p className = {styles.d}>
                     User Flow for Waymo x Airbnb Experience
                 </p>
             </div>
             <div>
-                <Image
-                   src = {W4}
-                />
+                <Image src={W4} alt="User Flow for Waymo x Airbnb Experience" priority sizes="(max-width: 600px) 100vw, 80vw"/>
             </div>
         </div>
 
@@ -120,9 +150,7 @@ export default function Zenda(){
                 </p>
             </div>
             <div>
-                <Image
-                   src = {W1}
-                />
+                <Image src={W1} alt="Search Bar on Home Page" sizes="(max-width: 600px) 100vw, 80vw"/>
             </div>
         </div>
         
@@ -133,9 +161,7 @@ export default function Zenda(){
                 </p>
             </div>
             <div>
-                <Image
-                   src = {W2}
-                />
+                <Image src={W2} alt="Tile on Location Page" sizes="(max-width: 600px) 100vw, 80vw"/>
             </div>
         </div>
 
@@ -146,9 +172,7 @@ export default function Zenda(){
                 </p>
             </div>
             <div>
-                <Image
-                   src = {W3}
-                />
+                <Image src={W3} alt="Card on Confirmation Page" sizes="(max-width: 600px) 100vw, 80vw"/>
             </div>
         </div>
 
@@ -250,9 +274,7 @@ export default function Zenda(){
                 </p>
             </div>
             <div>
-                <Image
-                   src = {W5}
-                />
+                <Image src={W5} alt="Components" sizes="(max-width: 600px) 100vw, 80vw"/>
             </div>
         </div>
 

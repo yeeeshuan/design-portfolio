@@ -1,5 +1,4 @@
-import styled from 'styled-components'; 
-import styles from "../../styles/Projects.module.css"; 
+import styles from "../../styles/Projects.module.css";
 import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
@@ -8,71 +7,47 @@ import Video from '../../components/video';
 import Card from "../../Images/Projects/I_Know/Cards.png"
 import IK from "../../Images/Projects/I_Know/I_Know.png"
 
-export default function iKnow(){
+export default function IKnow(){
     return(
         <div>
             <Head>
-            <title>Ethan Huang Design | I Know a Place</title>
+                <title>Ethan Huang Design | I Know a Place</title>
             </Head>
             <Navbar/>
             <main className={styles.main}>
-            <div className = {styles.intro}>
-                <div className = {styles.cont}> 
-                    <h1 className = {styles.mTitle}> 
-                    I Know a Place
-                    </h1>
-                    <br/>
-                    <p className = {styles.text}>
-                    I Know a Place is an interactive map that highlights how a single location can hold countless unique stories and experiences for different people.
-                    <br/>
-                    <br/>
-                    This project was built for the 2025 TEDxCMU main event.
-                    </p>
-                    <br/>
-                    <br/>
-                    <div>
-                        <div className={styles.desCont}>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Role: </p>
-                                <br/>
-                                <p className = {styles.d2}> Product Designer
-                                <br/>
-                                Frontend Developer </p> 
+                <div className={styles.hero}>
+                    <Video thumbnail="./../../I_Know.mp4"/>
+                </div>
+                <div className={styles.intro}>
+                    <div className={styles.introTitle}>
+                        <h1 className={styles.mTitle}>I Know a Place</h1>
+                    </div>
+                    <div className={styles.introBody}>
+                        <p className={styles.text}>
+                            I Know a Place is an interactive map that highlights how a single location can hold countless unique stories and experiences for different people.
+                            <br/><br/>
+                            This project was built for the 2025 TEDxCMU main event.
+                        </p>
+                        <div className={styles.introMeta}>
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Role</span>
+                                <span className={styles.metaValue}>Product Designer · Frontend Developer</span>
                             </div>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Tools: </p>
-                                <br/>
-                                <p className = {styles.d2}> 
-                                    Next.js
-                                    <br/>
-                                    OpenAI API
-                                    <br/>
-                                    Google API
-                                    <br/>
-                                    Leafletjs
-                                    <br/>
-                                    Figma
-                                </p> 
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Tools</span>
+                                <span className={styles.metaValue}>Next.js · OpenAI API · Google API · Leaflet.js · Figma</span>
                             </div>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Duration: </p>
-                                <br/>
-                                <p className = {styles.d2}> Jan 2025 - May 2025 </p>
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Duration</span>
+                                <span className={styles.metaValue}>Jan 2025 – May 2025</span>
                             </div>
-                            <div className={styles.des}>
-                                <p className = {styles.d1}>Link to Project: </p>
-                                <br/>
-                                <p style={{margin:0}}><a href = "https://github.com/TEDxCMU/2025-I-Know-A-Place" rel="noopener noreferrer" target="_blank">Github &#8599;</a></p>
+                            <div className={styles.metaField}>
+                                <span className={styles.metaLabel}>Link</span>
+                                <span className={styles.metaValue}><a href="https://github.com/TEDxCMU/2025-I-Know-A-Place" rel="noopener noreferrer" target="_blank" style={{color:"#2897FF"}}>Github &#8599;</a></span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-         <div>
-            <Video
-                 thumbnail =  "./../../I_Know.mp4"
-            />
-        </div>
         <div className = {styles.page}>
             <div>
             </div>     
@@ -92,7 +67,7 @@ export default function iKnow(){
                 </p>
             </div>
             <div>
-                <Image src = {IK}/>
+                <Image src={IK} alt="I Know a Place map on first load" priority sizes="(max-width: 600px) 100vw, 80vw"/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -121,22 +96,61 @@ export default function iKnow(){
         </div> 
         <div className = {styles.page}>
             <div>
-            </div>     
+            </div>
             <div>
-            <h1 className = {styles.pTitle}> 
+            <h1 className = {styles.pTitle}>
                 Story Checking and Generating Tags
             </h1>
             <p className={styles.text}>
-            Since the team was busy and overwhelmed during the event, I wanted to avoid assigning someone to manually review the stories uploaded to the map. To address this, I integrated a call to the OpenAI API upon upload to automatically check if a story is appropriate for the event.  
+            Since the team was busy and overwhelmed during the event, I wanted to avoid assigning someone to manually review the stories uploaded to the map. To address this, I integrated a call to the OpenAI API upon upload to automatically check if a story is appropriate for the event.
             <br/><br/>
             I also used the OpenAI API to generate tags for each story, helping categorize them. During user testing with the team, we found that the auto-generated tags added an element of joy and playfulness to the story submission process.
             </p>
-
             </div>
         </div>
         <div className = {styles.page}>
+            <div/>
+            <pre className={styles.diagram}><code>{`
++-----------------------------+
+| User Submits Story          |
+| Input Modal (Next.js)       |
++-----------------------------+
+         |
+         | { story text, location, author }
+         v
++-----------------------------+
+| Next.js API Route           |
+| /api/submit                 |
++-----------------------------+
+         |
+         +------------------+------------------+
+         |                                     |
+         v                                     v
++--------------------+             +--------------------+
+| OpenAI API         |             | OpenAI API         |
+| Moderation check   |             | Tag generation     |
+| is story appropriate?           | generate 2–3 tags  |
++--------------------+             +--------------------+
+         |                                     |
+         | { pass / reject }                   | { tags: [...] }
+         v                                     v
++-----------------------------+
+| Google Sheets API           |
+| write story + tags to DB    |
+| (only if moderation passes) |
++-----------------------------+
+         |
+         | story saved
+         v
++-----------------------------+
+| Leaflet.js Map              |
+| new pin rendered with tags  |
++-----------------------------+
+`}</code></pre>
+        </div>
+        <div className = {styles.page}>
             <div>
-                <p className = {styles.d}> 
+                <p className = {styles.d}>
                     Generating tags to a story
                 </p>
             </div>
@@ -204,7 +218,7 @@ export default function iKnow(){
                 </p>
             </div>
             <div>
-                <Image src = {Card}/>
+                <Image src={Card} alt="Design components" sizes="(max-width: 600px) 100vw, 80vw"/>
             </div>
         </div> 
         </main>

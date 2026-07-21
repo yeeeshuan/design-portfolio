@@ -3,10 +3,9 @@ import Image from "next/image";
 
 import Zenda from "../Images/About/Zenda.png"
 import BSP from "../Images/About/BSP.png"
-import Repl from "../Images/Projects/Replit/Replit.png"
 
 import onHover from "../Images/About/onHover.png";
-import React, {useState, useEffect, useRef, Component } from 'react';
+import React, { useState, useEffect, useRef, Component } from 'react';
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window
@@ -35,90 +34,61 @@ function useWindowDimensions() {
 
 function Video(props){
     const videoRef = useRef(null);
-    const size = useWindowDimensions();
-    let width = size.width; 
-    let temp = size.width; 
-
-    if (width <= 600){
-        temp = 250; 
-    }
-    else if (width > 600 && width <= 700){
-        temp = 100; 
-    }
-    else if (width > 700 && width <= 800){
-        temp = 175; 
-    }
-    else if (width > 800 && width <= 900){
-        temp = 200; 
-    }
-    else if (width > 900 && width <= 1100){
-        temp = 250; 
-    }
-    else
-    {
-        temp = 350; 
-    }
 
     return(
-        <div className = {styles.imageWrap}>
-                <div>
-                    <a href = {props.link}>
-                    <div className = {styles.overLay}> <a href = {props.link}></a></div>
-                    <div>
-                        <div className={styles.container}>
-                            <video
-                                ref={videoRef}
-                                width="100%"
-                                muted
-                                loop
-                                playsInline
-                                autoPlay
-                                onLoadedData={(e) => {
-                                    if (e.target.paused) {
-                                        e.target.play();
-                                    }
-                                }}
-                            >
-                                <source src={props.thumbnail} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
+        <div className={styles.imageWrap}>
+            <div>
+                <a href={props.link}>
+                    <div className={styles.overLay}></div>
+                    <div className={styles.container}>
+                        <video
+                            ref={videoRef}
+                            width="100%"
+                            muted
+                            loop
+                            playsInline
+                            autoPlay
+                            onLoadedData={(e) => {
+                                if (e.target.paused) {
+                                    e.target.play();
+                                }
+                            }}
+                        >
+                            <source src={props.thumbnail} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                     <div className={styles.cardDes}>
                         <div className={styles.cardLeft}>
-                            <h1 className = {styles.title}> {props.name}</h1>
-                            <p className = {styles.words}> {props.description} </p>
+                            <h1 className={styles.title}>{props.name}</h1>
+                            <p className={styles.words}>{props.description}</p>
                         </div>
                         <div className={styles.cardRight}>
-                            <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                            <Image width={50} height={50} src={onHover} alt="image"/>
                         </div>
                     </div>
-                    </a> 
-                </div>
+                </a>
+            </div>
         </div>
     )
 }
 
 function Img(props){
     return(
-         <div className = {styles.imageWrap}>
-            <div className="item-container">
-            <a href = {props.link}>
-            <div className="item-container">
-                <Image src = {props.image} alt = "image"/> 
-            </div>
-            <div className={styles.cardDes}>
-                <div className={styles.cardLeft}>
-                    <h1 className = {styles.title}> {props.name}</h1>
-                    <p className = {styles.words}> {props.description} </p>
+        <div className={styles.imageWrap}>
+            <a href={props.link}>
+                <Image src={props.image} alt="image"/>
+                <div className={styles.cardDes}>
+                    <div className={styles.cardLeft}>
+                        <h1 className={styles.title}>{props.name}</h1>
+                        <p className={styles.words}>{props.description}</p>
+                    </div>
+                    <div className={styles.cardRight}>
+                        <Image width={50} height={50} src={onHover} alt="image"/>
+                    </div>
                 </div>
-                <div className={styles.cardRight}>
-                    <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
-                </div>
-            </div>
-            </a> 
-            </div>
-         </div>
+            </a>
+        </div>
     )
 }
 
@@ -127,8 +97,8 @@ class Projects extends Component{
         super(props);
         this.state = {
             projects:[
-                {type : "v", category:"C", name : "IBM Agentic Tooling", description: "Agentic Workflows via MCP and Internal Tooling", link: "Projects/IBM", thumbnail: "./Project_Update.mp4" },  
                 {type : "v", category:"P", name : "Siri Desktop", description: "AI Productivity Tool", thumbnail: "./Siri_AI.mp4", link: "Projects/Siri" }, 
+                {type : "v", category:"C", name : "IBM Agentic Tooling", description: "Agentic Workflows via MCP and Internal Tooling", link: "Projects/IBM", thumbnail: "./Project_Update.mp4" },  
                 {type : "i", category:"C", name : "Best Summer Programs", description: "Helping families navigate high school summer programs", image: BSP , link: "Projects/BSP" }, 
                 {type : "i", category:"C", name : "Zenda Platform", description: "Building product features with GenAI", image: Zenda, link: "Projects/Zenda" }, 
                 {type : "v", category:"P", name : "Waymo x Airbnb", description: "Waymo x Airbnb collaboration", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
