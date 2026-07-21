@@ -99,7 +99,7 @@ class Projects extends Component{
                 {type : "v", category:"P", name : "Siri Desktop", description: "AI Productivity Tool", thumbnail: "./Siri_AI.mp4", link: "Projects/Siri" }, 
                 {type : "v", category:"C", name : "IBM Agentic Tooling", description: "Agentic Workflows via MCP and Internal Tooling", link: "Projects/IBM", thumbnail: "./Project_Update.mp4" },  
                 {type : "i", category:"C", name : "Best Summer Programs", description: "Helping families navigate high school summer programs", image: BSP , link: "Projects/BSP" }, 
-                {type : "i", category:"C", name : "Zenda Platform", description: "Building product features with GenAI", image: Zenda, link: "Projects/Zenda" }, 
+                // {type : "i", category:"C", name : "Zenda Platform", description: "Building product features with GenAI", image: Zenda, link: "Projects/Zenda" }, 
                 {type : "v", category:"P", name : "Waymo x Airbnb", description: "Waymo x Airbnb collaboration", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
                 {type : "v", category:"C", name : "I Know a Place", description: "Interactive mapping platform for telling stories", thumbnail: "./I_Know.mp4", link: "Projects/I_Know" }, 
                 // {type : "i", category:"P", name : "Replit Community Page", description: "Redesigning the Replit community page", image: Repl, link: "Projects/Replit"},
