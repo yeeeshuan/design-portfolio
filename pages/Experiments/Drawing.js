@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import BG from '../../Images/Projects/Drawing/BG.png'
@@ -111,7 +110,7 @@ export default function Drawing(){
                 </p>
             </div>
             <div>
-                <Image src = {BG} alt = "Background Info"/>
+                <img src={BG.src} alt = "Background Info"/>
             </div>
         </div>
         <div className = {styles.page}>

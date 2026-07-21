@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css";
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -67,7 +66,7 @@ export default function IKnow(){
                 </p>
             </div>
             <div>
-                <Image src={IK} alt="I Know a Place map on first load" priority sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                <img src={IK.src} alt="I Know a Place map on first load" style={{width:'100%', height:'auto'}}/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -218,7 +217,7 @@ export default function IKnow(){
                 </p>
             </div>
             <div>
-                <Image src={Card} alt="Design components" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                <img src={Card.src} alt="Design components" style={{width:'100%', height:'auto'}}/>
             </div>
         </div> 
         </main>

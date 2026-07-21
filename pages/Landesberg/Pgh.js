@@ -1,6 +1,5 @@
 import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -19,13 +18,13 @@ export default function PGH(){
             <title>Ethan Huang Design | PGH Foundation</title>
             </Head>
             <div className = {styles.invisible}>
-                <Image src = {Web} alt = "photo rotation"/>
-                <Image src = {Styles} alt = "photo rotation"/>
-                <Image src = {Cards} alt = "photo rotation"/>
-                <Image src = {Comp} alt = "photo rotation"/>
-                <Image src = {Personal} alt = "photo rotation"/>
-                <Image src = {Calendar} alt = "photo rotation"/>
-                <Image src = {Events} alt = "photo rotation"/>
+                <img src={Web.src} alt = "photo rotation"/>
+                <img src={Styles.src} alt = "photo rotation"/>
+                <img src={Cards.src} alt = "photo rotation"/>
+                <img src={Comp.src} alt = "photo rotation"/>
+                <img src={Personal.src} alt = "photo rotation"/>
+                <img src={Calendar.src} alt = "photo rotation"/>
+                <img src={Events.src} alt = "photo rotation"/>
             </div>
             <Navbar/>
             <main className={styles.main}>
@@ -47,7 +46,7 @@ export default function PGH(){
          </div>
          </div>
             <div>
-                <Image src = {Web} alt = "cover image"/>
+                <img src={Web.src} alt = "cover image"/>
             </div>
             <div className = {styles.page}>
                 <div>
@@ -69,7 +68,7 @@ export default function PGH(){
                     <p className = {styles.d}> Typography and color palette</p>
                 </div>
                 <div>
-                <Image src = {Styles} alt = "Contextual Interview"/>
+                <img src={Styles.src} alt = "Contextual Interview"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -85,7 +84,7 @@ export default function PGH(){
                     <p className = {styles.d}> Card and Event components </p>
                 </div>
                 <div>
-                <Image src = {Comp} alt = "Contextual Interview"/>
+                <img src={Comp.src} alt = "Contextual Interview"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -100,7 +99,7 @@ export default function PGH(){
                     <p className = {styles.d}> People Page </p>
                 </div>
                 <div>
-                <Image src = {Cards} alt = "Contextual Interview"/>
+                <img src={Cards.src} alt = "Contextual Interview"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -108,7 +107,7 @@ export default function PGH(){
                     <p className = {styles.d}> Individual Member Page </p>
                 </div>
                 <div>
-                <Image src = {Personal} alt = "Contextual Interview"/>
+                <img src={Personal.src} alt = "Contextual Interview"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -116,7 +115,7 @@ export default function PGH(){
                     <p className = {styles.d}> Calendar Page </p>
                 </div>
                 <div>
-                <Image src = {Calendar} alt = "Contextual Interview"/>
+                <img src={Calendar.src} alt = "Contextual Interview"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -124,7 +123,7 @@ export default function PGH(){
                     <p className = {styles.d}> Event Page </p>
                 </div>
                 <div>
-                <Image src = {Events} alt = "Contextual Interview"/>
+                <img src={Events.src} alt = "Contextual Interview"/>
                 </div>
             </div>
             <div className = {styles.page}>

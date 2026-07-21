@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css";
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -70,7 +69,7 @@ export default function Siri(){
                         <p className={styles.d}>Command prompts for Siri</p>
                     </div>
                     <div>
-                        <Image src={Issues} alt="Command prompts for Siri" priority sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                        <img src={Issues.src} alt="Command prompts for Siri" style={{width:'100%', height:'auto'}}/>
                     </div>
                 </div>
                 <div className={styles.page}>
@@ -90,7 +89,7 @@ export default function Siri(){
                         <p className={styles.d}>Mini-App Journey</p>
                     </div>
                     <div>
-                        <Image src={UC1} alt="Mini-App Journey" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                        <img src={UC1.src} alt="Mini-App Journey" style={{width:'100%', height:'auto'}}/>
                     </div>
                 </div>
                 <div className={styles.page}>
@@ -108,11 +107,11 @@ export default function Siri(){
                     </div>
                     <div className={styles.siriImg}>
                         <div className={styles.siriImg1}>
-                            <Image src={T1} alt="Tiles component" sizes="(max-width: 600px) 100vw, 55vw" style={{width:'100%', height:'auto'}}/>
+                            <img src={T1.src} alt="Tiles component" style={{width:'100%', height:'auto'}}/>
                         </div>
                         <div className={styles.siriImg2}>
-                            <Image src={Input} alt="Input component" sizes="(max-width: 600px) 100vw, 40vw" style={{width:'100%', height:'auto'}}/>
-                            <Image src={Prompt} alt="Prompt component" sizes="(max-width: 600px) 100vw, 40vw" style={{width:'100%', height:'auto'}}/>
+                            <img src={Input.src} alt="Input component" style={{width:'100%', height:'auto'}}/>
+                            <img src={Prompt.src} alt="Prompt component" style={{width:'100%', height:'auto'}}/>
                         </div>
                     </div>
                 </div>
@@ -121,8 +120,8 @@ export default function Siri(){
                         <p className={styles.d}>Tile Layout</p>
                     </div>
                     <div className={styles.image_2}>
-                        <Image src={L1} alt="Tile layout 1" sizes="(max-width: 600px) 100vw, 40vw"/>
-                        <Image src={L2} alt="Tile layout 2" sizes="(max-width: 600px) 100vw, 40vw"/>
+                        <img src={L1.src} alt="Tile layout 1"/>
+                        <img src={L2.src} alt="Tile layout 2"/>
                     </div>
                 </div>
                 <div className={styles.page}>
@@ -130,8 +129,8 @@ export default function Siri(){
                         <p className={styles.d}>Tile Resizing</p>
                     </div>
                     <div className={styles.image_2}>
-                        <Image src={L3} alt="Tile resizing 1" sizes="(max-width: 600px) 100vw, 40vw"/>
-                        <Image src={L4} alt="Tile resizing 2" sizes="(max-width: 600px) 100vw, 40vw"/>
+                        <img src={L3.src} alt="Tile resizing 1"/>
+                        <img src={L4.src} alt="Tile resizing 2"/>
                     </div>
                 </div>
                 <div className={styles.page}>

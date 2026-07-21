@@ -1,6 +1,5 @@
 import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -40,7 +39,7 @@ export default function Bear(){
                 justifyContent: "center", 
             
             }}>
-                <Image src = {Build} width = {2000} height ={1125} alt = "cover image"/>
+                <img src={Build.src} width = {2000} height ={1125} alt = "cover image"/>
             </div>
             <h1 className = {styles.bTitle}> 
                 Desktop View of Bear Builder <br/><br/>

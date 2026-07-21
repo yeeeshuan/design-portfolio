@@ -3,7 +3,6 @@ import { useState, useEffect, useRef } from 'react'
 import React, {Component } from 'react';
 import styles from "../styles/Projects.module.css"; 
 import home from "../styles/Home.module.css"; 
-import Image from "next/image";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import DH from '../Images/About/DH.jpg';
@@ -100,7 +99,7 @@ function Video(props){
                         <p className = {styles.words}> {props.description} </p>
                     </div>
                     <div className={styles.cardRight}>
-                        <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                        <img width = {50} height = {50} src={onHover.src} alt = "image"/> 
                     </div>
                 </div>
                 </a> 
@@ -115,7 +114,7 @@ function Img(props){
             <div className="item-container">
             <a href = {props.link}>
             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-                <Image src = {props.image} alt = "Fruit Ninja"/> 
+                <img src = {props.image} alt = "Fruit Ninja"/> 
             </div>
             <div className={styles.cardDes}>
                 <div className={styles.cardLeft}>
@@ -123,7 +122,7 @@ function Img(props){
                     <p className = {styles.words}> {props.description} </p>
                 </div>
                 <div className={styles.cardRight}>
-                    <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+                    <img width = {50} height = {50} src={onHover.src} alt = "image"/> 
                 </div>
             </div>
             </a> 

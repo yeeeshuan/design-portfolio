@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Concept from "../../Images/Projects/Augmented/Concept.jpeg"
@@ -87,7 +86,7 @@ export default function Augmented(){
                 </p>
             </div>
             <div>
-                <Image src = {Journey} alt = "Journey Mapping"/>
+                <img src={Journey.src} alt = "Journey Mapping"/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -142,7 +141,7 @@ export default function Augmented(){
                 </p>
             </div>
             <div>
-                <Image src = {Concept} alt = "Concept Sketches"/>
+                <img src={Concept.src} alt = "Concept Sketches"/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -161,8 +160,8 @@ export default function Augmented(){
                 </p>
             </div>
             <div className = {styles.image_2}>
-                <Image src = {EggDrawing} alt = "Tech Diag"/>
-                <Image src = {Egg} alt = "Tech Diag"/>
+                <img src={EggDrawing.src} alt = "Tech Diag"/>
+                <img src={Egg.src} alt = "Tech Diag"/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -187,7 +186,7 @@ export default function Augmented(){
                 </p>
             </div>
             <div>
-                <Image src = {DoubleTech} alt = "Concept Sketches"/>
+                <img src={DoubleTech.src} alt = "Concept Sketches"/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -197,7 +196,7 @@ export default function Augmented(){
                 </p>
             </div>
             <div>
-                <Image src = {DoubleScene} alt = "Concept Sketches"/>
+                <img src={DoubleScene.src} alt = "Concept Sketches"/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -287,7 +286,7 @@ export default function Augmented(){
                 </p>
             </div>
             <div>
-                <Image src = {SingleTech} alt = "Tech Diag"/>
+                <img src={SingleTech.src} alt = "Tech Diag"/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -297,7 +296,7 @@ export default function Augmented(){
                 </p>
             </div>
             <div>
-                <Image src = {SingleScene} alt = "Tech Diag"/>
+                <img src={SingleScene.src} alt = "Tech Diag"/>
             </div>
         </div> 
         <div className = {styles.page}>

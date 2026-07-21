@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -28,20 +27,20 @@ export default function Magazine(){
             </Head>
             <Navbar/>
             <div className = {styles.invisible}>
-                <Image src = {B1} alt = "photo rotation"/>
-                <Image src = {B2} alt = "photo rotation"/>
-                <Image src = {F1} alt = "photo rotation"/>
-                <Image src = {F2} alt = "photo rotation"/>
-                <Image src = {F3} alt = "photo rotation"/>
-                <Image src = {F4} alt = "photo rotation"/>
-                <Image src = {F5} alt = "photo rotation"/>
-                <Image src = {T1} alt = "photo rotation"/>
-                <Image src = {T2} alt = "photo rotation"/>
-                <Image src = {T3} alt = "photo rotation"/>
-                <Image src = {CN1} alt = "photo rotation"/>
-                <Image src = {CN2} alt = "photo rotation"/>
-                <Image src = {CN3} alt = "photo rotation"/>
-                <Image src = {TOC} alt = "photo rotation"/>
+                <img src={B1.src} alt = "photo rotation"/>
+                <img src={B2.src} alt = "photo rotation"/>
+                <img src={F1.src} alt = "photo rotation"/>
+                <img src={F2.src} alt = "photo rotation"/>
+                <img src={F3.src} alt = "photo rotation"/>
+                <img src={F4.src} alt = "photo rotation"/>
+                <img src={F5.src} alt = "photo rotation"/>
+                <img src={T1.src} alt = "photo rotation"/>
+                <img src={T2.src} alt = "photo rotation"/>
+                <img src={T3.src} alt = "photo rotation"/>
+                <img src={CN1.src} alt = "photo rotation"/>
+                <img src={CN2.src} alt = "photo rotation"/>
+                <img src={CN3.src} alt = "photo rotation"/>
+                <img src={TOC.src} alt = "photo rotation"/>
             </div>
             <main className={styles.main}>
             <h1 className = {styles.mTitle}> 
@@ -64,7 +63,7 @@ export default function Magazine(){
          </div>
          </div>
         <div>
-                <Image src = {Mag} alt = "cover image"/>
+                <img src={Mag.src} alt = "cover image"/>
         </div>
             <div className = {styles.page}>
                 <div>
@@ -85,8 +84,8 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div className = {styles.image_2}>
-                    <Image src = {B1} alt = "illustration 1"/>
-                    <Image src = {B2} alt = "illustration 1"/>
+                    <img src={B1.src} alt = "illustration 1"/>
+                    <img src={B2.src} alt = "illustration 1"/>
                     </div> 
             </div>
             <div className = {styles.page}>
@@ -108,7 +107,7 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div>
-                    <Image src = {T3} alt = "illustration 1"/>    
+                    <img src={T3.src} alt = "illustration 1"/>    
                     </div> 
             </div>
             <div className = {styles.page}>
@@ -118,7 +117,7 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div>
-                    <Image src = {T1} alt = "illustration 1"/>    
+                    <img src={T1.src} alt = "illustration 1"/>    
                     </div> 
             </div>
             <div className = {styles.page}>
@@ -128,7 +127,7 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div>
-                    <Image src = {T2} alt = "illustration 1"/>    
+                    <img src={T2.src} alt = "illustration 1"/>    
                     </div> 
             </div>
             <div className = {styles.page}>
@@ -150,7 +149,7 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div>
-                    <Image src = {TOC} alt = "illustration 1"/>    
+                    <img src={TOC.src} alt = "illustration 1"/>    
                     </div> 
             </div>
             <div className = {styles.page}>
@@ -173,7 +172,7 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div>
-                        <Image src = {F5} alt = "illustration 2"/>  
+                        <img src={F5.src} alt = "illustration 2"/>  
                     </div> 
             </div>
              <div className = {styles.page}>
@@ -183,7 +182,7 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div>
-                        <Image src = {F1} alt = "illustration 1"/>
+                        <img src={F1.src} alt = "illustration 1"/>
                     </div>
             </div>
             <div className = {styles.page}>
@@ -193,15 +192,15 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div>
-                        <Image src = {F2} alt = "illustration 2"/>  
+                        <img src={F2.src} alt = "illustration 2"/>  
                     </div> 
             </div>
             <div className = {styles.page}>
                 <div>
                 </div>
                     <div className = {styles.image_2}>
-                        <Image src = {F3} alt = "illustration 2"/>  
-                        <Image src = {F4} alt = "illustration 2"/>  
+                        <img src={F3.src} alt = "illustration 2"/>  
+                        <img src={F4.src} alt = "illustration 2"/>  
                     </div> 
             </div>
             <div className = {styles.page}>
@@ -224,7 +223,7 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div>
-                        <Image src = {CN1} alt = "illustration 2"/>  
+                        <img src={CN1.src} alt = "illustration 2"/>  
                     </div> 
             </div>
             <div className = {styles.page}>
@@ -234,8 +233,8 @@ export default function Magazine(){
                     </p>
                 </div>
                     <div className = {styles.image_2}>
-                        <Image src = {CN2} alt = "illustration 2"/>  
-                        <Image src = {CN3} alt = "illustration 2"/>  
+                        <img src={CN2.src} alt = "illustration 2"/>  
+                        <img src={CN3.src} alt = "illustration 2"/>  
                     </div> 
             </div>
             </main>

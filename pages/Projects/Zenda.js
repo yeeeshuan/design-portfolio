@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css";
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -17,7 +16,7 @@ export default function Zenda(){
             <Navbar/>
             <main className={styles.main}>
                 <div className={styles.hero}>
-                    <Image src={Thumbnail} alt="Zenda Platform" priority sizes="100vw" style={{objectFit:"cover",width:"100%",height:"100%",maxHeight:"70vh"}}/>
+                    <img src={Thumbnail.src} alt="Zenda Platform" style={{objectFit:"cover",width:"100%",height:"100%",maxHeight:"70vh"}}/>
                 </div>
                 <div className={styles.intro}>
                     <div className={styles.introTitle}>
@@ -185,7 +184,7 @@ export default function Zenda(){
             </div>
             <div className={styles.image_2}>
                 <div>
-                    <Image src={States} alt="Input modal states" sizes="(max-width: 600px) 100vw, 40vw" style={{width:'100%', height:'auto'}}/>
+                    <img src={States.src} alt="Input modal states" style={{width:'100%', height:'auto'}}/>
                 </div>
                 <div>
                     <Video

@@ -29,22 +29,22 @@ export default function DesignHero(){
 //             <title>Ethan Huang Design | Design Hero</title>
 //             </Head>
 //             <div className = {styles.invisible}>
-//                 <Image src = {S1} alt = "photo rotation"/>
-//                 <Image src = {S2} alt = "photo rotation"/>
-//                 <Image src = {S3} alt = "photo rotation"/>
-//                 <Image src = {S4} alt = "photo rotation"/>
-//                 <Image src = {S5} alt = "photo rotation"/>
-//                 <Image src = {S6} alt = "photo rotation"/>
-//                 <Image src = {S7} alt = "photo rotation"/>
-//                 <Image src = {S8} alt = "photo rotation"/>
-//                 <Image src = {D1} alt = "photo rotation"/>
-//                 <Image src = {D2} alt = "photo rotation"/>
-//                 <Image src = {D3} alt = "photo rotation"/>
-//                 <Image src = {D4} alt = "photo rotation"/>
-//                 <Image src = {K1} alt = "photo rotation"/>
-//                 <Image src = {K2} alt = "photo rotation"/>
-//                 <Image src = {K3} alt = "photo rotation"/>
-//                 <Image src = {K4} alt = "photo rotation"/>
+//                 <img src={S1.src} alt = "photo rotation"/>
+//                 <img src={S2.src} alt = "photo rotation"/>
+//                 <img src={S3.src} alt = "photo rotation"/>
+//                 <img src={S4.src} alt = "photo rotation"/>
+//                 <img src={S5.src} alt = "photo rotation"/>
+//                 <img src={S6.src} alt = "photo rotation"/>
+//                 <img src={S7.src} alt = "photo rotation"/>
+//                 <img src={S8.src} alt = "photo rotation"/>
+//                 <img src={D1.src} alt = "photo rotation"/>
+//                 <img src={D2.src} alt = "photo rotation"/>
+//                 <img src={D3.src} alt = "photo rotation"/>
+//                 <img src={D4.src} alt = "photo rotation"/>
+//                 <img src={K1.src} alt = "photo rotation"/>
+//                 <img src={K2.src} alt = "photo rotation"/>
+//                 <img src={K3.src} alt = "photo rotation"/>
+//                 <img src={K4.src} alt = "photo rotation"/>
 //             </div>
 //             <Navbar/>
 //             <main className={styles.main}>
@@ -67,7 +67,7 @@ export default function DesignHero(){
 //             </div>
 //             </div>
 //             <div>
-//                 <Image src = {DH} alt = "cover image"/>
+//                 <img src={DH.src} alt = "cover image"/>
 //             </div>
 //             <br/>
 //             <br/>
@@ -100,12 +100,12 @@ export default function DesignHero(){
 //                 </div>
 //             </div>
 //             <div className={styles.image_4}>
-//                     <Image src = {D1} style = {styles.spreads}/>
-//                     <Image src = {D2} style = {styles.spreads}/>
+//                     <img src={D1.src} style = {styles.spreads}/>
+//                     <img src={D2.src} style = {styles.spreads}/>
 //             </div>
 //             <div className={styles.image_4}>
-//                     <Image src = {D3} style = {styles.spreads}/>
-//                     <Image src = {D4} style = {styles.spreads}/>
+//                     <img src={D3.src} style = {styles.spreads}/>
+//                     <img src={D4.src} style = {styles.spreads}/>
 //             </div>
 //         </div>
 //         <div className={styles.project}>
@@ -128,10 +128,10 @@ export default function DesignHero(){
 //                 </div>
 //             </div>
 //             <div className={styles.image_5}>
-//                 <Image src = {K1} style = {styles.spreads}/>
-//                 <Image src = {K2} style = {styles.spreads}/>
-//                 <Image src = {K3} style = {styles.spreads}/>
-//                 <Image src = {K4} style = {styles.spreads}/>
+//                 <img src={K1.src} style = {styles.spreads}/>
+//                 <img src={K2.src} style = {styles.spreads}/>
+//                 <img src={K3.src} style = {styles.spreads}/>
+//                 <img src={K4.src} style = {styles.spreads}/>
 //             </div>
 //          <div>
 //          <iframe width = "100%" height="600px" src="https://www.youtube.com/embed/5NBvxepx6Fc?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -162,7 +162,7 @@ export default function DesignHero(){
 //                 </div>
 //             </div>
 //             <div>
-//                 <Image src = {Poster} className = {styles.spreads}/>
+//                 <img src={Poster.src} className = {styles.spreads}/>
 //             </div>
 //             </div>
 //             <div className={styles.project}>
@@ -189,20 +189,20 @@ export default function DesignHero(){
 //                 </div>
 //              </div>
 //             <div className={styles.image_4}>
-//                 <Image src = {S1} style = {styles.spreads}/>
-//                 <Image src = {S2} style = {styles.spreads}/>
+//                 <img src={S1.src} style = {styles.spreads}/>
+//                 <img src={S2.src} style = {styles.spreads}/>
 //             </div>
 //             <div className={styles.image_4}>
-//                 <Image src = {S3} style = {styles.spreads}/>
-//                 <Image src = {S4} className = {styles.spreads}/>
+//                 <img src={S3.src} style = {styles.spreads}/>
+//                 <img src={S4.src} className = {styles.spreads}/>
 //             </div>
 //              <div className={styles.image_4}>
-//                 <Image src = {S5} className = {styles.spreads}/>
-//                 <Image src = {S6} className = {styles.spreads}/>
+//                 <img src={S5.src} className = {styles.spreads}/>
+//                 <img src={S6.src} className = {styles.spreads}/>
 //             </div>
 //              <div className={styles.image_4}>
-//                 <Image src = {S7} className = {styles.spreads}/>
-//                 <Image src = {S8} className = {styles.spreads}/>
+//                 <img src={S7.src} className = {styles.spreads}/>
+//                 <img src={S8.src} className = {styles.spreads}/>
 //             </div>
 //             </div>
 //             <div className={styles.project}>

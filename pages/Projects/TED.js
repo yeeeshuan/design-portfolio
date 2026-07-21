@@ -84,7 +84,7 @@
 //                         <p className = {styles.words}> {props.description} </p>
 //                     </div>
 //                     <div className={styles.cardRight}>
-//                         <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+//                         <img width = {50} height = {50} src={onHover.src} alt = "image"/> 
 //                     </div>
 //                 </div>
 //                 </a> 
@@ -99,7 +99,7 @@
 //             <div className="item-container">
 //             <a href = {props.link}>
 //             <div className="item-container" style = {{borderRadius: '10px', overflow: 'hidden'}}>
-//                 <Image src = {props.image} alt = "image"/> 
+//                 <img src = {props.image} alt = "image"/> 
 //             </div>
 //             <div className={styles.cardDes}>
 //                 <div className={styles.cardLeft}>
@@ -107,7 +107,7 @@
 //                     <p className = {styles.words}> {props.description} </p>
 //                 </div>
 //                 <div className={styles.cardRight}>
-//                     <Image width = {50} height = {50} src = {onHover} alt = "image"/> 
+//                     <img width = {50} height = {50} src={onHover.src} alt = "image"/> 
 //                 </div>
 //             </div>
 //             </a> 

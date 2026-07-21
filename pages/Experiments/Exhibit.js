@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -27,21 +26,21 @@ export default function Exhibit(){
             <title>Ethan Huang Design | Exhibit</title>
             </Head>
             <div className = {styles.invisible}>
-                <Image src = {Thumbnail} alt = "photo rotation"/>
-                <Image src = {Mood} alt = "photo rotation"/>
-                <Image src = {Parti} alt = "photo rotation"/>
-                <Image src = {Layout} alt = "photo rotation"/>
-                <Image src = {Diagram} alt = "photo rotation"/>
-                <Image src = {One} alt = "photo rotation"/>
-                <Image src = {Two} alt = "photo rotation"/>
-                <Image src = {Three} alt = "photo rotation"/>
-                <Image src = {Five} alt = "photo rotation"/>
-                <Image src = {Six} alt = "photo rotation"/>
-                <Image src = {Physical} alt = "photo rotation"/>
-                <Image src = {P1} alt = "photo rotation"/>
-                <Image src = {P2} alt = "photo rotation"/>
-                <Image src = {P3} alt = "photo rotation"/>
-                <Image src = {P4} alt = "photo rotation"/>
+                <img src={Thumbnail.src} alt = "photo rotation"/>
+                <img src={Mood.src} alt = "photo rotation"/>
+                <img src={Parti.src} alt = "photo rotation"/>
+                <img src={Layout.src} alt = "photo rotation"/>
+                <img src={Diagram.src} alt = "photo rotation"/>
+                <img src={One.src} alt = "photo rotation"/>
+                <img src={Two.src} alt = "photo rotation"/>
+                <img src={Three.src} alt = "photo rotation"/>
+                <img src={Five.src} alt = "photo rotation"/>
+                <img src={Six.src} alt = "photo rotation"/>
+                <img src={Physical.src} alt = "photo rotation"/>
+                <img src={P1.src} alt = "photo rotation"/>
+                <img src={P2.src} alt = "photo rotation"/>
+                <img src={P3.src} alt = "photo rotation"/>
+                <img src={P4.src} alt = "photo rotation"/>
             </div>
             <Navbar/>
             <main className={styles.main}>
@@ -69,7 +68,7 @@ export default function Exhibit(){
          </div>
          </div>
          <div>
-                <Image src = {Thumbnail} alt = "cover image"/>
+                <img src={Thumbnail.src} alt = "cover image"/>
             </div>
             <div className = {styles.page}>
                 <div>
@@ -105,7 +104,7 @@ export default function Exhibit(){
                     </div>
                     <div>
                     <p className = {styles.text}>
-                    <Image src = {Mood} alt = "map"></Image>
+                    <img src={Mood.src} alt = "map"></img>
                     </p>
                     </div>
                 </div>
@@ -144,7 +143,7 @@ export default function Exhibit(){
                     </p>
                     </div>
                     <div>
-                   <Image src = {Layout} alt = "story"></Image>
+                   <img src={Layout.src} alt = "story"></img>
                     </div>
                 </div>
                 <div className = {styles.page}>
@@ -154,7 +153,7 @@ export default function Exhibit(){
                     </p>
                     </div>
                     <div>
-                   <Image src = {Parti} alt = "story"></Image>
+                   <img src={Parti.src} alt = "story"></img>
                     </div>
                 </div>
             </div>
@@ -178,7 +177,7 @@ export default function Exhibit(){
                     </p>
                     </div>
                     <div>
-                   <Image src = {Physical} alt = "story"></Image>
+                   <img src={Physical.src} alt = "story"></img>
                     </div>
                 </div>   
                 <div className = {styles.page}>
@@ -189,12 +188,12 @@ export default function Exhibit(){
                     </div>
                     <div>
                         <div className = {styles.image_2}>
-                            <Image src = {P1} alt = "story"></Image>
-                            <Image src = {P2} alt = "story"></Image>
+                            <img src={P1.src} alt = "story"></img>
+                            <img src={P2.src} alt = "story"></img>
                         </div>
                         <div className = {styles.image_2}>
-                            <Image src = {P3} alt = "story"></Image>
-                            <Image src = {P4} alt = "story"></Image>
+                            <img src={P3.src} alt = "story"></img>
+                            <img src={P4.src} alt = "story"></img>
                         </div>
                     </div>
                 </div>   
@@ -224,7 +223,7 @@ export default function Exhibit(){
                     Hardware diagram 
                     </p>
                     </div>
-                        <Image src = {Diagram} alt = "diagram"></Image>
+                        <img src={Diagram.src} alt = "diagram"></img>
 
                     </div>
                 <div className = {styles.page}>
@@ -254,8 +253,8 @@ export default function Exhibit(){
                         </p>
                     </div>
                     <div className = {styles.image_2}>
-                        <Image src = {Six} alt = "story"></Image>
-                        <Image src = {Five} alt = "story"></Image>
+                        <img src={Six.src} alt = "story"></img>
+                        <img src={Five.src} alt = "story"></img>
                     </div>
                 </div>
                 <div className = {styles.page}>
@@ -265,9 +264,9 @@ export default function Exhibit(){
                         </p>
                     </div>
                     <div className = {styles.image_3}>
-                        <Image src = {One} alt = "story"></Image>
-                        <Image src = {Two} alt = "story"></Image>
-                        <Image src = {Three} alt = "story"></Image>
+                        <img src={One.src} alt = "story"></img>
+                        <img src={Two.src} alt = "story"></img>
+                        <img src={Three.src} alt = "story"></img>
                     </div>
                 </div>
                 <div className = {styles.page}>
@@ -276,7 +275,7 @@ export default function Exhibit(){
                             Directly interacting with Eames&rsquo; work in living room space 
                         </p>
                     </div>
-                        <Image src = {Thumbnail} alt = "story"></Image>
+                        <img src={Thumbnail.src} alt = "story"></img>
                 </div>
                 <div className = {styles.page}>
                     <div>

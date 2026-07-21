@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -30,7 +29,7 @@ export default function Expo(){
             <title>Ethan Huang Design | Expo</title>
             </Head>
             <div className = {styles.invisible}>
-                <Image src = {Thumbnail} alt = "photo rotation"/>
+                <img src={Thumbnail.src} alt = "photo rotation"/>
             </div>
             <Navbar/>
             <main className={styles.main}>
@@ -101,7 +100,7 @@ export default function Expo(){
                 </p>
             </div>
             <div>
-                <Image src = {Concept} alt = "Background Info"/>
+                <img src={Concept.src} alt = "Background Info"/>
             </div>
             </div>
             <div className = {styles.page}>
@@ -120,8 +119,8 @@ export default function Expo(){
                     </p>
                 </div>
                 <div className={styles.image_2}>
-                    <Image src = {Render} alt = "Background Info"/>
-                    <Image src = {Scroll} alt = "Background Info"/>
+                    <img src={Render.src} alt = "Background Info"/>
+                    <img src={Scroll.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -131,7 +130,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Model} alt = "Background Info"/>
+                    <img src={Model.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -153,7 +152,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Parti} alt = "Background Info"/>
+                    <img src={Parti.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -175,7 +174,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Edu} alt = "Background Info"/>
+                    <img src={Edu.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -200,7 +199,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Fin} alt = "Background Info"/>
+                    <img src={Fin.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -225,7 +224,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Top} alt = "Background Info"/>
+                    <img src={Top.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -235,7 +234,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Side} alt = "Background Info"/>
+                    <img src={Side.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -257,7 +256,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Ind} alt = "Background Info"/>
+                    <img src={Ind.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -267,7 +266,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Co} alt = "Background Info"/>
+                    <img src={Co.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -287,7 +286,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Tech} alt = "Background Info"/>
+                    <img src={Tech.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -309,8 +308,8 @@ export default function Expo(){
                     </p>
                 </div>
                 <div className={styles.image_2}>
-                    <Image src = {Story} alt = "Background Info"/>
-                    <Image src = {Evo} alt = "Background Info"/>
+                    <img src={Story.src} alt = "Background Info"/>
+                    <img src={Evo.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -329,7 +328,7 @@ export default function Expo(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {VS} alt = "Background Info"/>
+                    <img src={VS.src} alt = "Background Info"/>
                 </div>
             </div>
             <div className = {styles.page}>

@@ -118,7 +118,7 @@ export default function Cookie(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Dig}/>
+//                 <img src={Dig.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -143,7 +143,7 @@ export default function Cookie(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Journey}/>
+//                 <img src={Journey.src}/>
 //             </div>
 //         </div>   
 //         <div className = {styles.page}>
@@ -153,7 +153,7 @@ export default function Cookie(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src={Tech}/>
+//                 <img src={Tech.src}/>
 //             </div>
 //         </div>
 //         <div className = {styles.page}>
@@ -178,7 +178,7 @@ export default function Cookie(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Mock}/>
+//                 <img src={Mock.src}/>
 //             </div>
 //         </div>
 //         <div className = {styles.page}>
@@ -200,7 +200,7 @@ export default function Cookie(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {SL}/>
+//                 <img src={SL.src}/>
 //             </div>
 //         </div>  
 //         <div className = {styles.page}>
@@ -210,7 +210,7 @@ export default function Cookie(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {SR}/>
+//                 <img src={SR.src}/>
 //             </div>
 //         </div>  
 //         <div className = {styles.page}>
@@ -244,7 +244,7 @@ export default function Cookie(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {GL}/>
+//                 <img src={GL.src}/>
 //             </div>
 //         </div>  
 //         <div className = {styles.page}>
@@ -254,7 +254,7 @@ export default function Cookie(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {GR}/>
+//                 <img src={GR.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -305,14 +305,14 @@ export default function Cookie(){
 //             <div>
 //             </div>
 //             <div>
-//                 <Image src = {Thumbnail}/>
+//                 <img src={Thumbnail.src}/>
 //             </div>
 //         </div>
 //         <div className = {styles.page}>
 //             <div>
 //             </div>
 //             <div>
-//                 <Image src = {C2}/>
+//                 <img src={C2.src}/>
 //             </div>
 //         </div>
 //         <div className = {styles.page}>
@@ -348,14 +348,14 @@ export default function Cookie(){
 //             <div>
 //             </div>
 //             <div>
-//                 <Image src={Recipe}/>
+//                 <img src={Recipe.src}/>
 //             </div>
 //         </div>
 //         <div className = {styles.page}>
 //             <div>
 //             </div>
 //             <div>
-//                 <Image src={Fridge}/>
+//                 <img src={Fridge.src}/>
 //             </div>
 //         </div>
 //         <div className = {styles.page}>

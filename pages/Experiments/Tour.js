@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Storyboard from "../../Images/Projects/Tour/Storyboard.jpeg"; 
@@ -17,11 +16,11 @@ export default function Tour(){
             <title>Ethan Huang Design | Tour</title>
             </Head>
             <div className = {styles.invisible}>
-                <Image src = {Storyboard} alt = "photo rotation"/>
-                <Image src = {Map} alt = "photo rotation"/>
-                <Image src = {One} alt = "photo rotation"/>
-                <Image src = {Two} alt = "photo rotation"/>
-                <Image src = {Three} alt = "photo rotation"/>
+                <img src={Storyboard.src} alt = "photo rotation"/>
+                <img src={Map.src} alt = "photo rotation"/>
+                <img src={One.src} alt = "photo rotation"/>
+                <img src={Two.src} alt = "photo rotation"/>
+                <img src={Three.src} alt = "photo rotation"/>
             </div>
             <Navbar/>
             <main className={styles.main}>
@@ -89,7 +88,7 @@ export default function Tour(){
                     </div>
                     <div>
                     <p className = {styles.text}>
-                    <Image src = {Map} alt = "map"></Image>
+                    <img src={Map.src} alt = "map"></img>
                     </p>
                     </div>
                 </div>
@@ -129,7 +128,7 @@ export default function Tour(){
                     </p>
                     </div>
                     <div>
-                   <Image src = {Storyboard} alt = "story"></Image>
+                   <img src={Storyboard.src} alt = "story"></img>
                     </div>
                 </div>
                 <div className = {styles.page}>
@@ -184,7 +183,7 @@ export default function Tour(){
                         Sparky, our virtual tour guide 
                         </p>
                     </div>
-                        <Image src = {Three} alt = "story"></Image>
+                        <img src={Three.src} alt = "story"></img>
                 </div>
                 <div className = {styles.page}>
                     <div>
@@ -192,7 +191,7 @@ export default function Tour(){
                             Picking an object
                         </p>
                     </div>
-                        <Image src = {One} alt = "story"></Image>
+                        <img src={One.src} alt = "story"></img>
                 </div>
                 <div className = {styles.page}>
                     <div>
@@ -200,7 +199,7 @@ export default function Tour(){
                             Piecing it together
                         </p>
                     </div>
-                        <Image src = {Two} alt = "story"></Image>
+                        <img src={Two.src} alt = "story"></img>
                 </div>
                 <div className = {styles.page}>
                     <div>

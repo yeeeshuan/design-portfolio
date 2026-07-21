@@ -1,6 +1,5 @@
 import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -47,7 +46,7 @@ export default function TEDxCMU(){
                     marginBottom:"4rem"
                 
                 }}>
-                    <Image src = {TED} width = {2000} height ={1200} alt = "cover image"/>
+                    <img src={TED.src} width = {2000} height ={1200} alt = "cover image"/>
                 </div>
             <div className={styles.space}>
             <iframe width = "100%" height="600px" src="https://www.youtube.com/embed/PJDp8zVuNLw?h=a774012d6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -82,7 +81,7 @@ export default function TEDxCMU(){
                 justifyContent: "center", 
             
             }}>
-                <Image src = {Build} width = {2000} height ={1125} alt = "cover image"/>
+                <img src={Build.src} width = {2000} height ={1125} alt = "cover image"/>
             </div>
             <h1 className = {styles.bTitle}> 
                 Desktop View of Bear Builder <br/><br/>

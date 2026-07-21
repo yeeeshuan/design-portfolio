@@ -14,9 +14,9 @@ export default function Teachable(){
 //             <title>Ethan Huang Design | Interactive Grid</title>
 //             </Head>
 //             <div className = {styles.invisible}>
-//                 <Image src = {Thumbnail} alt = "photo rotation"/>
-//                 <Image src = {GTM} alt = "photo rotation"/>
-//                 <Image src = {Figma} alt = "photo rotation"/>
+//                 <img src={Thumbnail.src} alt = "photo rotation"/>
+//                 <img src={GTM.src} alt = "photo rotation"/>
+//                 <img src={Figma.src} alt = "photo rotation"/>
 //             </div>
 //             <Navbar/>
 //             <main className={styles.main}>
@@ -46,7 +46,7 @@ export default function Teachable(){
 //                 </div>
 //          </div>
 //             <div>
-//                 <Image src = {Thumbnail} alt = "cover image"/>
+//                 <img src={Thumbnail.src} alt = "cover image"/>
 //             </div>
 //             <br/>
 //             <div className = {styles.page}>
@@ -130,7 +130,7 @@ export default function Teachable(){
 //                         </p>
 //                     </div>
 //                     <div>
-//                    <Image width = "1920px" height = "1080px" src = {GTM} alt = "gtm"></Image>
+//                    <img width = "1920px" height = "1080px" src={GTM.src} alt = "gtm"></img>
 //                     </div>
 //                 </div>
 //                 <div className = {styles.page}>
@@ -263,7 +263,7 @@ export default function Teachable(){
 //                     </p>
 //                     </div>
 //                     <div>
-//                    <Image src = {Figma} alt = "gtm"></Image>
+//                    <img src={Figma.src} alt = "gtm"></img>
 //                     </div>
 //                 </div>
 //                 <div className = {styles.page}>

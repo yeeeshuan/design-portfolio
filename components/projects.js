@@ -1,5 +1,4 @@
 import styles from "../styles/Projects.module.css"; 
-import Image from "next/image";
 
 import Zenda from "../Images/About/Zenda.png"
 import BSP from "../Images/About/BSP.png"
@@ -64,7 +63,7 @@ function Video(props){
                             <p className={styles.words}>{props.description}</p>
                         </div>
                         <div className={styles.cardRight}>
-                            <Image width={50} height={50} src={onHover} alt="image"/>
+                            <img width={50} height={50} src={onHover.src} alt="image"/>
                         </div>
                     </div>
                 </a>
@@ -77,14 +76,14 @@ function Img(props){
     return(
         <div className={styles.imageWrap}>
             <a href={props.link}>
-                <Image src={props.image} alt="image" style={{width:'100%', height:'auto'}}/>
+                <img src={props.image?.src ?? props.image} alt="image" style={{width:'100%', height:'auto'}}/>
                 <div className={styles.cardDes}>
                     <div className={styles.cardLeft}>
                         <h1 className={styles.title}>{props.name}</h1>
                         <p className={styles.words}>{props.description}</p>
                     </div>
                     <div className={styles.cardRight}>
-                        <Image width={50} height={50} src={onHover} alt="image"/>
+                        <img width={50} height={50} src={onHover.src} alt="image"/>
                     </div>
                 </div>
             </a>
@@ -100,7 +99,7 @@ class Projects extends Component{
                 {type : "v", category:"P", name : "Siri Desktop", description: "AI Productivity Tool", thumbnail: "./Siri_AI.mp4", link: "Projects/Siri" }, 
                 {type : "v", category:"C", name : "IBM Agentic Tooling", description: "Agentic Workflows via MCP and Internal Tooling", link: "Projects/IBM", thumbnail: "./Project_Update.mp4" },  
                 {type : "i", category:"C", name : "Best Summer Programs", description: "Helping families navigate high school summer programs", image: BSP , link: "Projects/BSP" }, 
-                {type : "i", category:"C", name : "Zenda Platform", description: "Building product features with GenAI", image: Zenda, link: "Projects/Zenda" }, 
+                {type : "v", category:"C", name : "Zenda Platform", description: "Building product features with GenAI", thumbnail: './Zenda_P5.mp4', link: "Projects/Zenda" }, 
                 {type : "v", category:"P", name : "Waymo x Airbnb", description: "Waymo x Airbnb collaboration", link: "Projects/Waymo", thumbnail: "./Waymo.mp4" },  
                 {type : "v", category:"C", name : "I Know a Place", description: "Interactive mapping platform for telling stories", thumbnail: "./I_Know.mp4", link: "Projects/I_Know" }, 
                 // {type : "i", category:"P", name : "Replit Community Page", description: "Redesigning the Replit community page", image: Repl, link: "Projects/Replit"},

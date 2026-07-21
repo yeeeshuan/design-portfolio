@@ -1,6 +1,5 @@
 import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -44,7 +43,7 @@ export default function Gmail(){
             </div>
          </div>
         <div>
-            <Image src = {Thumbnail} alt = "cover image"/>
+            <img src={Thumbnail.src} alt = "cover image"/>
         </div>
         <br/>
         <div className = {styles.page}>
@@ -89,7 +88,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <Image src = {UI} alt="Current UI Systems" style={{width:'100%', height:'auto'}}/>
+                <img src={UI.src} alt="Current UI Systems" style={{width:'100%', height:'auto'}}/>
             </div>
         </div> 
         <div className = {styles.page}>
@@ -111,7 +110,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <Image src = {Journey} alt="Journey map" style={{width:'100%', height:'auto'}}/>
+                <img src={Journey.src} alt="Journey map" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>   
         <div className = {styles.page}>
@@ -243,7 +242,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <Image src = {Student} alt="Student mockup" style={{width:'100%', height:'auto'}}/>
+                <img src={Student.src} alt="Student mockup" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>   
         <div className = {styles.page}>
@@ -253,7 +252,7 @@ export default function Gmail(){
                 </p>
             </div>
             <div>
-                <Image src = {Prof} alt="Prof" style={{width:'100%', height:'auto'}}/>
+                <img src={Prof.src} alt="Prof" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>   
         <div className = {styles.page}>

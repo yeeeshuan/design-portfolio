@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css";
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -99,7 +98,7 @@ export default function IBM(){
                         <p className={styles.d}>Sample Mural board</p>
                     </div>
                     <div>
-                        <Image src={Mural} alt="Sample Mural board" priority sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                        <img src={Mural.src} alt="Sample Mural board" style={{width:'100%', height:'auto'}}/>
                     </div>
                 </div>
                 <div className={styles.page}>

@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css";
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -123,7 +122,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W4} alt="User Flow for Waymo x Airbnb Experience" priority sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                <img src={W4.src} alt="User Flow for Waymo x Airbnb Experience" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
 
@@ -150,7 +149,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W1} alt="Search Bar on Home Page" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                <img src={W1.src} alt="Search Bar on Home Page" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
         
@@ -161,7 +160,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W2} alt="Tile on Location Page" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                <img src={W2.src} alt="Tile on Location Page" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
 
@@ -172,7 +171,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W3} alt="Card on Confirmation Page" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                <img src={W3.src} alt="Card on Confirmation Page" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
 
@@ -274,7 +273,7 @@ export default function Waymo(){
                 </p>
             </div>
             <div>
-                <Image src={W5} alt="Components" sizes="(max-width: 600px) 100vw, 80vw" style={{width:'100%', height:'auto'}}/>
+                <img src={W5.src} alt="Components" style={{width:'100%', height:'auto'}}/>
             </div>
         </div>
 

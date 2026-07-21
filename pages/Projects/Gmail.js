@@ -1,6 +1,5 @@
 import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -39,7 +38,7 @@ export default function Gmail(){
 //             </div>
 //          </div>
 //         <div>
-//             <Image src={Thumbnail} alt = "cover image"/>
+//             <img src={Thumbnail.src} alt = "cover image"/>
 //         </div>
 //         <br/>
 //         <div className = {styles.page}>
@@ -85,7 +84,7 @@ export default function Gmail(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {But}/>
+//                 <img src={But.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -168,7 +167,7 @@ export default function Gmail(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Folder}/>
+//                 <img src={Folder.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -215,7 +214,7 @@ export default function Gmail(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Mock}/>
+//                 <img src={Mock.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -240,7 +239,7 @@ export default function Gmail(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Code}/>
+//                 <img src={Code.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>

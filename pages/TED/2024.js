@@ -1,6 +1,5 @@
 import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -52,7 +51,7 @@ export default function TEDxCMU(){
                     marginBottom:"4rem"
                 
                 }}>
-                    <Image src = {TED} width = {2000} height ={1490} alt = "cover image"/>
+                    <img src={TED.src} width = {2000} height ={1490} alt = "cover image"/>
                 </div>
             <div className = {styles.page}>
                 <div>
@@ -89,7 +88,7 @@ export default function TEDxCMU(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Mushroom} alt="Mushroom render" style={{width:'100%', height:'auto'}}/>
+                    <img src={Mushroom.src} alt="Mushroom render" style={{width:'100%', height:'auto'}}/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -99,7 +98,7 @@ export default function TEDxCMU(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Succ} alt="Succulent render" style={{width:'100%', height:'auto'}}/>
+                    <img src={Succ.src} alt="Succulent render" style={{width:'100%', height:'auto'}}/>
                 </div>
             </div>
             <div className = {styles.page}>
@@ -109,7 +108,7 @@ export default function TEDxCMU(){
                     </p>
                 </div>
                 <div>
-                    <Image src = {Flower} alt="Flower render" style={{width:'100%', height:'auto'}}/>
+                    <img src={Flower.src} alt="Flower render" style={{width:'100%', height:'auto'}}/>
                 </div>
             </div>
          </div>

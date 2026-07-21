@@ -40,22 +40,22 @@ export default function DesignHero(){
 //             <title>Ethan Huang Design | Lil Garden</title>
 //             </Head>
 //             <div className = {styles.invisible}>
-//                 <Image src = {S1} alt = "photo rotation"/>
-//                 <Image src = {S2} alt = "photo rotation"/>
-//                 <Image src = {S3} alt = "photo rotation"/>
-//                 <Image src = {S4} alt = "photo rotation"/>
-//                 <Image src = {S5} alt = "photo rotation"/>
-//                 <Image src = {S6} alt = "photo rotation"/>
-//                 <Image src = {S7} alt = "photo rotation"/>
-//                 <Image src = {S8} alt = "photo rotation"/>
-//                 <Image src = {D1} alt = "photo rotation"/>
-//                 <Image src = {D2} alt = "photo rotation"/>
-//                 <Image src = {D3} alt = "photo rotation"/>
-//                 <Image src = {D4} alt = "photo rotation"/>
-//                 <Image src = {K1} alt = "photo rotation"/>
-//                 <Image src = {K2} alt = "photo rotation"/>
-//                 <Image src = {K3} alt = "photo rotation"/>
-//                 <Image src = {K4} alt = "photo rotation"/>
+//                 <img src={S1.src} alt = "photo rotation"/>
+//                 <img src={S2.src} alt = "photo rotation"/>
+//                 <img src={S3.src} alt = "photo rotation"/>
+//                 <img src={S4.src} alt = "photo rotation"/>
+//                 <img src={S5.src} alt = "photo rotation"/>
+//                 <img src={S6.src} alt = "photo rotation"/>
+//                 <img src={S7.src} alt = "photo rotation"/>
+//                 <img src={S8.src} alt = "photo rotation"/>
+//                 <img src={D1.src} alt = "photo rotation"/>
+//                 <img src={D2.src} alt = "photo rotation"/>
+//                 <img src={D3.src} alt = "photo rotation"/>
+//                 <img src={D4.src} alt = "photo rotation"/>
+//                 <img src={K1.src} alt = "photo rotation"/>
+//                 <img src={K2.src} alt = "photo rotation"/>
+//                 <img src={K3.src} alt = "photo rotation"/>
+//                 <img src={K4.src} alt = "photo rotation"/>
 //             </div>
 //             <Navbar/>
 //             <main className={styles.main}>
@@ -83,7 +83,7 @@ export default function DesignHero(){
 //             </div>
 //             </div>
 //             <div>
-//                 <Image src = {DH} alt = "cover image"/>
+//                 <img src={DH.src} alt = "cover image"/>
 //             </div>
 //             <br/>
 //             <br/>
@@ -129,7 +129,7 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Journey}/>
+//                 <img src={Journey.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -169,7 +169,7 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Bucket}/>
+//                 <img src={Bucket.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -183,7 +183,7 @@ export default function DesignHero(){
 //                 In the virtual world, the is one of the primary tools that the visitor uses to take care of their garden. 
 //                 <br/>
 //                 <br/>
-//                 When visitors fill up their buckets, the color of the bucket will become increasingly blue as feedback. The visitor has to move back and forth from the garden to the well to refill their bucket, enforcing the concept of patience. 
+//                 When visitors up their buckets, the color of the bucket will become increasingly blue as feedback. The visitor has to move back and forth from the garden to the well to refill their bucket, enforcing the concept of patience. 
 //             </p>
 //             </div>
 //         </div> 
@@ -222,7 +222,7 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Layout}/>
+//                 <img src={Layout.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -232,7 +232,7 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Parti}/>
+//                 <img src={Parti.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -254,7 +254,7 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Sign}/>
+//                 <img src={Sign.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -264,9 +264,9 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div className={styles.image_3}>
-//                 <Image src = {SignImg}/>    
-//                 <Image src = {FB}/>
-//                 <Image src = {Steps}/>
+//                 <img src={SignImg.src}/>    
+//                 <img src={FB.src}/>
+//                 <img src={Steps.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -349,7 +349,7 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Systems}/>
+//                 <img src={Systems.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -359,7 +359,7 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Foliage}/>
+//                 <img src={Foliage.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>
@@ -429,7 +429,7 @@ export default function DesignHero(){
 //                 </p>
 //             </div>
 //             <div>
-//                 <Image src = {Tech}/>
+//                 <img src={Tech.src}/>
 //             </div>
 //         </div> 
 //         <div className = {styles.page}>

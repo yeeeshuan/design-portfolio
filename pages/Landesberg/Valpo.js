@@ -1,5 +1,4 @@
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -22,17 +21,17 @@ export default function Websites(){
             <title>Ethan Huang Design | Valpo</title>
             </Head>
             <div className = {styles.invisible}>
-                <Image src = {Web} alt = "photo rotation"/>
-                <Image src = {Type} alt = "photo rotation"/>
-                <Image src = {Buttons} alt = "photo rotation"/>
-                <Image src = {Assets} alt = "photo rotation"/>
-                <Image src = {Footers} alt = "photo rotation"/>
-                <Image src = {Sidebars} alt = "photo rotation"/>
-                <Image src = {F1} alt = "photo rotation"/>
-                <Image src = {F2} alt = "photo rotation"/>
-                <Image src = {D1} alt = "photo rotation"/>
-                <Image src = {D2} alt = "photo rotation"/>
-                <Image src = {Mobile} alt = "photo rotation"/>
+                <img src={Web.src} alt = "photo rotation"/>
+                <img src={Type.src} alt = "photo rotation"/>
+                <img src={Buttons.src} alt = "photo rotation"/>
+                <img src={Assets.src} alt = "photo rotation"/>
+                <img src={Footers.src} alt = "photo rotation"/>
+                <img src={Sidebars.src} alt = "photo rotation"/>
+                <img src={F1.src} alt = "photo rotation"/>
+                <img src={F2.src} alt = "photo rotation"/>
+                <img src={D1.src} alt = "photo rotation"/>
+                <img src={D2.src} alt = "photo rotation"/>
+                <img src={Mobile.src} alt = "photo rotation"/>
             </div>
             <Navbar/>
             <main className={styles.main}>
@@ -57,7 +56,7 @@ export default function Websites(){
             </div>
          </div>
             <div>
-                <Image src = {Web} alt = "cover image"/>
+                <img src={Web.src} alt = "cover image"/>
             </div>
             <div className = {styles.page}>
                     <div>
@@ -93,7 +92,7 @@ export default function Websites(){
                     Typography
                     </p>
                     </div>
-                    <Image src = {Type} alt = "Type"/>
+                    <img src={Type.src} alt = "Type"/>
                 </div>
                 <div className = {styles.page}>
                     <div>
@@ -101,7 +100,7 @@ export default function Websites(){
                     Buttons
                     </p>
                     </div>
-                    <Image src = {Buttons} alt = "Buttons"/>
+                    <img src={Buttons.src} alt = "Buttons"/>
                 </div>
                 <div className = {styles.page}>
                     <div>
@@ -109,7 +108,7 @@ export default function Websites(){
                     Mobile Assets
                     </p>
                     </div>
-                    <Image src = {Assets} alt = "Buttons"/>
+                    <img src={Assets.src} alt = "Buttons"/>
                 </div>
                 <div className = {styles.page}>
                     <div>
@@ -117,7 +116,7 @@ export default function Websites(){
                     Different Footers Tested
                     </p>
                     </div>
-                    <Image src = {Footers} alt = "Buttons"/>
+                    <img src={Footers.src} alt = "Buttons"/>
                 </div>
                 <div className = {styles.page}>
                     <div>
@@ -137,7 +136,7 @@ export default function Websites(){
                     Sidebars Tested
                     </p>
                     </div>
-                    <Image src = {Sidebars} alt = "Sidebars"/>
+                    <img src={Sidebars.src} alt = "Sidebars"/>
                 </div>          
                 <div className = {styles.page}>
                     <div>
@@ -186,8 +185,8 @@ export default function Websites(){
                     </div>
                     <div>
                         <div>
-                        <Image src = {D1} alt = "Buttons"/>
-                        <Image src = {D2} alt = "Buttons"/>
+                        <img src={D1.src} alt = "Buttons"/>
+                        <img src={D2.src} alt = "Buttons"/>
                         </div>
                     </div>
                 </div> 
@@ -199,7 +198,7 @@ export default function Websites(){
                     </div>
                     <div>
                         <div>
-                        <Image src = {F1} alt = "Buttons"/>
+                        <img src={F1.src} alt = "Buttons"/>
                         </div>
                     </div>
                 </div> 
@@ -211,7 +210,7 @@ export default function Websites(){
                     </div>
                     <div>
                         <div>
-                        <Image src = {F2} alt = "Buttons"/>
+                        <img src={F2.src} alt = "Buttons"/>
                         </div>
                     </div>
                 </div> 
@@ -236,7 +235,7 @@ export default function Websites(){
                         Mobile Screen Mock-Ups
                     </p>
                     </div>
-                    <Image src = {Mobile} alt = "Mobile Screen Mock-ups"/>
+                    <img src={Mobile.src} alt = "Mobile Screen Mock-ups"/>
                 </div>       
                 <div className = {styles.page}>
                     <div>

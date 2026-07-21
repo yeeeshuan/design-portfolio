@@ -2,7 +2,6 @@ import styles from "../../styles/Projects.module.css";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
-import Image from "next/image";
 
 import Thumbnail from "../../Images/About/BSP.png"
 
@@ -15,7 +14,7 @@ export default function BSP(){
             <Navbar/>
             <main className={styles.main}>
                 <div className={styles.hero}>
-                    <Image src={Thumbnail} alt="BestSummerPrograms cover" priority sizes="100vw" style={{objectFit:"cover",width:"100%",height:"100%",maxHeight:"70vh"}}/>
+                    <img src={Thumbnail.src} alt="BestSummerPrograms cover" style={{objectFit:"cover",width:"100%",height:"100%",maxHeight:"70vh"}}/>
                 </div>
                 <div className={styles.intro}>
                     <div className={styles.introTitle}>

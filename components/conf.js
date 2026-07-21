@@ -5,7 +5,6 @@ import Two from "../Images/About/2.jpeg";
 import Three from "../Images/About/3.jpg"; 
 import Four from "../Images/About/4.jpeg"; 
 import Five from "../Images/About/5.jpg"; 
-import Image from "next/image";
 import { Component } from "react"; 
 
 
@@ -36,14 +35,14 @@ class Confetti extends Component{
             <div>
             <button className={styles.button} style={{width: "175px", height:"175px"}} onClick={this.handleClick}>
                 <div style={{borderRadius: '5px', overflow: 'hidden'}}>
-                    <Image style={{borderRadius: '5px', width:'100%', height:'auto'}} src = {this.state.rotation[this.state.index]} alt = "photo rotation"/>
+                    <img style={{borderRadius: '5px', width:'100%', height:'auto'}} src={this.state.rotation[this.state.index].src} alt = "photo rotation"/>
                 </div>
             </button>
             <div className={styles.invisible}>
-                <Image src = {One} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
-                <Image src = {Two} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
-                <Image src = {Three} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
-                <Image src = {Four} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
+                <img src={One.src} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
+                <img src={Two.src} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
+                <img src={Three.src} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
+                <img src={Four.src} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
             </div>
             </div>
         );

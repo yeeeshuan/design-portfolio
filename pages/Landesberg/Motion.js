@@ -1,6 +1,5 @@
 import styled from 'styled-components'; 
 import styles from "../../styles/Projects.module.css"; 
-import Image from "next/image";
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
@@ -37,7 +36,7 @@ export default function Magazine(){
          </div>
          </div>
             <div>
-                <Image alt = "cover image"/>
+                <img alt = "cover image"/>
             </div>
             <div className = {styles.page}>
                     <div>
@@ -47,12 +46,12 @@ export default function Magazine(){
                     </div>
                     <div>
                         <div className = {styles.image_2}>
-                            <Image src = {L1} width = {1080} height ={600} alt = "cover image"/>
-                            <Image src = {L2} width = {1080} height ={600} alt = "cover image"/>
+                            <img src={L1.src} width = {1080} height ={600} alt = "cover image"/>
+                            <img src={L2.src} width = {1080} height ={600} alt = "cover image"/>
                         </div>
                         <div className = {styles.image_2}>
-                            <Image src = {L3} width = {1080} height ={600} alt = "cover image"/>
-                            <Image src = {L4} width = {1080} height ={600} alt = "cover image"/>
+                            <img src={L3.src} width = {1080} height ={600} alt = "cover image"/>
+                            <img src={L4.src} width = {1080} height ={600} alt = "cover image"/>
                         </div>
                     </div>
                 </div>

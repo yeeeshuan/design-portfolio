@@ -2,7 +2,6 @@ import React, { useState} from 'react';
 import styles from "../styles/About.module.css"; 
 import invis from "../styles/Home.module.css";
 import Navbar from '../components/navbar';
-import Image from "next/image";
 import Head from 'next/head';
 import Footer from '../components/footer'; 
 import Me from '../Images/About/About_1.jpg'; 
@@ -15,13 +14,13 @@ return(
             <title>Ethan Huang Design | About</title>
         </Head> 
         <div className = {invis.invisible}>
-            <Image src = {Me} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
+            <img src={Me.src} alt = "photo rotation" style={{width:'100%', height:'auto'}}/>
         </div>
         <Navbar/>
         <div className={styles.imageWrap_1}>
         <div className={styles.left}>
             <span>
-                <Image style = {{borderRadius: '10px', overflow: 'hidden', width:'100%', height:'auto'}} className = "Photo" src = {Me} alt = "Photo"/>
+                <img style = {{borderRadius: '10px', overflow: 'hidden', width:'100%', height:'auto'}} className = "Photo" src={Me.src} alt = "Photo"/>
             </span>
         </div>
         <div className={styles.right}>
