@@ -127,7 +127,7 @@ class Projects extends Component{
         super(props);
         this.state = {
             projects:[
-                {type : "v", category:"C", name : "IBM Agentic Tooling", description: "Agentic Workflows via MCP and Internal Tooling", link: "Projects/IBM", thumbnail: "./Figma_MCP.mp4" },  
+                // {type : "v", category:"C", name : "IBM Agentic Tooling", description: "Agentic Workflows via MCP and Internal Tooling", link: "Projects/IBM", thumbnail: "./Figma_MCP.mp4" },  
                 {type : "v", category:"P", name : "Siri Desktop", description: "AI Productivity Tool", thumbnail: "./Siri_AI.mp4", link: "Projects/Siri" }, 
                 {type : "i", category:"C", name : "Zenda Platform", description: "Building product features with GenAI", image: Zenda, link: "Projects/Zenda" }, 
                 {type : "i", category:"C", name : "Best Summer Programs", description: "Helping families navigate high school summer programs", image: BSP , link: "Projects/BSP" }, 
