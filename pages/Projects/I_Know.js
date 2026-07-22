@@ -47,11 +47,50 @@ export default function IKnow(){
                         </div>
                     </div>
                 </div>
+        <div className={styles.page}>
+            <div/>
+            <div>
+                <h1 className={styles.bTitle}>
+                    Overview
+                </h1>
+                <p className={styles.text}>
+                    TEDxCMU&rsquo;s 2025 theme was &ldquo;I Know a Place&rdquo; — the idea that a single location can hold completely different memories, meanings, and stories for every person who has been there.
+                    <br/><br/>
+                    I was brought on as the project lead to build an interactive web experience for the live event. Attendees could walk up to a shared screen, drop a pin on a map, and submit a short story about a place that meant something to them. The stories would appear as live pins for everyone to explore throughout the night.
+                    <br/><br/>
+                    The core challenges were: keeping the experience fast and frictionless for a live audience, moderating submissions in real time without a dedicated person watching, and making the map feel playful rather than clinical.
+                </p>
+            </div>
+        </div>
+        <div className = {styles.page}>
+            <div/>
+            <pre className={styles.diagram}><code>{`
++-----------------------+     submits payload      +-----------------------+
+| User Submits Story    | -----------------------> | Next.js API Route     |
+| Input Modal (Next.js) | { story, location, ... } | /api/submit           |
++-----------------------+                          +-----------------------+
+                                                               |
+                                            +------------------+------------------+
+                                            | (parallel AI processing)            |
+                                            v                                     v
++-----------------------+     moderation pass      +-----------------------+     tag generation         +-----------------------+
+| OpenAI Moderation     | -----------------------> | Google Sheets API     | <------------------------- | OpenAI API            |
+| Content Safety Check  |                          | Append Row / DB       | { tags: [...] }            | Tag Generator         |
++-----------------------+                          +-----------------------+                            +-----------------------+
+                                                               |
+                                                               | story & tags saved
+                                                               v
+                                                   +-----------------------+
+                                                   | Leaflet.js Map        |
+                                                   | Interactive Pin       |
+                                                   +-----------------------+
+`}</code></pre>
+        </div>
         <div className = {styles.page}>
             <div>
-            </div>     
+            </div>
             <div>
-            <h1 className = {styles.pTitle}> 
+            <h1 className = {styles.pTitle}>
                 Map Features
             </h1>
             <p className={styles.text}>
@@ -106,30 +145,6 @@ export default function IKnow(){
             I also used the OpenAI API to generate tags for each story, helping categorize them. During user testing with the team, we found that the auto-generated tags added an element of joy and playfulness to the story submission process.
             </p>
             </div>
-        </div>
-        <div className = {styles.page}>
-            <div/>
-            <pre className={styles.diagram}><code>{`
-+-----------------------+     submits payload      +-----------------------+
-| User Submits Story    | -----------------------> | Next.js API Route     |
-| Input Modal (Next.js) | { story, location, ... } | /api/submit           |
-+-----------------------+                          +-----------------------+
-                                                               |
-                                            +------------------+------------------+
-                                            | (parallel AI processing)            |
-                                            v                                     v
-+-----------------------+     moderation pass      +-----------------------+     tag generation         +-----------------------+
-| OpenAI Moderation     | -----------------------> | Google Sheets API     | <------------------------- | OpenAI API            |
-| Content Safety Check  |                          | Append Row / DB       | { tags: [...] }            | Tag Generator         |
-+-----------------------+                          +-----------------------+                            +-----------------------+
-                                                               |
-                                                               | story & tags saved
-                                                               v
-                                                   +-----------------------+
-                                                   | Leaflet.js Map        |
-                                                   | Interactive Pin       |
-                                                   +-----------------------+
-`}</code></pre>
         </div>
         <div className = {styles.page}>
             <div>

@@ -48,6 +48,17 @@ export default function IBM(){
                 <div className={styles.page}>
                     <div/>
                     <div>
+                        <h1 className={styles.bTitle}>Overview</h1>
+                        <p className={styles.text}>
+                            As an AI Solutions Engineer at IBM, I sit at the intersection of design, engineering, and client delivery. My work focuses on building agentic tooling that removes friction from how the team operates — turning manual, repetitive processes into automated workflows powered by AI.
+                            <br/><br/>
+                            The two projects on this page represent that work: a Mural-to-Figma pipeline that uses the Model Context Protocol to let IBM Bob read and act on client workshop boards, and a Monday.com automation that enriches board data in real time from unstructured update notes. Both were built to solve problems I observed directly on the job.
+                        </p>
+                    </div>
+                </div>
+                <div className={styles.page}>
+                    <div/>
+                    <div>
                         <h1 className={styles.bTitle}>
                             01: Mural to Figma Workflow
                         </h1>
@@ -116,7 +127,8 @@ export default function IBM(){
                             02: Monday.com Workflow
                         </h1>
                         <p className={styles.text}>
-                            Engineered an automated Monday.com workflow that dynamically enriches board data from unstructured user inputs. When a project name or status update is modified, a webhook triggers a custom NodeJS server hosted on Railway, which processes the payload via the OpenAI API and populates the remaining board fields automatically.<br/><br/>
+                            I engineered an automated Monday.com workflow that dynamically enriches board data from unstructured user inputs. When a project name or status update is modified, a webhook triggers a custom NodeJS server hosted on Railway, which processes the payload via the OpenAI API and populates the remaining board fields automatically.<br/><br/>
+                            A problem I noticed is that our team was spending significant time manually filling in board metadata — client names, opportunity stages, account details — from loosely written update notes. I built this automation to eliminate that overhead, so the board always reflects accurate, structured data without anyone having to re-enter it.<br/><br/>
                             Here&rsquo;s how it works:
                         </p>
                     </div>

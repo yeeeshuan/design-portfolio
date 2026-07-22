@@ -56,11 +56,13 @@ export default function Siri(){
                 <div className={styles.page}>
                     <div/>
                     <div>
-                        <h1 className={styles.pTitle}>Problem Space</h1>
+                        <h1 className={styles.bTitle}>Overview</h1>
                         <p className={styles.text}>
-                            Currently, CUIs struggle with handling non-command user requests. When faced with such inputs, their responses are often no more advanced than a standard online search, providing results similar to what a human could find independently.
+                            Siri Desktop is a concept that reimagines what a conversational AI assistant could look like on a desktop — not as a floating widget, but as a full dynamic dashboard that generates and organizes app experiences in response to a single natural language prompt.
                             <br/><br/>
-                            This presents an opportunity for generative AI to offer users actionable insights and tailored responses beyond simple search results.
+                            The project started from a frustration with how current CUIs like Siri handle open-ended requests. Ask Siri to help you bake a cake and you get a web search. The opportunity I saw was using generative AI to do what a human would actually do: open the Notes app, set timers, queue a playlist — all at once, structured and interactive.
+                            <br/><br/>
+                            The experience was designed in Figma and built in Next.js, with the OpenAI API powering response generation, content organization, and regeneration flows.
                         </p>
                     </div>
                 </div>

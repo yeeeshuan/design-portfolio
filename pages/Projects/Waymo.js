@@ -45,31 +45,30 @@ export default function Waymo(){
                         </div>
                     </div>
                 </div>
-        <div className = {styles.page}>
+        <div className={styles.page}>
+            <div/>
             <div>
-            </div>     
-            <div>
-            <h1 className = {styles.pTitle}> 
-                Research
-            </h1>
-            <h1 className = {styles.bTitle}> 
-                Identifying Insights
-            </h1>
-            <p className = {styles.text}>
-                Three of the insights to help inform this collaboration were: 
-                <br/>
-                <br/>
-                1. Waymo&rsquo;s technologies oﬀers a safer alternative to current ridesharing methods, showing reduced rates of road incidents compared to human drivers.
-                <br/>
-                <br/>
-                2. Current ride-sharing companies have seen a rise in concerns about sexual harassment and discrimination—Waymo provides a judgement-free riding experience.
-                <br/>
-                <br/>
-                3. With multiple cities looking to adopt smart city solutions, Waymo can play a crucial role in these transformations.
-            </p>
+                <h1 className={styles.bTitle}>
+                    Overview
+                </h1>
+                <p className={styles.text}>
+                    This is a speculative product design concept exploring what a collaboration between Waymo and Airbnb could look like. As autonomous vehicles become more reliable and city infrastructure adapts, the natural next step is integrating them into the travel booking experience — not as a separate app, but as a seamless layer within Airbnb itself.
+                    <br/><br/>
+                    The concept centers on three ideas: Waymo rides auto-scheduled around your Airbnb stay, a Smart Itinerary that plans rides around your trip, and in-ride suggestions for local attractions. The goal was to make autonomous travel feel like a natural part of how people already plan trips — not a novelty, but a convenience.
+                </p>
             </div>
-        </div> 
+        </div>
         <div className = {styles.page}>
+            <div>
+                <p className = {styles.d}>
+                    User Flow for Waymo x Airbnb Experience
+                </p>
+            </div>
+            <div>
+                <img src={W4.src} alt="User Flow for Waymo x Airbnb Experience" style={{width:'100%', height:'auto'}}/>
+            </div>
+        </div>
+                <div className = {styles.page}>
             <div/>
             <pre className={styles.diagram}><code>{`
 +-----------------------+     booking confirmed      +-----------------------+     POST /waymo/reserve     +-----------------------+
@@ -86,17 +85,6 @@ export default function Waymo(){
 +-----------------------+                            +-----------------------+                            +-----------------------+
 `}</code></pre>
         </div>
-        <div className = {styles.page}>
-            <div>
-                <p className = {styles.d}>
-                    User Flow for Waymo x Airbnb Experience
-                </p>
-            </div>
-            <div>
-                <img src={W4.src} alt="User Flow for Waymo x Airbnb Experience" style={{width:'100%', height:'auto'}}/>
-            </div>
-        </div>
-
         <div className = {styles.page}>
             <div>
             </div>     
