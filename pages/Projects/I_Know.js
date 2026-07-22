@@ -110,41 +110,25 @@ export default function IKnow(){
         <div className = {styles.page}>
             <div/>
             <pre className={styles.diagram}><code>{`
-+-----------------------------+
-| User Submits Story          |
-| Input Modal (Next.js)       |
-+-----------------------------+
-         |
-         | { story text, location, author }
-         v
-+-----------------------------+
-| Next.js API Route           |
-| /api/submit                 |
-+-----------------------------+
-         |
-         +------------------+------------------+
-         |                                     |
-         v                                     v
-+--------------------+             +--------------------+
-| OpenAI API         |             | OpenAI API         |
-| Moderation check   |             | Tag generation     |
-| is story appropriate?           | generate 2–3 tags  |
-+--------------------+             +--------------------+
-         |                                     |
-         | { pass / reject }                   | { tags: [...] }
-         v                                     v
-+-----------------------------+
-| Google Sheets API           |
-| write story + tags to DB    |
-| (only if moderation passes) |
-+-----------------------------+
-         |
-         | story saved
-         v
-+-----------------------------+
-| Leaflet.js Map              |
-| new pin rendered with tags  |
-+-----------------------------+
++-----------------------+     submits payload      +-----------------------+
+| User Submits Story    | -----------------------> | Next.js API Route     |
+| Input Modal (Next.js) | { story, location, ... } | /api/submit           |
++-----------------------+                          +-----------------------+
+                                                               |
+                                            +------------------+------------------+
+                                            | (parallel AI processing)            |
+                                            v                                     v
++-----------------------+     moderation pass      +-----------------------+     tag generation         +-----------------------+
+| OpenAI Moderation     | -----------------------> | Google Sheets API     | <------------------------- | OpenAI API            |
+| Content Safety Check  |                          | Append Row / DB       | { tags: [...] }            | Tag Generator         |
++-----------------------+                          +-----------------------+                            +-----------------------+
+                                                               |
+                                                               | story & tags saved
+                                                               v
+                                                   +-----------------------+
+                                                   | Leaflet.js Map        |
+                                                   | Interactive Pin       |
+                                                   +-----------------------+
 `}</code></pre>
         </div>
         <div className = {styles.page}>

@@ -282,9 +282,10 @@ h1.bTitle{
     border: 1px solid var(--border-diagram);
     border-radius: 6px;
     font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', monospace;
-    padding: 0 32px 32px 32px;
+    padding: 0 16px 16px 16px;
     overflow-x: auto;
     color: var(--text-primary);
+    text-align: left;
 }
 
 .diagram code{

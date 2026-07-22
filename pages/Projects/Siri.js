@@ -145,43 +145,21 @@ export default function Siri(){
                 </div>
                 <div className={styles.page}>
                     <div/>
-                    <pre className={styles.diagram}><code>{`
-+---------------------------+
-| User Voice / Text Input   |
-| Siri Desktop UI           |
-+---------------------------+
-         |
-         | user query (natural language)
-         v
-+---------------------------+
-| Next.js Frontend          |
-| API Route Handler         |
-+---------------------------+
-         |
-         | POST /api/generate
-         | { prompt, context, appTargets }
-         v
-+---------------------------+
-| OpenAI API                |
-| GPT-4o                    |
-+---------------------------+
-         |
-         | structured JSON response
-         | { tiles: [{ app, content, size }] }
-         v
-+---------------------------+
-| Response Parser           |
-| tile layout engine        |
-+---------------------------+
-         |
-         | maps tiles to app components
-         v
-+-----------------------------+
-| Siri Dashboard UI          |
-| Notes · Timers · Spotify   |
-| dynamically rendered tiles |
-+-----------------------------+
-`}</code></pre>
+                    <pre className={styles.diagram}><code>{
+    `
+    +-----------------------+     user query     +-----------------------+     POST /api/generate     +-----------------------+
+    | User Voice / Text     | -----------------> | Next.js Frontend      | -------------------------> | OpenAI API            |
+    | Siri Desktop UI       | (natural language) | API Route Handler     | { prompt, context, ... }   | GPT-4o                |
+    +-----------------------+                    +-----------------------+                            +-----------------------+
+                                                                                                                    |
+                                                                                                                    | structured JSON
+                                                                                                                    | { tiles: [...] }
+                                                                                                                    v
+    +-----------------------+     renders tiles  +-----------------------+     maps to components     +-----------------------+
+    | Siri Dashboard UI     | <----------------- | Response Parser       | <------------------------- | Tile Layout           |
+    | Notes · Spotify · ... |                    | Tile Engine           |                            | Generator             |
+    +-----------------------+                    +-----------------------+                            +-----------------------+`
+                    }</code></pre>
                 </div>
                 <div className={styles.page}>
                     <div/>

@@ -72,47 +72,18 @@ export default function Waymo(){
         <div className = {styles.page}>
             <div/>
             <pre className={styles.diagram}><code>{`
-+-----------------------------------------------+
-| Airbnb App                                    |
-| user books stay in Waymo-enabled city         |
-+-----------------------------------------------+
-         |
-         | booking confirmed: { destination, dates, guest_id }
-         v
-+-----------------------------------------------+
-| Airbnb Backend                                |
-| checks Waymo service availability at location |
-+-----------------------------------------------+
-         |
-         | POST /waymo/reserve { pickup, dropoff, time }
-         v
-+-----------------------------------------------+
-| Waymo Fleet API                               |
-| assigns nearest available vehicle             |
-+-----------------------------------------------+
-         |
-         | real-time sensor fusion + path execution
-         v
-+-----------------------------------------------+
-| Waymo Vehicle                                 |
-| executes drive to Airbnb pickup location      |
-+-----------------------------------------------+
-         |
-         | trip in progress
-         v
-+-----------------------------------------------+
-| Airbnb App — In-Trip View                     |
-| live vehicle tracking                         |
-| Smart Itinerary · attraction suggestions      |
-| next ride scheduling                          |
-+-----------------------------------------------+
-         |
-         | trip complete
-         v
-+-----------------------------------------------+
-| Airbnb Backend                                |
-| logs trip · charges guest · updates itinerary |
-+-----------------------------------------------+
++-----------------------+     booking confirmed      +-----------------------+     POST /waymo/reserve     +-----------------------+
+| Airbnb App            | -------------------------> | Airbnb Backend        | --------------------------> | Waymo Fleet API       |
+| User books stay       | { destination, dates, ... }| Checks availability   | { pickup, dropoff, time }   | Assigns vehicle       |
++-----------------------+                            +-----------------------+                             +-----------------------+
+                                                                                                              |
+                                                                                                              | real-time sensor fusion
+                                                                                                              | & path execution
+                                                                                                              v
++-----------------------+     logs trip & updates    +-----------------------+     trip complete          +-----------------------+
+| Airbnb Backend        | <------------------------- | Airbnb App            | <------------------------- | Waymo Vehicle         |
+| Charges guest         | itinerary                  | In-Trip View & Track  |                            | Executes drive        |
++-----------------------+                            +-----------------------+                            +-----------------------+
 `}</code></pre>
         </div>
         <div className = {styles.page}>

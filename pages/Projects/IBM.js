@@ -63,34 +63,18 @@ export default function IBM(){
                 <div className={styles.page}>
                     <div/>
                     <pre className={styles.diagram}><code>{`
-+---------------------------+
-| Client Workshop (Mural)   |
-+---------------------------+
-         |
-         | unstructured sticky notes, research, & requirements
-         v
-+---------------------------+
-| Custom Mural MCP Server   |
-+---------------------------+
-         |
-         | exposes canvas objects & spatial context via MCP
-         v
-+---------------------------+
-| IBM Bob                   |
-| AI Task Assistant         |
-+---------------------------+
-         |
-         | synthesizes notes & generates structured UI/UX specs
-         v
-+---------------------------+
-| IBM Internal Figma MCP    |
-+---------------------------+
-         |
-         | executes layout mutations & generates templates
-         v
-+---------------------------+
-| Figma Wireframe Templates |
-+---------------------------+
++-----------------------+     unstructured notes     +-----------------------+     exposes objects & context     +-----------------------+
+| Client Workshop       | -------------------------> | Custom Mural          | --------------------------------> | IBM Bob               |
+| (Mural)               | & requirements             | MCP Server            | via MCP                           | AI Task Assistant     |
++-----------------------+                            +-----------------------+                                   +-----------------------+
+                                                                                                                             |
+                                                                                                                             | synthesizes notes &
+                                                                                                                             | generates UI/UX specs
+                                                                                                                             v
++-----------------------+    generates templates     +-----------------------+     executes layout mutations     +-----------------------+
+| Figma Wireframe       | <------------------------- | Figma Design          | <-------------------------------- | IBM Internal          |
+| Templates             |                            | Canvas                |                                   | Figma MCP             |
++-----------------------+                            +-----------------------+                                   +-----------------------+
 `}</code></pre>
                 </div>
                 <div className={styles.page}>
@@ -140,38 +124,18 @@ export default function IBM(){
                 <div className={styles.page}>
                     <div/>
                     <pre className={styles.diagram}><code>{`
-+------------------------------+
-| monday.com Board             |
-| trigger: item updated        |
-+------------------------------+
-         |
-         | signs POST with JWT (MONDAY_SIGNING_SECRET)
-         | sends over HTTPS
-         v
-+------------------------------+
-| Custom Node.js Server        |
-| Railway — webhook handler    |
-+------------------------------+
-         |
-         | verifies JWT, extracts note text
-         v
-+------------------------------+
-| watsonx.ai                   |
-| IBM Cloud infrastructure     |
-+------------------------------+
-         |
-         | parses & enriches note, returns structured fields
-         v
-+------------------------------+
-| monday.com GraphQL API       |
-| over HTTPS                   |
-+------------------------------+
-         |
-         | updates board columns
-         v
-+------------------------------+
-| Board Updated                |
-+------------------------------+
++-----------------------+     signs POST with JWT    +-----------------------+     verifies JWT & extracts    +-----------------------+
+| monday.com Board      | -------------------------> | Custom Node.js Server | -----------------------------> | watsonx.ai            |
+| trigger: item updated | (over HTTPS)               | Railway Handler       | note text                      | IBM Cloud             |
++-----------------------+                            +-----------------------+                                +-----------------------+
+                                                                                                                          |
+                                                                                                                          | parses, enriches, &
+                                                                                                                          | returns structured fields
+                                                                                                                          v
++-----------------------+    updates columns         +-----------------------+     sends GraphQL mutation     +-----------------------+
+| Board Updated         | <------------------------- | monday.com Board      | <----------------------------- | monday.com GraphQL    |
+| (Target fields fill)  |                            | (Populated state)     | (over HTTPS)                   | API                   |
++-----------------------+                            +-----------------------+                                +-----------------------+
 `}</code></pre>
                 </div>
                 <div className={styles.page}>
