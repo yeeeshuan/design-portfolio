@@ -129,7 +129,10 @@ nav.nav{
     transition: background 0.2s, color 0.25s;
     line-height: 1;
     display: flex;
+    justify-content: center;
     align-items: center;
+    height: 36px; 
+    width: 36px; 
 }
 
 .themeToggle:hover {
