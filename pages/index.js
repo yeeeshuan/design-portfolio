@@ -56,7 +56,7 @@ function Home() {
             </div>
             <div style={{width: "40%"}}>
               <h2 className={styles.intro}>
-              Currently, AI Solutions Engineer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com">IBM&#8599;</a></span>
+              Currently, Software Engineer @  <span style={{color: "#2897FF"}}> <a target="_blank" rel="noopener noreferrer" href="https://www.tesla.com/">Tesla&#8599;</a></span>
               <br/>
               and working on freelance projects.
               </h2>
@@ -86,7 +86,7 @@ function Home() {
           <br/>
           <br/>
             <p className = {styles.curr}>
-             Currently, AI Solutions Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.ibm.com/">IBM</a></span>.
+             Currently, Software Engineer @  <span className = {styles.CText}> <a target="_blank" rel="noopener noreferrer" href="https://www.tesla.com/">Tesla</a></span>.
             </p>
         </div>
         )}
