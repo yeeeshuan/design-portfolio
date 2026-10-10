@@ -30,12 +30,6 @@ const Footer = () =>{
                         <a href="https://www.linkedin.com/in/ethanhuang2002" rel="noopener noreferrer" target="_blank">
                             <span className={styles.styledLink}> Linkedin </span>
                         </a>
-                        <a href="https://347428247159947264.hello.cv" rel="noopener noreferrer" target="_blank">
-                            <span className={styles.styledLink}> Resume </span>
-                        </a>
-                        {/* <a href="https://medium.com/@yixuanhu" rel="noopener noreferrer" target="_blank">
-                            <span className={styles.styledLink}> Medium </span>
-                        </a> */}
                         <a href="https://github.com/yeeeshuan" rel="noopener noreferrer" target="_blank">
                             <span className={styles.styledLink}> Github </span>
                         </a>
@@ -46,9 +40,6 @@ const Footer = () =>{
             :(<div style={{display:"flex", width:"100%", justifyContent:"space-between"}}>
                <a href = "https://www.linkedin.com/in/ethanhuang2002" rel="noopener noreferrer" target="_blank">
                    <span> Linkedin </span>
-               </a>
-               <a href = "https://read.cv/nahte.huang" rel="noopener noreferrer" target="_blank">
-                   <span> Resume </span>
                </a>
                <a href = "mailto:yehuang2020@gmail.com" rel="noopener noreferrer" target="_blank">
                <span> Contact </span>
